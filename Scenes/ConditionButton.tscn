@@ -1,0 +1,123 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Graphics/UI/ConditionButtonNormal.png" type="Texture" id=1]
+[ext_resource path="res://Fonts/Nunito_regular20.font" type="BitmapFont" id=2]
+[ext_resource path="res://Graphics/UI/EmptyStar.png" type="Texture" id=3]
+
+[node name="Condition" type="NinePatchRect"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 250.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 250, 100 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 1 )
+patch_margin_left = 20
+patch_margin_top = 20
+patch_margin_right = 20
+patch_margin_bottom = 20
+_sections_unfolded = [ "Margin", "Mouse", "Patch Margin", "Rect" ]
+
+[node name="Label" type="Label" parent="."]
+
+anchor_left = 0.5
+anchor_top = 0.0
+anchor_right = 0.5
+anchor_bottom = 0.0
+margin_left = -108.0
+margin_top = 15.0
+margin_right = 78.0
+margin_bottom = 85.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0.417969, 0.972717, 1, 1 )
+align = 1
+valign = 1
+autowrap = true
+clip_text = true
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Margin", "Mouse", "Rect", "custom_colors", "custom_fonts" ]
+
+[node name="HBoxContainer" type="VBoxContainer" parent="."]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 85.0
+margin_top = -35.0
+margin_right = 109.0
+margin_bottom = 34.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_constants/separation = 0
+alignment = 0
+_sections_unfolded = [ "Mouse", "custom_constants" ]
+
+[node name="0" type="TextureRect" parent="HBoxContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 24.0
+margin_bottom = 23.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 3 )
+stretch_mode = 0
+
+[node name="1" type="TextureRect" parent="HBoxContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 23.0
+margin_right = 24.0
+margin_bottom = 46.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 3 )
+stretch_mode = 0
+
+[node name="2" type="TextureRect" parent="HBoxContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 46.0
+margin_right = 24.0
+margin_bottom = 69.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 3 )
+stretch_mode = 0
+
+

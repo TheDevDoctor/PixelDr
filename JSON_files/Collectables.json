@@ -1,0 +1,14 @@
+{
+    "Catheter": {
+        "Info": "",
+        "Detail": "The catheter was inserted easily and 150ml of fluid was drained."
+    },
+    "Opthalmoscope": {
+        "Info": "",
+        "Detail": "There is nothing of note"
+    },
+    "Pregnancy Test": {
+        "Info": "",
+        "Detail": "The pregnancy test is negative"
+    }
+}

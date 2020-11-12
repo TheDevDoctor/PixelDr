@@ -1,0 +1,1940 @@
+{
+    "LIST": {
+        "Full Blood Count (FBC)": {
+            "Order": [
+                "Hb",
+                "WBC",
+                "PLT",
+                "MCV",
+                "RBC",
+                "Hct",
+                "MCH",
+                "MCHC",
+                "Neut",
+                "Lymp",
+                "Mono",
+                "Eos",
+                "Baso"
+            ],
+            "Info": "This is the FBC info",
+            "ReturnTime": 5,
+            "Data": {
+                "Hb": [
+                    127,
+                    "115 - 135",
+                    "g/L"
+                ],
+                "WBC": [
+                    7.0,
+                    "4.0 - 11.0",
+                    "x10^9/L"
+                ],
+                "PLT": [
+                    279,
+                    "150 - 400",
+                    "x10^9/L"
+                ],
+                "MCV": [
+                    83.90,
+                    "80 - 100",
+                    "fl"
+                ],
+                "RBC": [
+                    4.48,
+                    "3.8 - 5.8",
+                    "x10^12/L"
+                ],
+                "Hct": [
+                    42.2,
+                    "38.8 - 50",
+                    "L/L"
+                ],
+                "MCH": [
+                    28,
+                    "27 - 32",
+                    "pg"
+                ],
+                "MCHC": [
+                    338,
+                    "320 - 360",
+                    "g/L"
+                ],
+                "Neut": [
+                    4.00,
+                    "2.0 - 7.5",
+                    "x10^9/l"
+                ],
+                "Lymp": [
+                    2.70,
+                    "1.0 - 4.0",
+                    "x10^9/l"
+                ],
+                "Mono": [
+                    0.6,
+                    "0.2 - 1.0",
+                    "x10^9/l"
+                ],
+                "Eos": [
+                    0.30,
+                    "0 - 0.4",
+                    "x10^9/l"
+                ],
+                "Baso": [
+                    0.00,
+                    "0 - 0.2",
+                    "x10^9/l"
+                ]
+            }
+        },
+        "Cardiac Troponins": {
+            "Order": [
+                "Troponin T",
+                "Troponin I"
+            ],
+            "ReturnTime": 120,
+            "Data": {
+                "Troponin T": [
+                    10,
+                    "< 14",
+                    "ng/L"
+                ],
+                "Troponin I": [
+                    14,
+                    "< 40",
+                    "ng/L"
+                ]
+            }
+        },
+        "Prostate specific antigen (PSA)": {
+            "Order": [
+                "PSA"
+            ],
+            "ReturnTime": 120,
+            "Data": {
+                "PSA": [
+                    2,
+                    "< 4.0",
+                    "ng/L"
+                ]
+            }
+        },
+        "Creatine Kinase (CK)": {
+            "Order": [
+                "CK",
+                "CK-MB"
+            ],
+            "ReturnTime": 120,
+            "Data": {
+                "CK": [
+                    158,
+                    "52 - 336",
+                    "U/L"
+                ],
+                "CK-MB": [
+                    14,
+                    "5 - 25",
+                    "IU/L"
+                ]
+            }
+        },
+        "Blood Type (ABO + Rhesus)": {
+            "Order": [
+                "ABO Type",
+                "Rhesus"
+            ],
+            "ReturnTime": 60,
+            "Data": {
+                "ABO Type": [
+                    "O+",
+                    "",
+                    ""
+                ],
+                "Rhesus": [
+                    "-",
+                    "negative",
+                    ""
+                ]
+            }
+        },
+        "CRP": {
+            "Order": [
+                "CRP"
+            ],
+            "ReturnTime": 60,
+            "Data": {
+                "CRP": [
+                    2.2,
+                    "<3",
+                    "mg/dL"
+                ]
+            }
+        },
+        "ACTH (adrenocorticotropic hormone) Test": {
+            "Order": [
+                "ACTH"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "ACTH": [
+                    50,
+                    "<80",
+                    "pg/mL"
+                ]
+            }
+        },
+        "ACTH Suppresion Test": {
+            "Order": [
+                "Cortisol"
+            ],
+            "ReturnTime": 2000,
+            "Data": {
+                "Cortisol": [
+                    3,
+                    "<5",
+                    "mcg/dL"
+                ]
+            }
+        },
+        "Catecholamines (Blood)": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Epinephrine",
+                "Norepinephrine",
+                "Dopamine",
+                "Metanephrine",
+                "Normetanephrine"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Epinephrine": [
+                    92,
+                    "<110",
+                    "pg/mL"
+                ],
+                "Norepinephrine": [
+                    378,
+                    "70 - 750",
+                    "pg/mL"
+                ],
+                "Dopamine": [
+                    18,
+                    "<30",
+                    "pg/mL"
+                ],
+                "Metanephrine": [
+                    0.26,
+                    "<0.50",
+                    "nmol/L"
+                ],
+                "Normetanephrine": [
+                    0.77,
+                    "<0.90",
+                    "nmol/L"
+                ]
+            }
+        },
+        "Catecholamines (Urine 24 hour)": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Free catecholamines",
+                "Epinephrine",
+                "Norepinephrine",
+                "Dopamine",
+                "Metanephrine",
+                "Normetanephrine",
+                "Vanillylmandelic acid (VMA)"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Free catecholamines": [
+                    71,
+                    "<100",
+                    "mcg"
+                ],
+                "Epinephrine": [
+                    11,
+                    "<20",
+                    "mcg"
+                ],
+                "Norepinephrine": [
+                    52,
+                    "15 - 80",
+                    "mcg"
+                ],
+                "Dopamine": [
+                    240,
+                    "65 - 400",
+                    "mcg"
+                ],
+                "Metanephrine": [
+                    158,
+                    "74 - 297",
+                    "mcg"
+                ],
+                "Normetanephrine": [
+                    221,
+                    "105 - 354",
+                    "mcg"
+                ],
+                "Vanillylmandelic acid (VMA)": [
+                    5,
+                    "< 9",
+                    "mg"
+                ]
+            }
+        },
+        "Alpha-Fetoprotein (AFP)": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "AFP"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "AFP": [
+                    25,
+                    "0 - 40",
+                    "ng/mL"
+                ]
+            }
+        },
+        "Albumin Urine Test": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Albumin"
+            ],
+            "ReturnTime": 120,
+            "Data": {
+                "Albumin": [
+                    1,
+                    "< 2",
+                    "mg/L"
+                ]
+            }
+        },
+        "Aldosterone (Blood)": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Aldosterone"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Aldosterone": [
+                    22,
+                    "7 - 30",
+                    "ng/dL"
+                ]
+            }
+        },
+        "Aldosterone (Urine 24 hr)": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Aldosterone"
+            ],
+            "ReturnTime": 3000,
+            "Data": {
+                "Aldosterone": [
+                    17,
+                    "2 - 26",
+                    "mcg"
+                ]
+            }
+        },
+        "Ammonia": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Ammonia"
+            ],
+            "ReturnTime": 30,
+            "Data": {
+                "Ammonia": [
+                    55,
+                    "9.5 - 49",
+                    "mcg/dL"
+                ]
+            }
+        },
+        "Amylase": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Amylase"
+            ],
+            "ReturnTime": 20,
+            "Data": {
+                "Amylase": [
+                    77,
+                    "25 - 125",
+                    "U/L"
+                ]
+            }
+        },
+        "Antinuclear Antibodies (ANA)": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "ANA"
+            ],
+            "ReturnTime": 120,
+            "Data": {
+                "ANA": [
+                    "neg.",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "Brain Natriuretic Peptide (BNP)": {
+            "Order": [
+                "BNP"
+            ],
+            "ReturnTime": 120,
+            "Data": {
+                "BNP": [
+                    64,
+                    "< 100",
+                    "pg/mL"
+                ]
+            }
+        },
+        "BRCA gene test": {
+            "Order": [
+                "BRCA"
+            ],
+            "ReturnTime": 120,
+            "Data": {
+                "BRCA": [
+                    "neg.",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "Blood Urea Nitrogen (BUN)": {
+            "Order": [
+                "BUN",
+                "BUN:Creatinine"
+            ],
+            "ReturnTime": 120,
+            "Data": {
+                "BUN": [
+                    15,
+                    "10 - 20",
+                    "mg/dL"
+                ],
+                "BUN:Creatinine": [
+                    15.5,
+                    "6 - 25",
+                    "mg/dL"
+                ]
+            }
+        },
+        "CA-125": {
+            "Order": [
+                "CA-125"
+            ],
+            "ReturnTime": 120,
+            "Data": {
+                "CA-125": [
+                    22,
+                    "< 35",
+                    "U/mL"
+                ]
+            }
+        },
+        "Calcium (Blood)": {
+            "Order": [
+                "Total Calcium"
+            ],
+            "ReturnTime": 120,
+            "Data": {
+                "Total Calcium": [
+                    9.2,
+                    "8.8 - 10.4",
+                    "mg/dL"
+                ]
+            }
+        },
+        "Calcium (Urine)": {
+            "Order": [
+                "Calcium"
+            ],
+            "ReturnTime": 120,
+            "Data": {
+                "Calcium": [
+                    9.2,
+                    "8.8 - 10.4",
+                    "mg/dL"
+                ]
+            }
+        },
+        "CD4 Count": {
+            "Order": [
+                "CD4 Count"
+            ],
+            "ReturnTime": 120,
+            "Data": {
+                "CD4 Count": [
+                    1024,
+                    ">600",
+                    "cells/mcL"
+                ]
+            }
+        },
+        "Carcinoembryonic Antigen (CEA)": {
+            "Order": [
+                "CEA"
+            ],
+            "ReturnTime": 120,
+            "Data": {
+                "CEA": [
+                    3,
+                    "<5",
+                    "ng/mL"
+                ]
+            }
+        },
+        "Cold Agglutinins": {
+            "Order": [
+                "Cold Agglutinins"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Cold Agglutinins": [
+                    "1:32",
+                    "< 1:16",
+                    "ng/mL"
+                ]
+            }
+        },
+        "Coombs test": {
+            "Order": [
+                "Direct",
+                "Indirect"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Direct": [
+                    "neg.",
+                    "-",
+                    "-"
+                ],
+                "Indirect": [
+                    "neg.",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "Cortisol (Blood)": {
+            "Order": [
+                "Cortisol"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Cortisol": [
+                    17,
+                    "5 - 23",
+                    "mcg/dL"
+                ]
+            }
+        },
+        "Cortisol (Urine)": {
+            "Order": [
+                "Cortisol"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Cortisol": [
+                    53,
+                    "< 100",
+                    "mcg"
+                ]
+            }
+        },
+        "Random Blood Glucose (BM)": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "BM"
+            ],
+            "ReturnTime": 60,
+            "Data": {
+                "BM": [
+                    9.1,
+                    "< 11.1",
+                    "mmol/L"
+                ]
+            }
+        },
+        "Serum Lipids": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Total Cholesterol",
+                "Triglycerides",
+                "HDL Cholesterol",
+                "LDL Cholesterol"
+            ],
+            "ReturnTime": 60,
+            "Data": {
+                "Total Cholesterol": [
+                    4.2,
+                    "3.5 - 6.5",
+                    "mmol/L"
+                ],
+                "Triglycerides": [
+                    144,
+                    "< 200",
+                    "mg/dL"
+                ],
+                "HDL Cholesterol": [
+                    47,
+                    "< 60 mg/dL",
+                    "mg/dL"
+                ],
+                "LDL Cholesterol": [
+                    4.2,
+                    "< 130",
+                    "mg/dL"
+                ]
+            }
+        },
+        "Fasting Blood Glucose (BM)": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "BM"
+            ],
+            "ReturnTime": 1800,
+            "Data": {
+                "BM": [
+                    5.0,
+                    "< 6.1",
+                    "mmol/L"
+                ]
+            }
+        },
+        "Oral Glucose Tolerance Text (OGTT)": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Fasting Blood Glucose",
+                "2 Hours Post Prandial"
+            ],
+            "ReturnTime": 1800,
+            "Data": {
+                "Fasting Blood Glucose": [
+                    5.1,
+                    "< 6.1",
+                    "mmol/L"
+                ],
+                "2 Hours Post Prandial": [
+                    7.1,
+                    "< 7.8",
+                    "mmol/L"
+                ]
+            }
+        },
+        "ESR": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "ESR"
+            ],
+            "ReturnTime": 60,
+            "Data": {
+                "ESR": [
+                    12.0,
+                    "men: < 22, women: <29",
+                    "mm/hr"
+                ]
+            }
+        },
+        "Rheumatoid Factor": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "RF"
+            ],
+            "ReturnTime": 60,
+            "Data": {
+                "RF": [
+                    21.0,
+                    "< 60",
+                    "U/mL"
+                ]
+            }
+        },
+        "Rubella Test": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Rubella Ab"
+            ],
+            "ReturnTime": 60,
+            "Data": {
+                "Rubella Ab": [
+                    11.0,
+                    "< 7",
+                    "IU/mL"
+                ]
+            }
+        },
+        "Urea Breath Test": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "H. Pylori Ag"
+            ],
+            "ReturnTime": 60,
+            "Data": {
+                "H. Pylori Ag": [
+                    "neg.",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "Testosterone": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Total Testosterone",
+                "Free Testosterone"
+            ],
+            "ReturnTime": 60,
+            "Data": {
+                "Total Testosterone": [
+                    70,
+                    "-",
+                    "ng/dL"
+                ],
+                "Free Testosterone": [
+                    8.5,
+                    "-",
+                    "pg/dL"
+                ]
+            }
+        },
+        "Urea and Electrolytes": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Sodium",
+                "Pottasium",
+                "Chlorine",
+                "Creatinine",
+                "Urea",
+                "eGFR"
+            ],
+            "ReturnTime": 60,
+            "Data": {
+                "Sodium": [
+                    142,
+                    "135 - 145",
+                    "mmol/L"
+                ],
+                "Pottasium": [
+                    4.2,
+                    "3.5 - 5.0",
+                    "mmol/L"
+                ],
+                "Chlorine": [
+                    102,
+                    "98 - 106",
+                    "mmol/L"
+                ],
+                "Creatinine": [
+                    105,
+                    "70 - 150",
+                    "micromol/L"
+                ],
+                "Urea": [
+                    4.1,
+                    "2.5 - 6.7",
+                    "mmol/L"
+                ],
+                "eGFR": [
+                    107,
+                    ">90",
+                    ""
+                ]
+            }
+        },
+        "Liver Function Tests (LFT)": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Bilirubin",
+                "ALT",
+                "AST",
+                "ALP",
+                "GGT",
+                "Albumin",
+                "Protein (total)"
+            ],
+            "ReturnTime": 60,
+            "Data": {
+                "Bilirubin": [
+                    7,
+                    "3 - 17",
+                    "micromol/L"
+                ],
+                "ALT": [
+                    20,
+                    "7 - 56",
+                    "IU/L"
+                ],
+                "AST": [
+                    23,
+                    "5 - 35",
+                    "IU/L"
+                ],
+                "ALP": [
+                    76,
+                    "30 - 150",
+                    "IU/L"
+                ],
+                "GGT": [
+                    15,
+                    "0 - 30",
+                    "IU/L"
+                ],
+                "Albumin": [
+                    43,
+                    "35 - 50",
+                    "g/L"
+                ],
+                "Protein (total)": [
+                    70,
+                    "60 - 80",
+                    "g/L"
+                ]
+            }
+        },
+        "TFT": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Free T4",
+                "Free T3",
+                "TSH",
+                "T4 Total",
+                "Anti-thyroidperoxidase Abs",
+                "Anti-thyroglobulin Abs"
+            ],
+            "ReturnTime": 60,
+            "Data": {
+                "Free T4": [
+                    14.32,
+                    "12 - 22",
+                    "pmol/L"
+                ],
+                "Free T3": [
+                    5.34,
+                    "3.1 - 6.8",
+                    "pmol/L"
+                ],
+                "TSH": [
+                    2.3,
+                    "0.27 - 4.2",
+                    "IU/L"
+                ],
+                "T4 Total": [
+                    105.0,
+                    "64.5 - 142.0",
+                    "nmol/L"
+                ],
+                "Anti-thyroidperoxidase Abs": [
+                    11.0,
+                    "<34",
+                    "klU/L"
+                ],
+                "Anti-thyroglobulin Abs": [
+                    10.0,
+                    "<115",
+                    "klU/L"
+                ]
+            }
+        },
+        "Parathyroid Hormone (PTH)": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "PTH"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "PTH": [
+                    32.0,
+                    "10.0 - 65.0",
+                    "pg/mL"
+                ]
+            }
+        },
+        "ABG": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "pH",
+                "PaO2",
+                "PaCO2",
+                "BE",
+                "SaO2",
+                "Lactate"
+            ],
+            "ReturnTime": 5,
+            "Data": {
+                "pH": [
+                    7.4,
+                    "7.35 - 7.45",
+                    ""
+                ],
+                "PaO2": [
+                    12.6,
+                    ">10.6",
+                    "kPa"
+                ],
+                "PaCO2": [
+                    5.0,
+                    "4.6 - 6.0",
+                    "kPa"
+                ],
+                "HCO3-": [
+                    20,
+                    "18 - 22",
+                    "kPa"
+                ],
+                "BE": [
+                    1,
+                    "+/-2",
+                    "mmol/L"
+                ],
+                "SaO2": [
+                    99,
+                    "94 - 100",
+                    "%"
+                ],
+                "Lactate": [
+                    1,
+                    "<2",
+                    "mmol/L"
+                ]
+            }
+        },
+        "Coagulation screen": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "PT",
+                "PTT",
+                "APTT",
+                "INR",
+                "PLT",
+                "Fibrinogen",
+                "D-Dimer"
+            ],
+            "ReturnTime": 60,
+            "Data": {
+                "PT": [
+                    12,
+                    "11-14",
+                    "seconds"
+                ],
+                "PTT": [
+                    31,
+                    "25 - 35",
+                    "seconds"
+                ],
+                "APTT": [
+                    93,
+                    "70 - 120",
+                    "seconds"
+                ],
+                "INR": [
+                    1.0,
+                    "0.8 - 1.2",
+                    ""
+                ],
+                "PLT": [
+                    300,
+                    "150 - 400",
+                    "x10^9/L"
+                ],
+                "Fibrinogen": [
+                    304,
+                    "150 - 400",
+                    "mg/dL"
+                ],
+                "D-Dimer": [
+                    103,
+                    "<250",
+                    "ng/ml"
+                ]
+            }
+        },
+        "Cholesterol and BA": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "LDL Cholesterol",
+                "HDL Cholesterol",
+                "VLDL Cholesterol",
+                "Cholesterol total",
+                "Triglycerides",
+                "Total bile acids"
+            ],
+            "ReturnTime": 60,
+            "Data": {
+                "LDL Cholesterol": [
+                    57,
+                    "<130",
+                    "mg/dL"
+                ],
+                "HDL Cholesterol": [
+                    63,
+                    ">40",
+                    "mg/dL"
+                ],
+                "VLDL Cholesterol": [
+                    15,
+                    "<30",
+                    "mg/dL"
+                ],
+                "Cholesterol total": [
+                    135,
+                    "<200",
+                    "mg/dL"
+                ],
+                "Triglycerides": [
+                    87,
+                    "<150",
+                    "mg/dL"
+                ],
+                "Total bile acids": [
+                    5,
+                    "<10",
+                    "micromol/L"
+                ]
+            }
+        },
+        "Haematinics": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Folate",
+                "Serum Vitamin B12",
+                "Serum Ferritin"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Folate": [
+                    7.0,
+                    "> 4.0",
+                    "ng/mL"
+                ],
+                "Serum Vitamin B12": [
+                    502,
+                    "180 - 1000",
+                    "pg/dL"
+                ],
+                "Serum Ferritin": [
+                    15,
+                    "25 - 350",
+                    "ng/mL"
+                ]
+            }
+        },
+        "Oestrogen Test": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Folate",
+                "Serum Vitamin B12",
+                "Serum Ferritin"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Oestradiol": [
+                    40,
+                    "-",
+                    "pg/mL"
+                ],
+                "Oestriol": [
+                    0.05,
+                    "-",
+                    "ng/mL"
+                ],
+                "Oestrone": [
+                    52,
+                    "-",
+                    "ng/mL"
+                ]
+            }
+        },
+        "Sweat test": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Chloride"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Chloride": [
+                    17,
+                    "< 30",
+                    "mmol/L"
+                ]
+            }
+        },
+        "Follicular stimulating hormone (FSH)": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "FSH"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "FSH": [
+                    13,
+                    "-",
+                    "IU/L"
+                ]
+            }
+        },
+        "Galactosaemia Test": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "GPT",
+                "Galactokinase"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "GPT": [
+                    22.1,
+                    "18.5 - 28.5",
+                    "U/g"
+                ],
+                "Galactokinase": [
+                    31,
+                    "12 - 40",
+                    "mU/g"
+                ]
+            }
+        },
+        "Immunoglobulins": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "IgA",
+                "IgG",
+                "IgM",
+                "IgD",
+                "IgE"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "IgA": [
+                    204,
+                    "60 - 400",
+                    "mg/dL"
+                ],
+                "IgG": [
+                    984,
+                    "700 - 1500",
+                    "mg/dL"
+                ],
+                "IgM": [
+                    217,
+                    "60 - 300",
+                    "mg/dL"
+                ],
+                "IgD": [
+                    3,
+                    "0 - 14",
+                    "mg/dL"
+                ],
+                "IgE": [
+                    330,
+                    "3 - 423",
+                    "IU/mL"
+                ]
+            }
+        },
+        "Gastrin": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Gastrin"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Gastrin": [
+                    49,
+                    "< 100",
+                    "pg/mL"
+                ]
+            }
+        },
+        "D-Dimer": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "D-Dimer"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "D-Dimer": [
+                    179,
+                    "< 250",
+                    "mcg/L"
+                ]
+            }
+        },
+        "Growth Hormone": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Growth Hormone"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Growth Hormone": [
+                    3,
+                    "< 5",
+                    "ng/mL"
+                ]
+            }
+        },
+        "Monospot Test": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Heterophil antibody"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Heterophil antibody": [
+                    "neg.",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "H. Pylori Test": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "H. Pylori"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "H. Pylori": [
+                    "neg.",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "EBV Antibody Test": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Antibody"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Antibody": [
+                    "1:5",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "Hepatitis A Test": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "HAV IgM",
+                "HAV IgG"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "HAV IgM": [
+                    "neg.",
+                    "-",
+                    "-"
+                ],
+                "HAV IgG": [
+                    "neg.",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "Hepatitis B Test": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "HBsAg",
+                "HBcAg",
+                "HBeAg",
+                "anti-HBs",
+                "anti-HBc",
+                "anti-HBe"
+            ],
+            "HBsAg": [
+                "neg.",
+                "-",
+                "-"
+            ],
+            "HBcAg": [
+                "neg.",
+                "-",
+                "-"
+            ],
+            "HBeAg": [
+                "neg.",
+                "-",
+                "-"
+            ],
+            "anti-HBs": [
+                "neg.",
+                "-",
+                "-"
+            ],
+            "anti-HBc": [
+                "neg.",
+                "-",
+                "-"
+            ],
+            "anti-HBe": [
+                "neg.",
+                "-",
+                "-"
+            ]
+        },
+        "Hepatitis C Test": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Anti-HCV"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Anti-HCV": [
+                    "neg.",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "HIV Test (ELISA)": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "HIV"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "HIV": [
+                    "neg.",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "HIV Test (PCR)": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "HIV"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "HIV": [
+                    "neg.",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "HIV Viral Load": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "HIV"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "HIV": [
+                    0,
+                    "-",
+                    "copies/mL"
+                ]
+            }
+        },
+        "Human Papilloma (HPV) Test": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "HPV"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "HIV": [
+                    "neg.",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "HbA1c": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "HbA1c"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "HbA1c": [
+                    "5.7",
+                    "< 5.7",
+                    "%"
+                ]
+            }
+        },
+        "Lyme Disease Test": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Lyme disease"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Lyme disease": [
+                    "neg.",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "Thick and Thin Blood Smear": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Thick BS",
+                "Thin BS"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Thick BS": [
+                    "neg.",
+                    "-",
+                    "-"
+                ],
+                "Thin BS": [
+                    "neg.",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "Herpes Test": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "HSV-1",
+                "HSV-2"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "HSV-1": [
+                    "neg.",
+                    "-",
+                    "-"
+                ],
+                "HSV-2": [
+                    "neg.",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "Fasting Blood Glucose": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Glucose"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Glucose": [
+                    5.7,
+                    "< 6.1",
+                    "mmol/L"
+                ]
+            }
+        },
+        "Oral Glucose Tolerance Test (OGTT)": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Fasting", 
+                "1-hour", 
+                "2-hour"
+            ],
+            "ReturnTime": 1000,
+            "Data": {
+                "Fasting": [
+                    5.3,
+                    "< 5.6",
+                    "mmol/L"
+                ],
+                "1-hour": [
+                    9.3,
+                    "< 10.2",
+                    "mmol/L"
+                ],
+                "2-hour": [
+                    6.4,
+                    "< 7.7",
+                    "mmol/L"
+                ]
+            }
+        },
+        "Faecal Occult Blood Test": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "Blood"
+            ],
+            "ReturnTime": 300,
+            "Data": {
+                "Blood": [
+                    "neg.",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "Urinalysis": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "LEU",
+                "NIT",
+                "URO",
+                "PRO",
+                "pH",
+                "BLO",
+                "SG",
+                "KET",
+                "BIL",
+                "GLU"
+            ],
+            "ReturnTime": 60,
+            "Data": {
+                "LEU": [
+                    "neg",
+                    "-",
+                    "-"
+                ],
+                "NIT": [
+                    "neg",
+                    "-",
+                    "-"
+                ],
+                "URO": [
+                    "neg",
+                    "-",
+                    "-"
+                ],
+                "PRO": [
+                    "neg",
+                    "-",
+                    "-"
+                ],
+                "pH": [
+                    7.5,
+                    "-",
+                    "-"
+                ],
+                "BLO": [
+                    "neg",
+                    "-",
+                    "-"
+                ],
+                "SG": [
+                    1.0,
+                    "-",
+                    "-"
+                ],
+                "KET": [
+                    "neg",
+                    "-",
+                    "-"
+                ],
+                "BIL": [
+                    "neg",
+                    "-",
+                    "-"
+                ],
+                "GLU": [
+                    "neg",
+                    "-",
+                    "-"
+                ]
+            }
+        },
+        "Peak Flow": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "Order": [
+                "PEF"
+            ],
+            "ReturnTime": 60,
+            "Data": {
+                "PEF": [
+                    610,
+                    "-",
+                    "-"
+                ]
+            }
+        }
+    },
+    "IMAGING": {
+        "Anoscopy": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 10,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Dr Aroon Patel",
+                "Findings": "There are no signs of anal fissures, polyps, haemorrhoids, inflammation or tumours.",
+                "Impression": "The anal canal appears normal in size, color, and tone. There is no evidence of bleeding, polyps, hemorrhoids, or other abnormal tissue."
+            }
+        },
+        "Hysteroscopy": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 10,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Ms Janice Griffin",
+                "Procedure(s) performed": "1. Dilatation and curettage.\n 2. Hysteroscopy.",
+                "Gross Findings": "Uterus was anteverted and of a normal size. The cervix is patulous and nulliparous without lesions. Adnexal examination was negative for masses.",
+                "Procedure": "The patient was taken to the operating room where she was properly prepped and draped in sterile manner under general anesthesia. After bimanual examination, the cervix was exposed with a weighted vaginal speculum and the anterior lip of the cervix grasped with a vulsellum tenaculum. The uterus was sounded to a depth of 11 cm. The endocervical canal was then progressively dilated with Hanks and Hegar dilators to a #10 Hegar. The ACMI hysteroscope was then introduced into the uterine cavity using sterile saline solution as a distending media and with attached video camera. The endometrial cavity was distended with fluids and the cavity visualized. No abnormailites were noted within the uterine cavity. The coronal areas were visualized bilaterally with corresponding tubal ostia. No proliferative endometrium was noted. There were no direct intraluminal lesions seen. The patient tolerated the procedure well. Several pictures were taken of the endometrial cavity and the hysteroscope removed from the cavity.\n\nA large sharp curet was then used to obtain a moderate amount of tissue, which was the sent to pathologist for analysis. The instrument was removed from the vaginal vault. The patient was sent to recovery area in satisfactory postoperative condition."
+            }
+        },
+        "Proctoscopy": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 120,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Dr Elizeh Faruq",
+                "Distance Scoped": "8 cm without interference",
+                "Gross Findings": "No abnormal findings within the mucosa. No pathology noted.",
+                "Impression": "Results appear to be in line with a normal proctoscopy procedure."
+            }
+        },
+        "Sigmoidoscopy": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 120,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Dr James Griffin",
+                "Procedure": "After informed consent was obtained from the patient, the patient was placed in the left lateral position. Digital rectal exam was performed revealing normal sphincter tone and no external hemorrhoids. A video endoscope was then inserted into rectum. The quality of the preparation was good. Under direct visualization, the endoscope was advanced to 60 cm from the anus without difficulty, and then slowly withdrawn, with careful examination of the colonic mucosa. The mucosa was normal with the normal vascular pattern and no granularity, friability, or ulceration. There was no evidence of other polyps, masses, diverticula, or angiodysplasia. Retroflexion was performed in the rectum with no abnormailities found. The colonoscope was then removed and the procedure was terminated. The endoscope was removed and the procedure terminated. The patient tolerated the procedure well without complications.",
+                "Impression": "No abnormal findings. This procedure was in keeping with a normal sigmoidoscopy procedure."
+            }
+        },
+        "Bronchoscopy": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 300,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Procedure(s) performed": "Diagnostic fiberoptic bronchoscopy",
+                "Procedure": "After appropriate sedation was achieved, the bronchoscope was introduced via the right nares and advanced to the upper larynx. Plain lidocaine 2% was used to anesthetize the laryngeal structures. After adequate anesthesia was achieved, close inspection of the laryngeal structures could be performed. Both vocal cords moved appropriately. Under direct visualization, the bronchoscope was advanced past the vocal cords and into the distal trachea. Additional 2% plain lidocaine was used in the trachea and the main stem bronchi for anesthesia. After adequate anesthesia was achieved, close inspection of the airways could be undertaken. The left tracheobronchial tree was inspected closely to the level of the subsegmental bronchi. All bronchi are patent with no endobronchial lesions and no mucosal lesions noted. The right tracheobronchial tree was also patent and intact with the mucosa normal. The procedure was completed and all samples were submitted for appropriate studies. The patient tolerated the procedure very well."
+            }
+        },
+        "Colonoscopy": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 300,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mr Franklin Johnson",
+                "Procedure(s) performed": "Diagnostic fiberoptic colonoscope",
+                "Procedure": "After informed consent was obtained, the patient was placed in the left lateral position and the above medications were titrated with adequate sedation. Monitoring was provided throughout the entire procedure. Digital rectal exam was performed revealing normal sphincter tone and no external hemorrhoids. The Pentax video colonoscope was inserted into rectum and advanced under direct visualization, without difficulty, to the cecum, where the cecal strap, appendiceal orifice, and the ileocecal valve were identified. The quality of the preparation was good. The colonoscope was then withdrawn while carefully examining the mucosa. The colonic mucosa appeared normal with normal vascularity and haustral markings. No masses, polyps, AVM/s or diverticula were seen. On retroflexed view in the rectum nothing abnormal was noted. The endoscope was removed and the procedure terminated. The patient tolerated the procedure well without complications.",
+                "Impression": "No abnormal findings. This investigation is in keeping with a normal colonoscopy procedure."
+            }
+        },
+        "Colposcopy": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 300,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Procedure(s) performed": "Colposcopy of the cervix including upper/adjacent vagina; with biopsy(s) of the cervix.",
+                "Procedure": "The patient’s legs are parted and flexed and comfortably put up on a stirrup in a lithotomy position. The vagina and cervix are scrubbed with an antibacterial solution. An appropriate speculum is inserted taking due care not to injure the cervix. Examination started at a low magnification after rinsing the cervix with normal saline and removing any excess cervical mucus. The green filter was used at this stage of the examination to observe the vascular patterns. A 3 to 5% acetic acid solution was applied to the cervix to visualize the acetowhite reaction, which occurs when the squamous epithelium is abnormal. Complete colposcopic examination was done observing the original squamous epithelium, the entire transformation zone, the squamocolumnar junction and as much of the columnar epithelium of the cervix. No abnormal findings are noted on the cervix. Application of Lugol’s iodine causes a homogeneous dark brown staining of normal squamous epithelium; iodine non-reactive epithelium was noted. Biopsies are performed under colposcopic guidance after precisely localizing the abnormal areas using acetic acid and iodine tests. Examination of the vaginal walls was performed after examination of the cervix. After observation of the lateral walls, stepwise withdrawal of the speculum allows the anterior and posterior surfaces of the vagina were investigated with no abnormal findings noted.",
+                "Impression": "Findings appears to be inline with a normal colposcopy procedure."
+            }
+        },
+        "Cystoscopy": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 300,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Procedure(s) performed": "1. Cystoscopy.",
+                "Procedure": "After the consent was obtained, the patient was brought to the operating room and given IV sedation. He was then placed in dorsal lithotomy position and prepped and draped in standard fashion. A #21 French cystoscope was then used to visualized the entire urethra and bladder. There was noted to be a narrowing of the proximal urethra, however, the scope was able to pass through. On visualization of the bladder no abnormalites were noted with normal vascularity. No bleeding was identified. The bladder was drained and the cystoscope was removed. The patient tolerated the procedure well and was transferred to the recovery room.",
+                "Impression": "To do"
+            }
+        },
+        "Barium Enema": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 300,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Dr Muhammad Muhammad",
+                "Technique": "Multiple fluoroscopic images were obtained of the colon after the rectal administration of liquid barium and air (if double contrast exam).",
+                "Findings": "The colon demonstrates no evidence of intrinsic or extrinsic mass or polyp. No constricting or obstructing lesion is identified. There is no mucosal ulceration. The course of the colon is normal. The appendix is visualized and is normal in caliber.",
+                "Impression": "Unremarkable evaluation of the colon."
+            }
+        },
+        "Barium Swallow": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 300,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Technique": "Modified barium swallow study was performed in the Radiology Suite. The patient was seated upright in a video imaging chair throughout this assessment. To evaluate the patient's swallowing function and safety, she was administered graduated amounts of liquid and food mixed with barium in the form of thin liquid (teaspoon x2, cup sip x2); nectar-thick liquid (teaspoon x2, cup sip x2); puree consistency (teaspoon x2); and solid food consistency (1/4 cracker x1).",
+                "Assessment": "ORAL STAGE: No problems with swallow during the orl stage.\n\nPHARYNGEAL STAGE: No aspiration was observed during this evaluation. The patient's hyolaryngeal elevation and anterior movement are within functional limits. Epiglottic inversion is within functional limits.\n\nCERVICAL ESOPHAGEAL STAGE: The patient's upper esophageal sphincter opening is well coordinated with swallow and readily accepted the bolus.\n\nDIAGNOSTIC IMPRESSION: No aspiration was noted during this evaluation.\n\nPROGNOSTIC IMPRESSION: Based on this evaluation, the prognosis for swallowing and safety is good."
+            }
+        },
+        "Coronary Angiogram": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 120,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Procedure(s) performed": "1. Cystoscopy.",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "Pulmonary Angiogram": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 120,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "Cerebral Angiogram": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 120,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "Carotid Angiogram": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 120,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "Aortogram": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 120,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "Peripheral Angiogram": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 120,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "Chest X-ray": {
+            "Info": "",
+            "ReturnTime": 5,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "Abdominal X-ray": {
+            "Info": "",
+            "ReturnTime": 300,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "Trans-vaginal ultrasound": {
+            "Info": "",
+            "ReturnTime": 300,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "Abdominal ultrasound": {
+            "Info": "",
+            "ReturnTime": 10,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "There is no enlargement of the mesenteric lymph nodes. The stomach is empty, with normal wall layering and thickness. There is normal layering and thickness throughout the bowels. The colon is visible medial to the spleen. It is gas filled with no mural abnormalities. Both kidneys and the liver appear to be absent abnormalities.",
+                "Impression": "No active disease noted on ultrasound scan. The findings are consistent with a normal ultrasound scan of the abdomen."
+            }
+        },
+        "Bladder ultrasound": {
+            "Info": "",
+            "ReturnTime": 300,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "Pelvic ultrasound": {
+            "Info": "",
+            "ReturnTime": 300,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "Transoesophageal echocardiogram": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 600,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "Transthoracic echocardiogram": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 300,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "Electroencephalogram": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 300,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "CT Angiogram": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 600,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "CT Brain": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 600,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "CT Head and neck": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 600,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "CT Abdomen": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 600,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "CT Pelvis": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 600,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "MRI Brain": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 1800,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "MRI Head and neck": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 1800,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "MRI Abdomen": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 1800,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "MRI Spine": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 1800,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "MRI Pelvis": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 1800,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "Electrocardiogram (ECG)": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 10,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        },
+        "Lung VQ Scan": {
+            "Info": "We currently don't have any information for this investigation. The PixelDr team are working hard to bring this to you as soon as possible.",
+            "ReturnTime": 10,
+            "Image": "NILL",
+            "Report": {
+                "Reporting physician": "Mrs Janice Griffin",
+                "Findings": "To do",
+                "Impression": "To do"
+            }
+        }
+    }
+}

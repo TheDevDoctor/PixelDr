@@ -1,0 +1,1891 @@
+[gd_scene load_steps=142 format=2]
+
+[ext_resource path="res://Scripts/ExaminationsNew.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/blankPixel.png" type="Texture" id=2]
+[ext_resource path="res://Graphics/UI/RectangleBg.png" type="Texture" id=3]
+[ext_resource path="res://Graphics/UI/backNormalMini.png" type="Texture" id=4]
+[ext_resource path="res://Graphics/UI/backPressedMini.png" type="Texture" id=5]
+[ext_resource path="res://Graphics/UI/backHoverMini.png" type="Texture" id=6]
+[ext_resource path="res://Fonts/Nunito_regular28.font" type="BitmapFont" id=7]
+[ext_resource path="res://Graphics/UI/innerShadowTop.png" type="Texture" id=8]
+[ext_resource path="res://Graphics/UI/baseDataContainer2.png" type="Texture" id=9]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/ExamineSpriteSheet.png" type="Texture" id=10]
+[ext_resource path="res://Graphics/Objects/ArmLeft.png" type="Texture" id=11]
+[ext_resource path="res://Graphics/Objects/Face.png" type="Texture" id=12]
+[ext_resource path="res://Graphics/Objects/ArmRight.png" type="Texture" id=13]
+[ext_resource path="res://Graphics/Objects/Body.png" type="Texture" id=14]
+[ext_resource path="res://Graphics/Objects/Right Leg.png" type="Texture" id=15]
+[ext_resource path="res://Graphics/Objects/Left Leg.png" type="Texture" id=16]
+[ext_resource path="res://Graphics/UI/Buttons/generalButton.png" type="Texture" id=17]
+[ext_resource path="res://Graphics/UI/Buttons/generalButtonPressed.png" type="Texture" id=18]
+[ext_resource path="res://Graphics/UI/Buttons/generalButtonHover.png" type="Texture" id=19]
+[ext_resource path="res://Graphics/UI/Buttons/inspectButton.png" type="Texture" id=20]
+[ext_resource path="res://Graphics/UI/Buttons/inspectButtonPressed.png" type="Texture" id=21]
+[ext_resource path="res://Graphics/UI/Buttons/inspectButtonHover.png" type="Texture" id=22]
+[ext_resource path="res://Graphics/UI/Buttons/palpateButton.png" type="Texture" id=23]
+[ext_resource path="res://Graphics/UI/Buttons/palpateButtonPressed.png" type="Texture" id=24]
+[ext_resource path="res://Graphics/UI/Buttons/palpateButtonHover.png" type="Texture" id=25]
+[ext_resource path="res://Graphics/UI/Buttons/percussButton.png" type="Texture" id=26]
+[ext_resource path="res://Graphics/UI/Buttons/percussButtonPressed.png" type="Texture" id=27]
+[ext_resource path="res://Graphics/UI/Buttons/percussButtonHover.png" type="Texture" id=28]
+[ext_resource path="res://Graphics/UI/Buttons/ausButton.png" type="Texture" id=29]
+[ext_resource path="res://Graphics/UI/Buttons/ausButtonPressed.png" type="Texture" id=30]
+[ext_resource path="res://Graphics/UI/Buttons/ausButtonHover.png" type="Texture" id=31]
+[ext_resource path="res://Graphics/UI/Buttons/tipButton.png" type="Texture" id=32]
+[ext_resource path="res://Graphics/UI/Buttons/tipButtonPressed.png" type="Texture" id=33]
+[ext_resource path="res://Graphics/UI/Buttons/tipButtonHover.png" type="Texture" id=34]
+[ext_resource path="res://Graphics/UI/Buttons/cottonButtonPressed.png" type="Texture" id=35]
+[ext_resource path="res://Graphics/UI/Buttons/cottonButtonHover.png" type="Texture" id=36]
+[ext_resource path="res://Graphics/UI/Buttons/muscleButton.png" type="Texture" id=37]
+[ext_resource path="res://Graphics/UI/Buttons/muscleButtonPressed.png" type="Texture" id=38]
+[ext_resource path="res://Graphics/UI/Buttons/muscleButtonHover.png" type="Texture" id=39]
+[ext_resource path="res://Graphics/UI/Buttons/reflexButton.png" type="Texture" id=40]
+[ext_resource path="res://Graphics/UI/Buttons/reflexButtonPressed.png" type="Texture" id=41]
+[ext_resource path="res://Graphics/UI/Buttons/reflexButtonHover.png" type="Texture" id=42]
+[ext_resource path="res://Graphics/UI/Buttons/scopeButton.png" type="Texture" id=43]
+[ext_resource path="res://Graphics/UI/Buttons/scopeButtonPressed.png" type="Texture" id=44]
+[ext_resource path="res://Graphics/UI/Buttons/scopeButtonHover.png" type="Texture" id=45]
+[ext_resource path="res://Graphics/UI/Buttons/otherButton.png" type="Texture" id=46]
+[ext_resource path="res://Graphics/UI/Buttons/otherButtonPressed.png" type="Texture" id=47]
+[ext_resource path="res://Graphics/UI/Buttons/otherButtonHover.png" type="Texture" id=48]
+[ext_resource path="res://Graphics/UI/Buttons/rotateButton.png" type="Texture" id=49]
+[ext_resource path="res://Graphics/UI/rotateButtonHPressed.png" type="Texture" id=50]
+[ext_resource path="res://Graphics/UI/Buttons/rotateButtonHover.png" type="Texture" id=51]
+[ext_resource path="res://Graphics/UI/Buttons/zoomButton.png" type="Texture" id=52]
+[ext_resource path="res://Graphics/UI/Buttons/zoomButtonPressed.png" type="Texture" id=53]
+[ext_resource path="res://Graphics/UI/Buttons/zoomButtonHover Copy 4.png" type="Texture" id=54]
+[ext_resource path="res://Graphics/Images/Opthalmoscopy/Fundus_of_eye_normal.jpg" type="Texture" id=55]
+[ext_resource path="res://Graphics/UI/baseDataContainer.png" type="Texture" id=56]
+[ext_resource path="res://Fonts/Nunito_extra_bold16.font" type="BitmapFont" id=57]
+[ext_resource path="res://Graphics/UI/Buttons/PulseMonitor.png" type="Texture" id=58]
+[ext_resource path="res://Graphics/UI/ExamTopPanel.png" type="Texture" id=59]
+[ext_resource path="res://Graphics/Objects/PersonOutline.png" type="Texture" id=60]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/V1.png" type="Texture" id=61]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/V2.png" type="Texture" id=62]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/V3.png" type="Texture" id=63]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/C2.png" type="Texture" id=64]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/C3.png" type="Texture" id=65]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/C4.png" type="Texture" id=66]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/C5.png" type="Texture" id=67]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/C6.png" type="Texture" id=68]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/C7.png" type="Texture" id=69]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/C8.png" type="Texture" id=70]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T1.png" type="Texture" id=71]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T2.png" type="Texture" id=72]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T3.png" type="Texture" id=73]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T4.png" type="Texture" id=74]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T5.png" type="Texture" id=75]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T6.png" type="Texture" id=76]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T7.png" type="Texture" id=77]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T8.png" type="Texture" id=78]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T9.png" type="Texture" id=79]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T10.png" type="Texture" id=80]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T11.png" type="Texture" id=81]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T12.png" type="Texture" id=82]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/L1.png" type="Texture" id=83]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/L2.png" type="Texture" id=84]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/L3.png" type="Texture" id=85]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/L4.png" type="Texture" id=86]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/L5.png" type="Texture" id=87]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/S1.png" type="Texture" id=88]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/S2-3-4.png" type="Texture" id=89]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/C2 Post.png" type="Texture" id=90]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/C3 Post.png" type="Texture" id=91]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/C4 Post.png" type="Texture" id=92]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/C5 Post.png" type="Texture" id=93]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/C6 Post.png" type="Texture" id=94]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/C7 Post.png" type="Texture" id=95]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/C8 Post.png" type="Texture" id=96]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T1 Post.png" type="Texture" id=97]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T2 Post.png" type="Texture" id=98]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T3 Post.png" type="Texture" id=99]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T4 Post.png" type="Texture" id=100]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T5 Post.png" type="Texture" id=101]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T6 Post.png" type="Texture" id=102]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T7 Post.png" type="Texture" id=103]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T8 Post.png" type="Texture" id=104]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T9 Post.png" type="Texture" id=105]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T10 Post.png" type="Texture" id=106]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T11 Post.png" type="Texture" id=107]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/T12 Post.png" type="Texture" id=108]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/L1 Post.png" type="Texture" id=109]
+[ext_resource path="res://L2 Post.png" type="Texture" id=110]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/L3 Post.png" type="Texture" id=111]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/L4 Post.png" type="Texture" id=112]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/L5 Post.png" type="Texture" id=113]
+[ext_resource path="res://S1 Post.png" type="Texture" id=114]
+[ext_resource path="res://Graphics/Objects/ExaminationSprites/S2 Post.png" type="Texture" id=115]
+[ext_resource path="res://Fonts/Nunito_extra_bold24.font" type="BitmapFont" id=116]
+[ext_resource path="res://Graphics/UI/Buttons/PlayButton.png" type="Texture" id=117]
+[ext_resource path="res://Graphics/UI/Buttons/PauseButton.png" type="Texture" id=118]
+[ext_resource path="res://Graphics/UI/Buttons/PlayButtonHover.png" type="Texture" id=119]
+[ext_resource path="res://Graphics/Objects/Otoscope.png" type="Texture" id=120]
+[ext_resource path="res://Graphics/Objects/Opthalmoscope.png" type="Texture" id=121]
+[ext_resource path="res://Graphics/UI/PendulumBg.png" type="Texture" id=122]
+[ext_resource path="res://Graphics/UI/Pendulum.png" type="Texture" id=123]
+[ext_resource path="res://Fonts/Nunito_regular20.font" type="BitmapFont" id=124]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.0442505, 0.222188, 0.390625, 1 )
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id=2]
+corner_radius_top_left = 14
+corner_radius_bottom_left = 14
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.171387, 0.827991, 0.84375, 0.740314 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.220779, 0.621094, 0.583564, 0.807617 )
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+anti_aliasing_size = 2
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.339417, 0.648438, 0.633952, 0.740314 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.231186, 0.542969, 0.506432, 0.807617 )
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+anti_aliasing_size = 2
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.280487, 0.710938, 0.69076, 0.740314 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.147293, 0.769531, 0.696613, 0.807617 )
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+anti_aliasing_size = 2
+
+[sub_resource type="Theme" id=6]
+Button/colors/font_color = Color( 0.878431, 0.878431, 0.878431, 1 )
+Button/colors/font_color_disabled = Color( 0.9, 0.9, 0.9, 0.2 )
+Button/colors/font_color_hover = Color( 0.941176, 0.941176, 0.941176, 1 )
+Button/colors/font_color_pressed = Color( 1, 1, 1, 1 )
+Button/constants/hseparation = 2
+Button/fonts/font = null
+Button/styles/disabled = null
+Button/styles/focus = null
+Button/styles/hover = SubResource( 3 )
+Button/styles/normal = SubResource( 4 )
+Button/styles/pressed = SubResource( 5 )
+
+[sub_resource type="Shader" id=7]
+code = "shader_type canvas_item;
+render_mode unshaded;
+
+uniform int blurSize : hint_range(0,25); 
+
+void fragment() 
+{
+COLOR = textureLod(SCREEN_TEXTURE, SCREEN_UV, float(blurSize)/10.0); 
+}"
+
+[sub_resource type="ShaderMaterial" id=8]
+shader = SubResource( 7 )
+shader_param/blurSize = 0
+
+[sub_resource type="Animation" id=9]
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("TextureRect:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3, 0.7 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ false, true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("TextureRect:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0.3, 0.5, 0.7 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 0.148438, 0.148438, 0 ), Color( 1, 0.148438, 0.148438, 1 ), Color( 1, 0.148438, 0.148438, 0 ) ]
+}
+
+[sub_resource type="Animation" id=10]
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0.210938, 0.741089, 1, 0.116039 ), Color( 0.210938, 0.741089, 1, 1 ), Color( 0.210938, 0.741089, 1, 0.116039 ) ]
+}
+
+[sub_resource type="Animation" id=11]
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 67.491, 30.2473 ), Vector2( 437.28, 30.2473 ) ]
+}
+
+[sub_resource type="Animation" id=12]
+resource_name = "Hyperreflexic1"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pendulum:rotation_degrees")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, -75.3795, 0.0 ]
+}
+
+[sub_resource type="Animation" id=13]
+resource_name = "Hyperreflexic2"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pendulum:rotation_degrees")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, -83.0426, 0.0 ]
+}
+
+[sub_resource type="Animation" id=14]
+resource_name = "Hyporeflexic1"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pendulum:rotation_degrees")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, -9.60876, 0.0 ]
+}
+
+[sub_resource type="Animation" id=15]
+resource_name = "Hyporeflexic2"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pendulum:rotation_degrees")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, -17.7134, 0.0 ]
+}
+
+[sub_resource type="Animation" id=16]
+resource_name = "NormoReflexic1"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pendulum:rotation_degrees")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, -37.4243, 0.0 ]
+}
+
+[sub_resource type="Animation" id=17]
+resource_name = "NormoReflexic2"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pendulum:rotation_degrees")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, -53.0875, 0.0 ]
+}
+
+[node name="Examinations" type="Node"]
+script = ExtResource( 1 )
+
+[node name="NinePatchRect2" type="TextureRect" parent="."]
+self_modulate = Color( 0.0186005, 0.113874, 0.207031, 1 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -3.0
+mouse_filter = 2
+texture = ExtResource( 2 )
+expand = true
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+margin_left = 30.0
+margin_top = 30.0
+margin_right = 1250.0
+margin_bottom = 690.0
+texture = ExtResource( 3 )
+patch_margin_left = 12
+patch_margin_top = 12
+patch_margin_right = 12
+patch_margin_bottom = 12
+
+[node name="Close" type="TextureButton" parent="NinePatchRect"]
+margin_left = 10.0
+margin_top = 11.0
+margin_right = 33.0
+margin_bottom = 41.0
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 6 )
+
+[node name="Label" type="Label" parent="NinePatchRect"]
+anchor_right = 1.0
+margin_left = 30.0
+margin_top = 15.0
+margin_right = -30.0
+margin_bottom = 43.0
+custom_fonts/font = ExtResource( 7 )
+custom_colors/font_color = Color( 0.161499, 0.45782, 0.738281, 1 )
+text = "Examinations"
+align = 1
+
+[node name="Panel" type="Panel" parent="NinePatchRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 50.0
+margin_right = -4.0
+margin_bottom = -4.0
+mouse_filter = 2
+custom_styles/panel = SubResource( 1 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="NinePatchRect"]
+
+[node name="w2" type="NinePatchRect" parent="NinePatchRect/CanvasLayer"]
+visible = false
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = 651.0
+margin_top = 659.0
+margin_right = 1199.0
+margin_bottom = 670.0
+rect_rotation = 270.0
+texture = ExtResource( 8 )
+patch_margin_left = 1
+patch_margin_top = 10
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="SpriteContainer" type="NinePatchRect" parent="NinePatchRect"]
+self_modulate = Color( 0.0546875, 0.0546875, 0.0546875, 1 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 561.0
+margin_top = 71.0
+margin_right = -24.0
+margin_bottom = -21.0
+texture = ExtResource( 9 )
+patch_margin_left = 16
+patch_margin_top = 16
+patch_margin_right = 16
+patch_margin_bottom = 15
+
+[node name="Sprite" type="Sprite" parent="NinePatchRect/SpriteContainer"]
+position = Vector2( 343.2, 283.828 )
+texture = ExtResource( 10 )
+vframes = 5
+hframes = 2
+
+[node name="Control" type="Control" parent="NinePatchRect/SpriteContainer/Sprite"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -284.0
+margin_top = -284.0
+margin_right = -284.0
+margin_bottom = -284.0
+mouse_filter = 2
+
+[node name="RightArm" type="TextureRect" parent="NinePatchRect/SpriteContainer/Sprite/Control"]
+visible = false
+self_modulate = Color( 1, 1, 1, 0.464078 )
+margin_left = 4.0
+margin_top = 92.0
+margin_right = 260.0
+margin_bottom = 205.0
+texture = ExtResource( 11 )
+
+[node name="Face" type="TextureRect" parent="NinePatchRect/SpriteContainer/Sprite/Control"]
+visible = false
+self_modulate = Color( 1, 1, 1, 0.464078 )
+margin_left = 234.0
+margin_top = 1.0
+margin_right = 327.0
+margin_bottom = 118.0
+texture = ExtResource( 12 )
+
+[node name="LeftArm" type="TextureRect" parent="NinePatchRect/SpriteContainer/Sprite/Control"]
+visible = false
+self_modulate = Color( 1, 1, 1, 0.464078 )
+margin_left = 303.0
+margin_top = 90.0
+margin_right = 559.0
+margin_bottom = 203.0
+texture = ExtResource( 13 )
+
+[node name="Body" type="TextureRect" parent="NinePatchRect/SpriteContainer/Sprite/Control"]
+visible = false
+self_modulate = Color( 1, 1, 1, 0.464078 )
+margin_left = 209.0
+margin_top = 64.0
+margin_right = 359.0
+margin_bottom = 331.0
+texture = ExtResource( 14 )
+
+[node name="RightLeg" type="TextureRect" parent="NinePatchRect/SpriteContainer/Sprite/Control"]
+visible = false
+self_modulate = Color( 1, 1, 1, 0.464078 )
+margin_left = 203.0
+margin_top = 276.0
+margin_right = 305.0
+margin_bottom = 579.0
+texture = ExtResource( 15 )
+
+[node name="LeftLeg" type="TextureRect" parent="NinePatchRect/SpriteContainer/Sprite/Control"]
+visible = false
+self_modulate = Color( 1, 1, 1, 0.464078 )
+margin_left = 263.0
+margin_top = 276.0
+margin_right = 368.0
+margin_bottom = 579.0
+texture = ExtResource( 16 )
+
+[node name="Panel" type="Panel" parent="NinePatchRect/SpriteContainer"]
+self_modulate = Color( 0.0235294, 0.176471, 0.317647, 1 )
+margin_left = -35.0
+margin_right = 60.0
+margin_bottom = 568.0
+custom_styles/panel = SubResource( 2 )
+
+[node name="ScrollContainer" type="ScrollContainer" parent="NinePatchRect/SpriteContainer/Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = 6.0
+margin_right = -5.0
+margin_bottom = -4.0
+scroll_horizontal_enabled = false
+
+[node name="Interactions" type="VBoxContainer" parent="NinePatchRect/SpriteContainer/Panel/ScrollContainer"]
+margin_right = 68.0
+margin_bottom = 788.0
+
+[node name="General" type="TextureButton" parent="NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions"]
+margin_right = 68.0
+margin_bottom = 68.0
+hint_tooltip = "Inspection"
+focus_mode = 0
+mouse_filter = 1
+enabled_focus_mode = 0
+texture_normal = ExtResource( 17 )
+texture_pressed = ExtResource( 18 )
+texture_hover = ExtResource( 19 )
+
+[node name="Inspection" type="TextureButton" parent="NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions"]
+margin_top = 72.0
+margin_right = 68.0
+margin_bottom = 140.0
+hint_tooltip = "Inspection"
+focus_mode = 0
+mouse_filter = 1
+enabled_focus_mode = 0
+texture_normal = ExtResource( 20 )
+texture_pressed = ExtResource( 21 )
+texture_hover = ExtResource( 22 )
+
+[node name="Palpation" type="TextureButton" parent="NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions"]
+margin_top = 144.0
+margin_right = 68.0
+margin_bottom = 212.0
+hint_tooltip = "Palpation"
+focus_mode = 0
+mouse_filter = 1
+enabled_focus_mode = 0
+texture_normal = ExtResource( 23 )
+texture_pressed = ExtResource( 24 )
+texture_hover = ExtResource( 25 )
+
+[node name="Percussion" type="TextureButton" parent="NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions"]
+margin_top = 216.0
+margin_right = 68.0
+margin_bottom = 284.0
+hint_tooltip = "Percussion"
+focus_mode = 0
+mouse_filter = 1
+enabled_focus_mode = 0
+texture_normal = ExtResource( 26 )
+texture_pressed = ExtResource( 27 )
+texture_hover = ExtResource( 28 )
+
+[node name="Auscultation" type="TextureButton" parent="NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions"]
+margin_top = 288.0
+margin_right = 68.0
+margin_bottom = 356.0
+hint_tooltip = "Auscultation"
+focus_mode = 0
+mouse_filter = 1
+enabled_focus_mode = 0
+texture_normal = ExtResource( 29 )
+texture_pressed = ExtResource( 30 )
+texture_hover = ExtResource( 31 )
+
+[node name="Neurotip" type="TextureButton" parent="NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions"]
+margin_top = 360.0
+margin_right = 68.0
+margin_bottom = 428.0
+hint_tooltip = "Neurotip"
+focus_mode = 0
+mouse_filter = 1
+enabled_focus_mode = 0
+texture_normal = ExtResource( 32 )
+texture_pressed = ExtResource( 33 )
+texture_hover = ExtResource( 34 )
+
+[node name="Cotton Wool" type="TextureButton" parent="NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions"]
+margin_top = 432.0
+margin_right = 68.0
+margin_bottom = 500.0
+hint_tooltip = "Cotton Wool"
+focus_mode = 0
+mouse_filter = 1
+enabled_focus_mode = 0
+texture_normal = ExtResource( 35 )
+texture_pressed = ExtResource( 35 )
+texture_hover = ExtResource( 36 )
+
+[node name="Muscle" type="TextureButton" parent="NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions"]
+margin_top = 504.0
+margin_right = 68.0
+margin_bottom = 572.0
+hint_tooltip = "Muscle and movement"
+focus_mode = 0
+mouse_filter = 1
+enabled_focus_mode = 0
+texture_normal = ExtResource( 37 )
+texture_pressed = ExtResource( 38 )
+texture_hover = ExtResource( 39 )
+
+[node name="Reflexes" type="TextureButton" parent="NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions"]
+margin_top = 576.0
+margin_right = 68.0
+margin_bottom = 644.0
+hint_tooltip = "Reflexes"
+focus_mode = 0
+mouse_filter = 1
+enabled_focus_mode = 0
+texture_normal = ExtResource( 40 )
+texture_pressed = ExtResource( 41 )
+texture_hover = ExtResource( 42 )
+
+[node name="Scopes" type="TextureButton" parent="NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions"]
+margin_top = 648.0
+margin_right = 68.0
+margin_bottom = 716.0
+hint_tooltip = "Scopes"
+focus_mode = 0
+mouse_filter = 1
+enabled_focus_mode = 0
+texture_normal = ExtResource( 43 )
+texture_pressed = ExtResource( 44 )
+texture_hover = ExtResource( 45 )
+
+[node name="Other" type="TextureButton" parent="NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions"]
+margin_top = 720.0
+margin_right = 68.0
+margin_bottom = 788.0
+hint_tooltip = "Other"
+focus_mode = 0
+mouse_filter = 1
+enabled_focus_mode = 0
+texture_normal = ExtResource( 46 )
+texture_pressed = ExtResource( 47 )
+texture_hover = ExtResource( 48 )
+
+[node name="rotateButton" type="TextureButton" parent="NinePatchRect/SpriteContainer"]
+margin_left = 577.0
+margin_top = 7.0
+margin_right = 627.0
+margin_bottom = 47.0
+focus_mode = 0
+enabled_focus_mode = 0
+texture_normal = ExtResource( 49 )
+texture_pressed = ExtResource( 50 )
+texture_hover = ExtResource( 51 )
+
+[node name="zoomButton" type="TextureButton" parent="NinePatchRect/SpriteContainer"]
+margin_left = 577.0
+margin_top = 47.0
+margin_right = 627.0
+margin_bottom = 87.0
+focus_mode = 0
+enabled_focus_mode = 0
+texture_normal = ExtResource( 52 )
+texture_pressed = ExtResource( 53 )
+texture_hover = ExtResource( 54 )
+
+[node name="Container" type="Container" parent="NinePatchRect/SpriteContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 66.0
+margin_bottom = 1.0
+mouse_filter = 2
+
+[node name="Right Patellar Reflex" type="Area2D" parent="NinePatchRect/SpriteContainer/Container"]
+show_behind_parent = true
+position = Vector2( 136.827, 289.296 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NinePatchRect/SpriteContainer/Container/Right Patellar Reflex"]
+polygon = PoolVector2Array( -40.097, 9.25861, 33.6518, 8.1496, 33.6518, 49.1828, -41.7606, 49.1828 )
+
+[node name="Right Ankle Jerk" type="Area2D" parent="NinePatchRect/SpriteContainer/Container"]
+show_behind_parent = true
+position = Vector2( 427.002, 487.891 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="NinePatchRect/SpriteContainer/Container/Right Ankle Jerk"]
+polygon = PoolVector2Array( -40.097, 9.25861, 33.6518, 8.1496, 33.6518, 49.1828, -41.7606, 49.1828 )
+
+[node name="OtherContainer" type="ScrollContainer" parent="NinePatchRect/SpriteContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 73.0
+margin_top = 11.0
+margin_right = -14.0
+margin_bottom = -10.0
+rect_clip_content = false
+mouse_filter = 2
+theme = SubResource( 6 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="NinePatchRect/SpriteContainer/OtherContainer"]
+margin_right = 548.0
+size_flags_horizontal = 3
+
+[node name="ExamImages" type="TextureRect" parent="NinePatchRect/SpriteContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 61.0
+mouse_filter = 2
+texture = ExtResource( 55 )
+expand = true
+stretch_mode = 7
+
+[node name="BlurShader" type="ColorRect" parent="NinePatchRect/SpriteContainer/ExamImages"]
+material = SubResource( 8 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="back" type="TextureButton" parent="NinePatchRect/SpriteContainer"]
+visible = false
+modulate = Color( 0.917684, 1, 0.897704, 1 )
+margin_left = 66.0
+margin_top = 4.0
+margin_right = 89.0
+margin_bottom = 34.0
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 6 )
+
+[node name="PulseMonitor" type="NinePatchRect" parent="NinePatchRect/SpriteContainer"]
+visible = false
+self_modulate = Color( 0.1875, 0.1875, 0.1875, 1 )
+margin_left = 533.0
+margin_top = 459.0
+margin_right = 618.0
+margin_bottom = 549.0
+texture = ExtResource( 56 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="NinePatchRect/SpriteContainer/PulseMonitor"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -25.5
+margin_top = 5.0
+margin_right = 25.5
+margin_bottom = 22.0
+custom_fonts/font = ExtResource( 57 )
+text = "PULSE"
+
+[node name="TextureRect" type="TextureRect" parent="NinePatchRect/SpriteContainer/PulseMonitor"]
+visible = false
+self_modulate = Color( 1, 0.148438, 0.148438, 0 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -23.5
+margin_top = -16.0
+margin_right = 22.5
+margin_bottom = 30.0
+texture = ExtResource( 58 )
+
+[node name="Pulse" type="AnimationPlayer" parent="NinePatchRect/SpriteContainer/PulseMonitor"]
+anims/Pulse = SubResource( 9 )
+
+[node name="noIntLabel" type="Label" parent="NinePatchRect/SpriteContainer"]
+visible = false
+margin_left = 80.0
+margin_top = 21.0
+margin_right = 273.0
+margin_bottom = 75.0
+custom_fonts/font = ExtResource( 57 )
+custom_colors/font_color = Color( 0.417969, 0.417969, 0.417969, 1 )
+text = "There are no interactions in this view. Please zoom in to interact."
+autowrap = true
+
+[node name="TitleContainer" type="NinePatchRect" parent="NinePatchRect"]
+self_modulate = Color( 0.337255, 0.329412, 0.329412, 1 )
+margin_left = 27.0
+margin_top = 73.0
+margin_right = 242.0
+margin_bottom = 116.0
+texture = ExtResource( 59 )
+patch_margin_left = 16
+patch_margin_top = 16
+patch_margin_right = 16
+patch_margin_bottom = 16
+
+[node name="CurrentInteraction" type="TextureRect" parent="NinePatchRect/TitleContainer"]
+margin_left = -18.0
+margin_top = -13.0
+margin_right = 50.0
+margin_bottom = 55.0
+texture = ExtResource( 17 )
+
+[node name="Label" type="Label" parent="NinePatchRect/TitleContainer"]
+margin_left = 52.0
+margin_top = 13.0
+margin_right = 194.0
+margin_bottom = 29.0
+custom_fonts/font = ExtResource( 57 )
+text = "General Inspection"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="NinePatchRect"]
+margin_left = 15.0
+margin_top = 134.0
+margin_right = 517.0
+margin_bottom = 620.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="NinePatchRect/ScrollContainer"]
+margin_right = 502.0
+margin_bottom = 486.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ImageContainer" type="NinePatchRect" parent="NinePatchRect"]
+visible = false
+self_modulate = Color( 0.0235294, 0.176471, 0.317647, 1 )
+margin_left = 16.0
+margin_top = 134.0
+margin_right = 517.0
+margin_bottom = 636.0
+texture = ExtResource( 56 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="TextureRect" type="TextureRect" parent="NinePatchRect/ImageContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 37.0
+margin_top = 29.0
+margin_right = -37.0
+margin_bottom = -29.0
+texture = ExtResource( 60 )
+expand = true
+
+[node name="ANTERIOR" type="Container" parent="NinePatchRect/ImageContainer/TextureRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="V1 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 202.942, 10.9036 )
+scale = Vector2( 1.01844, 0.973644 )
+texture = ExtResource( 61 )
+offset = Vector2( 0.351196, 3.95822 )
+
+[node name="V2 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 202.991, 25.5208 )
+scale = Vector2( 1.01844, 1 )
+texture = ExtResource( 62 )
+offset = Vector2( 0.351196, 3.95822 )
+
+[node name="V3 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 201.538, 25.355 )
+scale = Vector2( 1.01844, 1 )
+texture = ExtResource( 63 )
+offset = Vector2( 0.351196, 3.95822 )
+
+[node name="C2 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 204.53, 52.9843 )
+scale = Vector2( 1.01844, 1 )
+texture = ExtResource( 64 )
+
+[node name="C3 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 202.473, 59.6125 )
+scale = Vector2( 1.03122, 1 )
+texture = ExtResource( 65 )
+
+[node name="C4 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 196.797, 68.5337 )
+texture = ExtResource( 66 )
+
+[node name="C5 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 133.835, 95.4588 )
+texture = ExtResource( 67 )
+
+[node name="C6 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 99.8346, 96.4588 )
+texture = ExtResource( 68 )
+
+[node name="C7 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 22.8346, 116.459 )
+texture = ExtResource( 69 )
+
+[node name="C8 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 85.8346, 120.459 )
+texture = ExtResource( 70 )
+
+[node name="T1 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 131.835, 103.459 )
+texture = ExtResource( 71 )
+
+[node name="T2 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 190.752, 107.094 )
+texture = ExtResource( 72 )
+
+[node name="T3 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 192.036, 115.144 )
+scale = Vector2( 1.00801, 1 )
+texture = ExtResource( 73 )
+
+[node name="T4 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 192.671, 124.438 )
+texture = ExtResource( 74 )
+
+[node name="T5 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 193.19, 134.988 )
+texture = ExtResource( 75 )
+
+[node name="T6 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 193.732, 145.049 )
+scale = Vector2( 1, 0.909457 )
+texture = ExtResource( 76 )
+
+[node name="T7 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 194.871, 154.371 )
+scale = Vector2( 1, 0.837793 )
+texture = ExtResource( 77 )
+
+[node name="T8 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 195.231, 164.37 )
+scale = Vector2( 1, 0.926837 )
+texture = ExtResource( 78 )
+
+[node name="T9 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 195.659, 173.62 )
+scale = Vector2( 1.03223, 0.860703 )
+texture = ExtResource( 79 )
+
+[node name="T10 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 194.613, 183.091 )
+scale = Vector2( 1.04668, 0.824068 )
+texture = ExtResource( 80 )
+
+[node name="T11 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 194.187, 193.856 )
+scale = Vector2( 1.03807, 0.766549 )
+texture = ExtResource( 81 )
+
+[node name="T12 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 193.176, 205.43 )
+scale = Vector2( 1.02437, 0.763864 )
+texture = ExtResource( 82 )
+
+[node name="L1 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 192.87, 225.833 )
+scale = Vector2( 1, 0.823083 )
+texture = ExtResource( 83 )
+
+[node name="L2 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 190.442, 249.179 )
+scale = Vector2( 1.06045, 0.927092 )
+texture = ExtResource( 84 )
+
+[node name="L3 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 187.421, 297.747 )
+scale = Vector2( 1.04443, 0.936201 )
+texture = ExtResource( 85 )
+
+[node name="L4 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 182.675, 346.201 )
+scale = Vector2( 1.0239, 0.959366 )
+texture = ExtResource( 86 )
+
+[node name="L5 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 177.385, 367.805 )
+scale = Vector2( 1.0239, 0.968612 )
+texture = ExtResource( 87 )
+
+[node name="S1 R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 171.78, 405.649 )
+scale = Vector2( 1.0239, 0.968612 )
+texture = ExtResource( 88 )
+
+[node name="V1 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 222.85, 10.9036 )
+rotation = -3.14159
+scale = Vector2( 1.01, -0.973644 )
+texture = ExtResource( 61 )
+offset = Vector2( 0.351196, 3.95822 )
+
+[node name="V2 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 222.998, 25.5208 )
+rotation = -3.14159
+scale = Vector2( 1.02495, -1 )
+texture = ExtResource( 62 )
+offset = Vector2( 0.351196, 3.95822 )
+
+[node name="V3 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 224.624, 25.9381 )
+rotation = -3.14159
+scale = Vector2( 1.03856, -0.983617 )
+texture = ExtResource( 63 )
+offset = Vector2( 0.351196, 3.95822 )
+
+[node name="C2 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 221.856, 52.7698 )
+rotation = -3.14159
+scale = Vector2( 1.07782, -1 )
+texture = ExtResource( 64 )
+
+[node name="C3 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 223.647, 59.6795 )
+rotation = -3.14159
+scale = Vector2( 1.03, -0.96953 )
+texture = ExtResource( 65 )
+
+[node name="C4 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 229.488, 68.5337 )
+rotation = -3.14159
+scale = Vector2( 1, -1 )
+texture = ExtResource( 66 )
+
+[node name="T2 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 236.1, 107.094 )
+texture = ExtResource( 72 )
+flip_h = true
+
+[node name="T3 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 234.788, 115.022 )
+scale = Vector2( 1.00801, 1 )
+texture = ExtResource( 73 )
+flip_h = true
+
+[node name="T4 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 234.236, 124.438 )
+texture = ExtResource( 74 )
+flip_h = true
+
+[node name="T5 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 233.847, 134.988 )
+texture = ExtResource( 75 )
+flip_h = true
+
+[node name="T6 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 233.223, 145.049 )
+scale = Vector2( 1, 0.909457 )
+texture = ExtResource( 76 )
+flip_h = true
+
+[node name="T7 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 232.286, 154.371 )
+scale = Vector2( 1, 0.837793 )
+texture = ExtResource( 77 )
+flip_h = true
+
+[node name="T8 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 231.739, 164.37 )
+scale = Vector2( 1, 0.926837 )
+texture = ExtResource( 78 )
+flip_h = true
+
+[node name="T9 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 231.259, 173.879 )
+scale = Vector2( 1.03223, 0.860703 )
+texture = ExtResource( 79 )
+flip_h = true
+
+[node name="T10 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 232.418, 183.091 )
+scale = Vector2( 1.04668, 0.824068 )
+texture = ExtResource( 80 )
+flip_h = true
+
+[node name="T11 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 232.64, 193.856 )
+scale = Vector2( 1.03807, 0.766549 )
+texture = ExtResource( 81 )
+flip_h = true
+
+[node name="T12 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 233.444, 205.43 )
+scale = Vector2( 1.02437, 0.763864 )
+texture = ExtResource( 82 )
+flip_h = true
+
+[node name="C5 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 290.393, 95.049 )
+scale = Vector2( 0.970728, 1 )
+texture = ExtResource( 67 )
+flip_h = true
+
+[node name="C6 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 327.033, 96.7912 )
+texture = ExtResource( 68 )
+flip_h = true
+
+[node name="C7 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 404.957, 116.75 )
+texture = ExtResource( 69 )
+flip_h = true
+
+[node name="T1 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 295.314, 103.527 )
+texture = ExtResource( 71 )
+flip_h = true
+
+[node name="C8 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 341.653, 120.518 )
+texture = ExtResource( 70 )
+flip_h = true
+
+[node name="L1 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 233.668, 225.833 )
+scale = Vector2( 1.02823, 0.823083 )
+texture = ExtResource( 83 )
+flip_h = true
+
+[node name="S1" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 212.95, 240.193 )
+scale = Vector2( 0.732094, 0.636389 )
+texture = ExtResource( 89 )
+flip_h = true
+
+[node name="L2 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 236.803, 248.559 )
+scale = Vector2( 1.06045, 0.927092 )
+texture = ExtResource( 84 )
+flip_h = true
+
+[node name="L3 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 239.652, 295.382 )
+scale = Vector2( 1.0223, 0.931526 )
+texture = ExtResource( 85 )
+flip_h = true
+
+[node name="L4 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 244.802, 345.408 )
+scale = Vector2( 1.0168, 0.979547 )
+texture = ExtResource( 86 )
+flip_h = true
+
+[node name="L5 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 249.646, 368.061 )
+scale = Vector2( 1.0239, 0.971989 )
+texture = ExtResource( 87 )
+flip_h = true
+
+[node name="S1 L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/ANTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 255.612, 405.649 )
+scale = Vector2( 1.0239, 0.968612 )
+texture = ExtResource( 88 )
+flip_h = true
+
+[node name="POSTERIOR" type="Container" parent="NinePatchRect/ImageContainer/TextureRect"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="C2 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 201.421, 21.8555 )
+texture = ExtResource( 90 )
+
+[node name="C3 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 203.039, 39.0734 )
+texture = ExtResource( 91 )
+
+[node name="C4 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 202.189, 55.6872 )
+texture = ExtResource( 92 )
+
+[node name="C5 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 196.596, 65.8712 )
+scale = Vector2( 1, 0.911199 )
+texture = ExtResource( 93 )
+
+[node name="C2 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 224.789, 21.8555 )
+texture = ExtResource( 90 )
+flip_h = true
+
+[node name="C3 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 223.482, 39.0734 )
+texture = ExtResource( 91 )
+flip_h = true
+
+[node name="C4 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 224.094, 55.6872 )
+texture = ExtResource( 92 )
+flip_h = true
+
+[node name="C5 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 229.616, 65.8712 )
+scale = Vector2( 1, 0.911199 )
+texture = ExtResource( 93 )
+flip_h = true
+
+[node name="C6 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 115.042, 92.6661 )
+texture = ExtResource( 94 )
+
+[node name="C6 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 311.497, 92.6897 )
+texture = ExtResource( 94 )
+flip_h = true
+
+[node name="C7 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 105.808, 101.389 )
+texture = ExtResource( 95 )
+
+[node name="C7 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 321.257, 101.741 )
+texture = ExtResource( 95 )
+flip_h = true
+
+[node name="C8 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 105.835, 110.037 )
+texture = ExtResource( 96 )
+
+[node name="C8 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 321.15, 110.499 )
+texture = ExtResource( 96 )
+flip_h = true
+
+[node name="T1 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 190.015, 104.974 )
+scale = Vector2( 1, 0.947951 )
+texture = ExtResource( 97 )
+
+[node name="T2 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 191.155, 111.443 )
+texture = ExtResource( 98 )
+
+[node name="T3 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 192.114, 119.883 )
+scale = Vector2( 1, 0.953694 )
+texture = ExtResource( 99 )
+
+[node name="T4 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 192.589, 127.972 )
+texture = ExtResource( 100 )
+
+[node name="T5 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 192.825, 134.884 )
+texture = ExtResource( 101 )
+
+[node name="T6 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 194.772, 142.493 )
+texture = ExtResource( 102 )
+
+[node name="T7 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 195.846, 150.962 )
+texture = ExtResource( 103 )
+
+[node name="T8 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 195.895, 158.552 )
+texture = ExtResource( 104 )
+
+[node name="T9 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 195.537, 166.036 )
+scale = Vector2( 1.03153, 1 )
+texture = ExtResource( 105 )
+
+[node name="T10 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 194.786, 174.927 )
+scale = Vector2( 1.02325, 1 )
+texture = ExtResource( 106 )
+
+[node name="T11 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 194.584, 182.207 )
+scale = Vector2( 1.02559, 1 )
+texture = ExtResource( 107 )
+
+[node name="T12 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 193.519, 189.594 )
+scale = Vector2( 1.03856, 1 )
+texture = ExtResource( 108 )
+
+[node name="L1 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 193.571, 197.67 )
+scale = Vector2( 1.03469, 1 )
+texture = ExtResource( 109 )
+
+[node name="L2 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 192.521, 206.148 )
+scale = Vector2( 1.03469, 1 )
+texture = ExtResource( 110 )
+
+[node name="L3 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 191.274, 216.349 )
+scale = Vector2( 1.045, 1 )
+texture = ExtResource( 111 )
+
+[node name="L4 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 189.869, 229.853 )
+scale = Vector2( 1.03469, 1 )
+texture = ExtResource( 112 )
+
+[node name="L5 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 188.709, 327.846 )
+scale = Vector2( 1, 0.945677 )
+texture = ExtResource( 113 )
+
+[node name="S1 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 189.753, 331.768 )
+scale = Vector2( 1.02727, 0.950249 )
+texture = ExtResource( 114 )
+
+[node name="S2 Post L" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 195.491, 333.226 )
+scale = Vector2( 1, 0.942494 )
+texture = ExtResource( 115 )
+
+[node name="T1 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 236.793, 105.605 )
+texture = ExtResource( 97 )
+flip_h = true
+
+[node name="T2 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 235.768, 111.916 )
+texture = ExtResource( 98 )
+flip_h = true
+
+[node name="T3 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 235.168, 120.249 )
+texture = ExtResource( 99 )
+flip_h = true
+
+[node name="T4 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 234.789, 128.355 )
+texture = ExtResource( 100 )
+flip_h = true
+
+[node name="T5 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 234.07, 135.548 )
+texture = ExtResource( 101 )
+flip_h = true
+
+[node name="T6 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 232.384, 142.967 )
+scale = Vector2( 0.977037, 1 )
+texture = ExtResource( 102 )
+flip_h = true
+
+[node name="T7 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 231.505, 151.496 )
+scale = Vector2( 0.996075, 1 )
+texture = ExtResource( 103 )
+flip_h = true
+
+[node name="T8 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 231.26, 158.897 )
+texture = ExtResource( 104 )
+flip_h = true
+
+[node name="T9 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 231.111, 166.486 )
+scale = Vector2( 1.02981, 1 )
+texture = ExtResource( 105 )
+flip_h = true
+
+[node name="T10 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 231.757, 175.319 )
+scale = Vector2( 1.02054, 1 )
+texture = ExtResource( 106 )
+flip_h = true
+
+[node name="T11 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 231.871, 182.597 )
+scale = Vector2( 1.03217, 1 )
+texture = ExtResource( 107 )
+flip_h = true
+
+[node name="T12 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 232.195, 190.036 )
+scale = Vector2( 1.04967, 1 )
+texture = ExtResource( 108 )
+flip_h = true
+
+[node name="L1 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 232.333, 197.67 )
+scale = Vector2( 1.05612, 1 )
+texture = ExtResource( 109 )
+flip_h = true
+
+[node name="L2 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 233.448, 206.148 )
+scale = Vector2( 1.05248, 1 )
+texture = ExtResource( 110 )
+flip_h = true
+
+[node name="L3 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 234.925, 216.098 )
+scale = Vector2( 1.06575, 1 )
+texture = ExtResource( 111 )
+flip_h = true
+
+[node name="L4 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 236.544, 229.853 )
+scale = Vector2( 1.05518, 1 )
+texture = ExtResource( 112 )
+flip_h = true
+
+[node name="L5 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 237.772, 328.715 )
+scale = Vector2( 1.02736, 0.952983 )
+texture = ExtResource( 113 )
+flip_h = true
+
+[node name="S1 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 236.875, 331.768 )
+scale = Vector2( 1.01082, 0.950249 )
+texture = ExtResource( 114 )
+flip_h = true
+
+[node name="S2 Post R" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 231.436, 333.909 )
+scale = Vector2( 0.947738, 0.951211 )
+texture = ExtResource( 115 )
+flip_h = true
+
+[node name="S2-3-4 Post" type="Sprite" parent="NinePatchRect/ImageContainer/TextureRect/POSTERIOR"]
+visible = false
+self_modulate = Color( 0, 0.929688, 0.145264, 0.425412 )
+position = Vector2( 213.821, 238.68 )
+scale = Vector2( 0.947738, 0.951211 )
+texture = ExtResource( 89 )
+flip_h = true
+
+[node name="soundAnim" type="TextureRect" parent="NinePatchRect/ImageContainer/TextureRect"]
+visible = false
+self_modulate = Color( 0.210938, 0.741089, 1, 0.897508 )
+margin_left = 205.0
+margin_top = 114.0
+margin_right = 251.0
+margin_bottom = 160.0
+rect_scale = Vector2( 0.25, 0.25 )
+texture = ExtResource( 58 )
+
+[node name="SoundAnimator" type="AnimationPlayer" parent="NinePatchRect/ImageContainer/TextureRect/soundAnim"]
+anims/AudioPlayingAnim = SubResource( 10 )
+
+[node name="Direct" type="Label" parent="NinePatchRect/ImageContainer"]
+visible = false
+margin_left = 16.0
+margin_top = 15.0
+margin_right = 141.0
+margin_bottom = 40.0
+custom_fonts/font = ExtResource( 116 )
+custom_colors/font_color = Color( 0.215686, 0.470588, 0.717647, 0.878431 )
+text = "ANTERIOR"
+
+[node name="AudioGraphic" type="NinePatchRect" parent="NinePatchRect/ImageContainer"]
+visible = false
+self_modulate = Color( 0.00991821, 0.136792, 0.253906, 1 )
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = -80.0
+margin_right = -20.0
+margin_bottom = -20.0
+texture = ExtResource( 56 )
+patch_margin_left = 16
+patch_margin_top = 16
+patch_margin_right = 16
+patch_margin_bottom = 16
+
+[node name="PlayButton" type="TextureButton" parent="NinePatchRect/ImageContainer/AudioGraphic"]
+self_modulate = Color( 0, 0.765625, 1, 1 )
+margin_left = 18.0
+margin_top = 16.0
+margin_right = 40.0
+margin_bottom = 44.0
+toggle_mode = true
+texture_normal = ExtResource( 117 )
+texture_pressed = ExtResource( 118 )
+texture_hover = ExtResource( 119 )
+
+[node name="Sprite" type="TextureRect" parent="NinePatchRect/ImageContainer/AudioGraphic"]
+self_modulate = Color( 0.00862122, 0.338787, 0.441406, 1 )
+margin_left = 68.0
+margin_top = 30.0
+margin_right = 438.0
+margin_bottom = 31.0
+texture = ExtResource( 2 )
+expand = true
+
+[node name="PlayAnimation" type="Sprite" parent="NinePatchRect/ImageContainer/AudioGraphic"]
+self_modulate = Color( 0, 0.953125, 1, 0.701647 )
+position = Vector2( 67.491, 30.2473 )
+scale = Vector2( 0.80374, 0.80374 )
+texture = ExtResource( 58 )
+
+[node name="PlayAnim" type="AnimationPlayer" parent="NinePatchRect/ImageContainer/AudioGraphic/PlayAnimation"]
+anims/PlayAnimation = SubResource( 11 )
+
+[node name="ScopeContainer" type="HBoxContainer" parent="NinePatchRect/ImageContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = 10.0
+margin_right = -10.0
+margin_bottom = -10.0
+mouse_filter = 0
+custom_constants/separation = 8
+
+[node name="OtoscopeCont" type="NinePatchRect" parent="NinePatchRect/ImageContainer/ScopeContainer"]
+self_modulate = Color( 0.4375, 0.4375, 0.4375, 0.0939216 )
+margin_right = 236.0
+margin_bottom = 482.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 56 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Otoscope" type="TextureRect" parent="NinePatchRect/ImageContainer/ScopeContainer/OtoscopeCont"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -50.0
+margin_top = -186.0
+margin_right = 50.0
+margin_bottom = 197.0
+texture = ExtResource( 120 )
+
+[node name="OpthalmoscopeCont" type="NinePatchRect" parent="NinePatchRect/ImageContainer/ScopeContainer"]
+self_modulate = Color( 0.435294, 0.435294, 0.435294, 0.0901961 )
+margin_left = 244.0
+margin_right = 481.0
+margin_bottom = 482.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 56 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Opthalmoscope" type="TextureRect" parent="NinePatchRect/ImageContainer/ScopeContainer/OpthalmoscopeCont"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -38.5
+margin_top = -219.0
+margin_right = 38.5
+margin_bottom = 197.0
+texture = ExtResource( 121 )
+
+[node name="Sprite" type="Sprite" parent="NinePatchRect/ImageContainer/ScopeContainer/OpthalmoscopeCont/Opthalmoscope"]
+self_modulate = Color( 0.257812, 0.257812, 0.257812, 1 )
+show_behind_parent = true
+position = Vector2( 22.081, 70.449 )
+scale = Vector2( 31.2561, 22.2628 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="Label" type="Label" parent="NinePatchRect/ImageContainer/ScopeContainer/OpthalmoscopeCont/Opthalmoscope"]
+show_behind_parent = true
+margin_left = 23.0
+margin_top = 74.0
+margin_right = 53.0
+margin_bottom = 90.0
+custom_fonts/font = ExtResource( 57 )
+text = "0"
+align = 1
+
+[node name="Increase" type="TextureButton" parent="NinePatchRect/ImageContainer/ScopeContainer/OpthalmoscopeCont"]
+self_modulate = Color( 0.621094, 0.621094, 0.621094, 1 )
+margin_left = 137.0
+margin_top = 98.0
+margin_right = 145.0
+margin_bottom = 108.0
+texture_normal = ExtResource( 117 )
+texture_hover = ExtResource( 119 )
+expand = true
+
+[node name="Decrease" type="TextureButton" parent="NinePatchRect/ImageContainer/ScopeContainer/OpthalmoscopeCont"]
+self_modulate = Color( 0.621094, 0.621094, 0.621094, 1 )
+margin_left = 99.0
+margin_top = 108.0
+margin_right = 107.0
+margin_bottom = 118.0
+rect_rotation = 180.0
+texture_normal = ExtResource( 117 )
+texture_hover = ExtResource( 119 )
+expand = true
+
+[node name="ReflexPanel" type="Container" parent="NinePatchRect/ImageContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="PendulumBg" type="TextureRect" parent="NinePatchRect/ImageContainer/ReflexPanel"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -224.5
+margin_top = -181.0
+margin_right = 224.5
+margin_bottom = 152.0
+texture = ExtResource( 122 )
+
+[node name="Pendulum" type="Sprite" parent="NinePatchRect/ImageContainer/ReflexPanel"]
+position = Vector2( 251.275, 82.8896 )
+texture = ExtResource( 123 )
+offset = Vector2( -108.026, 115.597 )
+
+[node name="Label" type="Label" parent="NinePatchRect/ImageContainer/ReflexPanel"]
+margin_left = 16.0
+margin_top = 15.0
+margin_right = 204.0
+margin_bottom = 40.0
+custom_fonts/font = ExtResource( 116 )
+custom_colors/font_color = Color( 0.215686, 0.470588, 0.717647, 0.878431 )
+text = "REFLEXOMETER"
+
+[node name="ReflexLabel" type="Label" parent="NinePatchRect/ImageContainer/ReflexPanel"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -94.5
+margin_top = -50.0
+margin_right = 93.5
+margin_bottom = -25.0
+custom_fonts/font = ExtResource( 124 )
+custom_colors/font_color = Color( 0.215686, 0.470588, 0.717647, 0.878431 )
+text = "REFLEXOMETER"
+align = 1
+
+[node name="Reflexometer" type="AnimationPlayer" parent="NinePatchRect/ImageContainer/ReflexPanel"]
+anims/Hyperreflexic1 = SubResource( 12 )
+anims/Hyperreflexic2 = SubResource( 13 )
+anims/Hyporeflexic1 = SubResource( 14 )
+anims/Hyporeflexic2 = SubResource( 15 )
+anims/NormoReflexic1 = SubResource( 16 )
+anims/NormoReflexic2 = SubResource( 17 )
+
+[node name="MouseStop" type="Container" parent="NinePatchRect"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="w" type="NinePatchRect" parent="NinePatchRect"]
+margin_left = 4.0
+margin_top = 50.0
+margin_right = 1216.0
+margin_bottom = 61.0
+texture = ExtResource( 8 )
+patch_margin_left = 1
+patch_margin_top = 10
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]

@@ -1,0 +1,694 @@
+{
+    "Medications": {
+        "Amlodipine": {
+            "Units": ["mg"], 
+            "Doses": ["5", "10"],
+            "AsInfusion": false,
+            "Info": "Amlodipine is a dihydropyrodine calcium channel blocker (CCB), which is the same as a calcium-antagonist. These drugs interfere with the inward flow of calcium through channels in the call membrane.\n\n This type of CCB acts mainly on vascular smooth muscle cells. Therefore, Diltiazem is useful in the treatment of angina and hypertension."
+        },
+        "Digoxin": {
+            "Units": ["micrograms", "mg"], 
+            "Doses": ["0.75", "1.5", "62.5", "125", "250"],
+            "AsInfusion": false,
+            "Info": "Digoxin is a cardiac glycoside. It acts by increasing the force of myocardial contraction as well as reducing conductivity through the atrioventricular node. It is useful in the treatment of conditions such as atrial fibrillation and flutter as well as heart failure."
+        },
+        "Diltiazem": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["60", "90", "120", "180", "200", "240", "300", "360"],
+            "Info": "Diltiazem is a calcium channel blocker, which is the same as a calcium-antagonist. These drugs interfere with the inward flow of calcium through channels in the call membrane. Two important areas of action are the myocardial cells of the heart and vascular smooth muscle cells. Therefore, Diltiazem is useful in the treatment of angina and hypertension."
+        },
+        "Cyclizine": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["25", "50", "150"],
+            "Info": "" 
+        },
+        "N-acetylcysteine": {
+            "Units": ["mg", "ml"], 
+            "AsInfusion": true,
+            "Doses": ["6", "12", "34", "42", "49", "57", "64", "72", "79", "83"],
+            "Info": "N-acetylcysteine has a number of uses, but is most ofen used as an antidote to paracetamol poisoning. It may also be used to prevent injury to the renal system from contrast used for radiography and to reduce the viscosity of respiratory secretions.\n\nN-acetylcysteine works by replacing the bodies supply glutathione. Glutathione conjugates with the hepatotoxic component of the breakdown of paracetamol within the body.\n\nAdverse reactions: possibilty of anaphylaxis when givein in high doses for paracetamol overdose. When given through a nebuliser there is a risk of bronchospasm, therefore, a bronchodilator such as salbutamol should be given in addition to N-acetylcysteine.\n\nDose should be adjusted as per the patients weight. " 
+        }, 
+        "Activated Charcoal": {
+            "Units": ["g"], 
+            "AsInfusion": false,
+            "Doses": ["25", "50"],
+            "Info": "Activated charcoal can be used in the treatment of various poisons. The charcoal works by adsorbing certain molecules onto its surface as it travels through the gut, thereby inhibiting the molecules absorption. Because of this activated charcoal is usually only useful in patients presenting within one hour of ingestion. Activated charcoal works best with weakly ionic, hydrophobic substances (e.g. benzodiazepines, methotrexate), but does not work at all for very ionic, hydrophillic substances (e.g. strong acids/bases, alcohols, lithium, iron). As well as the direct adsorption of molecules, activated charcoal may also increase elimination of substances, therefore is useful in the treatment of poisons that can diffuse back across the gut wall into the lumen.\n\n A major concern with the use of activated charcoal is aspiration - which may cause airway obstruction, bronchospasm and airway obstruction. Activated charcoal is likely to cause black stools and vomiting. Due to the risk of aspiration pneumonia should not be used in those with a reduced level of concsciousness unless there airway is protected. Caution should be used when patient has reduced gastrointestinal motility and is suffering from persistent vomiting." 
+        }, 
+         "Adenosine": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["3", "6", "12"],
+            "Info": "Adenosine is the first line treatment for supraventricular tachycardia (SVT). Adenosine binds to the adenosine receptors - this reduces the frequency of spontaneous depolarisations as well as increasing the hearts resistance to depolarisation. This slows the sinus rate and conduction velocity, as well as increasing atrioventricular (AV) node refractoriness.\n\nMany SVTs occur due to re-entry of the electrical activity though the AV node resulting in a self-perpetuating circuit. Increasing the refractoriness of the AV-node helps break this self-perpetuating signal and allows the sinoatrial node to retake control of the heart. This is referred to as cardioversion. The duration of action of adensine is very short, usually only lasting approximately 30 - 60 seconds.\n\nCaution must be used when prescribing adenosine as it may cause bradycardia, and possibly asystole in extreme cases. For this reason adenosine is only prescribed by an experienced practitioner. It is also well known to cause a feeling of 'impending doom' in the patient.\n\nAdenosine should not be prescribed to a patient suffering from hypotension, coronary ischaemia, or decompensated heart failure. Caution should be used in those with asthma or COPD." 
+        }, 
+        "Adrenaline": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["3", "6", "12"],
+            "Info": "Adrenaline is useful in many situations. The most important being as part of advanced life support (ALS) where it is used during cardiac arrest." 
+        }, 
+        "Prednisolone": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["10", "20", "30", "40", "50", "60", "70", "80", "90", "100"],
+            "Info": "Do prednisolone explanation.",
+            "Alternatives": ["Methylprednisolone", "Methylprednisolone Sodium Succinate"]
+        }, 
+        "Tamulosin": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["0.4", "0.8"],
+            "Info": "Tamulosin is an alpha blocker. Tamulosin is often used in cases of benign prostatic hyperplasia. It helps to relax muscles in the bladder neck making it easier to urinate.",
+            "Alternatives": ["Alfusozin"]
+        }, 
+        "Alfusozin": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["10"],
+            "Info": "Alfusozin is an alpha blocker. Alfusozin is often used in cases of benign prostatic hyperplasia. It helps to relax muscles in the bladder neck making it easier to urinate.",
+            "Alternatives": ["Tamulosin"]
+        }, 
+        "Methylprednisolone": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["10", "20", "30", "40", "50", "60", "70", "80", "90", "100"],
+            "Info": "Do Methyprednisolone explanation." 
+        },
+        "Methylprednisolone Sodium Succinate": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["10", "20", "30", "40", "50", "60", "70", "80", "90", "100"],
+            "Info": "Do Methylprednisolone Sodium Succinate explanation." 
+        }, 
+        "Amoxicillin": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["125", "200", "250", "500"],
+            "Info": "Do amoxicillin explanation." 
+        },
+        "Doxycycline": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["125", "200", "250", "500"],
+            "Info": "Do amoxicillin explanation." 
+        },
+        "Trimethoprim": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["125", "200", "250", "500"],
+            "Info": "Do amoxicillin explanation." 
+        },
+        "Azithromycin": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["125", "200", "250", "500"],
+            "Info": "Do amoxicillin explanation." 
+        },
+        "Paracetamol": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["500", "1000"],
+            "Info": "Do Paracetamol explanation." ,
+            "Alternatives": ["Ibuprofen"]
+        },
+        "Doccusate Sodium": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["25", "50", "150"],
+            "Info": "" 
+        }, 
+        "Midazolam": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["25", "50", "150"],
+            "Info": "" 
+        },
+        "Oramorph": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["5", "10"],
+            "Info": "Morphine is an opioid analgesic, which is a strong form of painkiller. Morphine acts my bindnig to opioiod receptors in the brain and spinal cord. By binding to these receptors morphines two primary actions are analgesia and sedation. Oramorph is a type of oral morphine. It comes as an oral solution, 5ml being equal to 10mg of morphine. \n\nIt is important when prescribing morphine that you also prescribe an anti-emetic, as morphine can cause nausea and vomiting. Morphine also reduces propulsive action of the gastrointestinal tract, and so this should be monitored and an laxative should be prescribed for those on regular morphine.\n\nMorphine dose must always be monitored to ensure the patient is not recieving an overdose as overdose can cause respiratory depression and failure. Therefore care should be taken in anybody already suffering respiratory depression. Morphine should also not be used in those with a hypersensitivity to morephine or those who are suffering from suspected paralytic ileus." 
+        },
+        "Morphine Sulphate": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["1","2","3","4","5","6","7","8","9", "10", "20", "30", "40", "50", "60", "70", "80", "90", "100"],
+            "Info": "Morphine is an opioid analgesic, which is a strong form of painkiller. Morphine acts my bindnig to opioiod receptors in the brain and spinal cord. By binding to these receptors morphines two primary actions are analgesia and sedation." 
+        },
+        "Glyceryl Trinitrate (GTN)": {
+            "Units": ["mg", "micrograms"], 
+            "AsInfusion": true,
+            "Doses": ["0.3", "0.4", "0.5", "1", "10", "50", "100", "150", "200"],
+            "Info": "Do GTN explanation" 
+        }, 
+        "Metoclopramide Hydrochloride": {
+            "Units": ["mg", "micrograms"], 
+            "AsInfusion": true,
+            "Doses": ["10"],
+            "Info": "Do Metoclopramide explanation" 
+        }, 
+        "Clopidogrel": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["75", "300", "600"],
+            "Info": "Do Clopidogrel explanation" 
+        },
+        "Aspirin": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["75", "300"],
+            "Info": "Do Aspirin explanation",
+            "Alternatives": ["Diclofenac", "Ibuprofen", "Naproxen"]
+        },
+        "Diclofenac": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["25", "37.5", "50", "75", "100"],
+            "Info": "Do Diclofenac explanation" 
+        },
+        "Ibuprofen": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["50", "100", "200", "300", "400", "600", "800"],
+            "Info": "Do Diclofenac explanation",
+            "Alternatives": ["Paracetamol"]
+        },
+        "Naproxen": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["250", "500"],
+            "Info": "Do Diclofenac explanation" 
+        },
+        "Spironolactone": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["25", "50", "100"],
+            "Info": "Do Spironolactone explanation" 
+        },
+        "Allopurinol": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["100", "200", "300", "400", "500", "600"],
+            "Info": "Do Allopurinol explanation" 
+        },
+        "Doxazosin": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["1", "2", "4", "8"],
+            "Info": "Do Doxazosin explanation" 
+        },
+        "Gentamicin": {
+            "Units": ["mg", "g"], 
+            "AsInfusion": true,
+            "Doses": null,
+            "Info": "Do Gentamicin explanation" 
+        },
+        "Mesalazine": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["1.2", "2.4", "4.8", "1000"],
+            "Info": "Do Mesalazine explanation" 
+        },
+        "Sulfasalazine": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["500", "1000"],
+            "Info": "Do Sulfasalazine explanation" 
+        },
+        "Amiodarone": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["200", "400"],
+            "Info": "Do Amiodarone explanation" 
+        },
+        "Ramipril": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["200", "400"],
+            "Info": "Do Amiodarone explanation" 
+        },
+        "Lisinopril": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["2.5", "5", "10", "20", "30", "40"],
+            "Info": "Do Lisinopril explanation" 
+        },
+        "Losartan": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["25", "50", "100"],
+            "Info": "Do Losartan explanation" 
+        },
+        "Candesartan": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["4", "8", "16", "32"],
+            "Info": "Do Candesartan explanation" 
+        },
+        "Citalopram": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["10", "20", "40"],
+            "Info": "Do Citalopram explanation" 
+        },
+        "Fluoxetine": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["10", "15", "20", "40", "60"],
+            "Info": "Do Fluoxetine explanation" 
+        },
+        "Sertraline": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["25", "50", "100"],
+            "Info": "Do Sertraline explanation" 
+        },
+        "Amitryptiline": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["10", "25", "50", "75", "100", "150"],
+            "Info": "Do Amitryptiline explanation" 
+        },
+        "Venlafaxine": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["25", "50", "75", "100", "150", "225"],
+            "Info": "Do venlafaxine explanation" 
+        },
+        "Mirtazipine": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["7.5", "15", "30", "45"],
+            "Info": "Do Mirtazipine explanation" 
+        },
+        "Domperidone": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["10"],
+            "Info": "Do Domperidone explanation" 
+        },
+        "Cinnarizine ": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["15", "30"],
+            "Info": "Do Cinnarizine explanation" 
+        },
+        "Promethazine": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["12.5", "25", "50"],
+            "Info": "Do Promethazine explanation" 
+        },
+        "Prochlorperazine": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["5", "10", "12.5", "20", "25"],
+            "Info": "Do Prochlorperazine explanation" 
+        },
+        "Chlorpromazine": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["10", "25", "50", "100"],
+            "Info": "Do Chlorpromazine explanation" 
+        },
+        "Ondansetron": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["8", "16", "24"],
+            "Info": "Do Ondansetron explanation" 
+        },
+        "Granisetron": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["1", "2"],
+            "Info": "Do Ondansetron explanation" 
+        },
+        "Nystatin": {
+            "Units": ["U"], 
+            "AsInfusion": false,
+            "Doses": ["100000"],
+            "Info": "Do Ondansetron explanation" 
+        },
+        "Clotrimazole": {
+            "Units": ["mg", "g"], 
+            "AsInfusion": false,
+            "Doses": ["5", "200", "500"],
+            "Info": "Do Clotrimazole explanation" 
+        },
+        "Fluconazole": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["50", "150", "200", "400"],
+            "Info": "Do Fluconazole explanation" 
+        },
+        "Cetirizine": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["2.5", "5", "10"],
+            "Info": "Do Fluconazole explanation" 
+        },
+        "Loratadine": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["5", "10"],
+            "Info": "Do Loratadine explanation" 
+        },
+        "Fexofenadine": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["30", "120", "180"],
+            "Info": "Do Loratadine explanation" 
+        },
+        "Chlorphenamine": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["1", "2", "4", "5", "10"],
+            "Info": "Do Chlorphenamine explanation" 
+        },
+        "Loperamide": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["1", "2", "4", "8", "16"],
+            "Info": "Do Chlorphenamine explanation" 
+        },
+        "Codeine Phosphate": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["20", "30", "40", "250", "500"],
+            "Info": "Do Chlorphenamine explanation" 
+        },
+        "Ipratropium Bromide": {
+            "Units": ["micrograms"], 
+            "AsInfusion": false,
+            "Doses": ["20", "30", "40", "250", "500"],
+            "Info": "Do Chlorphenamine explanation" 
+        },
+        "Glycopyrronium Bromide": {
+            "Units": ["micrograms"], 
+            "AsInfusion": false,
+            "Doses": ["20", "30", "40", "200", "250", "400", "500"],
+            "Info": "Do Glycopyrronium explanation" 
+        },
+        "Atropine Sulfate": {
+            "Units": ["mg", "micrograms"], 
+            "AsInfusion": false,
+            "Doses": ["0.6", "1.2", "2", "300", "600"],
+            "Info": "Do Atropine explanation" 
+        },
+        "Hyoscine butylbromide": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["5", "10", "20", "60", "120"],
+            "Info": "Do Hyoscine explanation" 
+        },
+        "Oxybutynin Hydrochloride": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["2", "4"],
+            "Info": "Do Oxybutynin explanation" 
+        },
+        "Solifenacin Succinate": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["5"],
+            "Info": "Do Solifenacin explanation" 
+        },
+        "Haloperidol": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["1", "2", "5", "10", "15"],
+            "Info": "Do Solifenacin explanation" 
+        },
+        "Olanzipine": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["5", "10", "20"],
+            "Info": "Do Solifenacin explanation" 
+        },
+        "Risperidone": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["2", "4", "6", "10", "16", "25", "37.5", "50"],
+            "Info": "Do Solifenacin explanation" 
+        },
+        "Clozapine": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["12.5", "25", "50", "100", "200"],
+            "Info": "Do Solifenacin explanation" 
+        },
+        "Diazepam": {
+            "Units": ["mg", "micrograms"], 
+            "AsInfusion": false,
+            "Doses": ["2", "5", "10", "15", "200", "500"],
+            "Info": "Do Solifenacin explanation" 
+        },
+        "Temazempam": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["10", "15", "20", "30", "40"],
+            "Info": "Do Solifenacin explanation" 
+        },
+        "Lorazepam": {
+            "Units": ["mg", "micrograms"], 
+            "AsInfusion": false,
+            "Doses": ["1", "2", "3", "4", "25", "50"],
+            "Info": "Do Solifenacin explanation" 
+        },
+        "Salbutamol": {
+            "Units": ["mg", "micrograms"], 
+            "AsInfusion": false,
+            "Doses": ["2", "2.5", "5", "250", "500"],
+            "Info": "Do Solifenacin explanation" 
+        },
+        "Salmeterol": {
+            "Units": ["micrograms"], 
+            "AsInfusion": false,
+            "Doses": ["50", "100"],
+            "Info": "Do Salmeterol explanation" 
+        },
+        "Formoterol Fumarate": {
+            "Units": ["micrograms"], 
+            "AsInfusion": false,
+            "Doses": ["12", "24"],
+            "Info": "Do Salmeterol explanation" 
+        },
+        "Terbutaline Sulphate": {
+            "Units": ["mg", "micrograms"], 
+            "AsInfusion": false,
+            "Doses": ["5", "10", "250", "500"],
+            "Info": "Do Salmeterol explanation" 
+        },
+        "Bisoprolol Fumarate": {
+            "Units": ["mg", "micrograms"], 
+            "AsInfusion": false,
+            "Doses": ["1.25", "2.5", "3.75", "5", "7.5", "10"],
+            "Info": "Do Salmeterol explanation" 
+        },
+        "Atenolol": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["25", "50", "100"],
+            "Info": "Do Salmeterol explanation" 
+        },
+        "Propranolol Hydrochloride": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["10", "20", "30", "40", "60", "80", "160", "240", "360"],
+            "Info": "Do Salmeterol explanation" 
+        },
+        "Metoprolol Tartrate": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["50", "100", "200", "300", "400"],
+            "Info": "Do Metoprolol explanation" 
+        },
+        "Alendronic Acid": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["10", "70"],
+            "Info": "Do Metoprolol explanation" 
+        },
+        "Pamidronate Disodium": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["15", "30", "60", "90"],
+            "Info": "Do Metoprolol explanation" 
+        },
+        "Zoledronic Acid": {
+            "Units": ["mg"], 
+            "AsInfusion": false,
+            "Doses": ["4", "5"],
+            "Info": "Do Metoprolol explanation" 
+        },
+        "Calcium Gluconate": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["10", "20"],
+            "Info": "Do Metoprolol explanation" 
+        },
+        "Colecalciferol": {
+            "Units": ["U"], 
+            "AsInfusion": true,
+            "Doses": ["400", "800"],
+            "Info": "Do Metoprolol explanation" 
+        },
+        "Alfacalcidol": {
+            "Units": ["microgram" , "ng"], 
+            "AsInfusion": true,
+            "Doses": ["0.25", "0.5", "0.75", "1", "500"],
+            "Info": "Do Metoprolol explanation" 
+        },
+        "Nifedipine": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["5", "10", "15", "20"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Verapamil Hydrochloride": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["5", "10", "20", "40", "80", "120", "240", "480"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Carbamazepine": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["100", "200", "300", "400"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Cefalexin": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["125", "250", "500"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Cefotaxime": {
+            "Units": ["mg", "g"], 
+            "AsInfusion": true,
+            "Doses": ["500", "1"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Meropenem": {
+            "Units": ["g"], 
+            "AsInfusion": true,
+            "Doses": ["0.5", "1", "2"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Ertapenem": {
+            "Units": ["g"], 
+            "AsInfusion": true,
+            "Doses": ["1"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Hydrocortisone": {
+            "Units": ["g"], 
+            "AsInfusion": true,
+            "Doses": ["25", "50", "100", "200", "300"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Dexamethasone": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["0.5", "1", "2.5", "5", "10"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Beclometasone Diproprionate": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["50", "100", "200", "300", "400"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Budesonide": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["100", "200", "400", "800"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Fluticasone": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["50", "100", "250", "500"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Dipyridamole": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["200", "300", "600"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Furosemide": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["20", "30", "40", "50", "60", "80"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Bumetanide": {
+            "Units": ["mg", "micrograms"], 
+            "AsInfusion": true,
+            "Doses": ["1", "5", "500"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Amiloride Hydrochloride": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["5", "10", "20"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Bendroflumethiazide": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["2.5", "5", "10"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Indapamide": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["1.5", "2.5"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Chlortalidone": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["25", "50", "100"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Alteplase": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["10", "15"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Streptokinase": {
+            "Units": ["U"], 
+            "AsInfusion": true,
+            "Doses": ["100 000", "250 000", "1 500 000"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Gabapentin": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["300"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        },
+        "Celecoxib": {
+            "Units": ["mg"], 
+            "AsInfusion": true,
+            "Doses": ["50", "100", "200", "400"],
+            "Info": "The PixelDr team is working hard to bring a detailed explanation of this medication to you. Thank you for your patience." 
+        }
+    },
+    "Infusions": {
+        "0.9% Sodium Chloride": {},
+        "Hartmann's": {}
+    },
+    "Oxygen": {
+        "Nasal Cannulae": {},
+        "Venturi mask": {}, 
+        "Hudson mask": {}, 
+        "Non-rebreater mask": {}, 
+        "Continuous Positive Airway Pressure": {},
+        "Bi-level Airway Pressure": {}
+    }
+}

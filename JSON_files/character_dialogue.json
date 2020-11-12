@@ -1,0 +1,1261 @@
+{
+    "Dr Marshall": {
+        "Intro1": {
+            "Start": "dialogue1",
+            "dialogue1": {
+                "content": [
+                    "Hey! What time do you call this! You're over 3 minutes late. ",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            }
+        },
+        "Intro2": {
+            "Start": "dialogue1",
+            "dialogue1": {
+                "content": [
+                    "Let's get something straight. On my ward you arrive on time, you're not a baby anymore! Or maybe you are?",
+                    {
+                        "divert": "textEntry",
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            },
+            "textEntry": {
+                "content": [
+                    "Your colleague is here, what makes you special? Well... you're in my books now and that is not somewhere where you want to be. Come on then, what's your name?",
+                    {
+                        "divert": "textEntry1",
+                        "placeholder": "First Name",
+                        "speaking": "Dr Marshall",
+                        "textToEnter": "First Name",
+                        "setPos": [
+                            11,
+                            268
+                        ]
+                    }
+                ]
+            },
+            "textEntry1": {
+                "content": [
+                    "Not your first name. I'm not here to be your friend. What's your surname?",
+                    {
+                        "divert": "dialogue3",
+                        "placeholder": "Surname",
+                        "speaking": "Dr Marshall",
+                        "textToEnter": "Surname",
+                        "setPos": [
+                            11,
+                            268
+                        ]
+                    }
+                ]
+            },
+            "dialogue3": {
+                "content": [
+                    "I don't care actually. I have a patient to see. You missed my induction talk so you best come with me. I hope you're a quick learner.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            }
+        },
+        "Intro2b": {
+            "Start": "dialogue1",
+            "dialogue1": {
+                "content": [
+                    "Press the space bar to interact with the patient.",
+                    {
+                        "divert": "dialogue2",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "connectNext": {
+                                "connections": {
+                                    "interaction": "/root/World/playerNode/Player"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "dialogue2": {
+                "content": [
+                    "Good now select the history button to take a history from the patient.",
+                    {
+                        "divert": "dialogue3",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "highlight": {
+                                "node": "/root/World/GUI/bedMenu/Buttons/History",
+                                "animation": "GreenHighlight",
+                                "length": 5
+                            },
+                            "connectNext": {
+                                "connections": {
+                                    "interaction": "/root/World/playerNode/Player"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "dialogue3": {
+                "content": [
+                    "This is how you are able to take a history from a patient. On the left is a floating panel containing your notes for the patient. Open them now so you can familiarise yourself with the layout.",
+                    {
+                        "divert": "dialogue3a",
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            },
+            "dialogue3a": {
+                "content": [
+                    "To take a history simply type a question and press ENTER to send. The patient will then respond to the question. Make sure that you update the patients notes to keep a record of the history.",
+                    {
+                        "divert": "dialogue4",
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            },
+            "dialogue4": {
+                "content": [
+                    "Why not try asking what the problem is?",
+                    {
+                        "divert": "dialogue5",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "connectNext": {
+                                "connections": {
+                                    "question_sent": "/root/World/GUI/pixelBotBox"
+                                }
+                            },
+                            "emitSignal": "text_signal_1"
+                        }
+                    }
+                ]
+            },
+            "dialogue5": {
+                "content": [
+                    "Right okay sorry to hear that Sir. My junior here is going to continue to take a history from you. When you are finished Dr [playerSurname] press the ESC key.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            }
+        },
+        "Intro3": {
+            "Start": "question0",
+            "question0": {
+                "content": [
+                    "Wow, your handwriting is incredibly clear and legible.",
+                    {
+                        "speaking": "Dr Marshall",
+                        "setPos": [
+                            11,
+                            240
+                        ]
+                    },
+                    {
+                        "linkPath": "dialogue1",
+                        "Answer": false,
+                        "option": "Thank you very much."
+                    },
+                    {
+                        "linkPath": "dialogue1",
+                        "Answer": false,
+                        "option": "Well I try, I think all doctors should be neater. "
+                    }
+                ]
+            },
+            "dialogue1": {
+                "content": [
+                    "Oh I'm sorry you've mistaken me. That wasn't a complement. All the best doctors' have completely illegible handwriting. So many of you modern doctors have beautiful handwriting. Clearly spent more time on your calligraphy than you did on your medical practice.",
+                    {
+                        "divert": "question1",
+                        "speaking": "Dr Marshall"
+                        
+                    }
+                ]
+            },
+            "question1": {
+                "content": [
+                    "Anyway, there's nothing I can do about that. You're my burden now. Make yourself useful and go document the patients vitals. I assume you can do that?",
+                    {
+                        "speaking": "Dr Marshall",
+                        "setPos": [
+                            11,
+                            240
+                        ]
+                    },
+                    {
+                        "linkPath": "dialogue2",
+                        "Answer": false,
+                        "option": "Yeah I can handle that don't worry."
+                    },
+                    {
+                        "linkPath": "dialogue3",
+                        "Answer": false,
+                        "option": "Of course I can do that and I have to say I don't like to be patronised."
+                    }
+                ]
+            },
+            "dialogue2": {
+                "content": [
+                    "Good, that's something at least. Go over to the monitor and record his vitals in the notes. Press the space bar by the vitals monitor.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            },
+            "dialogue3": {
+                "content": [
+                    "Excuse me? Prove you're a doctor and not a neat handed poser before you start speaking to me like that. Go over to the monitor and record his vitals in the notes. Press the space bar by the vitals monitor.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            }
+        },
+        "Intro4": {
+            "Start": "dialogue1",
+            "dialogue1": {
+                "content": [
+                    "I only sent you to copy down the patients vitals. What's taking you so long? I want to see you do an abdominal examination on the patient.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            }
+        },
+        "Intro4b": {
+            "Start": "dialogue1",
+            "dialogue1": {
+                "content": [
+                    "Here is the patients examinations screen. You can perform all the neccessary examination interactions here. On the right is a model of your patient. I'm guessing I'm going to have to show you how to use this.",
+                    {
+                        "divert": "dialogue2",
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            },
+            "dialogue2": {
+                "content": [
+                    "On the right you will see a model of a patient. This is in no way representitave of your patient. If all our patients looked like that then there wouldn't be much need for us would there. By selecting different interactions and pressing on this model you are able to elicit all the necessary findings during your examination.",
+                    {
+                        "divert": "dialogue3",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "highlight": {
+                                "node": "/root/World/Examinations/NinePatchRect/SpriteContainer/Sprite",
+                                "animation": "Flash",
+                                "length": 4
+                            }
+                        }
+                    }
+                ]
+            },
+            "dialogue3": {
+                "content": [
+                    "By pressing the zoom button on the right you are able to zoom in on different parts on the body. Press it now and zoom in on the body. I suggest you zoom on on the patients torso. That's the bit that isn't the head or four limbs in case you didn't know.",
+                    {
+                        "divert": "dialogue4",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "highlight": {
+                                "node": "/root/World/Examinations/NinePatchRect/SpriteContainer/zoomButton",
+                                "animation": "PurpleHighlight",
+                                "length": 10
+                            },
+                            "connectNext": {
+                                "connections": {
+                                    "area_selected": "/root/World/Examinations"
+                                },
+                                "correctAction": "Body",
+                                "incorrectDivert": "dialogue4b"
+                            },
+                            "activateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/zoomButton"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialogue4b": {
+                "content": [
+                    "What do you think you are doing? I thought you could have at least got that right. Press the back button and try again.",
+                    {
+                        "divert": "dialogue4c",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "highlight": {
+                                "node": "/root/World/Examinations/NinePatchRect/SpriteContainer/back",
+                                "animation": "PurpleHighlight",
+                                "length": 5
+                            },
+                            "deactivateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/zoomButton"
+                            ],
+                            "connectNext": {
+                                "connections": {
+                                    "pressed": "/root/World/Examinations/NinePatchRect/SpriteContainer/back"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "dialogue4c": {
+                "content": [
+                    "Let's try that again shall we. Zoom in on the patient's torso.",
+                    {
+                        "divert": "dialogue5",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "highlight": {
+                                "node": "/root/World/Examinations/NinePatchRect/SpriteContainer/zoomButton",
+                                "animation": "PurpleHighlight",
+                                "length": 10
+                            },
+                            "activateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/zoomButton"
+                            ],
+                            "connectNext": {
+                                "connections": {
+                                    "area_selected": "/root/World/Examinations"
+                                },
+                                "correctAction": "Body",
+                                "incorrectDivert": "dialogue4b"
+                            }
+                        }
+                    }
+                ]
+            },
+            "dialogue4": {
+                "content": [
+                    "Good. At least you can manage that. Now on the left of the model is your interact panel. Here you can select all the possible ways which you can interact with the patient.",
+                    {
+                        "divert": "dialogue5",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "highlight": {
+                                "node": "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel",
+                                "animation": "DarkBlueHighlight",
+                                "length": 5
+                            },
+                            "deactivateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/zoomButton",
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/back"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialogue5": {
+                "content": [
+                    "Now, select the inspect button and then press on the model.",
+                    {
+                        "divert": "dialogue6",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "highlight": {
+                                "node": "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Inspection",
+                                "animation": "DarkBlueHighlight",
+                                "length": 5
+                            },
+                            "activateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Inspection"
+                            ],
+                            "connectNext": {
+                                "connections": {
+                                    "area_selected": "/root/World/Examinations"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "dialogue6": {
+                "content": [
+                    "Finally! Now as you can see your findings appear on the left of the screen. Remember to keep a log of your important findings in the notes.",
+                    {
+                        "divert": "dialogue7",
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            },
+            "dialogue7": {
+                "content": [
+                    "Now given the patients presentation I think you should palpate his abdomen. To get started click on the palpate interaction button. Let's see if you can manage this on your own.",
+                    {
+                        "divert": "dialogue8",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "highlight": {
+                                "node": "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Palpation",
+                                "animation": "DarkBlueHighlight",
+                                "length": 5
+                            },
+                            "activateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Palpation"
+                            ],
+                            "deactivateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Inspection"
+                            ],
+                            "connectNext": {
+                                "connections": {
+                                    "area_selected": "/root/World/Examinations"
+                                },
+                                "correctAction": "Abdomen",
+                                "incorrectDivert": "dialogue7b"
+                            },
+                            "callFunc": {
+                                "node": "/root/World/Examinations",
+                                "func": "set_interaction",
+                                "arguments": [
+                                    null
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "dialogue7b": {
+                "content": [
+                    "No not his [incorrectAction]! Try again and please get it right this time. This is a hospital not an early learning centre.",
+                    {
+                        "divert": "dialogue8",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "connectNext": {
+                                "connections": {
+                                    "area_selected": "/root/World/Examinations"
+                                },
+                                "correctAction": "Abdomen",
+                                "incorrectDivert": "dialogue7b"
+                            }
+                        }
+                    }
+                ]
+            },
+            "dialogue8": {
+                "content": [
+                    "Okay good. We should probably have a listen to his heart while we are here. Select the 'auscultation' button from your interaction panel and place the stethoscope in the aortic region. That's just to the right of the patients sternum, if that knowledge was too much of me to ask for.",
+                    {
+                        "divert": "dialogue9",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "highlight": {
+                                "node": "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Auscultation",
+                                "animation": "DarkBlueHighlight",
+                                "length": 5
+                            },
+                            "activateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Auscultation"
+                            ],
+                            "deactivateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Palpation"
+                            ],
+                            "connectNext": {
+                                "connections": {
+                                    "area_selected": "/root/World/Examinations"
+                                },
+                                "correctAction": "Aortic Valve",
+                                "incorrectDivert": "dialogue8b"
+                            }
+                        }
+                    }
+                ]
+            },
+            "dialogue8b": {
+                "content": [
+                    "Wow, do you really think the [incorrectAction] is the Aortic region! Try again please, to the right of the sternum at the sternoclavicular notch.",
+                    {
+                        "divert": "dialogue9",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "connectNext": {
+                                "connections": {
+                                    "area_selected": "/root/World/Examinations"
+                                },
+                                "correctAction": "Aortic Valve",
+                                "incorrectDivert": "dialogue8b"
+                            }
+                        }
+                    }
+                ]
+            },
+            "dialogue9": {
+                "content": [
+                    "There you go. Can you hear the heart? Sounds fine to me. Let's move on. I would like to see you test his sensation. Let's zoom out to look at the whole model. You do that by pressing on the small back arrow to the top left of the model.",
+                    {
+                        "divert": "dialogue10",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "highlight": {
+                                "node": "/root/World/Examinations/NinePatchRect/SpriteContainer/back",
+                                "animation": "PurpleHighlight",
+                                "length": 10
+                            },
+                            "deactivateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Auscultation"
+                            ],
+                            "activateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/back"
+                            ],
+                            "connectNext": {
+                                "connections": {
+                                    "pressed": "/root/World/Examinations/NinePatchRect/SpriteContainer/back"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "dialogue10": {
+                "content": [
+                    "Now press the zoom button and click on the right leg to zoom in.",
+                    {
+                        "divert": "dialogue11",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "highlight": {
+                                "node": "/root/World/Examinations/NinePatchRect/SpriteContainer/zoomButton",
+                                "animation": "Flash",
+                                "length": 10
+                            },
+                            "connectNext": {
+                                "connections": {
+                                    "area_selected": "/root/World/Examinations"
+                                },
+                                "correctAction": "RightLeg",
+                                "incorrectDivert": "dialogue10b"
+                            },
+                            "activateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/zoomButton"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialogue10b": {
+                "content": [
+                    "Oh come on surely you know what the right leg is. Go back!",
+                    {
+                        "divert": "dialogue10c",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "highlight": {
+                                "node": "/root/World/Examinations/NinePatchRect/SpriteContainer/back",
+                                "animation": "PurpleHighlight",
+                                "length": 5
+                            },
+                            "deactivateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/zoomButton"
+                            ],
+                            "connectNext": {
+                                "connections": {
+                                    "pressed": "/root/World/Examinations/NinePatchRect/SpriteContainer/back"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "dialogue10c": {
+                "content": [
+                    "Let's try that again shall we. Zoom in on the patient's right leg.",
+                    {
+                        "divert": "dialogue11",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "highlight": {
+                                "node": "/root/World/Examinations/NinePatchRect/SpriteContainer/zoomButton",
+                                "animation": "Flash",
+                                "length": 10
+                            },
+                            "activateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/zoomButton"
+                            ],
+                            "connectNext": {
+                                "connections": {
+                                    "area_selected": "/root/World/Examinations"
+                                },
+                                "correctAction": "RightLeg",
+                                "incorrectDivert": "dialogue10b"
+                            }
+                        }
+                    }
+                ]
+            },
+            "dialogue11": {
+                "content": [
+                    "Good! Let's test the patients pain and temperature senation. Select the neurotip from the interaction panel and press on the leg to test the sensation.",
+                    {
+                        "divert": "dialogue12",
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "highlight": {
+                                "node": "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Neurotip",
+                                "animation": "DarkBlueHighlight",
+                                "length": 5
+                            },
+                            "activateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Neurotip"
+                            ],
+                            "deactivateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/zoomButton",
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/back"
+                            ],
+                            "connectNext": {
+                                "connections": {
+                                    "area_selected": "/root/World/Examinations"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "dialogue12": {
+                "content": [
+                    "Good, see how the dermatomes appear where you press on the figure to the left of the screen. If the patient can feel you pressing then the dermatome will appear green. If there is reduced sensation then it will appear red.",
+                    {
+                        "divert": "dialogue13",
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            },
+            "dialogue13": {
+                "content": [
+                    "Okay good. I will let you continue to examine the patient. When you are done press the back button in the top left of the screen.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall",
+                        "other": {
+                            "activateBtn": [
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/General",
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Inspection",
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Palpation",
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Percussion",
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Auscultation",
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Neurotip",
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Cotton Wool",
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Muscle",
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Reflexes",
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Scopes",
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/Panel/ScrollContainer/Interactions/Other",
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/rotateButton",
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/zoomButton",
+                                "/root/World/Examinations/NinePatchRect/Close",
+                                "/root/World/Examinations/NinePatchRect/SpriteContainer/back"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "Intro5": {
+            "Start": "dialogue1",
+            "dialogue1": {
+                "content": [
+                    "Thank you sir, me and Dr [playerSurname] need to order some tests, we'll be back soon.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            }
+        },
+        "Intro6": {
+            "Start": "question0",
+            "question0": {
+                "content": [
+                    "Right let's see what you're capable of. Do you think you know what may be wrong?",
+                    {
+                        "speaking": "Dr Marshall",
+                        "setPos": [
+                            11,
+                            240
+                        ]
+                    },
+                    {
+                        "linkPath": "question1",
+                        "Answer": false,
+                        "option": "Yes, I think I do."
+                    },
+                    {
+                        "linkPath": "dialogue1",
+                        "Answer": false,
+                        "option": "I have no idea."
+                    }
+                ]
+            },
+            "dialogue1": {
+                "content": [
+                    "Must I continually spoon feed you juniors? I have a ward to look after without having to worry about the Doctor's in it.",
+                    {
+                        "divert": "dialogue4",
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            },
+            "question1": {
+                "content": [
+                    "Okay, where do you think the problem is?",
+                    {
+                        "speaking": "Dr Marshall",
+                        "setPos": [
+                            11,
+                            240
+                        ]
+                    },
+                    {
+                        "linkPath": "dialogue2",
+                        "Answer": false,
+                        "option": "I think this is most likely an infection in the lung"
+                    },
+                    {
+                        "linkPath": "dialogue3",
+                        "Answer": false,
+                        "option": "I think this is most likely appendicitis"
+                    },
+                    {
+                        "linkPath": "dialogue2",
+                        "Answer": false,
+                        "option": "I think this is most likely volvulus"
+                    },
+                    {
+                        "linkPath": "dialogue2",
+                        "Answer": false,
+                        "option": "I think this is most likely coeliac disease"
+                    },
+                    {
+                        "linkPath": "dialogue2",
+                        "Answer": false,
+                        "option": "I think this is most likely a prostatitis"
+                    },
+                    {
+                        "linkPath": "dialogue2",
+                        "Answer": false,
+                        "option": "I think this is most likely a heart attack"
+                    }
+                ]
+            },
+            "dialogue2": {
+                "content": [
+                    "You cannot be serious?",
+                    {
+                        "divert": "dialogue1",
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            },
+            "dialogue3": {
+                "content": [
+                    "Hmmmm, yeah that was my first thought. Perhaps you're not a complete waste of my time.",
+                    {
+                        "divert": "dialogue4",
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            },
+            "dialogue4": {
+                "content": [
+                    "Let's go order some investigations. I need to show you how to use our system.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            }
+        },
+        "Intro7": {
+            "Start": "dialogue1",
+            "dialogue1": {
+                "content": [
+                    "This is our computer system. It can be accessed from any computer in the hospital. It can also be accessed from the hospitals pixelPads. But you'll have to prove yourself before we trust you with one of them.",
+                    {
+                        "divert": "dialogue2",
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            },
+            "dialogue2": {
+                "content": [
+                    "We need some bloods and a scan. Log into the system and order a full blood count, liver function tests, CRP, urea and electrolytes and an abdominal ultrasound scan.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            }
+        },
+        "Intro8": {
+            "Start": "question0",
+            "question0": {
+                "content": [
+                    "So, what do you think? Appendicitis? Or something else?",
+                    {
+                        "speaking": "Dr Marshall",
+                        "setPos": [
+                            11,
+                            240
+                        ]
+                    },
+                    {
+                        "linkPath": "dialogue2",
+                        "Answer": false,
+                        "option": "Appendicitis"
+                    },
+                    {
+                        "linkPath": "dialogue3",
+                        "Answer": false,
+                        "option": "Something else"
+                    }
+                ]
+            },
+            "dialogue2": {
+                "content": [
+                    "Yes, I agree. Go back and tell the patient what we think is going on. Then come back and find me when you're done.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            },
+            "dialogue3": {
+                "content": [
+                    "Really, it's quite clear that this is a very likely case of appendicitis. Go back and tell the patient what I think is going on. Then come back and find me when you're done.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            }
+        },
+        "Intro9": {
+            "Start": "dialogue0",
+            "dialogue0": {
+                "content": [
+                    "Dr Marshall, I have told Mr McGuinness what we think is going on.",
+                    {
+                        "divert": "question0",
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            },
+            "question0": {
+                "content": [
+                    "Okay, have you bleep the surgical registrar to ask him to come assess the patient?",
+                    {
+                        "speaking": "Dr Marshall",
+                        "setPos": [
+                            11,
+                            240
+                        ]
+                    },
+                    {
+                        "linkPath": "dialogue2",
+                        "Answer": false,
+                        "option": "No, you never told me to."
+                    },
+                    {
+                        "linkPath": "dialogue3",
+                        "Answer": false,
+                        "option": "How do I do that again?"
+                    }
+                ]
+            },
+            "dialogue2": {
+                "content": [
+                    "Never told you to? I shouldn't have to tell you to. Come on quickly.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            },
+            "dialogue3": {
+                "content": [
+                    "I see those online training tools we use aren't worth what we pay. Perhaps some sort of pixelated simulation training tool would help. No, that's a crazy idea... come on I will show you how to use it.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            }
+        },
+        "Intro10": {
+            "Start": "dialogue1",
+            "dialogue1": {
+                "content": [
+                    "This is the phone, I'm sure even you know how to use one of these. From here you can bleep and of the registrars in the hospital as well as the labs - so you can spend your time bothering somebody else.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            }
+        },
+        "Intro11": {
+            "Start": "dialogue1",
+            "dialogue1": {
+                "content": [
+                    "Okay. They should call back soon. In the meantime let's prescribe Mr McGuiness some paracetamol. He seemed in some pain.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            }
+        },
+        "Intro12": {
+            "Start": "dialogue1",
+            "dialogue1": {
+                "content": [
+                    "Ah! It looks like the phone is ringing. Go and answer the phone and let them know we have a gentleman in bed 1 that we would like him to come and see.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            }
+        },
+        "Intro13": {
+            "Start": "question0",
+            "question0": {
+                "content": [
+                    "Right I've done my best with you. Time for you to stand on your own two feet. Go back to the computer and admit the patient to the surgical ward under the admit tab. Include a summary of what we have done and admit them to the surgical ward. After that there are three more patients to see, Bed 2, Bed 6, and bed 8. Do you think you can handle it?",
+                    {
+                        "speaking": "Dr Marshall",
+                        "setPos": [
+                            11,
+                            240
+                        ]
+                    },
+                    {
+                        "linkPath": "dialogue2",
+                        "Answer": false,
+                        "option": "Yes I've got it covered."
+                    },
+                    {
+                        "linkPath": "dialogue3",
+                        "Answer": false,
+                        "option": "Could you come with me for one more."
+                    }
+                ]
+            },
+            "dialogue2": {
+                "content": [
+                    "We'll see. Oh, and... try not to kill anyone.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            },
+            "dialogue3": {
+                "content": [
+                    "No, I absolutely cannot. Get on with it. Oh, and... try not to kill anyone. ",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            }
+        }
+    },
+    "Rival": {
+        "Intro1": {
+            "Start": "dialogue1",
+            "dialogue1": {
+                "content": [
+                    "Ah, there you are! ",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Hunt"
+                    }
+                ]
+            }
+        },
+        "Intro2": {
+            "Start": "question0",
+            "question0": {
+                "content": [
+                    "Nice of you to show up. You're Dr [playerSurname] right?",
+                    {
+                        "speaking": "Dr Hunt",
+                        "setPos": [
+                            11,
+                            240
+                        ]
+                    },
+                    {
+                        "linkPath": "question1",
+                        "Answer": false,
+                        "option": "Yeah I am. Nice to meet you. What's your name?"
+                    },
+                    {
+                        "linkPath": "question1",
+                        "Answer": false,
+                        "option": "Erh, who's asking?"
+                    }
+                ]
+            },
+            "question1": {
+                "content": [
+                    "Oh please. Like you don't know who I am?... Oh you really don't! How refreshing. My names Dr John Hunt, but my friends call me Big J. You can call me Dr Hunt. My dad's kind of a big deal. He's buying this place you know, has some big ideas to clear out some of the chaff. So, I wouldn't get comfortable.",
+                    {
+                        "speaking": "Dr Hunt",
+                        "setPos": [
+                            11,
+                            240
+                        ]
+                    },
+                    {
+                        "linkPath": "question2",
+                        "Answer": false,
+                        "option": "Wow, okay, thanks for the advice. Who are you here, the registrar?"
+                    },
+                    {
+                        "linkPath": "question2",
+                        "Answer": false,
+                        "option": "I wouldn't be so sure. Who do you think you are anyway?"
+                    }
+                ]
+            },
+            "question2": {
+                "content": [
+                    "I'm the other foundation doctor on the ward. Think of me as you, but a lot better. I heard you turned up late this morning? On your first day as well. I suppose not all of us can be chauffered in daddy's Bentley. How many patients have you seen this morning?",
+                    {
+                        "speaking": "Dr Hunt",
+                        "setPos": [
+                            11,
+                            240
+                        ]
+                    },
+                    {
+                        "linkPath": "dialogue1",
+                        "Answer": false,
+                        "option": "Well I've seen three this morning. But it's not a race?"
+                    },
+                    {
+                        "linkPath": "dialogue1",
+                        "Answer": false,
+                        "option": "Why does that matter. Probably not as many as you I'm guessing."
+                    }
+                ]
+            },
+            "dialogue1": {
+                "content": [
+                    "Haha, please try harder, it would be nice to have some competition round here. Anyway, Dr Marshall wants to see us, so come on stop messing around.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Hunt"
+                    }
+                ]
+            }
+        },
+        "Intro3": {
+            "Start": "dialogue1",
+            "dialogue1": {
+                "content": [
+                    "Where on earth have you two been! It's time you stopped flirting with each other and did some proper work. There's a critically ill patient on their way. I'm going to need your help.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Marshall"
+                    }
+                ]
+            }
+        }
+    },
+    "Dr Bentham": {
+        "Intro1": {
+            "Start": "question1",
+            "question1": {
+                "content": [
+                    "Hello, I'm Dr Bentham. You must be our new recruit. Pleasure to meet you. How are you finding your first day?",
+                    {
+                        "speaking": "Dr Bentham"
+                    },
+                    {
+                        "linkPath": "question2",
+                        "Answer": false,
+                        "option": "Fine thanks, it's nice to meet a friendly doctor if I am honest."
+                    },
+                    {
+                        "linkPath": "question2",
+                        "Answer": false,
+                        "option": "Not great, Dr Marshall is mean."
+                    }
+                ]
+            },
+            "question2": {
+                "content": [
+                    "Oh, yeah. Sorry about Dr Marshall. She can be a real prat to the newbies. Don't worry about him. What's going on with this patient?",
+                    {
+                        "speaking": "Dr Bentham"
+                    },
+                    {
+                        "linkPath": "dialogue0",
+                        "Answer": false,
+                        "option": "Not sure if I am honest, you can look at my notes."
+                    },
+                    {
+                        "linkPath": "dialogue2",
+                        "Answer": false,
+                        "option": "I think they may have acute urinary retention."
+                    },
+                    {
+                        "linkPath": "dialogue1",
+                        "Answer": false,
+                        "option": "I think they may an obstructed bowel."
+                    },
+                    {
+                        "linkPath": "dialogue1",
+                        "Answer": false,
+                        "option": "I think they may have a volvulus."
+                    }
+                ]
+            },
+            "dialogue0": {
+                "content": [
+                    "Hmm okay me have a look.",
+                    {
+                        "divert": "dialogue3",
+                        "speaking": "Dr Bentham"
+                    }
+                ]
+            },
+            "dialogue1": {
+                "content": [
+                    "Let me have a look at your notes. Hmmmm, no, I don't think so actually.",
+                    {
+                        "divert": "dialogue3",
+                        "speaking": "Dr Bentham"
+                    }
+                ]
+            },
+            "dialogue2": {
+                "content": [
+                    "Let me have a look at your notes. Yeah, I think you may be right.",
+                    {
+                        "divert": "dialogue3",
+                        "speaking": "Dr Bentham"
+                    }
+                ]
+            },
+            "dialogue3": {
+                "content": [
+                    "Looks like he has acute urinary retention. We need to catheterise him quickly. C'mon I'll show you.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Bentham"
+                    }
+                ]
+            }
+        },
+        "Intro2": {
+            "Start": "question1",
+            "question1": {
+                "content": [
+                    "Do you have an access card yet?",
+                    {
+                        "speaking": "Dr Bentham"
+                    },
+                    {
+                        "linkPath": "dialogue1",
+                        "Answer": false,
+                        "option": "No, not yet."
+                    },
+                    {
+                        "linkPath": "dialogue1",
+                        "Answer": false,
+                        "option": "What's an access card?"
+                    }
+                ]
+            },
+            "dialogue1": {
+                "content": [
+                    "Okay, here you go. This card will give you level one access to Pixel Hospital, it should let you through most of the doors in the hospital, although some require higher access.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Bentham"
+                    }
+                ]
+            }
+        },
+        "Intro3": {
+            "Start": "dialogue1",
+            "dialogue1": {
+                "content": [
+                    "This is the store room. This is where you can get all the tools you may need while seeing patients on the ward. Quick let's get a catheter and get back the the patient before their bladder bursts.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Bentham"
+                    }
+                ]
+            }
+        },
+        "Intro4": {
+            "Start": "dialogue1",
+            "dialogue1": {
+                "content": [
+                    "Come on, what are you waiting for? Actually, let's test your access card. Let's test your card.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Bentham"
+                    }
+                ]
+            }
+        },
+        "Intro5": {
+            "Start": "dialogue1",
+            "dialogue1": {
+                "content": [
+                    "Hello sir, my name is Dr Bentham. We need to player a catheter Mr Wright as your bladder is retaining water. It should help to relieve the pressure. Is that okay?",
+                    {
+                        "divert": "dialogue2",
+                        "speaking": "Dr Bentham"
+                    }
+                ]
+            },
+            "dialogue2": {
+                "content": [
+                    "Owww... Yeah please just do whatever you have to do.",
+                    {
+                        "divert": "dialogue3",
+                        "speaking": "patient"
+                    }
+                ]
+            },
+            "dialogue3": {
+                "content": [
+                    "Okay we will do it now, it may be a little uncomfortable but it shoudl relieve your pain.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Bentham"
+                    }
+                ]
+            }
+        },
+        "Intro6": {
+            "Start": "dialogue1",
+            "dialogue1": {
+                "content": [
+                    "Well done! I have to run off now but keep up the good work. Oh, and, don't worry about Dr Marshall.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Dr Bentham"
+                    }
+                ]
+            }
+        }
+    }
+}

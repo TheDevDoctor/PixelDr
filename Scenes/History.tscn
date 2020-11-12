@@ -1,0 +1,56 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Themes/subscreens.tres" type="Theme" id=1]
+[ext_resource path="res://Graphics/UI/DialogueContainer.png" type="Texture" id=2]
+[ext_resource path="res://Scripts/History.gd" type="Script" id=3]
+
+[node name="History" type="Node"]
+
+
+[node name="HistoryContainer" type="NinePatchRect" parent="."]
+
+anchor_right = 1
+anchor_bottom = 1
+focus_ignore_mouse = true
+focus_stop_mouse = true
+size_flags_horizontal = 2
+size_flags_vertical = 2
+theme = ExtResource( 1 )
+margin_left = 608.0
+margin_top = 50.0
+margin_right = 42.0
+margin_bottom = 50.0
+texture = ExtResource( 2 )
+self_modulate = Color( 0.207843, 0.305882, 0.701961, 1 )
+patch_margin_left = 15
+patch_margin_top = 15
+patch_margin_right = 15
+patch_margin_bottom = 15
+script = ExtResource( 3 )
+
+[node name="ScrollContainer" type="ScrollContainer" parent="HistoryContainer"]
+
+anchor_right = 1
+anchor_bottom = 1
+focus_ignore_mouse = false
+focus_stop_mouse = true
+size_flags_horizontal = 2
+size_flags_vertical = 2
+margin_left = 20.0
+margin_top = 20.0
+margin_right = 20.0
+margin_bottom = 20.0
+scroll_horizontal = true
+scroll_vertical = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HistoryContainer/ScrollContainer"]
+
+focus_ignore_mouse = false
+focus_stop_mouse = false
+size_flags_horizontal = 3
+size_flags_vertical = 2
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 590.0
+margin_bottom = 0.0
+alignment = 0

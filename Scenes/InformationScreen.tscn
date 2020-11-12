@@ -1,0 +1,98 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Graphics/UI/DialogueContainer.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/InformationScreen.gd" type="Script" id=2]
+[ext_resource path="res://Graphics/UI/baseDataContainer.png" type="Texture" id=3]
+[ext_resource path="res://Fonts/Nunito_regular20.font" type="BitmapFont" id=4]
+
+[node name="InformationScreen" type="NinePatchRect"]
+
+self_modulate = Color( 0.265625, 0.265625, 0.265625, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 300.0
+margin_top = 200.0
+margin_right = -300.0
+margin_bottom = -200.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 1 )
+patch_margin_left = 20
+patch_margin_top = 20
+patch_margin_right = 20
+patch_margin_bottom = 20
+script = ExtResource( 2 )
+_sections_unfolded = [ "Margin", "Patch Margin", "Visibility" ]
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+
+self_modulate = Color( 0.140625, 0.140625, 0.140625, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = -20.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 3 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+_sections_unfolded = [ "Grow Direction", "Margin", "Material", "Patch Margin", "Visibility" ]
+
+[node name="Label" type="Label" parent="NinePatchRect"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+margin_left = 7.0
+margin_top = 8.0
+margin_right = -247.0
+margin_bottom = 29.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 4 )
+text = "Non-ST-elevation myocardial infarction"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_fonts" ]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="NinePatchRect"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = 40.0
+margin_right = -10.0
+margin_bottom = -10.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = true
+bbcode_text = ""
+visible_characters = -1
+percent_visible = 1.0
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Margin" ]
+
+

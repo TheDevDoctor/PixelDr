@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Graphics/UI/HelpArrow.png" type="Texture" id=1]
+
+[node name="arrow" type="Sprite"]
+
+self_modulate = Color( 0.290038, 0.761719, 0.175552, 1 )
+position = Vector2( 285.794, 49.1779 )
+rotation = 3.14159
+scale = Vector2( 0.5, 0.5 )
+z = 5
+texture = ExtResource( 1 )
+
+

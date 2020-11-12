@@ -1,0 +1,44 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scripts/Player.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/Characters/character_female.png" type="Texture" id=2]
+[ext_resource path="res://savedAnimations/walkDownCont.tres" type="Animation" id=3]
+[ext_resource path="res://savedAnimations/walkLeft.tres" type="Animation" id=4]
+[ext_resource path="res://savedAnimations/walkRight.tres" type="Animation" id=5]
+[ext_resource path="res://savedAnimations/walkUp.tres" type="Animation" id=6]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 20, 20 )
+
+[node name="playerNode" type="Node"]
+
+[node name="Player" type="KinematicBody2D" parent="."]
+position = Vector2( 656, 336 )
+scale = Vector2( 0.5, 0.5 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="Player"]
+position = Vector2( 3.00407e-05, -36.0001 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 2 )
+vframes = 4
+hframes = 9
+frame = 15
+region_rect = Rect2( 0, 0, 32, 64 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+current = true
+zoom = Vector2( 0.4, 0.4 )
+drag_margin_left = 0.0
+drag_margin_top = 0.0
+drag_margin_right = 0.0
+drag_margin_bottom = 0.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Player"]
+anims/walk_down = ExtResource( 3 )
+anims/walk_left = ExtResource( 4 )
+anims/walk_right = ExtResource( 5 )
+anims/walk_up = ExtResource( 6 )

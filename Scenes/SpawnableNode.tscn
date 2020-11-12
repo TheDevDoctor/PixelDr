@@ -1,0 +1,218 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Fonts/Nunito_extra_bold20.font" type="BitmapFont" id=1]
+[ext_resource path="res://Graphics/UI/SpawnButtonNormal.png" type="Texture" id=2]
+[ext_resource path="res://Graphics/UI/SpawnButtonPressed.png" type="Texture" id=3]
+[ext_resource path="res://Graphics/UI/SpawnButtonHover.png" type="Texture" id=4]
+[ext_resource path="res://Graphics/blankPixel.png" type="Texture" id=5]
+
+[sub_resource type="StyleBoxFlat" id=1]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+bg_color = Color( 0.309341, 0.780753, 0.816406, 0.519333 )
+draw_center = true
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0.0745098, 0.27451, 0.423529, 0.819608 )
+border_blend = false
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+corner_detail = 8
+expand_margin_left = 0.0
+expand_margin_right = 0.0
+expand_margin_top = 0.0
+expand_margin_bottom = 0.0
+shadow_color = Color( 0, 0, 0, 0.6 )
+shadow_size = 0
+anti_aliasing = true
+anti_aliasing_size = 1
+
+[sub_resource type="StyleBoxFlat" id=2]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+bg_color = Color( 0.308594, 0.951385, 1, 0.685059 )
+draw_center = true
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0.0745098, 0.27451, 0.423529, 0.819608 )
+border_blend = false
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+corner_detail = 8
+expand_margin_left = 0.0
+expand_margin_right = 0.0
+expand_margin_top = 0.0
+expand_margin_bottom = 0.0
+shadow_color = Color( 0, 0, 0, 0.6 )
+shadow_size = 0
+anti_aliasing = true
+anti_aliasing_size = 1
+
+[sub_resource type="StyleBoxFlat" id=3]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+bg_color = Color( 0.074707, 0.274902, 0.427002, 0.822266 )
+draw_center = false
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0.0745098, 0.27451, 0.423529, 0.819608 )
+border_blend = false
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+corner_detail = 8
+expand_margin_left = 0.0
+expand_margin_right = 0.0
+expand_margin_top = 0.0
+expand_margin_bottom = 0.0
+shadow_color = Color( 0, 0, 0, 0.6 )
+shadow_size = 0
+anti_aliasing = false
+anti_aliasing_size = 1
+
+[node name="SpawnableNode" type="Container"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 304.0
+margin_bottom = 84.0
+rect_min_size = Vector2( 0, 84 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="Name" type="Label" parent="."]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 7.0
+margin_top = 9.0
+margin_right = 159.0
+margin_bottom = 30.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color = Color( 0.187683, 0.786412, 0.800781, 1 )
+text = "ANAESTHETIST"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="requestTime" type="Label" parent="."]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 7.0
+margin_top = 33.0
+margin_right = 176.0
+margin_bottom = 47.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_colors/font_color = Color( 0.0413818, 0.606718, 0.882812, 1 )
+text = "Request Time: 60 seconds"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Spawn" type="TextureButton" parent="."]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 242.0
+margin_top = 17.0
+margin_right = 292.0
+margin_bottom = 70.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 3 )
+texture_hover = ExtResource( 4 )
+stretch_mode = 3
+
+[node name="Abilities" type="Button" parent="."]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 7.0
+margin_top = 52.0
+margin_right = 82.0
+margin_bottom = 75.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+custom_styles/hover = SubResource( 1 )
+custom_styles/pressed = SubResource( 2 )
+custom_styles/normal = SubResource( 3 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "ABILITIES"
+flat = false
+
+[node name="TextureRect" type="TextureRect" parent="."]
+
+modulate = Color( 0.03685, 0.275251, 0.449219, 1 )
+anchor_left = 0.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = 1.0
+rect_min_size = Vector2( 0, 1 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 5 )
+expand = true
+stretch_mode = 0
+
+

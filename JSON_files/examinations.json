@@ -1,0 +1,521 @@
+{
+    "Thyroid": {
+        "Inspect": {
+            "Anterior": {
+                "Hands": "The hands neither appear dry or sweaty. There is no reddening of the palms. There does not appear to be any peripheral tremor.",
+                "Face": "No dry skin or excessive sweating. No abnormalities in the distrubution of the eyebrows.",
+                "Eyes": "The eyes do not appear to be protuding out of the orbit and there is no lid lag present.",
+                "Neck": "There is no skin changes or scarring in the neck. No mass is noted in the neck."
+            },
+            "Posterior": {}
+        },
+        "Palpate": {
+            "Anterior": {
+                "Hands": "The pulse is regular.",
+                "Neck": "The thyroid gland does not feel enlarged. Each lobe feels symmetrical and is of a smooth consistency. No masses are noted and you cannot feel a palpable thrill. The tarchea is central."
+            },
+            "Posterior": {
+                "Neck": "You cannot feel any obvious lymphandenopathy."
+            }
+        },
+        "Percuss": {
+            "Anterior": {
+                "Neck": "res://Sounds/BreathSounds/NormalBreathSound.wav"
+            },
+            "Posterior": {}
+        },
+        "Auscultate": {
+            "Anterior": {
+                "Neck": "res://Sounds/BreathSounds/NormalBreathSound.wav"
+            },
+            "Posterior": {}
+        },
+        "Special Tests": {
+            "Anterior": {
+                "Elbow": "The biceps reflex is not hyporeflexic.",
+                "Shins": "No pretibial myxoedema noted.",
+                "Gait": "The patient is able to stand from sitting with their arms crossed."
+            },
+            "Posterior": {}
+        }
+    },
+    "Cardiovascular": {
+        "Inspect": {
+            "Anterior": {
+                "Left Hand": "Hands are warm and well perfused. No signs of janeway lesions, Osler's nodes and no obvious tar staining is present. Capillary refill time is less than 2 seconds. No splinter haemorhages in the nails and there is no finger clubbing.",
+                "Right Hand": "Hands are warm and well perfused. No signs of janeway lesions, Osler's nodes and no obvious tar staining is present. Capillary refill time is less than 2 seconds. No splinter haemorhages in the nails and there is no finger clubbing.",
+                "JVP": "The pulsation of the JVP is 2 centimetres above the level of the sternal angle.",
+                "Left Eye": "Their is no sign of conjuctival pallor, corneal arcus or xanthelasma.",
+                "Right Eye": "Their is no sign of conjuctival pallor, corneal arcus or xanthelasma.",
+                "Mouth": "Their is no sign of central cyanosis, angular stomatitis, and the patient has good dentition.",
+                "Chest": "The chest appears normal with no scars, chest wall deformities or visible pulsations."
+            },
+            "Posterior": {
+                "Upper Back": "No obvious scarring or abnormalities noted on patient back."
+            }
+        },
+        "Palpate": {
+            "Anterior": {
+                "Right Wrist": "Pulse is regular at around 60 bpm and there is no radioradial delay. You are not able to ellicit a collapsing pulse.",
+                "Left Wrist": "Pulse is regular at around 60 bpm and there is no radioradial delay. You are not able to ellicit a collapsing pulse.",
+                "Right Elbow": "There is a good volume and character in the brachial pulse.",
+                "Left Elbow": "There is a good volume and character in the brachial pulse.",
+                "Neck": "There is a good volume and character in the carotid pulse.",
+                "Chest": "The apex beat is located in the 5th intercostal space, midclavicular line. There is no parasternal heave. There were no palpable thrills."
+            },
+            "Posterior": {
+                "Sacrum": "No obvious sacral oedema"
+            }
+        },
+        "Auscultate": {
+            "Anterior": {
+                "Aortic": "res://Sounds/HeartSounds/HeartSoundNormal.wav",
+                "Pulmonary": "res://Sounds/HeartSounds/HeartSoundNormal.wav",
+                "Tricuspid": "res://Sounds/HeartSounds/HeartSoundNormal.wav",
+                "Mitral": "res://Sounds/HeartSounds/HeartSoundNormal.wav"
+            },
+            "Posterior": {
+                "LungBaseR": "res://Sounds/BreathSounds/NormalBreathSound.wav",
+                "LungBaseL": "res://Sounds/BreathSounds/NormalBreathSound.wav"
+            }
+        }
+    },
+    "Respiratory": {
+        "Inspect": {
+            "Anterior": {
+                "Left Hand": "Their are no signs of of tar staining, clubbing, and the patient doesn not appear perihperally cyanosed. Their is no fine or flapping tremor.",
+                "Right Hand": "Their are no signs of of tar staining, clubbing, and the patient doesn not appear perihperally cyanosed. Their is no fine or flapping tremor.",
+                "JVP": "The pulsation of the JVP is 2 centimetres above the level of the sternal angle.",
+                "Left Eye": "There is on sign of conjunctivar pallor and no ptosis, miosis or anhidrosis.",
+                "Right Eye": "There is on sign of conjunctivar pallor and no ptosis, miosis or anhidrosis.",
+                "Mouth": "The lips and below the tongue is not blue.",
+                "Chest": "There is no scarring, skin changes, or deformity within the chest wall."
+            },
+            "Posterior": {
+                "Upper Back": "There is no scarring, skin changes, or deformity within the chest wall."
+            }
+        },
+        "Palpate": {
+            "Anterior": {
+                "Left Hand": "The hands feel warm to touch. The radial pulse is regular at around 60 bpm.",
+                "Right Hand": "The hands feel warm to touch. The radial pulse is regular at around 60 bpm.",
+                "Neck": "The trachea is central and the cricosternal distance is 3 finger widths. There are no enlarged lymph nodes in the neck.",
+                "Chest": "Chest expansion is adequate and equal. The apex beat is "
+            },
+            "Posterior": {
+                "Upper Back": "Chest expansion is adequate and equal. The apex beat is located in the 5th intercostal space, midclavicular line."
+            }
+        },
+        "Percuss": {
+            "Anterior": {
+                "LungLUpper": "res://Sounds/Percussion/NormalPercussion.wav",
+                "LungLMiddle": "res://Sounds/Percussion/NormalPercussion.wav",
+                "LungLLower": "res://Sounds/Percussion/NormalPercussion.wav",
+                "LungRUpper": "res://Sounds/Percussion/NormalPercussion.wav",
+                "LungRMiddle": "res://Sounds/Percussion/NormalPercussion.wav",
+                "LungRLower": "res://Sounds/Percussion/NormalPercussion.wav"
+            },
+            "Posterior": {
+                "LungLUpper": "res://Sounds/Percussion/NormalPercussion.wav",
+                "LungLMiddle": "res://Sounds/Percussion/NormalPercussion.wav",
+                "LungLLower": "res://Sounds/Percussion/NormalPercussion.wav",
+                "LungRUpper": "res://Sounds/Percussion/NormalPercussion.wav",
+                "LungRMiddle": "res://Sounds/Percussion/NormalPercussion.wav",
+                "LungRLower": "res://Sounds/Percussion/NormalPercussion.wav"
+            }
+        },
+        "Auscultate": {
+            "Anterior": {
+                "LungLUpper": "res://Sounds/BreathSounds/NormalBreathSound.wav",
+                "LungLMiddle": "res://Sounds/BreathSounds/NormalBreathSound.wav",
+                "LungLLower": "res://Sounds/BreathSounds/NormalBreathSound.wav",
+                "LungRUpper": "res://Sounds/BreathSounds/NormalBreathSound.wav",
+                "LungRMiddle": "res://Sounds/BreathSounds/NormalBreathSound.wav",
+                "LungRLower": "res://Sounds/BreathSounds/NormalBreathSound.wav"
+            },
+            "Posterior": {
+                "LungLUpper": "res://Sounds/BreathSounds/NormalBreathSound.wav",
+                "LungLMiddle": "res://Sounds/BreathSounds/NormalBreathSound.wav",
+                "LungLLower": "res://Sounds/BreathSounds/NormalBreathSound.wav",
+                "LungRUpper": "res://Sounds/BreathSounds/NormalBreathSound.wav",
+                "LungRMiddle": "res://Sounds/BreathSounds/NormalBreathSound.wav",
+                "LungRLower": "res://Sounds/BreathSounds/NormalBreathSound.wav"
+            }
+        }
+    },
+    "Abdominal": {
+        "Inspect": {
+            "Anterior": {
+                "Left Hand": "There is no clubbing of the fingers. There is also no spooning of the nails or any obvious changes noted. The palms do not appear reddened. When asked to cock the risks back and hold for 30 seconds you cannot see any flapping of the hands.",
+                "Right Hand": "There is no clubbing of the fingers. There is also no spooning of the nails or any obvious changes noted. The palms do not appear reddened. When asked to cock the risks back and hold for 30 seconds you cannot see any flapping of the hands.",
+                "Left Arm": "There is no bruising or obvious skin changes in the arms. There is also no obvious excoriations or track marks.",
+                "Right Arm": "There is no bruising or obvious skin changes in the arms. There is also no obvious excoriations or track marks.",
+                "Left Axilla": "The is no swellings or skin changes within the axilla. There is no sign of hair loss.",
+                "Right Axilla": "The is no swellings or skin changes within the axilla. There is no sign of hair loss.",
+                "Left Eye": "There is no yellowing of the sclera and the conjuctiva do not appear to be pale. There are no abnormalities around the orbit.",
+                "Right Eye": "There is no yellowing of the sclera and the conjuctiva do not appear to be pale. There are no abnormalities around the orbit.",
+                "Mouth": "There is no inflammation around the mouth. Inside the mouth the oral cavity appears to be normal with no discolouration of the mucosa.",
+                "Neck": "You are not able to feel any swollen lymph nodes.",
+                "Chest": "There are no anomilies in the chest and the breast tissue is not swollen.",
+                "Abdomen": "There are no masses visible on inspection. There is no swelling of the abdomen. The is no scarring or skin discolouration."
+            },
+            "Posterior": {}
+        },
+        "Palpate": {
+            "Anterior": {
+                "Left Hand": "The hands feel warm and well perfused. You cannot feel any thinkening of fascia within the hands.",
+                "Right Hand": "The hands feel warm and well perfused. You cannot feel any thinkening of fascia within the hands.",
+                "Abdomen": "Light palpation - There is no tenderness in any regions of the abdomen and the patient does not appear to be guarding. Deep palpation - No masses can be felt within the abdomen. The is also no tenderness in the abdomen on deep palpation.",
+                "Liver": "The liver edge is not palpable below the level of the costal marginl.",
+                "Spleen": "The spleen is not palpable."
+            },
+            "Posterior": {
+                "Left Kidney": "The left kidney is not ballotable",
+                "Right Kidney": "The right kidney is not ballotable"
+            }
+        },
+        "Percuss": {
+            "Anterior": {
+                "Liver": "res://Sounds/Percussion/NormalPercussion.wav",
+                "Spleen": "res://Sounds/Percussion/NormalPercussion.wav",
+                "Bladder": "res://Sounds/Percussion/NormalPercussion.wav"
+            },
+            "Posterior": {}
+        },
+        "Auscultate": {
+            "Anterior": {
+                "Abdomen": "res://Sounds/Percussion/NormalPercussion.wav"
+            },
+            "Posterior": {}
+        }
+    },
+    "Peripheral Vascular": {
+        "Inspect": {
+            "Anterior": {
+                "Right Arm": "There does not appear to be any abnormalities on inspection of the right arm.",
+                "Left Arm": "There does not appear to be any abnormalities on inspection of the left arm.",
+                "Right Leg": "There does not appear to be any abnormalities on inspection of the right leg.",
+                "Left Leg": "There does not appear to be any abnormalities on inspection of the left leg."
+            },
+            "Posterior": {}
+        },
+        "Palpate": {
+            "Anterior": {
+                "Right Wrist": "Pulse is regular at around 60 bpm and there is no radioradial delay. You are not able to ellicit a collapsing pulse.",
+                "Left Wrist": "Pulse is regular at around 60 bpm and there is no radioradial delay. You are not able to ellicit a collapsing pulse.",
+                "Right Elbow": "There is a good volume and character in the brachial pulse.",
+                "Left Elbow": "There is a good volume and character in the brachial pulse.",
+                "Neck": "There is a good volume and character in the carotid pulse.",
+                "Abdomen": "The abdominal aortic pulse is not expansile.",
+                "Right Hip": "There is a good volume and character in the femoral pulse.",
+                "Left Hip": "There is a good volume and character in the femoral pulse."
+            },
+            "Posterior": {
+                "Right Knee": "There is a good volume and character in the popliteal pulse.",
+                "Left Knee": "There is a good volume and character in the popliteal pulse.",
+                "Right Ankle": "There is a good volume and character in the posterior tibial pulse and the dorsalis pedis pulse",
+                "Left Ankle": "There is a good volume and character in the posterior tibial pulse and the dorsalis pedis pulse."
+            }
+        },
+        "Sensation": {
+            "Anterior": {
+                "Right Arm": "Sensation is present distally in the right arm.",
+                "Left Arm": "Sensation is present distally in the left arm.",
+                "Right Leg": "Sensation is present distally in the right leg.",
+                "Left Leg": "Sensation is present distally in the left leg."
+            },
+            "Posterior": {}
+        },
+        "Auscultate": {
+            "Anterior": {
+                "Abdomen": "Bruit",
+                "Right Hip": "Bruit",
+                "Left Hip": "Bruit"
+            },
+            "Posterior": {}
+        }
+    },
+    "Musculoskeletal": {
+        "Look": {
+            "Anterior": {
+                "Gait": "The patient is able to walk and demonstrates a normal heel strike and toe off gait. The gait is smooth and symmetrical with no loss of balance. When examing the patients shoes there is no sign of asymmetrical wearing on the soles. The patient is able to walk on both their heals and toes.",
+                "Left Ankle": "The feet and ankles appear to be symmetrical from the front. Their is no sign of misalignment of the toes and there are no bunions present. There is also no swelling or scarring of the feet.",
+                "Right Ankle": "The feet and ankles appear to be symmetrical from the front. Their is no sign of misalignment of the toes and there are no bunions present. There is also no swelling or scarring of the feet.",
+                "Left Knee": "The knees both appear to be symmetrical from the front. There is no valgus or varus deformity and the quadriceps do not appear to be wasted.",
+                "Right Knee": "The knees both appear to be symmetrical from the front. There is no valgus or varus deformity and the quadriceps do not appear to be wasted.",
+                "Left Hip": "No signs of any scars, pelvic tilting and the quadriceps appear of a normal bulk.",
+                "Right Hip": "No signs of any scars, pelvic tilting and the quadriceps appear of a normal bulk.",
+                "Left Shoulder": "No signs of scarring or asymmetry of the shoulder girdle. No obvious swellings and the deltoids have appropriate muscle bulk.",
+                "Right Shoulder": "No signs of scarring or asymmetry of the shoulder girdle. No obvious swellings and the deltoids have appropriate muscle bulk.",
+                "Spine": "Shoulders appear to be symmetrical. Head is held appropriately.",
+                "Left Elbow": "No scarring, swelling or erythema of the joint. Carrying angle = 10 degrees.",
+                "Right Elbow": "No scarring, swelling or erythema of the joint. Carrying angle = 10 degrees.",
+                "Left Hand": "There are no abnormalities noted on inspection of the left hand.",
+                "Right Hand": "There are no abnormalities noted on inspection of the right hand."
+            },
+            "Posterior": {
+                "Left Ankle": "The feet and ankles appear to be symmetrical anteriorly. There is also no swelling or scarring of the feet. From the side the foot arches appear to be normal. There is no deformity in the achilles tendon.",
+                "Right Ankle": "The feet and ankles appear to be symmetrical anteriorly. There is also no swelling or scarring of the feet. From the side the foot arches appear to be normal. There is no deformity in the achilles tendon.",
+                "Left Knee": "The knees both appear to be symmetrical posteriorly. There is no valgus or varus deformity and the quadriceps do not appear to be wasted. There is no signs of any popliteal swellings.",
+                "Right Knee": "The knees both appear to be symmetrical posteriorly. There is no valgus or varus deformity and the quadriceps do not appear to be wasted. There is no signs of any popliteal swellings.",
+                "Hip": "Normal lumbar lordosis. No Abnormality in the spine. Gluteal muscles appear of appropriate bulk and there are no signs of pelvic tilt.",
+                "Shoulder": "No signs of scarring or asymmetry of the shoulder girdle. No obvious swellings and both the deltoids and trapezious muscles appear of appropriate muscle bulk. ",
+                "Spine": "No signs of hyperlordosis in the cervical or lumbar regions. Thoracic kyphosis is 30 degrees. no scarring, wasting, unusual hair growth noted on the back. The spine appears straight.",
+                "Elbow": "No fixed flexion deformity. No signs of nodules on the elbows or psoriatic plaques."
+            }
+        },
+        "Feel": {
+            "Anterior": {
+                "Left Ankle": "Both legs feel warm and well perfused. The posterior tibial and dorsalis pedis pulses are both present and adequate. There is no tenderness any of the joints of the foot or ankle or over the medial or lateral malleolus.",
+                "Right Ankle": "Both legs feel warm and well perfused. The posterior tibial and dorsalis pedis pulses are both present and adequate. There is no tenderness any of the joints of the foot or ankle or over the medial or lateral malleolus.",
+                "Left Knee": "Temperature of both knees is equal and within normal limits. There is no tenderness felt on palpation of the quadriceps tendon. You are not able to feel any swellings or irregularities in the knee joint. You cannot elicit a patellar tap and notice no bulge when doing the sweep test.",
+                "Right Knee": "Temperature of both knees is equal and within normal limits. There is no tenderness felt on palpation of the quadriceps tendon. You are not able to feel any swellings or irregularities in the knee joint. You cannot elicit a patellar tap and notice no bulge when doing the sweep test.",
+                "Left Hip": "You cannot palpate any signs of inflammation and the joint temperature appears normal. No discomfort noted on palpation of the joint and you could not feel and abnormalities. Apparent leg length and true leg length are equal when compared to the opposing leg.",
+                "Right Hip": "You cannot palpate any signs of inflammation and the joint temperature appears normal. No discomfort noted on palpation of the joint and you could not feel and abnormalities. Apparent leg length and true leg length are equal when compared to the opposing leg.",
+                "Left Shoulder": "There is no increased temperature of the shoulder joint. You are not able to palpate and swellings or tenderness in the shoulder girdle.",
+                "Right Shoulder": "There is no increased temperature of the shoulder joint. You are not able to palpate and swellings or tenderness in the shoulder girdle.",
+                "Left Elbow": "There is no increased temperature of the elbow joint. No bony abnormalities noted in the joint. Palpation of the biceps tendon does not reveal any abnormality.",
+                "Right Elbow": "There is no increased temperature of the elbow joint. No bony abnormalities noted in the joint. Palpation of the biceps tendon does not reveal any abnormality.",
+                "Left Hand": "There are no abnormalities noted on palpation of the left hand.",
+                "Right Hand": "There are no abnormalities noted on palpation of the right hand."
+            },
+            "Posterior": {
+                "Left Ankle": "There is no tenderness or swelling within the achilles tendon. The tendon feels smooth with no apparent gaps in the tendon.",
+                "Right Ankle": "There is no tenderness or swelling within the achilles tendon. The tendon feels smooth with no apparent gaps in the tendon.",
+                "Left Knee": "You are not able to feel any swellings or irregularities in the popliteal fossa.",
+                "Right Knee": "You are not able to feel any swellings or irregularities in the popliteal fossa.",
+                "Spine": "No tenderness over the spinous processes. All are in alignment. No tenderness noted in paraspinal muscles."
+            }
+        },
+        "Move": {
+            "Anterior": {
+                "Left Ankle": "Plantarflexion, dorsiflexion, toe flexion and extention as well as foot inversion and eversion are all within normal range in both passive and active movement. There is no sign of any crepitus.",
+                "Right Ankle": "Plantarflexion, dorsiflexion, toe flexion and extention as well as foot inversion and eversion are all within normal range in both passive and active movement. There is no sign of any crepitus.",
+                "Left Knee": "Active Movement: Knee flexion = 140 degrees. Knee Extension = return to 0 degress.Passive movement: no signs of crepitus. Hyperextension = 5 degrees.",
+                "Right Knee": "Active Movement: Knee flexion = 140 degrees. Knee Extension = return to 0 degress.Passive movement: no signs of crepitus. Hyperextension = 5 degrees.",
+                "Left Hip": "Active Movement: Hip Flexion = 120 degrees. Passive movement: Flexion = 120 degrees\nInternal Rotation = 40 degrees\nExternal rotation = 45 degrees\nAbduction = 45 degrees\nAdduction = 30 degrees",
+                "Right Hip": "Active Movement: Hip Flexion = 120 degrees. Passive movement: Flexion = 120 degrees\nInternal Rotation = 40 degrees\nExternal rotation = 45 degrees\nAbduction = 45 degrees\nAdduction = 30 degrees",
+                "Left Shoulder": "The patient is able to put there hands behind there back and push up there back to an appropriate distance.Active movement:\nFlexion = 170 degrees\nExtension = 40 degrees\nAbduction = 180 degrees\nAdduction = 35 degrees\nExternal rotation = 80 degrees\nInternal rotation = able to reach T6.Passive movement:\nFlexion = 180 degrees\nExtension = 55 degrees\nAbduction = 180 degrees\nAdduction = 45 degrees\nNo crepitus felt on passive movements.",
+                "Right Shoulder": "The patient is able to put there hands behind there back and push up there back to an appropriate distance.Active movement:\nFlexion = 170 degrees\nExtension = 40 degrees\nAbduction = 180 degrees\nAdduction = 35 degrees\nExternal rotation = 80 degrees\nInternal rotation = able to reach T6.Passive movement:\nFlexion = 180 degrees\nExtension = 55 degrees\nAbduction = 180 degrees\nAdduction = 45 degrees\nNo crepitus felt on passive movements.",
+                "Left Elbow": "Active Movement:\nFlexion: 0 - 140 degrees\n Elbow extension = returns to 0 degrees\nPronation = 0 - 85 degrees\nSupination = 0 - 90 degrees.Passive Movement: Flexion: 0 - 140 degrees\n Elbow extension = returns to 0 degrees\nPronation = 0 - 85 degrees\nSupination = 0 - 90 degrees\nNo signs of crepitus on passive movement.",
+                "Right Elbow": "Active Movement:\nFlexion: 0 - 140 degrees\n Elbow extension = returns to 0 degrees\nPronation = 0 - 85 degrees\nSupination = 0 - 90 degrees.Passive Movement: Flexion: 0 - 140 degrees\n Elbow extension = returns to 0 degrees\nPronation = 0 - 85 degrees\nSupination = 0 - 90 degrees\nNo signs of crepitus on passive movement.",
+                "Left Hand": "There are no abnormalities noted on movement of the left hand.",
+                "Right Hand": "There are no abnormalities noted on movement of the right hand."
+            },
+            "Posterior": {
+                "Left Hip": "Passive Movement: Hip extention = 20 degrees",
+                "Right Hip": "Passive Movement: Hip extention = 20 degrees",
+                "Spine": "Active movement:\nCervical flexion = 0 - 80 degrees\nCervical Extension = 0 - 50 degrees\nLateral Flexion = 0 - 45 degrees\nRotation = 0 - 80 degrees. Thoracic rotation = adequate rotation. Active movement:\nFlexion = able to touch toes\nExtention = 15 degrees\nLateral Flexion = 45 degrees"
+            }
+        },
+        "Special Tests": {
+            "Anterior": {
+                "Left Ankle": "Simmonds' Test - foot plantar flexes.",
+                "Right Ankle": "Simmonds' Test - foot plantar flexes.",
+                "Left Knee": "Anterior drawer test - No significant movement.\nPosterior drawer test - No significant movement.\nNo signs of medial or lateral joint opening on collateral ligament test.",
+                "Right Knee": "Anterior drawer test - No significant movement.\nPosterior drawer test - No significant movement.\nNo signs of medial or lateral joint opening on collateral ligament test.",
+                "Left Hip": "Thomas's test - test is negative\nTrendelenburg's test - test is negative.",
+                "Right Hip": "Thomas's test - test is negative\nTrendelenburg's test - test is negative.",
+                "Left Shoulder": "Jobe's Test - No weakness noted.\nPainful Arc - no sign of inpingement.\nExternal Rotation against resistance - No weakness noted\nExternal Rotation in abduction - No weakness noted\nInternal rotation against resistance - No weakness noted.",
+                "Right Shoulder": "Jobe's Test - No weakness noted.\nPainful Arc - no sign of inpingement.\nExternal Rotation against resistance - No weakness noted\nExternal Rotation in abduction - No weakness noted\nInternal rotation against resistance - No weakness noted.",
+                "Left Elbow": "Medial Epicondylitis - negative\nLateral Epicondylitis - negative",
+                "Right Elbow": "Medial Epicondylitis - negative\nLateral Epicondylitis - negative",
+                "Left Hand": "There is no abnormal sensation in the left hand.",
+                "Right Hand": "There is no abnormal sensation in the left hand."
+            },
+            "Posterior": {
+                "Spine": "Schober's test - Distance between marks = 24 cm.\nSciatic Stretch test - No pain noted in either leg.\nFemoral nerve stretch test - No pain felt in thigh or inguinal region."
+            }
+        }
+    },
+    "Obstetric Abdominal": {
+        "Inspect": {
+            "Anterior": {},
+            "Posterior": {}
+        },
+        "Palpate": {
+            "Anterior": {},
+            "Posterior": {}
+        },
+        "Percuss": {
+            "Anterior": {},
+            "Posterior": {}
+        },
+        "Auscultate": {
+            "Anterior": {},
+            "Posterior": {}
+        }
+    },
+    "Lymph nodes": {
+        "Inspect": {
+            "Anterior": {
+                "Neck": "You cannot observe any swellings in the neck.",
+                "Right Axilla": "You cannot see any swellings in the right axilla",
+                "Left Axilla": "You cannot see any swellings in the left axilla",
+                "Right Hip": "You cannot see any swellings in the right inguinal region",
+                "Left Hip": "You cannot see any swellings in the left inguinal region"
+            },
+            "Posterior": {
+                "Right Knee": "You cannot see any swellings in the right popliteal region",
+                "Left Knee": "You cannot see any swellings in the left popliteal region"
+            }
+        },
+        "Palpate": {
+            "Anterior": {
+                "Neck": "The cervical and supraclavicular lymph nodes do not feel enlarged.",
+                "Right Axilla": "The right axillary lymph nodes do not feel enlarged.",
+                "Left Axilla": "The left axillary lymph nodes do not feel enlarged.",
+                "Right Hip": "The right inguinal lymph nodes do not feel enlarged.",
+                "Left Hip": "The left inguinal lymph nodes do not feel enlarged."
+            },
+            "Posterior": {
+                "Right Knee": "The right popliteal lymph nodes do not feel enlarged.",
+                "Left Knee": "The left popliteal lymph nodes do not feel enlarged."
+            }
+        }
+    },
+    "Cranial Nerves": {
+        "I": "There is no change in the patients sense of smell.",
+        "II": "Visual acuity, fields and reflexes are normal.",
+        "III, IV, VI": "There is no pain or double vision on eye movement and there is no nystagmus at the extremes of vision.",
+        "V": "There is no loss of sensation over any areas of the face and there is no weakness in the muscles of the jaw. Jaw jerk and corneal reflexes are normal.",
+        "VII": "There is no asymmetry in the face and no weakness in any of the movements of the face. ",
+        "VIII": "There is no hearing loss. Rinne's and Weber's tests reveal no abnormalities.",
+        "IX, X": "There is no gross deviation of the uvula and the palette rises equally on both sides.",
+        "XI": "No apparent weakness in the trapezius or sternocliedomastoid muscles.",
+        "XII": "No wasting or fasciculations present in the tongue. Power is not reduced."
+    },
+    "Lower Limb Neuro": {
+        "Inspect": {
+            "Anterior": {
+                "Left Leg": "There is no signs of any scars, muscle wasting, involuntary movements, fasciculations or tremor on the left leg.",
+                "Right Leg": "There is no signs of any scars, muscle wasting, involuntary movements, fasciculations or tremor on the right leg."
+            },
+            "Posterior": {}
+        },
+        "Gait": {
+            "Anterior": {
+                "Walk": "The patients walk is normal and no abnormalities are found. Romberg's test is negative."
+            },
+            "Posterior": {}
+        },
+        "Tone": {
+            "Anterior": {
+                "Left Leg": "Left leg roll and leg lift is normal",
+                "Right Leg": "Right leg roll and leg lift is normal",
+                "Left Ankle": "3 ankle clonus' are felt in the left foot.",
+                "Right Ankle": "2 ankle clonus' are felt in the right foot."
+            },
+            "Posterior": {}
+        },
+        "Power": {
+            "Anterior": {
+                "Left Hip": "Power within the left hip is adequate.",
+                "Right Hip": "Power within the right hip is adequate.",
+                "Left Knee": "Power within the left knee is adequate.",
+                "Right Knee": "Power within the right knee is adequate.",
+                "Left Ankle": "Power within the left hip is adequate.",
+                "Right Ankle": "Power within the right ankle is adequate.",
+                "Left Big Toe": "Power within the left big toe is adequate.",
+                "Right Big Toe": "Power within the right big toe is adequate."
+            },
+            "Posterior": {}
+        },
+        "Reflexes": {
+            "Anterior": {
+                "Left Knee": "Left Knee jerk reflex is present and normal.",
+                "Right Knee": "Right Knee jerk reflex is present and normal.",
+                "Left Ankle": "Left ankle jerk is present and normal.",
+                "Right Ankle": "Right ankle jerk is present and normal.",
+                "Left Sole": "Left plantar reflex is present and normal.",
+                "Right Sole": "Right plantar reflex is present and normal."
+            },
+            "Posterior": {}
+        },
+        "Sensation": {
+            "Anterior": {
+                "Left Leg": "Light touch - no abnormaties found, equal to right.Pin prick - no abnormaties found, equal to right.Vibration sense - no abnormaties found.Proprioception - able to correctly identify direction of movement.",
+                "Right Leg": "Light touch - no abnormaties found, equal to left.Pin prick - no abnormaties found, equal to left.Vibration sense - no abnormaties found.Proprioception - able to correctly identify direction of movement."
+            },
+            "Posterior": {}
+        },
+        "Coordination": {
+            "Anterior": {
+                "Left Leg": "The patient has no problems performing the heel to shin test using the left leg.",
+                "Right Leg": "The patient has no problems performing the heel to shin test using the right leg."
+            },
+            "Posterior": {}
+        }
+    },
+    "Upper Limb Neuro": {
+        "Inspect": {
+            "Anterior": {
+                "Left Arm": "There is no signs of any scars, muscle wasting, involuntary movements, fasciculations or tremor on the left arm. There is also no pronator drift.",
+                "Right Arm": "There is no signs of any scars, muscle wasting, involuntary movements, fasciculations or tremor on the right arm. There is also no pronator drift."
+            },
+            "Posterior": {}
+        },
+        "Tone": {
+            "Anterior": {
+                "Left Arm": "There is no increased tone, rigidity or spasticity within the left arm.",
+                "Right Arm": "There is no increased tone, rigidity or spasticity within the right arm."
+            },
+            "Posterior": {}
+        },
+        "Power": {
+            "Anterior": {
+                "Left Shoulder": "Normal power in the left shoulder.",
+                "Right Shoulder": "Normal power in the right shoulder.",
+                "Left Elbow": "Normal power in the left elbow.",
+                "Right Elbow": "Normal power in the right elbow.",
+                "Left Wrist": "Normal power in the left wrist.",
+                "Right Wrist": "Normal power in the right wrist.",
+                "Left Fingers": "Normal power in the left fingers.",
+                "Right Fingers": "Normal power in the right fingers.",
+                "Left Thumb": "Normal power in the left thumb.",
+                "Right Thumb": "Normal power in the right thumb."
+            },
+            "Posterior": {}
+        },
+        "Reflexes": {
+            "Anterior": {
+                "Left Elbow": "The left biceps reflex is present and not abnormal.",
+                "Right Elbow": "The right biceps reflex is present and not abnormal.",
+                "Left Forearm": "The left supinator reflex is present and not abnormal.",
+                "Right Forearm": "The right supinator reflex is present and not abnormal."
+            },
+            "Posterior": {
+                "Left Elbow": "The left triceps reflex is present and not abnormal.",
+                "Right Elbow": "The right triceps reflex is present and not abnormal."
+            }
+        },
+        "Sensation": {
+            "Anterior": {
+                "Left Arm": "Light touch - no abnormaties found, equal to right.Pin prick - no abnormaties found, equal to right.Vibration sense - no abnormaties found.Proprioception - able to correctly identify direction of movement.",
+                "Right Arm": "Light touch - no abnormaties found, equal to left.Pin prick - no abnormaties found, equal to left.Vibration sense - no abnormaties found.Proprioception - able to correctly identify direction of movement."
+            },
+            "Posterior": {}
+        },
+        "Coordination": {
+            "Anterior": {
+                "Left Arm": "No intention tremor or past pointing during finger to nose test on the left. No signs of slowed movement when flipping the left hand on the right palm.",
+                "Right Arm": "No intention tremor or past pointing during finger to nose test on the right. No signs of slowed movement when flipping the right hand on the left palm."
+            },
+            "Posterior": {}
+        }
+    },
+    "Digital Rectal Examination": {
+        "Inspect": {
+            "Anterior": {},
+            "Posterior": {
+                "Rectum": "There does not appear to be any anatomical abnormalities around the rectum and there is no sign of bleeding."
+            }
+        },
+        "Palpate": {
+            "Anterior": {},
+            "Posterior": {
+                "Rectum": "The prostate is the size of a walnut and the sulcus is palpated in the midline. When rotating the fingers no abnormal masses are palpated in the rectum. There is good anal tone. There is no blood or mucous found in the stool of the rectum."
+            }
+        }
+    }
+}

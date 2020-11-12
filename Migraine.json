@@ -1,0 +1,314 @@
+{
+    "id": "Migraine",
+    "topic": "Neurology",
+    "rating": 6, 
+    "description": "This is the migraine description",
+    "PatientDetails": {
+        "Forename": "Lulu",
+        "Surname": "Matthews",
+        "PresentingComplaint": "Headache ",
+        "DateOfBirth": "08/01/1988",
+        "Age": "29",
+        "Ward": "Emergency department",
+        "Weight": "64kg",
+        "Height": "1.6",
+        "BMI": "24.999999",
+        "HospitalNumber": "PX933754",
+        "Sensitivities": "Paracetamol (rash)"
+    },
+    "Vitals": {
+        "HR": "81",
+        "RR": "17",
+        "BP": {
+            "Systolic": "123",
+            "Diastolic": "78"
+        },
+        "Sats": "99%",
+        "T": "36.8"
+    },
+    "ScenarioDetails": {
+        "Priority": "3: Non-urgent",
+        "Sprite": 4,
+        "Difficulty": "Registrar",
+        "Specialty": "Neurology",
+        "Edited": {
+            "year": 2017,
+            "month": 11,
+            "day": 15,
+            "weekday": 3,
+            "dst": false,
+            "hour": 11,
+            "minute": 40,
+            "second": 52
+        }
+    },
+    "Answers": {
+        "Examinations": [
+            "Cranial Nerves",
+            "Lower Limb Neuro",
+            "Upper Limb Neuro"
+        ],
+        "Investigations": null,
+        "Prescriptions": {
+            "OnceOnly": [],
+            "Regular": [
+                {
+                    "Aspirin": {
+                        "Doses": "300",
+                        "Tag": 1,
+                        "Units": "mg",
+                        "Routes": "PO",
+                        "Frequency": "QDS",
+                        "Duration": "7",
+                        "DurUnits": "Days"
+                    },
+                    "Diclofenac": {
+                        "Doses": "50",
+                        "Tag": 0,
+                        "Units": "mg",
+                        "Routes": "PO",
+                        "Frequency": "TDS",
+                        "Duration": "3",
+                        "DurUnits": "Days"
+                    },
+                    "Ibuprofen": {
+                        "Doses": "400",
+                        "Tag": 0,
+                        "Units": "mg",
+                        "Routes": "PO",
+                        "Frequency": "QDS",
+                        "Duration": "3",
+                        "DurUnits": "Days"
+                    },
+                    "Naproxen": {
+                        "Doses": "500",
+                        "Tag": 0,
+                        "Units": "mg",
+                        "Routes": "PO",
+                        "Frequency": "TDS",
+                        "Duration": "3",
+                        "DurUnits": "Days"
+                    }
+                },
+                {
+                    "Metoclopramide Hydrochloride": {
+                        "Doses": "10",
+                        "Tag": 1,
+                        "Units": "mg",
+                        "Routes": "PO",
+                        "Frequency": "QDS",
+                        "Duration": "5",
+                        "DurUnits": "Days"
+                    }
+                }
+            ],
+            "AsRequired": [],
+            "Infusion": []
+        },
+        "Contact": null,
+        "Procedures": {
+            "Pregnancy Test": "Pregnancy test is negative.",
+            "Opthalmoscopy": "No abnormalities found"
+        },
+        "History": {
+            "Have you had any other symptoms?": "any other symptoms?",
+            "Do you take any medications?": "Do you take any medication?",
+            "Do you have any past medical conditions?": "Do you have any medical conditions?",
+            "Did you have symptoms before the headache?": "Did you have symptoms before the headache?",
+            "What is the pain like?": "What does the pain feel like?",
+            "Do you smoke?": "Do you smoke?",
+            "Where is the pain?": "Where is the pain?",
+            "How bad is the pain.": "How bad is the pain?",
+            "Does the pain come and go?": "Does the pain come and go?",
+            "Does the pain radiate anywhere?": "does the pain move anywhere?",
+            "Can you tell me more about that?": "can you tell me a bit more about that?",
+            "Does anything make the pain better?": "Has anything helped the pain?",
+            "When did the pain start?": "when did the pain start?",
+            "Why are you not feeling very well?": "What is the problem?",
+            "How much do you smoke?": "How much do you smoke?",
+            "Do you drink alcohol?": "Do you drink?",
+            "Do you take any recreational drugs?": "any recreational drug use?"
+        }
+    },
+    "History": {
+        "Why are you not feeling very well?": "I have a really really bad headache. ",
+        "Can you tell me more about that?": "Well this morning I developed a terrible headache and I don't usually get headaches but I've just been layed in my room all day. My partner was worried so has brought me down.",
+        "Where is the pain?": "It is on the left side of my forehead. ",
+        "When did the pain start?": "About 6 hours ago I would have said. ",
+        "What is the pain like?": "It feels like a really bad throbbing pain. ",
+        "Does the pain radiate anywhere?": "No not really its just in that area.",
+        "Have you had any other symptoms?": "I feel quite sick right now and the lights seem to be very bright. ",
+        "Does the pain come and go?": "No, it's just been very bad since it first started.",
+        "Does anything make the pain better?": "Nope. I've taken some paracetamol about 2 hours ago. But it really hasn't helped.",
+        "How bad is the pain.": "Very bad. I'd say maybe an 8 out of 10. ",
+        "Did you have symptoms before the headache?": "Yeah I did actually. I had some flashing lights in my left eye for about 2 hours beforehand.",
+        "Do you take any medications?": "The only thing I take is cerazette. I don't take anything else.",
+        "Do you smoke?": "Yes I do. ",
+        "How much do you smoke?": "About 10 a day for the last 10 days. ",
+        "Do you drink alcohol?": "Only on occasion. ",
+        "Do you have any concerns?": "I'm scared that I have a brain tumour. I'm very scared about that."
+    },
+    "Examinations": {},
+    "Investigations": {
+        "LIST": {},
+        "IMAGING": {}
+    },
+    "Explanation": "",
+    "Story": {
+        "Before Ix": {
+            "dialogue1": {
+                "content": [
+                    "Hi my name is Dr [playerSurname], how can I help?",
+                    {
+                        "speaking": "Player",
+                        "divert": "dialogue2"
+                    }
+                ]
+            },
+            "dialogue2": {
+                "content": [
+                    "Ow. Don't speak so loudly. My head hurts. ",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "Start": "dialogue1"
+        },
+        "Repeated Text": {
+            "dialogue3": {
+                "content": [
+                    "Do you know what's wrong?",
+                    {
+                        "speaking": "Patient",
+                        "divert": "dialogue4"
+                    }
+                ]
+            },
+            "dialogue4": {
+                "content": [
+                    "Not yet. ",
+                    {
+                        "isEnd": true,
+                        "speaking": "Player"
+                    }
+                ]
+            },
+            "Start": "dialogue3"
+        },
+        "After Ix": {
+            "dialogue10": {
+                "content": [
+                    "R2D22",
+                    {
+                        "speaking": "Patient",
+                        "divert": "question2"
+                    }
+                ]
+            },
+            "dialogue11": {
+                "content": [
+                    "Oh okay, thank you for your help.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue12": {
+                "content": [
+                    "R2D23",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue13": {
+                "content": [
+                    "R2D23\n",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "Start": "question0",
+            "question0": {
+                "content": [
+                    "What's going on doctor?",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "question1",
+                        "option": "I think you may have a bleed within your brain.",
+                        "Answer": false
+                    },
+                    {
+                        "linkPath": "question1",
+                        "option": "It is likely that you are suffering from a condition called temporal arteritis.",
+                        "Answer": true
+                    },
+                    {
+                        "linkPath": "question1",
+                        "option": "I think you are suffering from a migraine.",
+                        "Answer": false
+                    },
+                    {
+                        "linkPath": "question1",
+                        "option": "I think you are suffering from a tension headache.",
+                        "Answer": false
+                    }
+                ]
+            },
+            "question1": {
+                "content": [
+                    "Oh okay, it's horrible I don't want to have this again. Are you giving me anything for it?",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "question2",
+                        "option": "Yeah, I'm going to prescribe you some medication for it now. ",
+                        "Answer": false
+                    },
+                    {
+                        "linkPath": "question2",
+                        "option": "Not really you just need to go home and rest.",
+                        "Answer": true
+                    }
+                ]
+            },
+            "question2": {
+                "content": [
+                    "Oh okay doctor. Thanks. Is that everything or can I go?",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "dialogue11",
+                        "option": "You should stop taking your cerazette.",
+                        "Answer": false
+                    },
+                    {
+                        "linkPath": "dialogue11",
+                        "option": "You should stop taking cerazette go back to your GP to discuss an alternative method. ",
+                        "Answer": true
+                    },
+                    {
+                        "linkPath": "dialogue11",
+                        "option": "Yes you can go just let me prescribe you your medication and I will discharge you. ",
+                        "Answer": false
+                    },
+                    {
+                        "linkPath": "dialogue11",
+                        "option": "Yes you can go now. ",
+                        "Answer": false
+                    }
+                ]
+            }
+        }
+    }
+}

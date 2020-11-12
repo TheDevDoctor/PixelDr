@@ -1,0 +1,165 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scripts/HelpNodes.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/UI/DialogueContainer.png" type="Texture" id=2]
+[ext_resource path="res://Fonts/Nunito_extra_bold20.font" type="BitmapFont" id=3]
+[ext_resource path="res://Fonts/Nunito_extra_bold16.font" type="BitmapFont" id=4]
+[ext_resource path="res://Graphics/UI/HelpArrow.png" type="Texture" id=5]
+
+[sub_resource type="Animation" id=1]
+
+resource_name = "arrow"
+length = 1.9
+loop = false
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("arrow:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3, 0.6, 0.9, 1.2, 1.5, 1.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0.290038, 0.761719, 0.175552, 1 ), Color( 0.290038, 0.761719, 0.175552, 0.289608 ), Color( 0.290038, 0.761719, 0.175552, 1 ), Color( 0.290038, 0.761719, 0.175552, 0.289608 ), Color( 0.290038, 0.761719, 0.175552, 1 ), Color( 0.290038, 0.761719, 0.175552, 0.289608 ), Color( 0.290038, 0.761719, 0.175552, 1 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+
+resource_name = "textHelp"
+length = 1.9
+loop = false
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("textHelp:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3, 0.6, 0.9, 1.2, 1.5, 1.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0.055934, 0.695312, 0.0353088, 1 ), Color( 0.0593905, 0.738281, 0.0374908, 0.437176 ), Color( 0.055934, 0.695312, 0.0353088, 1 ), Color( 0.0593905, 0.738281, 0.0374908, 0.437176 ), Color( 0.055934, 0.695312, 0.0353088, 1 ), Color( 0.0593905, 0.738281, 0.0374908, 0.437176 ), Color( 0.055934, 0.695312, 0.0353088, 1 ) ]
+}
+
+[node name="Help" type="Node"]
+
+script = ExtResource( 1 )
+
+[node name="textHelp" type="NinePatchRect" parent="."]
+
+editor/display_folded = true
+visible = false
+self_modulate = Color( 0.055934, 0.695312, 0.0353088, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 24.0
+margin_top = 11.0
+margin_right = 96.0
+margin_bottom = 64.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 2 )
+patch_margin_left = 15
+patch_margin_top = 15
+patch_margin_right = 15
+patch_margin_bottom = 15
+
+[node name="Label" type="Label" parent="textHelp"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 17.0
+margin_right = -20.0
+margin_bottom = -15.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 3 )
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Margin" ]
+
+[node name="textHelpLong" type="NinePatchRect" parent="."]
+
+editor/display_folded = true
+visible = false
+self_modulate = Color( 0.055934, 0.695312, 0.0353088, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 301.0
+margin_top = 17.0
+margin_right = 627.0
+margin_bottom = 111.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 2 )
+patch_margin_left = 15
+patch_margin_top = 15
+patch_margin_right = 15
+patch_margin_bottom = 15
+
+[node name="Label" type="Label" parent="textHelpLong"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 17.0
+margin_right = -20.0
+margin_bottom = -15.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 4 )
+text = "Press Space"
+autowrap = true
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Margin" ]
+
+[node name="arrow" type="Sprite" parent="."]
+
+visible = false
+self_modulate = Color( 0.290038, 0.761719, 0.175552, 1 )
+position = Vector2( 89.9287, 271.846 )
+rotation = -1.5708
+z = 5
+texture = ExtResource( 5 )
+_sections_unfolded = [ "Offset", "Transform", "Z" ]
+
+[node name="animPlayer" type="AnimationPlayer" parent="."]
+
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+root_node = NodePath("..")
+anims/arrow = SubResource( 1 )
+anims/textHelp = SubResource( 2 )
+playback/active = true
+playback/speed = 1.0
+blend_times = [  ]
+autoplay = ""
+
+

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/NormalPercussion.wav-d7749c3fa7df88b799003a97fbf18eb6.sample"
+
+[deps]
+
+source_file="res://Sounds/Percussion/NormalPercussion.wav"
+dest_files=[ "res://.import/NormalPercussion.wav-d7749c3fa7df88b799003a97fbf18eb6.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

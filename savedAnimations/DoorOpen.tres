@@ -1,0 +1,31 @@
+[gd_resource type="Animation" format=2]
+
+[resource]
+
+resource_name = "StoreDoorOpen"
+length = 0.4
+loop = false
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("DOORS/StoreRoomDoor:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("DOORS/StoreRoomDoor/StaticBody2D:collision_layer")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/keys = {
+"times": PoolRealArray( 0.3, 0.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 1, 0 ]
+}
+

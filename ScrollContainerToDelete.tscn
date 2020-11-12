@@ -1,0 +1,181 @@
+[gd_scene load_steps=14 format=2]
+
+
+[node name="ScrollContainer" type="ScrollContainer"]
+
+anchor_right = 1
+anchor_bottom = 1
+focus_ignore_mouse = false
+focus_stop_mouse = true
+size_flags_horizontal = 2
+size_flags_vertical = 2
+margin_left = 20.0
+margin_top = 20.0
+margin_right = 20.0
+margin_bottom = 60.0
+scroll_horizontal = false
+scroll_vertical = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+
+focus_ignore_mouse = false
+focus_stop_mouse = false
+size_flags_horizontal = 3
+size_flags_vertical = 2
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 497.0
+margin_bottom = 12.0
+alignment = 0
+
+[node name="OnceOnly" type="HBoxContainer" parent="VBoxContainer"]
+
+editor/display_folded = true
+focus_ignore_mouse = false
+focus_stop_mouse = false
+size_flags_horizontal = 3
+size_flags_vertical = 2
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 497.0
+margin_bottom = 0.0
+custom_constants/separation = 2
+alignment = 0
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="VBoxContainer/OnceOnly"]
+
+focus_ignore_mouse = false
+focus_stop_mouse = false
+size_flags_horizontal = 2
+size_flags_vertical = 3
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 0.0
+margin_bottom = 0.0
+alignment = 0
+
+[node name="PresConatiner" type="VBoxContainer" parent="VBoxContainer/OnceOnly"]
+
+focus_ignore_mouse = false
+focus_stop_mouse = false
+size_flags_horizontal = 3
+size_flags_vertical = 2
+margin_left = 2.0
+margin_top = 0.0
+margin_right = 497.0
+margin_bottom = 0.0
+alignment = 0
+
+[node name="Regular" type="HBoxContainer" parent="VBoxContainer"]
+
+editor/display_folded = true
+focus_ignore_mouse = false
+focus_stop_mouse = false
+size_flags_horizontal = 3
+size_flags_vertical = 2
+margin_left = 0.0
+margin_top = 4.0
+margin_right = 497.0
+margin_bottom = 4.0
+custom_constants/separation = 2
+alignment = 0
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="VBoxContainer/Regular"]
+
+focus_ignore_mouse = false
+focus_stop_mouse = false
+size_flags_horizontal = 2
+size_flags_vertical = 3
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 0.0
+margin_bottom = 0.0
+alignment = 0
+
+[node name="PresConatiner" type="VBoxContainer" parent="VBoxContainer/Regular"]
+
+focus_ignore_mouse = false
+focus_stop_mouse = false
+size_flags_horizontal = 3
+size_flags_vertical = 2
+margin_left = 2.0
+margin_top = 0.0
+margin_right = 497.0
+margin_bottom = 0.0
+alignment = 0
+
+[node name="AsRequired" type="HBoxContainer" parent="VBoxContainer"]
+
+editor/display_folded = true
+focus_ignore_mouse = false
+focus_stop_mouse = false
+size_flags_horizontal = 3
+size_flags_vertical = 2
+margin_left = 0.0
+margin_top = 8.0
+margin_right = 497.0
+margin_bottom = 8.0
+custom_constants/separation = 2
+alignment = 0
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="VBoxContainer/AsRequired"]
+
+focus_ignore_mouse = false
+focus_stop_mouse = false
+size_flags_horizontal = 2
+size_flags_vertical = 3
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 0.0
+margin_bottom = 0.0
+alignment = 0
+
+[node name="PresConatiner" type="VBoxContainer" parent="VBoxContainer/AsRequired"]
+
+focus_ignore_mouse = false
+focus_stop_mouse = false
+size_flags_horizontal = 3
+size_flags_vertical = 2
+margin_left = 2.0
+margin_top = 0.0
+margin_right = 497.0
+margin_bottom = 0.0
+alignment = 0
+
+[node name="Infusion" type="HBoxContainer" parent="VBoxContainer"]
+
+editor/display_folded = true
+focus_ignore_mouse = false
+focus_stop_mouse = false
+size_flags_horizontal = 3
+size_flags_vertical = 2
+margin_left = 0.0
+margin_top = 12.0
+margin_right = 497.0
+margin_bottom = 12.0
+custom_constants/separation = 2
+alignment = 0
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="VBoxContainer/Infusion"]
+
+focus_ignore_mouse = false
+focus_stop_mouse = false
+size_flags_horizontal = 2
+size_flags_vertical = 3
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 0.0
+margin_bottom = 0.0
+alignment = 0
+
+[node name="PresConatiner" type="VBoxContainer" parent="VBoxContainer/Infusion"]
+
+focus_ignore_mouse = false
+focus_stop_mouse = false
+size_flags_horizontal = 3
+size_flags_vertical = 2
+margin_left = 2.0
+margin_top = 0.0
+margin_right = 497.0
+margin_bottom = 0.0
+alignment = 0

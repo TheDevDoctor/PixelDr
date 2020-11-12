@@ -1,0 +1,285 @@
+{
+    "First-degree AV block": {
+        "Specialty": "Cardiovascular",
+        "Clinical Features": [
+            "Often asymtomatic",
+            "Palpitations",
+            "Dizziness",
+            "Syncope"
+        ],
+        "Description": "Due to delayed atrio-ventricular conduction. This results in a prolonged PR interval of greater than 0.2 seconds. This condition is often asymptomatic. The condition is diagnosed on ECG, once found it is important to check for reversible causes of heart block, e.g. ischaemia, hyper/hypokalaemia, hyper/hypocalcaemia.",
+        "Investigations": {
+            "Bloods": {
+                "Cardiac Troponins": {
+                    "Increased": [
+                        "Troponin T",
+                        "Troponin I"
+                    ]
+                },
+                "Urea and Electrolytes": {
+                    "Increased": [
+                        "Pottasium"
+                    ],
+                    "Decreased": [
+                        "Pottasium"
+                    ]
+                },
+                "Calcium": {
+                    "Increased": [
+                        "Calcium"
+                    ],
+                    "Decreased": [
+                        "Calcium"
+                    ]
+                }
+            },
+            "Imaging": {
+                "Electrocardiogram (ECG)": "Will show a prolongation of the PR interval to longer that 0.2 ms."
+            }
+        }
+    },
+    "Second-degree AV block": {
+        "Specialty": "Cardiovascular",
+        "Clinical Features": [
+            "Often asymtomatic",
+            "Palpitations",
+            "Dizziness",
+            "Syncope",
+            "Heart rate < 40bpm",
+            "Sudden death"
+        ],
+        "Description": "Second degree heart block occurs when some impulses fail to propogate to the ventricles. Second degree heart block is split into 'Mobitz Type I', 'Mobitz Type II' and '2:1/3:1' block. In Mobitz type I block there is progressive prolongation of the PR interval until eventually a wave of conduction fails to propogate to the ventricles. The PR interval returns to normal and the cycle begins again. In Mobitz type II the dropped QRS is not preceded by a prolongation in the PR interval. This can be a random drop or regular. If it is regular is can be expressed as a ratio, e.g. 2:1/3:1 block. The condition is diagnosed on ECG, once found it is important to check for reversible causes of heart block, e.g. ischaemia, hyper/hypokalaemia, hyper/hypocalcaemia.",
+        "Investigations": {
+            "Bloods": {
+                "Cardiac Troponins": {
+                    "Increased": [
+                        "Troponin T",
+                        "Troponin I"
+                    ]
+                },
+                "Urea and Electrolytes": {
+                    "Increased": [
+                        "Pottasium"
+                    ],
+                    "Decreased": [
+                        "Pottasium"
+                    ]
+                },
+                "Calcium": {
+                    "Increased": [
+                        "Calcium"
+                    ],
+                    "Decreased": [
+                        "Calcium"
+                    ]
+                }
+            },
+            "Imaging": {
+                "Electrocardiogram (ECG)": "Will show a prolongation of the PR interval to longer that 0.2 ms."
+            }
+        }
+    },
+    "Third-degree heart block": {
+        "Specialty": "Cardiovascular",
+        "Clinical Features": [
+            "Often asymtomatic",
+            "Palpitations",
+            "Dizziness",
+            "Syncope",
+            "Heart rate < 40bpm",
+            "Sudden death"
+        ],
+        "Description": "In third degree heart block there is no association between atrial and ventricular activity as no waves are conducted between the atria and ventricles. The contractions of the ventricles are maintained by an escape rhythm originating from a site below the level of the block. This escape rhythm may be unreliable, particulary if the QRS is a broad complex (>0.12s). The condition is diagnosed on ECG, once found it is important to check for reversible causes of heart block, e.g. ischaemia, hyper/hypokalaemia, hyper/hypocalcaemia.",
+        "Investigations": {
+            "Bloods": {
+                "Cardiac Troponins": {
+                    "Increased": [
+                        "Troponin T",
+                        "Troponin I"
+                    ]
+                },
+                "Urea and Electrolytes": {
+                    "Increased": [
+                        "Pottasium"
+                    ],
+                    "Decreased": [
+                        "Pottasium"
+                    ]
+                },
+                "Calcium": {
+                    "Increased": [
+                        "Calcium"
+                    ],
+                    "Decreased": [
+                        "Calcium"
+                    ]
+                }
+            },
+            "Imaging": {
+                "Electrocardiogram (ECG)": "Will show a prolongation of the PR interval to longer that 0.2 ms."
+            }
+        }
+    },
+    "Right Bundle Branch Block": {},
+    "Left Bundle Branch Block": {},
+    "AVNRT": {},
+    "AVRT": {},
+    "Atrial Fibrillation": {},
+    "Atrial Flutter": {},
+    "Ventricular Tachycardia": {},
+    "Ventricular Fibrillation": {},
+    "Long QT syndrome": {},
+    "Heart Failure": {},
+    "Unstable Angina": {},
+    "Ischaemic Heart Disease": {},
+    "ST-elevation myocardial infarction": {},
+    "Non-ST-elevation myocardial infarction": {},
+    "Pericarditis": {},
+    "Rheumatic Fever": {},
+    "Mitral Stenosis": {},
+    "Mitral Regurgitation": {},
+    "Prolapsing mitral valve": {},
+    "Aortic Stenosis": {},
+    "Aortic Regurgitation": {},
+    "Tricuspid Stenosis": {},
+    "Tricuspid Regurgitation": {},
+    "Pulmonary Stenosis": {},
+    "Pulmonary Regurgitation": {},
+    "Infective Endocarditis": {},
+    "Myocarditis": {},
+    "Hypertrophic cardiomyopathy": {},
+    "Dilated cardiomyopathy": {},
+    "Hypertension": {},
+    "Abdominal Aortic Aneurysm": {},
+    "Acute Coryza": {},
+    "Sinusitis": {},
+    "Rhinitis": {},
+    "Acute Pharyngitis": {},
+    "Croup": {},
+    "Influenza": {},
+    "Acute Bronchitis": {},
+    "Chronic obstructive pulmonary disease": {},
+    "Infective Exacerbation COPD": {},
+    "Obstructive Sleep Apnoea": {},
+    "Bronchiectasis": {},
+    "Cystic fibrosis": {},
+    "Asthma": {},
+    "Pneumonia": {},
+    "Tuberculosis": {},
+    "Sarcoidosis": {},
+    "Idiopathic Pulmonary fibrosis": {},
+    "Asbestosis": {},
+    "Lung Carcinoma": {
+        "Specialty": "",
+        "Description": "",
+        "Clinical Features": [],
+        "Investigations": {},
+        "Management": {},
+        "Complications": []
+    },
+    "Appendicitis": {
+        "Specialty": "Gastroenterology",
+        "Description": "Appendicitis is due to the lumen of the appendix becoming obstructed by a faecolith which results in swelling and inflammation of the appendix.",
+        "Clinical Features": [
+            "Central abdominal pain, moving to right iliac fossa",
+            "Anorexia",
+            "Vomiting",
+            "Diarrhoea"
+        ],
+        "Investigations": {
+            "Bloods": {
+                "Full Blood Count": {
+                    "Increased": [
+                        "WCC"
+                    ]
+                },
+                "C-Reactive Protein": {
+                    "Increased": [
+                        "CRP"
+                    ]
+                }
+            },
+            "Imaging": {
+                "Abdominal Ultrasound": "Swelling of the appendix and increased vascularity may be noted on ultrasound scan.",
+                "Abdominal CT (if unclear)": "Abdominal CT scan has a very high sensitivity at detecting appendicitis but may cause an unnacceptable delay in treatment. Only use if diagnosis is unclear."
+            }
+        },
+        "Management": {
+            "Surgical": "Appendectomy"
+        },
+        "Complications": [
+            "Gangrene",
+            "Perforation"
+        ]
+    },
+    "Gastro-oesophageal reflux disease (GORD)": {
+        "Specialty": "Gastroenterology",
+        "Description": "Gastro-oesophageal reflux disease occurs when there is a prolonged contact between gastric contents and the mucosal lining of the oesophagus. This occurs due to a decrease in the tone of the lower oesophageal sphincter allowing contents of the stomach to enter the oesophagus more easily. GORD may occur due to a hiatus hernia, however, it is possible to suffer from GORD without such a defect. It can be exacerbated by delayed gastric emptying and lying flat.",
+        "Clinical Features": [
+            "Heartburn",
+            "Regurgitation",
+            "Odynophagia",
+            "Cough",
+            "Nocturnal asthma"
+        ],
+        "Investigations": {
+            "Procedure": [
+                "OGD",
+                "24 hour intraluminal pH monitoring"
+            ]
+        },
+        "Management": {
+            "Conservative": "Lifestyle changes: avoid alcohol, encourage weight loss and cessation of smoking.",
+            "Medical": "If more severe symtoms medical management may be necessary. The most commonly used medication for GORD are proton pump inhibitors (PPIs), e.g. omeprazole, lansoprazole. H2-receptor antagonists can be used to improve the symptoms of heartburn.",
+            "Surgical": "If medical therapy is unsuccessful then surgical therapy may be necessary. A common surgery for GORD is a Nissen fundoplication."
+        },
+        "Complications": [
+            "Oesophageal Stricture",
+            "Barrett's oesophagus"
+        ]
+    },
+    "Benign Prostatic Hyperplasia": {
+        "Specialty": "Urology",
+        "Description": "The prostate is a small gland that surrounds the urethra and is located just below the bladder in males. When normal the prostate is approximately the size of a walnut. It is involved in producing ejaculatory fluid. Throughout a males life the prostate will grow slighlty. However, in some men this growth can be larger than others, and if large enough, may result in benign prostatic hyperplasia (BPH).\n\nIn BPH the prostate gland may start to obstruct the urethra which may impede the flow of urine, causing lower urinary tract symptoms. It may also result in urinary retention which may present as acute or chronic. Symptoms most commonly occur in men over the age of 60 years old. A family history of the condition is a strong indicitave factor for BPH.",
+        "Clinical Features": [
+            "Nocturia",
+            "Frequency",
+            "Urgency",
+            "Post-void dribbling",
+            "Straining",
+            "Hesitancy",
+            "Weak Stream"
+        ],
+        "Investigations": {
+            "Bloods": {
+                "PSA": {
+                    "Increased": [
+                        "PSA"
+                    ]
+                }
+            },
+            "Imaging": {
+                "Transrectal Ultrasound": "May show hydronephrosis, urolithiasis, and/or a mass.",
+                "Pelvic CT": "May show hydronephrosis, urolithiasis, and/or a mass.",
+                "Cystoscopy": "Should allow visualisation of the prostate. Needed if planned surgery."
+            },
+            "Procedure": {
+                "Uroflowmetry": "Shows peak urinary flow rate. May be reduced (< 20 ml/sec)",
+                "Urodynamic Studies": "Measures bladder pressure and muscle activity during filling and voiding of the bladder. May show abnormal bladder pressures and voiding."
+            }
+        },
+        "Management": {
+            "Conservative": "If only mild score on IPSS then watchful waiting is a reasonable management choice. Advice should be given over reasonable behaviourl changes. The patient should limit fluids and a bladder training regime should be considered. The patient should reduce caffeine intake and a review of the patients medications should be made.",
+            "Medical": "If the disease is causing bother then medical treatment may be considered. An alpha blocker (e.g. tamulosin) should be considered. Alpha blockers relax the smooth muscle within the prostate allowing for easier passing of water. 5-alpha reductase inhibitors (e.g. finasteride) can also be considered if significant bother from the condition. They work by inhibiting the conversion of DHT for testosterone. DHT causes an increase in the size of a prostate, so inhibiting its conversion can reduce the rate of increase in the size of the prostate.",
+            "Surgical": "Often surgical referral is necessary. If the prostate is below the size of 80g then a minimally invasive approach is preferred. However, if above this, then an open prostatectomy may be required."
+        },
+        "Complications": [
+            "Renal failure",
+            "Bladder Stones",
+            "Haematuria",
+            "Acute Urinary retention",
+            "Sexual dysfunction",
+            "Overactive bladder"
+        ]
+    }
+}

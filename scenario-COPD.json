@@ -1,0 +1,691 @@
+{
+    "id": "Staton09-Short of Breath",
+    "rating": 7,
+    "topic": "Respiratory",
+    "description": "A breathless patient can be scary. Make sure you have the skills to handle this common scenario.",
+    "creator": "staton09",
+    "Explanation": "The PixelDr team is hard at work collecting the relevant information for a detailed explanation of this scenario.",
+    "PatientDetails": {
+        "Sensitivities": "NKDA",
+        "Consultant": "Mr Smith",
+        "Surname": "Sharp",
+        "DateOfBirth": "13/03/1951",
+        "Age": "66",
+        "HospitalNumber": "23948723",
+        "Forename": "Vanessa",
+        "Ward": "Emergency department",
+        "PresentingComplaint": "SOB, Cough",
+        "BMI": "22",
+        "Weight": "56kg",
+        "Height": "1.6m"
+    },
+    "Vitals": {
+        "BP": {
+            "Systolic": "143",
+            "Diastolic": "97"
+        },
+        "HR": 78,
+        "RR": 17,
+        "Sats": 91,
+        "T": 38.1
+    },
+    "ScenarioDetails": {
+        "Priority": "1: Urgent",
+        "Sprite": 3,
+        "Difficulty": "Junior",
+        "Specialty": "Respiratory",
+        "Edited": {
+            "year": 2017,
+            "month": 10,
+            "day": 31,
+            "weekday": 2,
+            "dst": false,
+            "hour": 21,
+            "minute": 15,
+            "second": 7
+        }
+    },
+    "Answers": {
+        "Contact": null,
+        "Procedures": null,
+        "Examinations": [
+            "Cardiovascular",
+            "Respiratory"
+        ],
+        "Investigations": [
+            "Full Blood Count (FBC)",
+            "ABG",
+            "Chest X-ray",
+            "Electrocardiogram (ECG)",
+            "Urea and Electrolytes",
+            "CRP"
+        ],
+        "History": {
+            "Do you take any medications?": "Do you take any medications?",
+            "Do you have any past medical conditions?": "Do you have any past medical conditions?",
+            "What is you living situation?": "What is you living situation?",
+            "Do you have any family history of any medical conditions?": "Do you have any family history of any medical conditions?",
+            "Do you have any concerns?": "Do you have any concerns?",
+            "Do you smoke?": "Do you smoke?",
+            "Can you tell me more about that?": "YCan you tell me more about that?",
+            "How much do you smoke?": "How much do you smoke?",
+            "Why are you not feeling very well?": "Why are you not feeling very well?",
+            "Have you ever had this before?": "Have you ever had this before?",
+            "Do you have a cough?": "Do you have a cough?",
+            "Is there blood in your sputum?": "Is there blood in your sputum?",
+            "Are you short of breath?": "Yes, I'm very short of breath.",
+            "How is your breathing?": "Really bad. I just can't catch my breath.",
+            "Is there any sputum?": "Yes somewhat. It's a disgusting yellow colour."
+        },
+        "Prescriptions": {
+            "Infusion": [],
+            "Regular": [
+                {
+                    "Prednisolone": {
+                        "Tag": 1,
+                        "Doses": "30 - 40",
+                        "Routes": 
+                            "PO",
+                        "Frequency": 
+                            "OD",
+                        "Units": "mg",
+                        "Duration": "3 - 7",
+                        "DurUnits": "Days"
+                    },
+                    "Methyprednisolone": {
+                        "Tag": 0,
+                        "Doses": "40 - 60",
+                        "Routes":
+                            "PO",
+                        "Frequency": 
+                            "OD",
+                        "Units": "mg",
+                        "Duration": "3 - 7",
+                        "DurUnits": "Days"
+                    },
+                    "Methylprednisolone Sodium Succinate": {
+                        "Tag": 0,
+                        "Doses": "28 - 112",
+                        "Routes":
+                            "IV",
+                        "Frequency":
+                            "QDS",
+                        "Units": "mg",
+                        "Duration": "3 - 7",
+                        "DurUnits": "Days"
+                    }
+                },
+                {
+                    "Amoxicillin": {
+                        "Tag": 1,
+                        "Doses": "500",
+                        "Routes":
+                            "PO",
+                        "Frequency": 
+                            "TDS",
+                        "Units": "mg",
+                        "Duration": "3 - 7",
+                        "DurUnits": "Days"
+                    },
+                    "Doxycycline": {
+                        "Tag": 0,
+                        "Doses": "100",
+                        "Routes": 
+                            "BD",
+                        "Frequency":
+                            "TDS",
+                        "Units": "mg",
+                        "Duration": "3 - 7",
+                        "DurUnits": "Days"
+                    },
+                    "Trimethoprim": {
+                        "Tag": 0,
+                        "Doses": "160 - 800",
+                        "Routes": 
+                            "PO",
+                        "Frequency":
+                            "BD",
+                        "Units": "mg",
+                        "Duration":"3 - 7",
+                        "DurUnits": "Days"
+                    },
+                    "Azithromycin": {
+                        "Tag": 0,
+                        "Doses": "250",
+                        "Routes": 
+                            "PO",
+                        "Frequency": 
+                            "OD",
+                        "Units": "mg",
+                        "Duration": "3 - 7",
+                        "DurUnits": "Days"
+                    }
+                }
+            ],
+            "AsRequired": [],
+            "OnceOnly": []
+        }
+    },
+    "History": {
+        "Do you take any medications?": "I've got the salbutamol inhaler for my COPD. Got some cream for my psoriasis as well but I only use that when it flares. ",
+        "Do you have any past medical conditions?": "Yeah, I have COPD. I've had that for about 10 years. I was also told that I have high blood pressure. But I don't take the tablets, they make me feel sick. Oh I also have psoriasis.",
+        "What is you living situation?": "I live with my wife. It was our 25th wedding anniversary last week actually. I don't live far away, about a 30 minute drive. ",
+        "Do you have any family history of any medical conditions?": "Hmm, well, my brother died of multiple sclerosis about 10 years ago. Both my parents are still alive and doing well though. ",
+        "Do you have any concerns?": "Well I'm just concerned that I'm going to have to stay in hospital. I really don't like being in hospitals since my brother died. ",
+        "Do you smoke?": "I used to smoke and smoked for about 40 years.",
+        "Can you tell me more about that?": "Yeah. So, I got a cough about three, maybe four, days ago. Soon after I got really short of breath. I wasn't bothered but the last 24 hours I've been getting some awful chest tightness.  ",
+        "How much do you smoke?": "I smoked around 20 a day. ",
+        "Why are you not feeling very well?": "Well, I've been short of breath for about the last three days. ",
+        "Hi": "Hi... Doctor... I'm very short of breath.",
+        "Have you ever had this before?": "Yeah I have, I think I had something called a pneumothorax? I had to be in for about a week. But I didn't have a cough. I really hope it isn't that. That was horrible. ",
+        "Do you have a cough?": "Yeah I do, a really chesty cough. I can't shake it. Had it for the last 3 days as well. ",
+        "Is there blood in your sputum?": "Erh yeah, it looks a bit green."
+    },
+    "Investigations": {
+        "LIST": {
+            "ABG": {
+                "pH": "7.31",
+                "PaO2": "8.9",
+                "PaCO2": "5.7",
+                "HCO3-": "27"
+            },
+            "Full Blood Count (FBC)": {
+                "WBC": "17.3",
+                "Hb": "111"
+            },
+            "CRP": {
+                "CRP": "193"
+            }
+        },
+        "IMAGING": {
+            "Chest X-ray": {
+                "Findings": "There appears to be some consolidation in the left lower zone of the chest X-ray. The chest also appears to be hyperinflated with flattened diaphragms. The heart is a normal size. The mediastinum is within the normal limits",
+                "Impression": "This picture indicates underlying diagnosis of chronic obstructive pulmonary disease with potential infective exacerbation located in the left lower zone.",
+                "Image": "normal_cxr.jpg"
+            }
+        }
+    },
+    "Examinations": {
+        "General": "On general inspection of the patient they appear to be struggling to breath with there hands placed firmly on the side rail of the bed.",
+        "Inspection": {
+            "FullViewAnterior": {
+                "Right Palmar Hand": "There is some sign's of tar staining in the finger nails. There is no obvious clubbing. Their appears to be a fine tremor, but no flapping tremor.",
+                "Left Palmar Hand": "There is some sign's of tar staining in the finger nails. There is no obvious clubbing. Their appears to be a fine tremor, but no flapping tremor.",
+                "Chest": "The patient has a large barrel-shaped chest. There is no scarring or skin changes. There appears to be some retraction in the chest wall on inspiration."
+            },
+            "FullViewPosterior": {
+                "Left Hand Dorsum": "There is some sign's of tar staining in the finger nails. There is no obvious clubbing. Their appears to be a fine tremor, but no flapping tremor.",
+                "Right Hand Dorsum": "There is some sign's of tar staining in the finger nails. There is no obvious clubbing. Their appears to be a fine tremor, but no flapping tremor."
+            },
+            "HeadAnterior": {
+                "Right Neck Anterior": "The pulsation of the JVP is 4 centimetres above the level of the sternal angle."
+            },
+            "BodyAnterior": {
+                "Chest": "The patient has a large barrel-shaped chest. There is no scarring or skin changes. There appears to be some retraction in the chest wall on inspiration."
+            }
+        },
+        "Palpation": {
+            "BodyAnterior": {
+                "Chest": "Chest expansion is slightly reduced but equal. The apex beat is located in the 5th intercostal space S2 cm axially from the mid-clavicular line."
+            }
+        }
+    },
+    "Story": {
+        "Before Ix": {
+            "dialogue9": {
+                "content": [
+                    "Yeah I know. I don't feel very good, but I'm not really sure how much that comment helps?",
+                    {
+                        "divert": "dialogue10",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue10": {
+                "content": [
+                    "Yeah sorry you're right. How can I help?",
+                    {
+                        "divert": "question3",
+                        "speaking": "Player"
+                    }
+                ]
+            },
+            "question3": {
+                "content": [
+                    "Well I have been really out of breath recently, more than usual. I've got a cough as well.",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "question4",
+                        "Answer": true,
+                        "option": "Oh you usually feel out of breath? Why is that?"
+                    },
+                    {
+                        "linkPath": "dialogue4",
+                        "Answer": false,
+                        "option": "Oh okay let me ask you a few more questions about that."
+                    },
+                    {
+                        "linkPath": "dialogue5",
+                        "Answer": false,
+                        "option": "Hmmmm, I best get somebody who knows something about respiratory conditions."
+                    }
+                ]
+            },
+            "dialogue11": {
+                "content": [
+                    "To be honest I think I really need your help now.",
+                    {
+                        "divert": "dialogue10",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "question4": {
+                "content": [
+                    "I have a diagnosis of COPD, been like that for about 10 years now. ",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "dialogue4",
+                        "Answer": true,
+                        "option": "Ah okay let me ask you a few more questions about that."
+                    },
+                    {
+                        "linkPath": "dialogue5",
+                        "Answer": false,
+                        "option": "Oh I don't really know anything about that. I should go get someone who does. "
+                    }
+                ]
+            },
+            "dialogue3": {
+                "content": [
+                    "I have a diagnosis of COPD, been like that for about 10 years now. ",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue4": {
+                "content": [
+                    "Yeah ..(breath).. please do",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "Start": "dialogue0",
+            "dialogue5": {
+                "content": [
+                    "Wow well that is very ...(breath)... unhelpful.  ",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue7": {
+                "content": [
+                    "Well no not anymore, I used to be, but I haven't smoked for 10 years. ",
+                    {
+                        "divert": "dialogue8",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue8": {
+                "content": [
+                    "Okay what appears to be the problem then?",
+                    {
+                        "divert": "question3",
+                        "speaking": "Player"
+                    }
+                ]
+            },
+            "dialogue0": {
+                "content": [
+                    "Hi, name is Matt one of the junior doctors, can I just confirm your name and age please. ",
+                    {
+                        "divert": "question2",
+                        "speaking": "Player"
+                    }
+                ]
+            },
+            "question2": {
+                "content": [
+                    "Yes it's Vanessa ...(breath)... Sharp and I'm ...(breath).. 66 years old.",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "dialogue9",
+                        "Answer": false,
+                        "option": "Oh you don't look very good."
+                    },
+                    {
+                        "linkPath": "question3",
+                        "Answer": true,
+                        "option": "Hi Vanessa, what appears to be the problem?"
+                    },
+                    {
+                        "linkPath": "dialogue11",
+                        "Answer": false,
+                        "option": "Oh sorry, you seem out of breath, I'll come back when you've caught your breath."
+                    },
+                    {
+                        "linkPath": "dialogue7",
+                        "Answer": false,
+                        "option": "Are you a smoker by any chance?"
+                    }
+                ]
+            }
+        },
+        "Repeated Text": {
+            "dialogue3": {
+                "content": [
+                    "Okay, thank you doctor.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "Start": "question0",
+            "dialogue4": {
+                "content": [
+                    "Oh sorry, I'm just concerned.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "question0": {
+                "content": [
+                    "Hi Doctor do you know what's wrong?",
+                    {
+                        "speaking": "Player"
+                    },
+                    {
+                        "linkPath": "dialogue3",
+                        "Answer": false,
+                        "option": "Just waiting on some test's James, I'll let you know as soon as they come back. "
+                    },
+                    {
+                        "linkPath": "dialogue4",
+                        "Answer": false,
+                        "option": "I am very busy, it's not all about you Vanessa."
+                    }
+                ]
+            }
+        },
+        "After Ix": {
+            "dialogue10": {
+                "content": [
+                    "Ah yes okay. That's what I thought it was if I'm honest.",
+                    {
+                        "divert": "question1",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue18": {
+                "content": [
+                    "Oh that's such a relief. Yes, absolutely I will come back if I feel more unwell. Now I'm going to get out of here. I hate hospitals!",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue1": {
+                "content": [
+                    "The patient's glascow coma scale equals 15/15",
+                    {
+                        "divert": "question3",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "question3": {
+                "content": [
+                    "Okay is that okay, am I able to go home?",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "dialogue5",
+                        "Answer": false,
+                        "option": "Yes your score appears fine. You're free to go I just need to discharge you. "
+                    },
+                    {
+                        "linkPath": "dialogue6",
+                        "Answer": true,
+                        "option": "No, sorry, I need to follow up some further results first.  "
+                    },
+                    {
+                        "linkPath": "dialogue7",
+                        "Answer": false,
+                        "option": "I'm not sure actually, sorry, I will have to talk to my senior. "
+                    }
+                ]
+            },
+            "dialogue11": {
+                "content": [
+                    "What? Tuberculosis? Surely not I haven't been abr ",
+                    {
+                        "divert": "question1",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue2": {
+                "content": [
+                    "The patients Well's score is 1.5.",
+                    {
+                        "divert": "question3",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue12": {
+                "content": [
+                    "Well that's no use. Please get me somebody who knows that they're talking about!",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue3": {
+                "content": [
+                    "The patient's HAS-BLED score is 1.",
+                    {
+                        "divert": "question3",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue13": {
+                "content": [
+                    "Oh god what? A heart attack. I wasn't expecting that at all!",
+                    {
+                        "divert": "question1",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "Start": "question0",
+            "dialogue14": {
+                "content": [
+                    "Oh great that's a relief. Thanks for your help. ",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue5": {
+                "content": [
+                    "Ah okay that's great! Thanks for your help.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue15": {
+                "content": [
+                    "Just before I do though, I need to find a few more things out about you.",
+                    {
+                        "divert": "question2",
+                        "speaking": "Player"
+                    }
+                ]
+            },
+            "dialogue6": {
+                "content": [
+                    "Oh okay. Please let me know when you do, I hate hospitals.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "question0": {
+                "content": [
+                    "Hi Doctor... (breath) ... do you know whats wrong with me?",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "dialogue10",
+                        "Answer": true,
+                        "option": "Yes I do, I think you have developed a chest infection. "
+                    },
+                    {
+                        "linkPath": "dialogue11",
+                        "Answer": false,
+                        "option": "Yes I think you may have tuberculosis."
+                    },
+                    {
+                        "linkPath": "dialogue12",
+                        "Answer": false,
+                        "option": "No sorry I don't."
+                    },
+                    {
+                        "linkPath": "dialogue13",
+                        "Answer": false,
+                        "option": "Yes, I believe you may be having a heart attack. "
+                    },
+                    {
+                        "linkPath": "dialogue14",
+                        "Answer": false,
+                        "option": "Yes, I don't think there is anything to worry about. You should go home."
+                    },
+                    {
+                        "linkPath": "dialogue8",
+                        "Answer": false,
+                        "option": "Yes, I think you have a collapsed lung. "
+                    }
+                ]
+            },
+            "dialogue7": {
+                "content": [
+                    "Okay thank you.Please let me know when you do, I hate hospitals.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "question1": {
+                "content": [
+                    "What's going to happen now then?",
+                    {
+                        "speaking": "Player"
+                    },
+                    {
+                        "linkPath": "dialogue18",
+                        "Answer": false,
+                        "option": "I will discharge you home but make sure you come back in if you feel unwell at any point!"
+                    },
+                    {
+                        "linkPath": "dialogue15",
+                        "Answer": false,
+                        "option": "You will need some antibiotics. I need to prescribe them for you now. You will also have to take a steroid. "
+                    },
+                    {
+                        "linkPath": "dialogue17",
+                        "Answer": false,
+                        "option": "We need to keep you in over night to see how you are coping. "
+                    },
+                    {
+                        "linkPath": "question2",
+                        "Answer": true,
+                        "option": "I just need to ask you a few more questions before we decide how to manage you."
+                    }
+                ]
+            },
+            "dialogue8": {
+                "content": [
+                    "Oh really? I wasn't expecting that.",
+                    {
+                        "divert": "question1",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue17": {
+                "content": [
+                    "Just before I do though, I need to find a few more things out about you.",
+                    {
+                        "divert": "question2",
+                        "speaking": "Player"
+                    }
+                ]
+            },
+            "question2": {
+                "content": [
+                    "Which of the following do you need to know",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "dialogue1",
+                        "Answer": false,
+                        "option": "GCS"
+                    },
+                    {
+                        "linkPath": "dialogue2",
+                        "Answer": false,
+                        "option": "Well's Score"
+                    },
+                    {
+                        "linkPath": "dialogue3",
+                        "Answer": false,
+                        "option": "HAS-BLED"
+                    },
+                    {
+                        "linkPath": "dialogue0",
+                        "Answer": true,
+                        "option": "AMTS"
+                    }
+                ]
+            },
+            "dialogue0": {
+                "content": [
+                    "The patient scores 9 out of 10 on the AMTS.",
+                    {
+                        "divert": "question3",
+                        "speaking": "Patient"
+                    }
+                ]
+            }
+        }
+    }
+}

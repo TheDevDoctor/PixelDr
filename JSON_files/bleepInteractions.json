@@ -1,0 +1,102 @@
+{
+    "Cath Lab": {
+        "Start": "question0",
+        "dialogue1": {
+            "content": [
+                "Okay, thanks",
+                {
+                    "isEnd": true,
+                    "speaking": "Romesh"
+                }
+            ]
+        },
+        "question0": {
+            "content": [
+                "Hi it's Romesh from the cath lab, how can I help?",
+                {
+                    "speaking": "Romesh",
+                    "adapted": "bed_phrases",
+                    "linkPath": "question1",
+                    "linkPath2": "dialogue1"
+                }
+            ]
+        },
+        "question2": {
+            "content": [
+                "Okay how else can I help?",
+                {
+                    "speaking": "Romesh",
+                    "adapted": "bed_phrases",
+                    "linkPath": "question1",
+                    "linkPath2": "dialogue1"
+                }
+            ]
+        },
+        "question1": {
+            "content": [
+                "No problem we'll be down for them, we need you to admit them the the CCU first though. Complete the neccessary management of the patient and then please fill out there form under the admit tab of the computer system. Is there anybody else you need help with?",
+                {
+                    "speaking": "Romesh"
+                },
+                {
+                    "linkPath": "question2",
+                    "option": "Yes"
+                },
+                {
+                    "linkPath": "dialogue1",
+                    "option": "No"
+                }
+            ]
+        }
+    },
+    "Surgical Reg.": {
+        "Start": "question0",
+        "question0": {
+            "content": [
+                "Hello, this is Dr Simmons the surgical registrar. How can I help.",
+                {
+                    "speaking": "Dr Simmons",
+                    "adapted": "bed_phrases",
+                    "linkPath": "question1",
+                    "linkPath2": "dialogue2"
+                }
+            ]
+        },
+        "question1": {
+            "content": [
+                "Okay, can I help you with anyone else?",
+                {
+                    "speaking": "Dr Simmons"
+                },
+                {
+                    "linkPath": "question3",
+                    "option": "Yes"
+                },
+                {
+                    "linkPath": "dialogue2",
+                    "option": "No"
+                }
+            ]
+        },
+        "question3": {
+            "content": [
+                "Okay how else can I help you?",
+                {
+                    "speaking": "Romesh",
+                    "adapted": "bed_phrases",
+                    "linkPath": "question1",
+                    "linkPath2": "dialogue2"
+                }
+            ]
+        },
+        "dialogue2": {
+            "content": [
+                "Okay great thanks Dr [playerSurname]. I will come and see the patient as soon as I can.",
+                {
+                    "isEnd": true,
+                    "speaking": "Dr Simmons"
+                }
+            ]
+        }
+    }
+}

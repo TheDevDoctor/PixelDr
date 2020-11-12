@@ -1,0 +1,101 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scripts/Examinations.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/UI/DialogueContainer.png" type="Texture" id=2]
+[ext_resource path="res://Graphics/UI/replyBoxTriangle.png" type="Texture" id=3]
+
+[node name="Node" type="Node"]
+
+script = ExtResource( 1 )
+
+[node name="Patch9Frame" type="NinePatchRect" parent="."]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 698.0
+margin_top = 138.0
+margin_right = 1250.0
+margin_bottom = 443.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 2 )
+patch_margin_left = 35
+patch_margin_top = 35
+patch_margin_right = 35
+patch_margin_bottom = 35
+
+[node name="TextureFrame" type="TextureRect" parent="Patch9Frame"]
+
+anchor_left = 0.0
+anchor_top = 1.0
+anchor_right = 0.0
+anchor_bottom = 1.0
+margin_left = -22.0
+margin_top = 15.0
+margin_right = 3.0
+margin_bottom = -15.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 3 )
+stretch_mode = 0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Patch9Frame"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 62.0
+margin_right = 20.0
+margin_bottom = 20.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+scroll_horizontal = true
+scroll_vertical = true
+
+[node name="GridContainer" type="GridContainer" parent="Patch9Frame/ScrollContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 552.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+columns = 3
+
+[node name="Label" type="Label" parent="Patch9Frame"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 19.0
+margin_top = 22.0
+margin_right = 263.0
+margin_bottom = 39.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 0
+text = "Choose an examination to perform?"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+

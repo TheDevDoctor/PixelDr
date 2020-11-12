@@ -1,0 +1,482 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Scripts/patientInteractionMenuScreen.gd" type="Script" id=1]
+[ext_resource path="res://Themes/subscreens.tres" type="Theme" id=2]
+[ext_resource path="res://Fonts/Nunito_regular16.font" type="BitmapFont" id=3]
+[ext_resource path="res://Graphics/UI/NotesBg.png" type="Texture" id=4]
+[ext_resource path="res://Graphics/UI/notesDropMenu.png" type="Texture" id=5]
+[ext_resource path="res://Graphics/UI/notesDropMenuHover.png" type="Texture" id=6]
+[ext_resource path="res://Fonts/Nunito_extra_bold24.font" type="BitmapFont" id=7]
+[ext_resource path="res://Scenes/addDiffButton.tscn" type="PackedScene" id=8]
+
+[sub_resource type="StyleBoxFlat" id=1]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+draw_center = true
+border_width_left = 0
+border_width_top = 0
+border_width_right = 0
+border_width_bottom = 0
+border_color = Color( 0.8, 0.8, 0.8, 1 )
+border_blend = true
+corner_radius_top_left = 0
+corner_radius_top_right = 0
+corner_radius_bottom_right = 0
+corner_radius_bottom_left = 0
+corner_detail = 8
+expand_margin_left = 0.0
+expand_margin_right = 0.0
+expand_margin_top = 0.0
+expand_margin_bottom = 0.0
+shadow_color = Color( 0, 0, 0, 0.6 )
+shadow_size = 0
+anti_aliasing = true
+anti_aliasing_size = 1
+
+[sub_resource type="StyleBoxFlat" id=2]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+draw_center = true
+border_width_left = 0
+border_width_top = 0
+border_width_right = 0
+border_width_bottom = 0
+border_color = Color( 0.8, 0.8, 0.8, 1 )
+border_blend = true
+corner_radius_top_left = 0
+corner_radius_top_right = 0
+corner_radius_bottom_right = 0
+corner_radius_bottom_left = 0
+corner_detail = 8
+expand_margin_left = 0.0
+expand_margin_right = 0.0
+expand_margin_top = 0.0
+expand_margin_bottom = 0.0
+shadow_color = Color( 0, 0, 0, 0.6 )
+shadow_size = 0
+anti_aliasing = true
+anti_aliasing_size = 1
+
+[sub_resource type="StyleBoxFlat" id=3]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+bg_color = Color( 1, 1, 1, 0 )
+draw_center = true
+border_width_left = 0
+border_width_top = 0
+border_width_right = 0
+border_width_bottom = 0
+border_color = Color( 0.8, 0.8, 0.8, 1 )
+border_blend = true
+corner_radius_top_left = 0
+corner_radius_top_right = 0
+corner_radius_bottom_right = 0
+corner_radius_bottom_left = 0
+corner_detail = 8
+expand_margin_left = 0.0
+expand_margin_right = 0.0
+expand_margin_top = 0.0
+expand_margin_bottom = 0.0
+shadow_color = Color( 0, 0, 0, 0.6 )
+shadow_size = 0
+anti_aliasing = true
+anti_aliasing_size = 1
+
+[sub_resource type="Theme" id=4]
+
+TextEdit/colors/brace_mismatch_color = Color( 1, 0.2, 0.2, 1 )
+TextEdit/colors/breakpoint_color = Color( 0.8, 0.8, 0.4, 0.2 )
+TextEdit/colors/caret_background_color = Color( 0.453125, 0.453125, 0.453125, 0.968627 )
+TextEdit/colors/caret_color = Color( 0.523438, 0.523438, 0.523438, 1 )
+TextEdit/colors/completion_background_color = Color( 0.863281, 0.863281, 0.863281, 1 )
+TextEdit/colors/completion_existing_color = Color( 0.87451, 0.87451, 0.87451, 0.129412 )
+TextEdit/colors/completion_font_color = Color( 0.666667, 0.666667, 0.666667, 1 )
+TextEdit/colors/completion_scroll_color = Color( 1, 1, 1, 1 )
+TextEdit/colors/completion_selected_color = Color( 0.262745, 0.258824, 0.266667, 1 )
+TextEdit/colors/current_line_color = Color( 0.785156, 0.785156, 0.785156, 0 )
+TextEdit/colors/font_color = Color( 0.15625, 0.15625, 0.15625, 1 )
+TextEdit/colors/font_color_selected = Color( 0.145098, 0.145098, 0.164706, 1 )
+TextEdit/colors/function_color = Color( 0.4, 0.635294, 0.807843, 1 )
+TextEdit/colors/line_number_color = Color( 0.666667, 0.666667, 0.666667, 0.4 )
+TextEdit/colors/mark_color = Color( 1, 0.4, 0.4, 0.4 )
+TextEdit/colors/member_variable_color = Color( 0.901961, 0.305882, 0.34902, 1 )
+TextEdit/colors/number_color = Color( 0.921569, 0.584314, 0.196078, 1 )
+TextEdit/colors/selection_color = Color( 0.644531, 0.644531, 0.644531, 1 )
+TextEdit/colors/symbol_color = Color( 0.941176, 0.941176, 0.941176, 1 )
+TextEdit/colors/word_highlighted_color = Color( 0.246094, 0.246094, 0.246094, 0.15 )
+TextEdit/constants/completion_lines = 7
+TextEdit/constants/completion_max_width = 50
+TextEdit/constants/completion_scroll_width = 3
+TextEdit/constants/line_spacing = 4
+TextEdit/fonts/font = ExtResource( 3 )
+TextEdit/icons/tab = null
+TextEdit/styles/completion = SubResource( 1 )
+TextEdit/styles/focus = SubResource( 2 )
+TextEdit/styles/normal = SubResource( 3 )
+
+[node name="notes" type="Node"]
+
+script = ExtResource( 1 )
+
+[node name="Container" type="Container" parent="."]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 5.0
+margin_top = -478.0
+margin_right = 589.0
+margin_bottom = -57.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+theme = ExtResource( 2 )
+_sections_unfolded = [ "Hint", "Rect" ]
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Container"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = 57.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 0
+size_flags_horizontal = 2
+size_flags_vertical = 3
+scroll_horizontal = true
+scroll_vertical = true
+
+[node name="Patch9Frame" type="NinePatchRect" parent="Container/ScrollContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 572.0
+margin_bottom = 3000.0
+rect_min_size = Vector2( 0, 3000 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 2
+theme = SubResource( 4 )
+texture = ExtResource( 4 )
+patch_margin_left = 150
+patch_margin_top = 150
+patch_margin_right = 150
+patch_margin_bottom = 10
+
+[node name="textEdits" type="Container" parent="Container/ScrollContainer/Patch9Frame"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="TextEdit1" type="TextEdit" parent="Container/ScrollContainer/Patch9Frame/textEdits"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 12.0
+margin_top = 118.0
+margin_right = -479.0
+margin_bottom = 10.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+syntax_highlighting = false
+show_line_numbers = false
+highlight_all_occurrences = false
+smooth_scrolling = false
+v_scroll_speed = 80.0
+caret_block_mode = false
+caret_blink = false
+caret_blink_speed = 0.65
+
+[node name="TextEdit" type="TextEdit" parent="Container/ScrollContainer/Patch9Frame/textEdits"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 129.0
+margin_top = 118.0
+margin_right = -105.0
+margin_bottom = 10.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+syntax_highlighting = false
+show_line_numbers = false
+highlight_all_occurrences = false
+smooth_scrolling = false
+v_scroll_speed = 80.0
+caret_block_mode = false
+caret_blink = false
+caret_blink_speed = 0.65
+
+[node name="TextEdit2" type="TextEdit" parent="Container/ScrollContainer/Patch9Frame/textEdits"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 493.0
+margin_top = 118.0
+margin_right = -12.0
+margin_bottom = 10.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+syntax_highlighting = false
+show_line_numbers = false
+highlight_all_occurrences = false
+smooth_scrolling = false
+v_scroll_speed = 80.0
+caret_block_mode = false
+caret_blink = false
+caret_blink_speed = 0.65
+
+[node name="HospInfo" type="VBoxContainer" parent="Container/ScrollContainer/Patch9Frame"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 7.0
+margin_top = 8.0
+margin_right = 191.0
+margin_bottom = 67.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 2
+size_flags_vertical = 2
+alignment = 0
+
+[node name="Hospital" type="Label" parent="Container/ScrollContainer/Patch9Frame/HospInfo"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 184.0
+margin_bottom = 17.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.222656, 0.222656, 0.222656, 1 )
+text = "HOSPITAL: Pixel Hospital"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Ward" type="Label" parent="Container/ScrollContainer/Patch9Frame/HospInfo"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 21.0
+margin_right = 228.0
+margin_bottom = 38.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.222656, 0.222656, 0.222656, 1 )
+text = "WARD: Emergency Department"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Consultant" type="Label" parent="Container/ScrollContainer/Patch9Frame/HospInfo"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 42.0
+margin_right = 194.0
+margin_bottom = 59.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.222656, 0.222656, 0.222656, 1 )
+text = "CONSULTANT: Dr Biggins"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="PatientInfo" type="VBoxContainer" parent="Container/ScrollContainer/Patch9Frame"]
+
+editor/display_folded = true
+anchor_left = 1.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+margin_left = -228.0
+margin_top = 8.0
+margin_right = -44.0
+margin_bottom = 67.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 2
+size_flags_vertical = 2
+alignment = 0
+
+[node name="PatientName" type="Label" parent="Container/ScrollContainer/Patch9Frame/PatientInfo"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 184.0
+margin_bottom = 17.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.222656, 0.222656, 0.222656, 1 )
+text = "HOSPITAL: Pixel Hospital"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="DateOfBirth" type="Label" parent="Container/ScrollContainer/Patch9Frame/PatientInfo"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 21.0
+margin_right = 184.0
+margin_bottom = 38.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.222656, 0.222656, 0.222656, 1 )
+text = "HOSPITAL: Pixel Hospital"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="HospitalNumber" type="Label" parent="Container/ScrollContainer/Patch9Frame/PatientInfo"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 42.0
+margin_right = 184.0
+margin_bottom = 59.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.222656, 0.222656, 0.222656, 1 )
+text = "HOSPITAL: Pixel Hospital"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="TextureButton" type="TextureButton" parent="Container"]
+
+anchor_left = 0.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -4.0
+margin_top = 53.0
+margin_right = -8.0
+margin_bottom = 112.0
+rect_min_size = Vector2( 0, 59 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 5 )
+texture_hover = ExtResource( 6 )
+expand = true
+_sections_unfolded = [ "Focus", "Grow Direction", "Hint", "Mouse", "Rect", "Size Flags", "Textures", "Theme" ]
+
+[node name="Label" type="Label" parent="Container/TextureButton"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 1.0
+margin_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 7 )
+custom_colors/font_color = Color( 0.462418, 0.741737, 0.816406, 1 )
+text = "Notes"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="addDiffButton" parent="Container" instance=ExtResource( 8 )]
+
+margin_left = -239.0
+margin_top = 14.0
+margin_right = -117.0
+margin_bottom = 41.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+group = null
+
+

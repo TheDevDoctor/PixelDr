@@ -1,0 +1,346 @@
+{
+    "id": "Stubbsy345-The Palpable Pain",
+    "rating": 10,
+    "topic": "Urology",
+    "description": "Do you think you can handle mark with his terrible pain? See if you can help.",
+    "creator": "Stubbsy345",
+    "Explanation": "Acute urinary retention is a serious presentation to hospital and must be handled quickly to ensure no further complications. At first it may be difficult to ascertain exactly what is occuring when Mr Wright presents. But from the history and the examination it should be relatively straightforward to diagnose acute urinary retention. The fact that is is painful indicates that this is acute retention and not chronic. Also the tense lower abdomen indicates an expanded bladder.\n\nOnce you have this diagnosis it is important that the patient is quickly catheterised to relieve the pressure within the bladder. It is important to document how much fluid is drained from the catheter within your notes.\n\nEven though the pain will likely dissipate it is unlikely for the patient to be without pain at this stage so paracetamol should be prescribed regularly. It is important at this point that the surgeons come and assess the patient incase any other interventions are required. Usually a trial without catheter will be tried in 3 days time. Therefore, providing there are no contraindications, an alpha blocker should be started soon after catheterisation.",
+    "PatientDetails": {
+        "Forename": "Mark",
+        "Surname": "Wright",
+        "PresentingComplaint": "Abdominal Pain and unable to pass urine",
+        "DateOfBirth": "12/12",
+        "Age": "66",
+        "Ward": "Emergency Department",
+        "Weight": "69.1",
+        "Height": "1.77",
+        "BMI": "22.056242",
+        "HospitalNumber": "PX348293",
+        "Sensitivities": "NKDA"
+    },
+    "Vitals": {
+        "HR": "103",
+        "RR": "17",
+        "BP": {
+            "Systolic": "123",
+            "Diastolic": "77"
+        },
+        "Sats": "99",
+        "T": "36.6"
+    },
+    "ScenarioDetails": {
+        "Priority": "1: Urgent",
+        "Sprite": 5,
+        "Difficulty": "Junior",
+        "Specialty": "Urology",
+        "Edited": {
+            "year": 2017,
+            "month": 11,
+            "day": 12,
+            "weekday": 0,
+            "dst": false,
+            "hour": 12,
+            "minute": 28,
+            "second": 13
+        }
+    },
+    "Answers": {
+        "Examinations": [
+            "Abdominal",
+            "Digital Rectal Examination"
+        ],
+        "Investigations": [
+            "Full Blood Count (FBC)",
+            "Urea and Electrolytes",
+            "Bladder ultrasound"
+        ],
+        "Prescriptions": {
+            "OnceOnly": [],
+            "Regular": [
+                {
+                    "Tamulosin": {
+                        "Doses": "0.4",
+                        "Tag": 1,
+                        "Units": "mg",
+                        "Routes": "PO",
+                        "Frequency": "OD",
+                        "Duration": "3 - 10",
+                        "DurUnits": "Days"
+                    },
+                    "Alfusozin": {
+                        "Doses": "10",
+                        "Tag": 0,
+                        "Units": "mg",
+                        "Routes": "PO",
+                        "Frequency": "OD",
+                        "Duration": "3 - 10",
+                        "DurUnits": "Days"
+                    }
+                },
+                {
+                    "Paracetamol": {
+                        "Doses": "500 - 1000",
+                        "Tag": 1,
+                        "Units": "mg",
+                        "Routes": "PO",
+                        "Frequency": "QDS",
+                        "Duration": "3 - 10",
+                        "DurUnits": "Days"
+                    }
+                }
+            ],
+            "AsRequired": [],
+            "Infusion": []
+        },
+        "Contact": [
+            "Surgical Reg"
+        ],
+        "Procedures": {
+            "Catheter": "The catheter was inserted with some difficulty and 1250ml of fluid was drained."
+        },
+        "History": {
+            "Is it difficult for you to pass urine?": "Is it difficult to pass urine?",
+            "Do you have any past medical conditions?": "Do you have any medical conditions?",
+            "Do you take any medications?": "Are you taking any medication?",
+            "What is the pain like?": "what dies the pain feel like?",
+            "Do you have any family history of any medical conditions?": "Do you have any family history?",
+            "Do you smoke?": "do you smoke?",
+            "Have you had any problems with your stomach before?": "Any concerns?",
+            "Where is the pain?": "where is the pain?",
+            "Is it painful when you wee?": "Is it painful when you go for a wee?",
+            "Can you tell me more about that?": "Can you tell me more about that?",
+            "Does the pain radiate anywhere?": "Does the pain move anywhere?",
+            "Do you ever have any dribbling after you go for a wee?": "Do you have dribbling after you wee?",
+            "How much do you smoke?": "how much do you smoke?",
+            "When did the pain start?": "when did the pain start?",
+            "Why are you not feeling very well?": "what is the problem?",
+            "Have you been passing urine?": "Have you been passing urine?",
+            "When did you last go for a wee?": "when did you last go for a wee?",
+            "What colour is the sputum?": "What colour is the sputum?"
+        }
+    },
+    "History": {
+        "Why are you not feeling very well?": "My stomach hurts really badly. ",
+        "Can you tell me more about that?": "Ahh.. yeah I can.. down near my groin my tummy hurts really badly. I'm struggling to move because of it.",
+        "Where is the pain?": "It's below my belly button, in the middle. ",
+        "When did the pain start?": "It started about two hours ago.",
+        "Does the pain radiate anywhere?": "No it's just really painful. ",
+        "What is the pain like?": "Erh, just very painful, definetly not an ache but I wouldn't describe it as sharp either.",
+        "Do you ever have any dribbling after you go for a wee?": "Yeah I do but that's normal, I've had dribbling like that for a long time. ",
+        "Is it difficult for you to pass urine?": "Yeah it is difficult sometimes. I have to strain when I go. ",
+        "Is it painful when you wee?": "No it's not painful when I go for a wee. My tummy hurts so bad at the moment. ",
+        "Have you been passing urine?": "I'm trying to think, actually no, I haven't been for a wee for a quite a while. ",
+        "When did you last go for a wee?": "I think yesterday. Maybe the day before. I can't remember. ",
+        "Do you smoke?": "Yeah I smoke a lot.",
+        "How much do you smoke?": "I've smoked 10 a day for about 40 years now.",
+        "How bad is the pain.": "It's very bad! Almost.. ahhhh.. unbearable.",
+        "Does anything make the pain better?": "I haven't taken much. Only some paracetamol and that hasn't helped at all.",
+        "What colour is the sputum?": "A horrible yellowy colour"
+    },
+    "Examinations": {
+        "General": "On general inspection of the patient they appear to be mildly distressed. However, there breathing does not appear to be forced and they are not SOB.",
+        "Palpation": {
+            "BodyAnterior": {
+                "Abdomen": "The abdomen is very tense and the patient is guarding when touched in the abdomen. He says there is pain in the lower part of his abdomen.",
+                "Perineum": "The abdomen is very tense and the patient is guarding when touched in the perineum. Below the umbilicus you can feel a tense mass that the patient will not allow you to palpate further due to pain."
+            }
+        },
+        "Other": {
+            "Digital Rectal Examination": "There does not appear to be any anatomical abnormalities around the rectum and there is no sign of bleeding. There is no faeces in the rectum. On insertion of the finger you can feel a hard enlarged prostate with a central median sulcus. The prostate is approximately the size of a golf ball. There is no blood or mucous within the faeces."
+        }
+    },
+    "Investigations": {
+        "LIST": {},
+        "IMAGING": {
+            "Bladder ultrasound": {
+                "Findings": "The bladder is enlarged with a large residual volume. ",
+                "Impression": "Likely some form of obstruction resulting in acute urinary retention. ",
+                "Image": "NILL"
+            }
+        }
+    },
+    "Story": {
+        "Before Ix": {
+            "dialogue10": {
+                "content": [
+                    "Yeah, my name is Mark Wright and I'm 67. ",
+                    {
+                        "speaking": "Patient",
+                        "divert": "dialogue13"
+                    }
+                ]
+            },
+            "dialogue11": {
+                "content": [
+                    "Oh yeah, sorry, my name is Mark Wright and I'm 67. ",
+                    {
+                        "speaking": "Patient",
+                        "divert": "dialogue13"
+                    }
+                ]
+            },
+            "dialogue12": {
+                "content": [
+                    "No. You will have to do, I'm in too much pain for you to faff around. ",
+                    {
+                        "speaking": "Patient",
+                        "divert": "dialogue13"
+                    }
+                ]
+            },
+            "dialogue13": {
+                "content": [
+                    "Right okay sir let me just ask you a few more questions on that and I'll see what I can do. ",
+                    {
+                        "isEnd": true,
+                        "speaking": "Player"
+                    }
+                ]
+            },
+            "Start": "dialogue8",
+            "question1": {
+                "content": [
+                    "Hi.. ohhh..aaaahhhhh, please help, owwwww... I'm in a lot of pain. My tummy hurts really badly. ",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "dialogue10",
+                        "option": "Oh sorry to hear that Sir. Can I just check your name and age please?",
+                        "Answer": true
+                    },
+                    {
+                        "linkPath": "dialogue11",
+                        "option": "What's your name and age?",
+                        "Answer": false
+                    },
+                    {
+                        "linkPath": "dialogue12",
+                        "option": "Oh that sounds serious, perhaps you should see my colleague. ",
+                        "Answer": false
+                    }
+                ]
+            },
+            "dialogue8": {
+                "content": [
+                    "Hi Sir, how can I help?",
+                    {
+                        "speaking": "Player",
+                        "divert": "question1"
+                    }
+                ]
+            }
+        },
+        "Repeated Text": {
+            "Start": "dialogue7",
+            "dialogue7": {
+                "content": [
+                    "Oh hi, please do you know what's wrong?",
+                    {
+                        "speaking": "Patient",
+                        "divert": "dialogue8"
+                    }
+                ]
+            },
+            "dialogue8": {
+                "content": [
+                    "Sorry we haven't had results back yet. ",
+                    {
+                        "isEnd": true,
+                        "speaking": "Player"
+                    }
+                ]
+            }
+        },
+        "After Ix": {
+            "dialogue12": {
+                "content": [
+                    "Oh okay well thank you for your help.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue13": {
+                "content": [
+                    "Oh okay well thank you for your help.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "Start": "question1",
+            "dialogue14": {
+                "content": [
+                    "I'm not that bloody old!",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue15": {
+                "content": [
+                    "Ah right, thanks anyway. ",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "question1": {
+                "content": [
+                    "What's going to happen now Dr?",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "question2",
+                        "option": "I am going to have to get the surgeons down to see you. ",
+                        "Answer": true
+                    },
+                    {
+                        "linkPath": "question2",
+                        "option": "You can go home I think. ",
+                        "Answer": false
+                    },
+                    {
+                        "linkPath": "question2",
+                        "option": "You need to have surgery urgently. ",
+                        "Answer": false
+                    }
+                ]
+            },
+            "question2": {
+                "content": [
+                    "Oh okay, I know you don't know for sure but what is the most common cause of this?",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "dialogue12",
+                        "option": "In your age I think it is most likely benign prostatic hyperplasia. ",
+                        "Answer": true
+                    },
+                    {
+                        "linkPath": "dialogue13",
+                        "option": "In your age I think it is most likely cancer of the prostate.",
+                        "Answer": false
+                    },
+                    {
+                        "linkPath": "dialogue14",
+                        "option": "Considering you're very old it is probably just due to your age. ",
+                        "Answer": false
+                    },
+                    {
+                        "linkPath": "dialogue15",
+                        "option": "I have no idea, the surgeons will have a better idea. ",
+                        "Answer": false
+                    }
+                ]
+            }
+        }
+    }
+}

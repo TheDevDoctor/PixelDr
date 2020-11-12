@@ -1,0 +1,1813 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://Themes/subscreens.tres" type="Theme" id=1]
+[ext_resource path="res://Graphics/UI/PerformanceBg.png" type="Texture" id=2]
+[ext_resource path="res://Scripts/PerformanceScreenNew.gd" type="Script" id=3]
+[ext_resource path="res://Graphics/UI/SliderArrow.png" type="Texture" id=4]
+[ext_resource path="res://Graphics/UI/LargeCircProgBg.png" type="Texture" id=5]
+[ext_resource path="res://Graphics/UI/LargeCircProg.png" type="Texture" id=6]
+[ext_resource path="res://Fonts/Nunito_regular36.font" type="BitmapFont" id=7]
+[ext_resource path="res://Fonts/Nunito_regular28.font" type="BitmapFont" id=8]
+[ext_resource path="res://Graphics/UI/SmallCircProgBg.png" type="Texture" id=9]
+[ext_resource path="res://Graphics/UI/SmallCircProg.png" type="Texture" id=10]
+[ext_resource path="res://Fonts/Nunito_regular16.font" type="BitmapFont" id=11]
+[ext_resource path="res://Graphics/UI/baseDataContainer2.png" type="Texture" id=12]
+[ext_resource path="res://Fonts/Nunito_extra_bold20.font" type="BitmapFont" id=13]
+
+[node name="NinePatchRect" type="NinePatchRect"]
+
+pause_mode = 2
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
+theme = ExtResource( 1 )
+texture = ExtResource( 2 )
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+script = ExtResource( 3 )
+_sections_unfolded = [ "Margin", "Patch Margin", "Pause", "Theme", "Visibility" ]
+
+[node name="SliderContainer" type="HBoxContainer" parent="."]
+
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -505.0
+margin_top = -144.0
+margin_right = 505.0
+margin_bottom = -14.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 1
+alignment = 1
+_sections_unfolded = [ "Margin" ]
+
+[node name="Right" type="TextureButton" parent="."]
+
+self_modulate = Color( 0.188965, 0.448242, 0.538574, 0.93457 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 1172.0
+margin_top = 608.0
+margin_right = 1219.0
+margin_bottom = 672.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 4 )
+_sections_unfolded = [ "Textures", "Visibility" ]
+
+[node name="Right2" type="TextureButton" parent="."]
+
+self_modulate = Color( 0.188965, 0.448242, 0.538574, 0.93457 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 107.0
+margin_top = 673.0
+margin_right = 154.0
+margin_bottom = 737.0
+rect_rotation = 180.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 4 )
+_sections_unfolded = [ "Rect", "Textures", "Visibility" ]
+
+[node name="progressBars" type="Container" parent="."]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 50.0
+margin_top = 41.0
+margin_right = 535.0
+margin_bottom = 547.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="Overall" type="Control" parent="progressBars"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 89.0
+margin_top = 23.0
+margin_right = 390.0
+margin_bottom = 329.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Rect" ]
+
+[node name="TextureRect" type="TextureRect" parent="progressBars/Overall"]
+
+self_modulate = Color( 0.106232, 0.199409, 0.230469, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 5.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 5 )
+stretch_mode = 4
+_sections_unfolded = [ "Anchor", "Margin", "Material", "Rect", "Visibility" ]
+
+[node name="TextureProgress" type="TextureProgress" parent="progressBars/Overall"]
+
+self_modulate = Color( 0.179688, 0.90387, 1, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 5.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 1
+min_value = 0.0
+max_value = 100.0
+step = 1.0
+page = 0.0
+value = 0.0
+exp_edit = false
+rounded = false
+texture_under = null
+texture_over = null
+texture_progress = ExtResource( 6 )
+fill_mode = 4
+radial_fill_degrees = 360.0
+radial_center_offset = Vector2( 0, 0 )
+nine_patch_stretch = false
+_sections_unfolded = [ "Hint", "Material", "Pause", "Radial Fill", "Rect", "Size Flags", "Textures", "Visibility" ]
+
+[node name="Label" type="Label" parent="progressBars/Overall"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -79.5
+margin_top = -18.0
+margin_right = 84.5
+margin_bottom = 19.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 7 )
+custom_colors/font_color = Color( 0.268478, 0.716774, 0.808594, 1 )
+text = "N/A"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_colors", "custom_fonts" ]
+
+[node name="Title" type="Label" parent="progressBars/Overall"]
+
+self_modulate = Color( 0.272369, 0.5998, 0.664062, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+margin_top = -20.0
+margin_bottom = 8.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 8 )
+text = "TOTAL"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Margin", "Visibility", "custom_fonts" ]
+
+[node name="History" type="Control" parent="progressBars"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 16.0
+margin_top = 325.0
+margin_right = 125.0
+margin_bottom = 435.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Rect" ]
+
+[node name="TextureRect" type="TextureRect" parent="progressBars/History"]
+
+self_modulate = Color( 0.105882, 0.196078, 0.227451, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 9 )
+stretch_mode = 4
+_sections_unfolded = [ "Anchor", "Margin", "Material", "Rect", "Visibility" ]
+
+[node name="TextureProgress" type="TextureProgress" parent="progressBars/History"]
+
+self_modulate = Color( 0.179688, 0.90387, 1, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 1
+min_value = 0.0
+max_value = 100.0
+step = 1.0
+page = 0.0
+value = 0.0
+exp_edit = false
+rounded = false
+texture_under = null
+texture_over = null
+texture_progress = ExtResource( 10 )
+fill_mode = 4
+radial_fill_degrees = 360.0
+radial_center_offset = Vector2( 0, 0 )
+nine_patch_stretch = false
+_sections_unfolded = [ "Hint", "Material", "Pause", "Radial Fill", "Rect", "Size Flags", "Textures", "Visibility" ]
+
+[node name="Label" type="Label" parent="progressBars/History"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -29.5
+margin_top = -7.0
+margin_right = 28.5
+margin_bottom = 10.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 11 )
+custom_colors/font_color = Color( 0.268478, 0.716774, 0.808594, 1 )
+text = "N/A"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_colors", "custom_fonts" ]
+
+[node name="Title" type="Label" parent="progressBars/History"]
+
+self_modulate = Color( 0.272369, 0.5998, 0.664062, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+margin_top = -15.0
+margin_bottom = 2.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 11 )
+text = "HISTORY"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Margin", "Visibility", "custom_fonts" ]
+
+[node name="Investigations" type="Control" parent="progressBars"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 186.0
+margin_top = 386.0
+margin_right = 295.0
+margin_bottom = 496.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Rect" ]
+
+[node name="TextureRect" type="TextureRect" parent="progressBars/Investigations"]
+
+self_modulate = Color( 0.105882, 0.196078, 0.227451, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 9 )
+stretch_mode = 4
+_sections_unfolded = [ "Anchor", "Margin", "Material", "Rect", "Visibility" ]
+
+[node name="TextureProgress" type="TextureProgress" parent="progressBars/Investigations"]
+
+self_modulate = Color( 0.179688, 0.90387, 1, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 1
+min_value = 0.0
+max_value = 100.0
+step = 1.0
+page = 0.0
+value = 0.0
+exp_edit = false
+rounded = false
+texture_under = null
+texture_over = null
+texture_progress = ExtResource( 10 )
+fill_mode = 4
+radial_fill_degrees = 360.0
+radial_center_offset = Vector2( 0, 0 )
+nine_patch_stretch = false
+_sections_unfolded = [ "Hint", "Material", "Pause", "Radial Fill", "Rect", "Size Flags", "Textures", "Visibility" ]
+
+[node name="Label" type="Label" parent="progressBars/Investigations"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -29.5
+margin_top = -7.0
+margin_right = 28.5
+margin_bottom = 10.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 11 )
+custom_colors/font_color = Color( 0.268478, 0.716774, 0.808594, 1 )
+text = "N/A"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_fonts" ]
+
+[node name="Title" type="Label" parent="progressBars/Investigations"]
+
+self_modulate = Color( 0.272369, 0.5998, 0.664062, 1 )
+anchor_left = 0.5
+anchor_top = 0.0
+anchor_right = 0.5
+anchor_bottom = 0.0
+margin_left = -66.5
+margin_top = -16.0
+margin_right = 65.5
+margin_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 11 )
+text = "INVESTIGATIONS"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Margin", "Visibility", "custom_fonts" ]
+
+[node name="Management" type="Control" parent="progressBars"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 351.0
+margin_top = 325.0
+margin_right = 460.0
+margin_bottom = 435.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Rect" ]
+
+[node name="TextureRect" type="TextureRect" parent="progressBars/Management"]
+
+self_modulate = Color( 0.105882, 0.196078, 0.227451, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 9 )
+stretch_mode = 4
+_sections_unfolded = [ "Anchor", "Margin", "Material", "Rect", "Visibility" ]
+
+[node name="TextureProgress" type="TextureProgress" parent="progressBars/Management"]
+
+self_modulate = Color( 0.179688, 0.90387, 1, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 1
+min_value = 0.0
+max_value = 100.0
+step = 1.0
+page = 0.0
+value = 0.0
+exp_edit = false
+rounded = false
+texture_under = null
+texture_over = null
+texture_progress = ExtResource( 10 )
+fill_mode = 4
+radial_fill_degrees = 360.0
+radial_center_offset = Vector2( 0, 0 )
+nine_patch_stretch = false
+_sections_unfolded = [ "Hint", "Material", "Pause", "Radial Fill", "Rect", "Size Flags", "Textures", "Visibility" ]
+
+[node name="Label" type="Label" parent="progressBars/Management"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -29.5
+margin_top = -7.0
+margin_right = 28.5
+margin_bottom = 10.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 11 )
+custom_colors/font_color = Color( 0.268478, 0.716774, 0.808594, 1 )
+text = "N/A"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_fonts" ]
+
+[node name="Title2" type="Label" parent="progressBars/Management"]
+
+self_modulate = Color( 0.272369, 0.5998, 0.664062, 1 )
+anchor_left = 0.5
+anchor_top = 0.0
+anchor_right = 0.5
+anchor_bottom = 0.0
+margin_left = -66.5
+margin_top = -16.0
+margin_right = 65.5
+margin_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 11 )
+text = "MANAGEMENT"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Margin", "Visibility", "custom_fonts" ]
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+
+editor/display_folded = true
+self_modulate = Color( 0.262745, 0.32549, 0.376471, 0.348039 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 575.0
+margin_top = 55.0
+margin_right = 1198.0
+margin_bottom = 537.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 12 )
+patch_margin_left = 12
+patch_margin_top = 12
+patch_margin_right = 12
+patch_margin_bottom = 12
+_sections_unfolded = [ "Patch Margin", "Visibility" ]
+
+[node name="panelButtons" type="HBoxContainer" parent="NinePatchRect"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+margin_left = 20.0
+margin_top = 19.0
+margin_right = -23.0
+margin_bottom = 46.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 1
+alignment = 0
+
+[node name="Explanation" type="Button" parent="NinePatchRect/panelButtons"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 142.0
+margin_bottom = 27.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = true
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Explanation"
+flat = false
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="History" type="Button" parent="NinePatchRect/panelButtons"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 146.0
+margin_right = 288.0
+margin_bottom = 27.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = true
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "History"
+flat = false
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="Investigation" type="Button" parent="NinePatchRect/panelButtons"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 292.0
+margin_right = 434.0
+margin_bottom = 27.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = true
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Investigation"
+flat = false
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="Management" type="Button" parent="NinePatchRect/panelButtons"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 438.0
+margin_right = 580.0
+margin_bottom = 27.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = true
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Management"
+flat = false
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="Panels" type="Control" parent="NinePatchRect"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 55.0
+margin_right = -20.0
+margin_bottom = -20.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Margin" ]
+
+[node name="Explanation" type="Container" parent="NinePatchRect/Panels"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="Label" type="RichTextLabel" parent="NinePatchRect/Panels/Explanation"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 10.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = true
+bbcode_text = ""
+visible_characters = -1
+percent_visible = 1.0
+override_selected_font_color = false
+_sections_unfolded = [ "BBCode", "Margin" ]
+
+[node name="History" type="Container" parent="NinePatchRect/Panels"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="Investigations" type="ScrollContainer" parent="NinePatchRect/Panels/History"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+scroll_horizontal = true
+scroll_vertical = true
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="NinePatchRect/Panels/History/Investigations"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 583.0
+margin_bottom = 407.0
+rect_min_size = Vector2( 0, 110 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 0
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="Label" type="Label" parent="NinePatchRect/Panels/History/Investigations/VBoxContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 583.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 0, 40 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_colors/font_color = Color( 0.254902, 0.490196, 0.545098, 1 )
+text = "Questions asked:"
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Rect" ]
+
+[node name="Attempted" type="VBoxContainer" parent="NinePatchRect/Panels/History/Investigations/VBoxContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 44.0
+margin_right = 583.0
+margin_bottom = 44.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 0
+alignment = 0
+
+[node name="Label2" type="Label" parent="NinePatchRect/Panels/History/Investigations/VBoxContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 48.0
+margin_right = 583.0
+margin_bottom = 88.0
+rect_min_size = Vector2( 0, 40 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_colors/font_color = Color( 0.254902, 0.490196, 0.545098, 1 )
+text = "Questions missed:"
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Rect" ]
+
+[node name="Missed" type="VBoxContainer" parent="NinePatchRect/Panels/History/Investigations/VBoxContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 92.0
+margin_right = 583.0
+margin_bottom = 92.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 0
+alignment = 0
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="Investigation" type="Container" parent="NinePatchRect/Panels"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="NinePatchRect/Panels/Investigation"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+margin_top = 6.0
+margin_bottom = 23.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 1
+alignment = 0
+
+[node name="Label3" type="Label" parent="NinePatchRect/Panels/Investigation/HBoxContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 289.0
+margin_bottom = 17.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+custom_colors/font_color = Color( 0.254902, 0.490196, 0.545098, 1 )
+text = "What you did:"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="Label2" type="Label" parent="NinePatchRect/Panels/Investigation/HBoxContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 293.0
+margin_right = 583.0
+margin_bottom = 17.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+custom_colors/font_color = Color( 0.254902, 0.490196, 0.545098, 1 )
+text = "What you missed:"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="ScrollContainer" type="ScrollContainer" parent="NinePatchRect/Panels/Investigation"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 34.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+scroll_horizontal = true
+scroll_vertical = true
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="NinePatchRect/Panels/Investigation/ScrollContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 583.0
+margin_bottom = 373.0
+rect_min_size = Vector2( 0, 110 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 0
+_sections_unfolded = [ "Margin", "Size Flags" ]
+
+[node name="Attempt" type="VBoxContainer" parent="NinePatchRect/Panels/Investigation/ScrollContainer/HBoxContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 289.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+
+[node name="Missed" type="VBoxContainer" parent="NinePatchRect/Panels/Investigation/ScrollContainer/HBoxContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 293.0
+margin_right = 583.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+
+[node name="Management" type="Container" parent="NinePatchRect/Panels"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="NinePatchRect/Panels/Management"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+scroll_horizontal = true
+scroll_vertical = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 583.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 1
+alignment = 0
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="PrescriptionTitle" type="Label" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer"]
+
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 583.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 0, 40 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 13 )
+custom_colors/font_color = Color( 0.258484, 0.492802, 0.546875, 1 )
+text = "PRESCRIPTIONS:"
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_colors", "custom_fonts" ]
+
+[node name="Prescriptions" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer"]
+
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 583.0
+margin_bottom = 70.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 1
+alignment = 0
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="Label" type="Label" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 583.0
+margin_bottom = 17.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+custom_colors/font_color = Color( 0.254902, 0.490196, 0.545098, 1 )
+text = "What you did:"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="Attempt" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 21.0
+margin_right = 583.0
+margin_bottom = 33.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 0
+alignment = 0
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="OnceOnly" type="HBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Attempt"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 583.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+alignment = 0
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Attempt/OnceOnly"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 3
+alignment = 0
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="PresConatiner" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Attempt/OnceOnly"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 2.0
+margin_right = 583.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+
+[node name="Regular" type="HBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Attempt"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 4.0
+margin_right = 583.0
+margin_bottom = 4.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+alignment = 0
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Attempt/Regular"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 3
+alignment = 0
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="PresConatiner" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Attempt/Regular"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 2.0
+margin_right = 583.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+
+[node name="AsRequired" type="HBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Attempt"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 8.0
+margin_right = 583.0
+margin_bottom = 8.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+alignment = 0
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Attempt/AsRequired"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 3
+alignment = 0
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="PresConatiner" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Attempt/AsRequired"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 2.0
+margin_right = 583.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+
+[node name="Infusion" type="HBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Attempt"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 12.0
+margin_right = 583.0
+margin_bottom = 12.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+alignment = 0
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Attempt/Infusion"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 3
+alignment = 0
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="PresConatiner" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Attempt/Infusion"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 2.0
+margin_right = 583.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+
+[node name="Label2" type="Label" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 37.0
+margin_right = 583.0
+margin_bottom = 54.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+custom_colors/font_color = Color( 0.254902, 0.490196, 0.545098, 1 )
+text = "What you missed:"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="Missed" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 58.0
+margin_right = 583.0
+margin_bottom = 70.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 0
+alignment = 0
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="OnceOnly" type="HBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Missed"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 583.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+alignment = 0
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Missed/OnceOnly"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 3
+alignment = 0
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="PresConatiner" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Missed/OnceOnly"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 2.0
+margin_right = 583.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+
+[node name="Regular" type="HBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Missed"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 4.0
+margin_right = 583.0
+margin_bottom = 4.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+alignment = 0
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Missed/Regular"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 3
+alignment = 0
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="PresConatiner" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Missed/Regular"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 2.0
+margin_right = 583.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+
+[node name="AsRequired" type="HBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Missed"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 8.0
+margin_right = 583.0
+margin_bottom = 8.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+alignment = 0
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Missed/AsRequired"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 3
+alignment = 0
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="PresConatiner" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Missed/AsRequired"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 2.0
+margin_right = 583.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+
+[node name="Infusion" type="HBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Missed"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 12.0
+margin_right = 583.0
+margin_bottom = 12.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+alignment = 0
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Missed/Infusion"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 3
+alignment = 0
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="PresConatiner" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Prescriptions/Missed/Infusion"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 2.0
+margin_right = 583.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+
+[node name="ProceduresTitle" type="Label" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer"]
+
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 583.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 0, 40 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 13 )
+custom_colors/font_color = Color( 0.254902, 0.490196, 0.545098, 1 )
+text = "PROCEDURES:"
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_colors", "custom_fonts" ]
+
+[node name="ProceduresLabels" type="HBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 583.0
+margin_bottom = 17.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 1
+alignment = 0
+
+[node name="Label3" type="Label" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/ProceduresLabels"]
+
+self_modulate = Color( 0.254902, 0.490196, 0.545098, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 289.0
+margin_bottom = 17.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+text = "What you did:"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="Label2" type="Label" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/ProceduresLabels"]
+
+self_modulate = Color( 0.254902, 0.490196, 0.545098, 1 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 293.0
+margin_right = 583.0
+margin_bottom = 17.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+text = "What you missed:"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="Procedures" type="HBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 583.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+_sections_unfolded = [ "Rect", "Size Flags" ]
+
+[node name="Attempt" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Procedures"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 289.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+_sections_unfolded = [ "Rect" ]
+
+[node name="Missed" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Procedures"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 293.0
+margin_right = 583.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+
+[node name="ContactsTitle" type="Label" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer"]
+
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 583.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 0, 40 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 13 )
+custom_colors/font_color = Color( 0.258484, 0.492802, 0.546875, 1 )
+text = "CONTACTS:"
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_colors", "custom_fonts" ]
+
+[node name="ContactsLabels" type="HBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 583.0
+margin_bottom = 17.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 1
+size_flags_vertical = 1
+alignment = 0
+
+[node name="Label3" type="Label" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/ContactsLabels"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 289.0
+margin_bottom = 17.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+custom_colors/font_color = Color( 0.254902, 0.490196, 0.545098, 1 )
+text = "What you did:"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="Label2" type="Label" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/ContactsLabels"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 293.0
+margin_right = 583.0
+margin_bottom = 17.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+custom_colors/font_color = Color( 0.254902, 0.490196, 0.545098, 1 )
+text = "What you missed:"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="Contacts" type="HBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer"]
+
+editor/display_folded = true
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 583.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+_sections_unfolded = [ "Rect", "Size Flags" ]
+
+[node name="Attempt" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Contacts"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 289.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+
+[node name="Missed" type="VBoxContainer" parent="NinePatchRect/Panels/Management/ScrollContainer/VBoxContainer/Contacts"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 293.0
+margin_right = 583.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+
+[node name="Label" type="Label" parent="NinePatchRect"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -132.5
+margin_top = -30.0
+margin_right = 132.5
+margin_bottom = -2.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 8 )
+custom_colors/font_color = Color( 0.254902, 0.490196, 0.545098, 1 )
+text = "Select a performance"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_colors", "custom_fonts" ]
+
+

@@ -1,0 +1,308 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scripts/VitalsScreen.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/Objects/VitalsScreen.png" type="Texture" id=2]
+[ext_resource path="res://Fonts/Nunito_regular28.font" type="BitmapFont" id=3]
+
+[node name="vitals" type="Node"]
+
+script = ExtResource( 1 )
+
+[node name="Patch9Frame" type="NinePatchRect" parent="."]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 736.0
+margin_top = 32.0
+margin_right = 1248.0
+margin_bottom = 352.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 2 )
+patch_margin_left = 50
+patch_margin_top = 50
+patch_margin_right = 50
+patch_margin_bottom = 50
+_sections_unfolded = [ "Margin" ]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Patch9Frame"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 40.0
+margin_top = 40.0
+margin_right = -40.0
+margin_bottom = -40.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 2
+size_flags_vertical = 2
+alignment = 0
+_sections_unfolded = [ "Margin" ]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Patch9Frame/HBoxContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 330.0
+rect_min_size = Vector2( 330, 0 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 2
+alignment = 0
+_sections_unfolded = [ "Rect", "Size Flags" ]
+
+[node name="Labels" type="VBoxContainer" parent="Patch9Frame/HBoxContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 334.0
+margin_right = 427.0
+margin_bottom = 240.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+size_flags_horizontal = 2
+size_flags_vertical = 3
+alignment = 0
+_sections_unfolded = [ "Margin", "Size Flags" ]
+
+[node name="HR" type="Label" parent="Patch9Frame/HBoxContainer/Labels"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 93.0
+margin_bottom = 44.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.124626, 0.945312, 0.118164, 1 )
+text = "102"
+align = 2
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="BP" type="Label" parent="Patch9Frame/HBoxContainer/Labels"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 48.0
+margin_right = 93.0
+margin_bottom = 92.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 1, 0.00390625, 0.00390625, 1 )
+text = "120/80"
+align = 2
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Sats" type="Label" parent="Patch9Frame/HBoxContainer/Labels"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 96.0
+margin_right = 93.0
+margin_bottom = 140.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.886719, 0.858982, 0.176651, 1 )
+text = "98%"
+align = 2
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="RR" type="Label" parent="Patch9Frame/HBoxContainer/Labels"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 144.0
+margin_right = 93.0
+margin_bottom = 188.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0, 0.949402, 0.996094, 1 )
+text = "16"
+align = 2
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="T" type="Label" parent="Patch9Frame/HBoxContainer/Labels"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 192.0
+margin_right = 93.0
+margin_bottom = 240.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 1, 0, 0.9375, 1 )
+text = "37.2"
+align = 2
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label" type="Label" parent="Patch9Frame"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 379.0
+margin_top = 36.0
+margin_right = 397.0
+margin_bottom = 50.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_colors/font_color = Color( 0.197876, 0.747559, 0.208374, 0.822266 )
+text = "HR"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_colors" ]
+
+[node name="Label2" type="Label" parent="Patch9Frame"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 379.0
+margin_top = 82.0
+margin_right = 397.0
+margin_bottom = 96.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_colors/font_color = Color( 0.838379, 0.0396423, 0.0472107, 0.912598 )
+text = "BP"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_colors" ]
+
+[node name="Label3" type="Label" parent="Patch9Frame"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 379.0
+margin_top = 132.0
+margin_right = 409.0
+margin_bottom = 146.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_colors/font_color = Color( 0.885742, 0.85791, 0.176636, 0.999512 )
+text = "SATS"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_colors" ]
+
+[node name="Label4" type="Label" parent="Patch9Frame"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 379.0
+margin_top = 181.0
+margin_right = 409.0
+margin_bottom = 195.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_colors/font_color = Color( 0.0271912, 0.827637, 0.873047, 0.926758 )
+text = "RR"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_colors" ]
+
+[node name="Label5" type="Label" parent="Patch9Frame"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 379.0
+margin_top = 227.0
+margin_right = 415.0
+margin_bottom = 241.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_colors/font_color = Color( 0.744629, 0.0574951, 0.718262, 0.87207 )
+text = "Temp"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_colors" ]
+
+

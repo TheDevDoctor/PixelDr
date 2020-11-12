@@ -1,0 +1,145 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Themes/subscreens.tres" type="Theme" id=1]
+[ext_resource path="res://Graphics/UI/IxButtonNormal.png" type="Texture" id=2]
+[ext_resource path="res://Graphics/UI/buttonRoundedEndNormal.png" type="Texture" id=3]
+[ext_resource path="res://Graphics/UI/buttonRoundedEndPressed.png" type="Texture" id=4]
+[ext_resource path="res://Graphics/UI/buttonRoundedEndHover.png" type="Texture" id=5]
+[ext_resource path="res://Fonts/Nunito_regular16.font" type="BitmapFont" id=6]
+[ext_resource path="res://Graphics/UI/buttonSquareNormal.png" type="Texture" id=7]
+[ext_resource path="res://Graphics/UI/buttonSquarePressed.png" type="Texture" id=8]
+[ext_resource path="res://Graphics/UI/buttonSquareHover.png" type="Texture" id=9]
+
+[node name="Patch9Frame" type="NinePatchRect"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+margin_right = -912.0
+margin_bottom = 31.0
+rect_min_size = Vector2( 0, 31 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 3
+size_flags_vertical = 2
+theme = ExtResource( 1 )
+texture = ExtResource( 2 )
+patch_margin_left = 5
+patch_margin_top = 5
+patch_margin_right = 5
+patch_margin_bottom = 5
+_sections_unfolded = [ "Rect" ]
+
+[node name="Order" type="TextureButton" parent="."]
+
+anchor_left = 1.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -68.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 5 )
+_sections_unfolded = [ "Margin", "Size Flags" ]
+
+[node name="Label" type="Label" parent="Order"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -21.0
+margin_top = -8.5
+margin_right = 20.0
+margin_bottom = 8.5
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 6 )
+text = "Order"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Info" type="TextureButton" parent="."]
+
+anchor_left = 1.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -135.0
+margin_right = -67.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 7 )
+texture_pressed = ExtResource( 8 )
+texture_hover = ExtResource( 9 )
+_sections_unfolded = [ "Margin" ]
+
+[node name="Label1" type="Label" parent="Info"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -14.0
+margin_top = -8.5
+margin_right = 13.0
+margin_bottom = 8.5
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 6 )
+text = "Info"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label" type="Label" parent="."]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = -145.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 2
+size_flags_vertical = 0
+text = "Full Blood Count"
+valign = 1
+clip_text = true
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Margin" ]
+
+

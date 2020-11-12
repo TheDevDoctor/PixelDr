@@ -1,0 +1,2909 @@
+[gd_scene load_steps=29 format=2]
+
+[ext_resource path="res://Themes/subscreens.tres" type="Theme" id=1]
+[ext_resource path="res://Graphics/UI/DialogueContainer.png" type="Texture" id=2]
+[ext_resource path="res://Scripts/ComputerScreen.gd" type="Script" id=3]
+[ext_resource path="res://Fonts/Nunito_extra_bold24.font" type="BitmapFont" id=4]
+[ext_resource path="res://Fonts/Nunito_extra_bold20.font" type="BitmapFont" id=5]
+[ext_resource path="res://Graphics/UI/CompSplitter.png" type="Texture" id=6]
+[ext_resource path="res://Graphics/UI/IxBackPanel.png" type="Texture" id=7]
+[ext_resource path="res://Fonts/Nunito_regular20.font" type="BitmapFont" id=8]
+[ext_resource path="res://Graphics/UI/InvestigationBg.png" type="Texture" id=9]
+[ext_resource path="res://Graphics/UI/blankSquare.png" type="Texture" id=10]
+[ext_resource path="res://Graphics/UI/baseDataContainer.png" type="Texture" id=11]
+[ext_resource path="res://Graphics/UI/seperator.png" type="Texture" id=12]
+[ext_resource path="res://Fonts/Nunito_regular16.font" type="BitmapFont" id=13]
+[ext_resource path="res://Graphics/UI/Triangle.png" type="Texture" id=14]
+[ext_resource path="res://Scripts/compNotes.gd" type="Script" id=15]
+[ext_resource path="res://Fonts/Nunito_regular12.font" type="BitmapFont" id=16]
+[ext_resource path="res://Graphics/UI/larger.png" type="Texture" id=17]
+[ext_resource path="res://Graphics/UI/imageingSideFrame.png" type="Texture" id=18]
+[ext_resource path="res://Graphics/UI/sideScreenTextureButton.png" type="Texture" id=19]
+[ext_resource path="res://Graphics/blankPixel.png" type="Texture" id=20]
+
+[sub_resource type="StyleBoxEmpty" id=1]
+
+[sub_resource type="StyleBoxEmpty" id=2]
+
+[sub_resource type="StyleBoxEmpty" id=3]
+
+[sub_resource type="StyleBoxTexture" id=4]
+texture = ExtResource( 19 )
+region_rect = Rect2( 0, 0, 33, 126 )
+margin_left = 22.0
+margin_right = 6.0
+margin_top = 22.0
+margin_bottom = 22.0
+modulate_color = Color( 0.394531, 1, 0.971619, 1 )
+
+[sub_resource type="StyleBoxTexture" id=5]
+texture = ExtResource( 19 )
+region_rect = Rect2( 0, 0, 33, 126 )
+margin_left = 22.0
+margin_right = 6.0
+margin_top = 22.0
+margin_bottom = 22.0
+modulate_color = Color( 0.00485229, 0.621094, 0.621094, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=6]
+
+[sub_resource type="StyleBoxTexture" id=7]
+texture = ExtResource( 19 )
+region_rect = Rect2( 0, 0, 33, 126 )
+margin_left = 22.0
+margin_right = 6.0
+margin_top = 22.0
+margin_bottom = 22.0
+modulate_color = Color( 0.234375, 0.234375, 0.234375, 0.950684 )
+
+[sub_resource type="StyleBoxEmpty" id=8]
+
+[node name="ComputerScreen" type="NinePatchRect"]
+self_modulate = Color( 0.207843, 0.305882, 0.701961, 1 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 100.0
+margin_top = 100.0
+margin_right = -100.0
+margin_bottom = -100.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+theme = ExtResource( 1 )
+texture = ExtResource( 2 )
+patch_margin_left = 15
+patch_margin_top = 15
+patch_margin_right = 15
+patch_margin_bottom = 15
+script = ExtResource( 3 )
+
+[node name="BedsScreen" type="Container" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="Label" type="Label" parent="BedsScreen"]
+margin_left = 30.0
+margin_top = 28.0
+margin_right = 366.0
+margin_bottom = 56.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 4 )
+text = "EMERGENCY DEPARTMENT"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="BedsScreen"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 30.0
+margin_top = 80.0
+margin_right = -30.0
+margin_bottom = -30.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="BEDS" type="VBoxContainer" parent="BedsScreen/HBoxContainer"]
+margin_right = 66.0
+margin_bottom = 30.0
+size_flags_vertical = 2
+custom_constants/separation = 10
+
+[node name="Title" type="Label" parent="BedsScreen/HBoxContainer/BEDS"]
+margin_right = 66.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 0, 30 )
+size_flags_horizontal = 3
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 5 )
+text = "BEDS  "
+
+[node name="Separator" type="NinePatchRect" parent="BedsScreen/HBoxContainer"]
+margin_left = 70.0
+margin_right = 84.0
+margin_bottom = 410.0
+texture = ExtResource( 6 )
+patch_margin_left = 7
+patch_margin_top = 10
+patch_margin_right = 7
+patch_margin_bottom = 10
+
+[node name="PRESENTING COMPLAINT" type="VBoxContainer" parent="BedsScreen/HBoxContainer"]
+margin_left = 88.0
+margin_right = 368.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 280, 0 )
+size_flags_vertical = 2
+custom_constants/separation = 10
+
+[node name="Title" type="Label" parent="BedsScreen/HBoxContainer/PRESENTING COMPLAINT"]
+margin_right = 280.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 0, 30 )
+size_flags_horizontal = 3
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 5 )
+text = "PRESENTING COMPLAINT"
+
+[node name="Separator1" type="NinePatchRect" parent="BedsScreen/HBoxContainer"]
+margin_left = 372.0
+margin_right = 386.0
+margin_bottom = 410.0
+size_flags_vertical = 3
+texture = ExtResource( 6 )
+patch_margin_left = 7
+patch_margin_top = 10
+patch_margin_right = 7
+patch_margin_bottom = 10
+
+[node name="TIME WAITED" type="VBoxContainer" parent="BedsScreen/HBoxContainer"]
+margin_left = 390.0
+margin_right = 484.0
+margin_bottom = 30.0
+size_flags_vertical = 2
+custom_constants/separation = 10
+
+[node name="Title" type="Label" parent="BedsScreen/HBoxContainer/TIME WAITED"]
+margin_right = 94.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 0, 30 )
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 5 )
+text = "WAITED  "
+
+[node name="Separator2" type="NinePatchRect" parent="BedsScreen/HBoxContainer"]
+margin_left = 488.0
+margin_right = 502.0
+margin_bottom = 410.0
+size_flags_horizontal = 0
+size_flags_vertical = 3
+texture = ExtResource( 6 )
+patch_margin_left = 7
+patch_margin_top = 10
+patch_margin_right = 7
+patch_margin_bottom = 10
+
+[node name="ACTIONS" type="VBoxContainer" parent="BedsScreen/HBoxContainer"]
+margin_left = 506.0
+margin_right = 1020.0
+margin_bottom = 30.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 10
+
+[node name="Title" type="Label" parent="BedsScreen/HBoxContainer/ACTIONS"]
+margin_right = 91.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 0, 30 )
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 5 )
+text = "ACTIONS"
+
+[node name="TestsScreen" type="Container" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="SearchBg" type="NinePatchRect" parent="TestsScreen"]
+anchor_bottom = 1.0
+margin_left = 30.0
+margin_top = 65.0
+margin_right = 569.0
+margin_bottom = -30.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 7 )
+patch_margin_left = 35
+patch_margin_top = 35
+patch_margin_right = 35
+patch_margin_bottom = 35
+
+[node name="LineEdit" type="LineEdit" parent="TestsScreen/SearchBg"]
+anchor_right = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = 51.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+custom_fonts/font = ExtResource( 8 )
+placeholder_text = "Search"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="TestsScreen/SearchBg"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 21.0
+margin_top = 65.0
+margin_right = -21.0
+margin_bottom = -20.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+scroll_vertical = 1
+
+[node name="IxSearchContainer" type="VBoxContainer" parent="TestsScreen/SearchBg/ScrollContainer"]
+margin_right = 480.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 480, 40 )
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="StoredIx" type="NinePatchRect" parent="TestsScreen"]
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -475.0
+margin_top = 30.0
+margin_right = -30.0
+margin_bottom = -30.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 7 )
+patch_margin_left = 35
+patch_margin_top = 35
+patch_margin_right = 35
+patch_margin_bottom = 35
+
+[node name="IxBg" type="NinePatchRect" parent="TestsScreen/StoredIx"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = -20.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 9 )
+patch_margin_left = 20
+patch_margin_top = 20
+patch_margin_right = 20
+patch_margin_bottom = 20
+
+[node name="ScrollContainer" type="ScrollContainer" parent="TestsScreen/StoredIx/IxBg"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = -60.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+scroll_vertical = 1
+
+[node name="IxList" type="VBoxContainer" parent="TestsScreen/StoredIx/IxBg/ScrollContainer"]
+margin_right = 365.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 0, 40 )
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TestsScreen/StoredIx/IxBg"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = -51.0
+margin_right = -20.0
+margin_bottom = -20.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="Clear" type="Button" parent="TestsScreen/StoredIx/IxBg/HBoxContainer"]
+margin_right = 180.0
+margin_bottom = 31.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Clear"
+
+[node name="Order" type="Button" parent="TestsScreen/StoredIx/IxBg/HBoxContainer"]
+margin_left = 184.0
+margin_right = 365.0
+margin_bottom = 31.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Order"
+
+[node name="Title" type="Label" parent="TestsScreen"]
+margin_left = 106.0
+margin_top = 27.0
+margin_right = 401.0
+margin_bottom = 52.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 4 )
+text = "BED1: JONOTHAN SMITH"
+
+[node name="PrescribeScreen" type="Container" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="SearchBg" type="NinePatchRect" parent="PrescribeScreen"]
+anchor_bottom = 1.0
+margin_left = 30.0
+margin_top = 65.0
+margin_right = 441.0
+margin_bottom = -30.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 7 )
+patch_margin_left = 35
+patch_margin_top = 35
+patch_margin_right = 35
+patch_margin_bottom = 35
+
+[node name="LineEdit" type="LineEdit" parent="PrescribeScreen/SearchBg"]
+anchor_right = 1.0
+margin_left = 20.0
+margin_top = 61.0
+margin_right = -20.0
+margin_bottom = 92.0
+focus_mode = 1
+size_flags_horizontal = 2
+size_flags_vertical = 2
+custom_fonts/font = ExtResource( 8 )
+placeholder_text = "Search"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="PrescribeScreen/SearchBg"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 21.0
+margin_top = 102.0
+margin_right = -20.0
+margin_bottom = -20.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+scroll_vertical = 1
+
+[node name="DrugsSearchContainer" type="VBoxContainer" parent="PrescribeScreen/SearchBg/ScrollContainer"]
+margin_right = 350.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 350, 40 )
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="Types" type="HBoxContainer" parent="PrescribeScreen/SearchBg"]
+anchor_right = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = 50.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="Medications" type="Button" parent="PrescribeScreen/SearchBg/Types"]
+margin_right = 121.0
+margin_bottom = 30.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = true
+text = "Medication"
+
+[node name="Infusions" type="Button" parent="PrescribeScreen/SearchBg/Types"]
+margin_left = 125.0
+margin_right = 246.0
+margin_bottom = 30.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = true
+text = "Fluid/Infusions"
+
+[node name="Oxygen" type="Button" parent="PrescribeScreen/SearchBg/Types"]
+margin_left = 250.0
+margin_right = 371.0
+margin_bottom = 30.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = true
+text = "Oxygen"
+
+[node name="StoredPres" type="NinePatchRect" parent="PrescribeScreen"]
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -607.0
+margin_top = 30.0
+margin_right = -30.0
+margin_bottom = -30.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 7 )
+patch_margin_left = 35
+patch_margin_top = 35
+patch_margin_right = 35
+patch_margin_bottom = 35
+
+[node name="IxBg" type="NinePatchRect" parent="PrescribeScreen/StoredPres"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = -20.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 9 )
+patch_margin_left = 20
+patch_margin_top = 20
+patch_margin_right = 20
+patch_margin_bottom = 20
+
+[node name="ScrollContainer" type="ScrollContainer" parent="PrescribeScreen/StoredPres/IxBg"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = -60.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+scroll_vertical = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PrescribeScreen/StoredPres/IxBg/ScrollContainer"]
+margin_right = 497.0
+margin_bottom = 16.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="OnceOnly" type="HBoxContainer" parent="PrescribeScreen/StoredPres/IxBg/ScrollContainer/VBoxContainer"]
+margin_right = 497.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="PrescribeScreen/StoredPres/IxBg/ScrollContainer/VBoxContainer/OnceOnly"]
+size_flags_vertical = 3
+
+[node name="PresConatiner" type="VBoxContainer" parent="PrescribeScreen/StoredPres/IxBg/ScrollContainer/VBoxContainer/OnceOnly"]
+margin_left = 2.0
+margin_right = 497.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="Regular" type="HBoxContainer" parent="PrescribeScreen/StoredPres/IxBg/ScrollContainer/VBoxContainer"]
+margin_top = 4.0
+margin_right = 497.0
+margin_bottom = 4.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="PrescribeScreen/StoredPres/IxBg/ScrollContainer/VBoxContainer/Regular"]
+size_flags_vertical = 3
+
+[node name="PresConatiner" type="VBoxContainer" parent="PrescribeScreen/StoredPres/IxBg/ScrollContainer/VBoxContainer/Regular"]
+margin_left = 2.0
+margin_right = 497.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="AsRequired" type="HBoxContainer" parent="PrescribeScreen/StoredPres/IxBg/ScrollContainer/VBoxContainer"]
+margin_top = 8.0
+margin_right = 497.0
+margin_bottom = 8.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="PrescribeScreen/StoredPres/IxBg/ScrollContainer/VBoxContainer/AsRequired"]
+size_flags_vertical = 3
+
+[node name="PresConatiner" type="VBoxContainer" parent="PrescribeScreen/StoredPres/IxBg/ScrollContainer/VBoxContainer/AsRequired"]
+margin_left = 2.0
+margin_right = 497.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="Infusion" type="HBoxContainer" parent="PrescribeScreen/StoredPres/IxBg/ScrollContainer/VBoxContainer"]
+margin_top = 12.0
+margin_right = 497.0
+margin_bottom = 12.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="PrescribeScreen/StoredPres/IxBg/ScrollContainer/VBoxContainer/Infusion"]
+size_flags_vertical = 3
+
+[node name="PresConatiner" type="VBoxContainer" parent="PrescribeScreen/StoredPres/IxBg/ScrollContainer/VBoxContainer/Infusion"]
+margin_left = 2.0
+margin_right = 497.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="Oxygen" type="HBoxContainer" parent="PrescribeScreen/StoredPres/IxBg/ScrollContainer/VBoxContainer"]
+margin_top = 16.0
+margin_right = 497.0
+margin_bottom = 16.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="PrescribeScreen/StoredPres/IxBg/ScrollContainer/VBoxContainer/Oxygen"]
+size_flags_vertical = 3
+
+[node name="PresConatiner" type="VBoxContainer" parent="PrescribeScreen/StoredPres/IxBg/ScrollContainer/VBoxContainer/Oxygen"]
+margin_left = 2.0
+margin_right = 497.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="Buttons" type="HBoxContainer" parent="PrescribeScreen/StoredPres/IxBg"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = -51.0
+margin_right = -20.0
+margin_bottom = -20.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="Clear" type="Button" parent="PrescribeScreen/StoredPres/IxBg/Buttons"]
+margin_right = 246.0
+margin_bottom = 31.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Clear"
+
+[node name="Order" type="Button" parent="PrescribeScreen/StoredPres/IxBg/Buttons"]
+margin_left = 250.0
+margin_right = 497.0
+margin_bottom = 31.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Prescribe"
+
+[node name="Title" type="Label" parent="PrescribeScreen"]
+margin_left = 107.0
+margin_top = 27.0
+margin_right = 402.0
+margin_bottom = 52.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 4 )
+text = "BED1: JONOTHAN SMITH"
+
+[node name="Cover" type="NinePatchRect" parent="PrescribeScreen"]
+visible = false
+self_modulate = Color( 0.372073, 0.34137, 0.734375, 0.726784 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 10 )
+patch_margin_left = 10
+patch_margin_top = 10
+patch_margin_right = 10
+patch_margin_bottom = 10
+
+[node name="PresDetails" type="NinePatchRect" parent="PrescribeScreen"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 168.0
+margin_right = -20.0
+margin_bottom = -219.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 9 )
+patch_margin_left = 20
+patch_margin_top = 20
+patch_margin_right = 20
+patch_margin_bottom = 20
+
+[node name="Title" type="Label" parent="PrescribeScreen/PresDetails"]
+margin_left = 15.0
+margin_top = 15.0
+margin_right = 127.0
+margin_bottom = 36.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 5 )
+
+[node name="NinePatchRect" type="NinePatchRect" parent="PrescribeScreen/PresDetails"]
+self_modulate = Color( 0.121094, 0.121094, 0.121094, 1 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 43.0
+margin_right = -20.0
+margin_bottom = -57.0
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="MedsAddScreen" type="Container" parent="PrescribeScreen/PresDetails"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="OptionsContainer" type="HBoxContainer" parent="PrescribeScreen/PresDetails/MedsAddScreen"]
+margin_left = 157.0
+margin_top = 13.0
+margin_right = 534.0
+margin_bottom = 30.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+custom_constants/separation = 20
+
+[node name="OnceOnly" type="CheckBox" parent="PrescribeScreen/PresDetails/MedsAddScreen/OptionsContainer"]
+margin_right = 100.0
+margin_bottom = 17.0
+rect_min_size = Vector2( 100, 0 )
+focus_mode = 0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+custom_styles/normal = SubResource( 1 )
+enabled_focus_mode = 0
+text = "Once Only"
+align = 2
+
+[node name="Regular" type="CheckBox" parent="PrescribeScreen/PresDetails/MedsAddScreen/OptionsContainer"]
+margin_left = 132.0
+margin_right = 212.0
+margin_bottom = 17.0
+rect_min_size = Vector2( 80, 0 )
+focus_mode = 0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+custom_styles/normal = SubResource( 2 )
+enabled_focus_mode = 0
+text = "Regular"
+align = 2
+
+[node name="AsRequired" type="CheckBox" parent="PrescribeScreen/PresDetails/MedsAddScreen/OptionsContainer"]
+margin_left = 264.0
+margin_right = 374.0
+margin_bottom = 17.0
+rect_min_size = Vector2( 110, 0 )
+focus_mode = 0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+custom_styles/normal = SubResource( 1 )
+custom_constants/check_vadjust = 0
+custom_constants/hseparation = 0
+enabled_focus_mode = 0
+text = "As Required"
+align = 2
+
+[node name="MedsAddScreen" type="VBoxContainer" parent="PrescribeScreen/PresDetails/MedsAddScreen"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 30.0
+margin_top = 51.0
+margin_right = -30.0
+margin_bottom = -67.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+custom_constants/separation = 10
+
+[node name="OnceOnly" type="HBoxContainer" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen"]
+visible = false
+margin_right = 980.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 10
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/OnceOnly"]
+margin_right = 140.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 140, 0 )
+size_flags_horizontal = 0
+size_flags_vertical = 3
+text = "ONCE ONLY:"
+valign = 1
+
+[node name="Doses" type="OptionButton" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/OnceOnly"]
+margin_left = 150.0
+margin_right = 393.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/OnceOnly/Doses"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 20.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Dose"
+valign = 1
+
+[node name="Units" type="OptionButton" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/OnceOnly"]
+margin_left = 403.0
+margin_right = 646.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/OnceOnly/Units"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 10.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Unit"
+valign = 1
+
+[node name="Container4" type="Container" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/OnceOnly"]
+margin_left = 656.0
+margin_right = 676.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 20, 0 )
+size_flags_vertical = 3
+
+[node name="seperator" type="TextureRect" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/OnceOnly"]
+self_modulate = Color( 0.5625, 0.5625, 0.5625, 1 )
+margin_left = 686.0
+margin_right = 696.0
+margin_bottom = 28.0
+size_flags_horizontal = 0
+size_flags_vertical = 2
+texture = ExtResource( 12 )
+
+[node name="Container5" type="Container" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/OnceOnly"]
+margin_left = 706.0
+margin_right = 726.0
+rect_min_size = Vector2( 20, 0 )
+size_flags_vertical = 2
+
+[node name="Routes" type="OptionButton" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/OnceOnly"]
+margin_left = 736.0
+margin_right = 980.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/OnceOnly/Routes"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 20.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Route"
+valign = 1
+
+[node name="Regular" type="HBoxContainer" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen"]
+visible = false
+margin_top = 38.0
+margin_right = 980.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 10
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular"]
+margin_right = 140.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 140, 0 )
+size_flags_horizontal = 2
+size_flags_vertical = 3
+text = "REGULAR:"
+valign = 1
+
+[node name="Doses" type="OptionButton" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular"]
+margin_left = 150.0
+margin_right = 250.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular/Doses"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 20.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Dose"
+valign = 1
+
+[node name="Units" type="OptionButton" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular"]
+margin_left = 260.0
+margin_right = 360.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular/Units"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 10.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Unit"
+valign = 1
+
+[node name="Container1" type="Container" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular"]
+margin_left = 370.0
+margin_right = 380.0
+rect_min_size = Vector2( 10, 0 )
+size_flags_vertical = 2
+
+[node name="seperator" type="TextureRect" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular"]
+self_modulate = Color( 0.5625, 0.5625, 0.5625, 1 )
+margin_left = 390.0
+margin_right = 400.0
+margin_bottom = 28.0
+size_flags_vertical = 2
+texture = ExtResource( 12 )
+
+[node name="Container" type="Container" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular"]
+margin_left = 410.0
+margin_right = 420.0
+rect_min_size = Vector2( 10, 0 )
+size_flags_vertical = 2
+
+[node name="Routes" type="OptionButton" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular"]
+margin_left = 430.0
+margin_right = 530.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular/Routes"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 20.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Route"
+valign = 1
+
+[node name="Container2" type="Container" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular"]
+margin_left = 540.0
+margin_right = 550.0
+rect_min_size = Vector2( 10, 0 )
+size_flags_vertical = 2
+
+[node name="seperator1" type="TextureRect" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular"]
+self_modulate = Color( 0.5625, 0.5625, 0.5625, 1 )
+margin_left = 560.0
+margin_right = 570.0
+margin_bottom = 28.0
+size_flags_vertical = 2
+texture = ExtResource( 12 )
+
+[node name="Container3" type="Container" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular"]
+margin_left = 580.0
+margin_right = 590.0
+rect_min_size = Vector2( 10, 0 )
+size_flags_vertical = 2
+
+[node name="Frequency" type="OptionButton" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular"]
+margin_left = 600.0
+margin_right = 700.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular/Frequency"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 20.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Frequency"
+valign = 1
+
+[node name="Container4" type="Container" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular"]
+margin_left = 710.0
+margin_right = 720.0
+rect_min_size = Vector2( 10, 0 )
+size_flags_vertical = 2
+
+[node name="seperator2" type="TextureRect" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular"]
+self_modulate = Color( 0.5625, 0.5625, 0.5625, 1 )
+margin_left = 730.0
+margin_right = 740.0
+margin_bottom = 28.0
+size_flags_vertical = 2
+texture = ExtResource( 12 )
+
+[node name="Container4 2" type="Container" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular"]
+margin_left = 750.0
+margin_right = 760.0
+rect_min_size = Vector2( 10, 0 )
+size_flags_vertical = 2
+
+[node name="Duration" type="OptionButton" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular"]
+margin_left = 770.0
+margin_right = 870.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular/Duration"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 18.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Duration"
+valign = 1
+
+[node name="DurUnits" type="OptionButton" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular"]
+margin_left = 880.0
+margin_right = 980.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/Regular/DurUnits"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 20.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Duration"
+valign = 1
+
+[node name="AsRequired" type="HBoxContainer" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen"]
+visible = false
+margin_right = 1010.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 10
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/AsRequired"]
+margin_right = 140.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 140, 0 )
+size_flags_vertical = 3
+text = "AS REQUIRED:"
+valign = 1
+
+[node name="Doses" type="OptionButton" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/AsRequired"]
+margin_left = 180.0
+margin_right = 350.0
+margin_bottom = 27.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/AsRequired/Doses"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 20.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Dose"
+valign = 1
+
+[node name="Units" type="OptionButton" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/AsRequired"]
+margin_left = 360.0
+margin_right = 530.0
+margin_bottom = 27.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/AsRequired/Units"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 10.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Unit"
+valign = 1
+
+[node name="Container1" type="Container" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/AsRequired"]
+margin_left = 540.0
+margin_right = 550.0
+rect_min_size = Vector2( 10, 0 )
+size_flags_vertical = 2
+
+[node name="seperator" type="TextureRect" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/AsRequired"]
+self_modulate = Color( 0.5625, 0.5625, 0.5625, 1 )
+margin_left = 560.0
+margin_right = 570.0
+margin_bottom = 28.0
+size_flags_vertical = 2
+texture = ExtResource( 12 )
+
+[node name="Container" type="Container" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/AsRequired"]
+margin_left = 580.0
+margin_right = 590.0
+rect_min_size = Vector2( 10, 0 )
+size_flags_vertical = 2
+
+[node name="Routes" type="OptionButton" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/AsRequired"]
+margin_left = 600.0
+margin_right = 770.0
+margin_bottom = 27.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/AsRequired/Routes"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 20.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Route"
+valign = 1
+
+[node name="Container2" type="Container" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/AsRequired"]
+margin_left = 780.0
+margin_right = 790.0
+rect_min_size = Vector2( 10, 0 )
+size_flags_vertical = 2
+
+[node name="seperator1" type="TextureRect" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/AsRequired"]
+self_modulate = Color( 0.5625, 0.5625, 0.5625, 1 )
+margin_left = 800.0
+margin_right = 810.0
+margin_bottom = 28.0
+size_flags_vertical = 2
+texture = ExtResource( 12 )
+
+[node name="Container3" type="Container" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/AsRequired"]
+margin_left = 820.0
+margin_right = 830.0
+rect_min_size = Vector2( 10, 0 )
+size_flags_vertical = 2
+
+[node name="Frequency" type="OptionButton" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/AsRequired"]
+margin_left = 840.0
+margin_right = 1010.0
+margin_bottom = 27.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen/MedsAddScreen/AsRequired/Frequency"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 20.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Frequency"
+valign = 1
+
+[node name="NoAddedLabel" type="Label" parent="PrescribeScreen/PresDetails/MedsAddScreen"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -157.0
+margin_top = -19.5
+margin_right = 156.0
+margin_bottom = 5.5
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 4 )
+custom_colors/font_color = Color( 0.484375, 0.484375, 0.484375, 1 )
+text = "Choose type of prescription"
+
+[node name="OxygenAddScreen" type="Container" parent="PrescribeScreen/PresDetails"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="Oxygen" type="HBoxContainer" parent="PrescribeScreen/PresDetails/OxygenAddScreen"]
+margin_left = 30.0
+margin_top = 51.0
+margin_right = 1010.0
+margin_bottom = 79.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 10
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/OxygenAddScreen/Oxygen"]
+margin_right = 260.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 260, 0 )
+size_flags_horizontal = 0
+size_flags_vertical = 3
+text = "Device"
+valign = 1
+
+[node name="Flow Rate" type="OptionButton" parent="PrescribeScreen/PresDetails/OxygenAddScreen/Oxygen"]
+margin_left = 270.0
+margin_right = 473.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/OxygenAddScreen/Oxygen/Flow Rate"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 20.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Flow Rate"
+valign = 1
+
+[node name="Target Sats" type="OptionButton" parent="PrescribeScreen/PresDetails/OxygenAddScreen/Oxygen"]
+margin_left = 483.0
+margin_right = 686.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/OxygenAddScreen/Oxygen/Target Sats"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 10.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Target Saturations"
+valign = 1
+
+[node name="Container4" type="Container" parent="PrescribeScreen/PresDetails/OxygenAddScreen/Oxygen"]
+margin_left = 696.0
+margin_right = 716.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 20, 0 )
+size_flags_vertical = 3
+
+[node name="seperator" type="TextureRect" parent="PrescribeScreen/PresDetails/OxygenAddScreen/Oxygen"]
+self_modulate = Color( 0.5625, 0.5625, 0.5625, 1 )
+margin_left = 726.0
+margin_right = 736.0
+margin_bottom = 28.0
+size_flags_horizontal = 0
+size_flags_vertical = 2
+texture = ExtResource( 12 )
+
+[node name="Container5" type="Container" parent="PrescribeScreen/PresDetails/OxygenAddScreen/Oxygen"]
+margin_left = 746.0
+margin_right = 766.0
+rect_min_size = Vector2( 20, 0 )
+size_flags_vertical = 2
+
+[node name="Given" type="OptionButton" parent="PrescribeScreen/PresDetails/OxygenAddScreen/Oxygen"]
+margin_left = 776.0
+margin_right = 980.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/OxygenAddScreen/Oxygen/Given"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 20.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Given"
+valign = 1
+
+[node name="FluidsAddScreen" type="Container" parent="PrescribeScreen/PresDetails"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 25.0
+margin_top = 40.0
+margin_right = -29.0
+margin_bottom = 15.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="Fluid" type="HBoxContainer" parent="PrescribeScreen/PresDetails/FluidsAddScreen"]
+anchor_right = 1.0
+margin_top = 9.0
+margin_bottom = 37.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 10
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid"]
+margin_right = 70.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 70, 0 )
+size_flags_horizontal = 2
+size_flags_vertical = 3
+text = "FLUID:"
+valign = 1
+
+[node name="Volume" type="OptionButton" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid"]
+margin_left = 116.0
+margin_right = 222.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = ExtResource( 13 )
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid/Volume"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 10.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 13 )
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Volume"
+valign = 1
+
+[node name="VolUnits" type="OptionButton" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid"]
+margin_left = 232.0
+margin_right = 338.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = ExtResource( 13 )
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid/VolUnits"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 20.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 13 )
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Unit"
+valign = 1
+
+[node name="Container2" type="Container" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid"]
+margin_left = 348.0
+margin_right = 358.0
+rect_min_size = Vector2( 10, 0 )
+size_flags_horizontal = 0
+size_flags_vertical = 2
+
+[node name="seperator1" type="TextureRect" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid"]
+self_modulate = Color( 0.5625, 0.5625, 0.5625, 1 )
+margin_left = 368.0
+margin_right = 378.0
+margin_bottom = 28.0
+size_flags_horizontal = 0
+size_flags_vertical = 2
+texture = ExtResource( 12 )
+
+[node name="Container3" type="Container" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid"]
+margin_left = 388.0
+margin_right = 398.0
+rect_min_size = Vector2( 10, 0 )
+size_flags_horizontal = 0
+size_flags_vertical = 2
+
+[node name="Routes" type="OptionButton" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid"]
+margin_left = 408.0
+margin_right = 514.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = ExtResource( 13 )
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid/Routes"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 20.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 13 )
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Route"
+valign = 1
+
+[node name="Container4" type="Container" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid"]
+margin_left = 524.0
+margin_right = 534.0
+rect_min_size = Vector2( 10, 0 )
+size_flags_horizontal = 0
+size_flags_vertical = 2
+
+[node name="seperator2" type="TextureRect" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid"]
+self_modulate = Color( 0.5625, 0.5625, 0.5625, 1 )
+margin_left = 544.0
+margin_right = 554.0
+margin_bottom = 28.0
+size_flags_horizontal = 0
+size_flags_vertical = 2
+texture = ExtResource( 12 )
+
+[node name="Container4 2" type="Container" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid"]
+margin_left = 564.0
+margin_right = 574.0
+rect_min_size = Vector2( 10, 0 )
+size_flags_horizontal = 0
+size_flags_vertical = 2
+
+[node name="RunTime" type="OptionButton" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid"]
+margin_left = 584.0
+margin_right = 690.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = ExtResource( 13 )
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid/RunTime"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 20.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 13 )
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Run Time"
+valign = 1
+
+[node name="RunTimeUnits" type="OptionButton" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid"]
+margin_left = 700.0
+margin_right = 806.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = ExtResource( 13 )
+toggle_mode = false
+
+[node name="Label" type="Label" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid/RunTimeUnits"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_right = 20.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 13 )
+custom_colors/font_color = Color( 0.550781, 0.550781, 0.550781, 1 )
+text = "Unit"
+valign = 1
+
+[node name="Container5" type="Container" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid"]
+margin_left = 816.0
+margin_right = 826.0
+rect_min_size = Vector2( 10, 0 )
+size_flags_horizontal = 0
+size_flags_vertical = 2
+
+[node name="seperator3" type="TextureRect" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid"]
+self_modulate = Color( 0.5625, 0.5625, 0.5625, 1 )
+margin_left = 836.0
+margin_right = 846.0
+margin_bottom = 28.0
+size_flags_horizontal = 0
+size_flags_vertical = 2
+texture = ExtResource( 12 )
+
+[node name="Container43" type="Container" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid"]
+margin_left = 856.0
+margin_right = 866.0
+rect_min_size = Vector2( 10, 0 )
+size_flags_horizontal = 0
+size_flags_vertical = 2
+
+[node name="AddDrug" type="Button" parent="PrescribeScreen/PresDetails/FluidsAddScreen/Fluid"]
+margin_left = 876.0
+margin_right = 986.0
+margin_bottom = 28.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Add Drug"
+
+[node name="DrugsAdded" type="HBoxContainer" parent="PrescribeScreen/PresDetails/FluidsAddScreen"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 81.0
+margin_bottom = -7.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+custom_constants/separation = 20
+
+[node name="Column1" type="VBoxContainer" parent="PrescribeScreen/PresDetails/FluidsAddScreen/DrugsAdded"]
+margin_right = 483.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="Column2" type="VBoxContainer" parent="PrescribeScreen/PresDetails/FluidsAddScreen/DrugsAdded"]
+margin_left = 503.0
+margin_right = 986.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="Label1" type="Label" parent="PrescribeScreen/PresDetails/FluidsAddScreen"]
+margin_top = 48.0
+margin_right = 109.0
+margin_bottom = 76.0
+rect_min_size = Vector2( 70, 0 )
+size_flags_horizontal = 2
+size_flags_vertical = 3
+text = "Drug(s) Added:"
+valign = 1
+
+[node name="NoneAdded" type="Label" parent="PrescribeScreen/PresDetails/FluidsAddScreen"]
+margin_left = 396.0
+margin_top = 91.0
+margin_right = 587.0
+margin_bottom = 119.0
+rect_min_size = Vector2( 70, 0 )
+size_flags_horizontal = 2
+size_flags_vertical = 3
+custom_fonts/font = ExtResource( 4 )
+custom_colors/font_color = Color( 0.417969, 0.417969, 0.417969, 1 )
+text = "No Drugs Added"
+valign = 1
+
+[node name="AddDrugScreen" type="NinePatchRect" parent="PrescribeScreen/PresDetails/FluidsAddScreen"]
+margin_left = 426.0
+margin_top = -87.0
+margin_right = 859.0
+margin_bottom = 140.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 7 )
+patch_margin_left = 35
+patch_margin_top = 35
+patch_margin_right = 35
+patch_margin_bottom = 35
+
+[node name="TextureFrame" type="TextureRect" parent="PrescribeScreen/PresDetails/FluidsAddScreen/AddDrugScreen"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -2.0
+margin_top = -129.0
+margin_right = 30.0
+margin_bottom = -87.0
+rect_scale = Vector2( 0.5, 0.5 )
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 14 )
+
+[node name="infusionDrugSearch" type="LineEdit" parent="PrescribeScreen/PresDetails/FluidsAddScreen/AddDrugScreen"]
+anchor_right = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = 51.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+custom_fonts/font = ExtResource( 8 )
+placeholder_text = "Search"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="PrescribeScreen/PresDetails/FluidsAddScreen/AddDrugScreen"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 70.0
+margin_right = -20.0
+margin_bottom = -20.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+scroll_horizontal = 1
+scroll_vertical = 1
+
+[node name="InfusionSearchList" type="VBoxContainer" parent="PrescribeScreen/PresDetails/FluidsAddScreen/AddDrugScreen/ScrollContainer"]
+margin_right = 393.0
+margin_bottom = 10.0
+rect_min_size = Vector2( 0, 10 )
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="PresDetailsBtns" type="HBoxContainer" parent="PrescribeScreen/PresDetails"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = -42.0
+margin_right = -20.0
+margin_bottom = -15.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="Cancel" type="Button" parent="PrescribeScreen/PresDetails/PresDetailsBtns"]
+margin_right = 498.0
+margin_bottom = 27.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Cancel"
+
+[node name="Prescribe" type="Button" parent="PrescribeScreen/PresDetails/PresDetailsBtns"]
+margin_left = 502.0
+margin_right = 1000.0
+margin_bottom = 27.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Add"
+
+[node name="InfoScreen" type="Container" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="InvestigationsBg" type="NinePatchRect" parent="InfoScreen"]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -537.0
+margin_top = 30.0
+margin_right = -30.0
+margin_bottom = 250.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 7 )
+patch_margin_left = 35
+patch_margin_top = 35
+patch_margin_right = 35
+patch_margin_bottom = 35
+
+[node name="ScrollContainer" type="ScrollContainer" parent="InfoScreen/InvestigationsBg"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = -20.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+scroll_horizontal = 1
+scroll_vertical = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="InfoScreen/InvestigationsBg/ScrollContainer"]
+margin_right = 467.0
+size_flags_horizontal = 3
+
+[node name="PrescriptionsBg" type="NinePatchRect" parent="InfoScreen"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -537.0
+margin_top = -250.0
+margin_right = -30.0
+margin_bottom = -30.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 7 )
+patch_margin_left = 35
+patch_margin_top = 35
+patch_margin_right = 35
+patch_margin_bottom = 35
+
+[node name="ScrollContainer" type="ScrollContainer" parent="InfoScreen/PrescriptionsBg"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = -20.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+scroll_horizontal = 1
+scroll_vertical = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="InfoScreen/PrescriptionsBg/ScrollContainer"]
+margin_right = 467.0
+margin_bottom = 12.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="OnceOnly" type="HBoxContainer" parent="InfoScreen/PrescriptionsBg/ScrollContainer/VBoxContainer"]
+margin_right = 467.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="InfoScreen/PrescriptionsBg/ScrollContainer/VBoxContainer/OnceOnly"]
+size_flags_horizontal = 0
+size_flags_vertical = 3
+
+[node name="PresConatiner" type="VBoxContainer" parent="InfoScreen/PrescriptionsBg/ScrollContainer/VBoxContainer/OnceOnly"]
+margin_left = 2.0
+margin_right = 467.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="Regular" type="HBoxContainer" parent="InfoScreen/PrescriptionsBg/ScrollContainer/VBoxContainer"]
+margin_top = 4.0
+margin_right = 467.0
+margin_bottom = 4.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="InfoScreen/PrescriptionsBg/ScrollContainer/VBoxContainer/Regular"]
+size_flags_horizontal = 0
+size_flags_vertical = 3
+
+[node name="PresConatiner" type="VBoxContainer" parent="InfoScreen/PrescriptionsBg/ScrollContainer/VBoxContainer/Regular"]
+margin_left = 2.0
+margin_right = 467.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="AsRequired" type="HBoxContainer" parent="InfoScreen/PrescriptionsBg/ScrollContainer/VBoxContainer"]
+margin_top = 8.0
+margin_right = 467.0
+margin_bottom = 8.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="InfoScreen/PrescriptionsBg/ScrollContainer/VBoxContainer/AsRequired"]
+size_flags_horizontal = 0
+size_flags_vertical = 3
+
+[node name="PresConatiner" type="VBoxContainer" parent="InfoScreen/PrescriptionsBg/ScrollContainer/VBoxContainer/AsRequired"]
+margin_left = 2.0
+margin_right = 467.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="Infusion" type="HBoxContainer" parent="InfoScreen/PrescriptionsBg/ScrollContainer/VBoxContainer"]
+margin_top = 12.0
+margin_right = 467.0
+margin_bottom = 12.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 2
+
+[node name="BigLabelContainer" type="VBoxContainer" parent="InfoScreen/PrescriptionsBg/ScrollContainer/VBoxContainer/Infusion"]
+size_flags_horizontal = 0
+size_flags_vertical = 3
+
+[node name="PresConatiner" type="VBoxContainer" parent="InfoScreen/PrescriptionsBg/ScrollContainer/VBoxContainer/Infusion"]
+margin_left = 2.0
+margin_right = 467.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="compNotes" type="NinePatchRect" parent="InfoScreen"]
+self_modulate = Color( 0.128906, 0.128906, 0.128906, 1 )
+margin_left = 28.0
+margin_top = 70.0
+margin_right = 520.0
+margin_bottom = 490.0
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+script = ExtResource( 15 )
+
+[node name="notes" type="TextEdit" parent="InfoScreen/compNotes"]
+margin_left = 14.0
+margin_top = 36.0
+margin_right = 476.0
+margin_bottom = 276.0
+custom_styles/normal = SubResource( 3 )
+custom_colors/current_line_color = Color( 0.128906, 0.128906, 0.128906, 1 )
+
+[node name="diffsSearchList" type="Container" parent="InfoScreen/compNotes"]
+margin_left = 14.0
+margin_top = 8.0
+margin_right = 476.0
+margin_bottom = 276.0
+
+[node name="ScrollCont" type="ScrollContainer" parent="InfoScreen/compNotes/diffsSearchList"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 43.0
+margin_bottom = -30.0
+scroll_horizontal = 1
+scroll_vertical = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="InfoScreen/compNotes/diffsSearchList/ScrollCont"]
+margin_right = 462.0
+size_flags_horizontal = 3
+
+[node name="LineEdit" type="LineEdit" parent="InfoScreen/compNotes/diffsSearchList"]
+anchor_right = 1.0
+margin_top = 6.0
+margin_bottom = 33.0
+placeholder_text = "Search..."
+
+[node name="Done" type="Button" parent="InfoScreen/compNotes/diffsSearchList"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -23.0
+text = "Done"
+
+[node name="Label" type="Label" parent="InfoScreen/compNotes"]
+margin_left = 15.0
+margin_top = 10.0
+margin_right = 57.0
+margin_bottom = 27.0
+text = "Notes"
+
+[node name="Label2" type="Label" parent="InfoScreen/compNotes"]
+margin_left = 15.0
+margin_top = 284.0
+margin_right = 101.0
+margin_bottom = 301.0
+text = "Differentials"
+
+[node name="diffLabels" type="ScrollContainer" parent="InfoScreen/compNotes"]
+margin_left = 16.0
+margin_top = 305.0
+margin_right = 477.0
+margin_bottom = 412.0
+scroll_horizontal = 1
+scroll_vertical = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="InfoScreen/compNotes/diffLabels"]
+margin_right = 461.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="InfoScreen/compNotes/diffLabels/HBoxContainer"]
+margin_right = 228.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="InfoScreen/compNotes/diffLabels/HBoxContainer"]
+margin_left = 232.0
+margin_right = 461.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+
+[node name="editDiffs" type="ScrollContainer" parent="InfoScreen/compNotes"]
+margin_left = 16.0
+margin_top = 305.0
+margin_right = 477.0
+margin_bottom = 412.0
+scroll_horizontal = 1
+scroll_vertical = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="InfoScreen/compNotes/editDiffs"]
+margin_right = 461.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="InfoScreen/compNotes/editDiffs/HBoxContainer"]
+margin_right = 228.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="InfoScreen/compNotes/editDiffs/HBoxContainer"]
+margin_left = 232.0
+margin_right = 461.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+
+[node name="edit" type="Button" parent="InfoScreen/compNotes"]
+margin_left = 107.0
+margin_top = 281.0
+margin_right = 153.0
+margin_bottom = 300.0
+custom_fonts/font = ExtResource( 16 )
+text = "Edit"
+
+[node name="Title" type="Label" parent="InfoScreen"]
+margin_left = 107.0
+margin_top = 27.0
+margin_right = 402.0
+margin_bottom = 52.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 4 )
+text = "BED1: JONOTHAN SMITH"
+
+[node name="ViewIx" type="NinePatchRect" parent="InfoScreen"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 250.0
+margin_top = 50.0
+margin_right = -250.0
+margin_bottom = -50.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 7 )
+patch_margin_left = 35
+patch_margin_top = 35
+patch_margin_right = 35
+patch_margin_bottom = 35
+
+[node name="IxBg" type="NinePatchRect" parent="InfoScreen/ViewIx"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = -20.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 9 )
+patch_margin_left = 20
+patch_margin_top = 20
+patch_margin_right = 20
+patch_margin_bottom = 20
+
+[node name="ScrollContainer" type="ScrollContainer" parent="InfoScreen/ViewIx/IxBg"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = -60.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+scroll_horizontal = 1
+scroll_vertical = 1
+
+[node name="PrintIxContainer" type="HBoxContainer" parent="InfoScreen/ViewIx/IxBg/ScrollContainer"]
+margin_right = 500.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 0, 40 )
+size_flags_horizontal = 3
+size_flags_vertical = 2
+custom_constants/separation = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="InfoScreen/ViewIx/IxBg/ScrollContainer/PrintIxContainer"]
+margin_right = 124.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="VBoxContainer1" type="VBoxContainer" parent="InfoScreen/ViewIx/IxBg/ScrollContainer/PrintIxContainer"]
+margin_left = 125.0
+margin_right = 249.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="InfoScreen/ViewIx/IxBg/ScrollContainer/PrintIxContainer"]
+margin_left = 250.0
+margin_right = 374.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="InfoScreen/ViewIx/IxBg/ScrollContainer/PrintIxContainer"]
+margin_left = 375.0
+margin_right = 500.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="Buttons" type="HBoxContainer" parent="InfoScreen/ViewIx/IxBg"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = -50.0
+margin_right = -20.0
+margin_bottom = -20.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="Info" type="Button" parent="InfoScreen/ViewIx/IxBg/Buttons"]
+margin_right = 248.0
+margin_bottom = 30.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Information"
+
+[node name="Okay" type="Button" parent="InfoScreen/ViewIx/IxBg/Buttons"]
+margin_left = 252.0
+margin_right = 500.0
+margin_bottom = 30.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Okay"
+
+[node name="ImagingContainer" type="Container" parent="InfoScreen/ViewIx/IxBg"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = -62.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="ImagingContainer" type="Panel" parent="InfoScreen/ViewIx/IxBg/ImagingContainer"]
+self_modulate = Color( 0, 0, 0, 1 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="Label" type="Label" parent="InfoScreen/ViewIx/IxBg/ImagingContainer/ImagingContainer"]
+margin_left = 90.0
+margin_top = 98.0
+margin_right = 410.0
+margin_bottom = 195.0
+custom_colors/font_color = Color( 0.585938, 0.585938, 0.585938, 1 )
+text = "The PixelDr team is working hard to get licensing rights to many medical images. Sadly we do not currently have the rights to this imaging. But you can view the imaging report in the pull out screen on the right. "
+align = 1
+autowrap = true
+
+[node name="TextureFrame" type="TextureRect" parent="InfoScreen/ViewIx/IxBg/ImagingContainer/ImagingContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+expand = true
+stretch_mode = 6
+
+[node name="Larger" type="TextureButton" parent="InfoScreen/ViewIx/IxBg/ImagingContainer/ImagingContainer"]
+self_modulate = Color( 0.660156, 0.660156, 0.660156, 1 )
+margin_right = 34.0
+margin_bottom = 34.0
+texture_normal = ExtResource( 17 )
+expand = true
+stretch_mode = 4
+
+[node name="SideScreen" type="NinePatchRect" parent="InfoScreen/ViewIx/IxBg/ImagingContainer"]
+visible = false
+self_modulate = Color( 0.476562, 0.476562, 0.476562, 0.945333 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 288.0
+margin_top = 1.0
+margin_right = 5.0
+margin_bottom = 1.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+texture = ExtResource( 18 )
+patch_margin_left = 25
+patch_margin_top = 25
+patch_margin_right = 25
+patch_margin_bottom = 50
+
+[node name="ScrollContainer" type="ScrollContainer" parent="InfoScreen/ViewIx/IxBg/ImagingContainer/SideScreen"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 35.0
+margin_top = 10.0
+margin_right = -9.0
+margin_bottom = -11.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+scroll_vertical = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="InfoScreen/ViewIx/IxBg/ImagingContainer/SideScreen/ScrollContainer"]
+margin_right = 173.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="sideScreenButton" type="Button" parent="InfoScreen/ViewIx/IxBg/ImagingContainer"]
+anchor_bottom = 1.0
+margin_left = 470.0
+margin_top = 1.0
+margin_right = 504.0
+margin_bottom = 1.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+custom_styles/hover = SubResource( 4 )
+custom_styles/pressed = SubResource( 5 )
+custom_styles/focus = SubResource( 6 )
+custom_styles/normal = SubResource( 7 )
+
+[node name="DischargeScreen" type="Container" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="DischargeSumBg" type="NinePatchRect" parent="DischargeScreen"]
+self_modulate = Color( 0, 0.515686, 0.554688, 1 )
+anchor_bottom = 1.0
+margin_left = 544.0
+margin_top = 19.0
+margin_right = 1062.0
+margin_bottom = -26.0
+rect_min_size = Vector2( 0, 200 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="NinePatchRect" type="NinePatchRect" parent="DischargeScreen/DischargeSumBg"]
+self_modulate = Color( 0.09375, 0.09375, 0.09375, 1 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = 10.0
+margin_right = -10.0
+margin_bottom = -10.0
+rect_min_size = Vector2( 0, 240 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="NinePatchRect" type="NinePatchRect" parent="DischargeScreen/DischargeSumBg/NinePatchRect"]
+self_modulate = Color( 0, 0.515625, 0.554688, 1 )
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 163.0
+margin_bottom = 26.0
+texture = ExtResource( 10 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="DischargeScreen/DischargeSumBg/NinePatchRect/NinePatchRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+text = "Discharge Summary"
+align = 1
+valign = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="DischargeScreen/DischargeSumBg/NinePatchRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = 50.0
+margin_right = -10.0
+margin_bottom = -47.0
+scroll_horizontal = 1
+scroll_vertical = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer"]
+margin_right = 478.0
+margin_bottom = 864.0
+size_flags_horizontal = 3
+
+[node name="NinePatchRect" type="NinePatchRect" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 0.171875, 0.171875, 0.171875, 1 )
+margin_right = 466.0
+margin_bottom = 120.0
+rect_min_size = Vector2( 0, 120 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer/NinePatchRect"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 183.0
+margin_bottom = 20.0
+text = "Diagnoses:"
+
+[node name="TextEdit" type="TextEdit" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer/NinePatchRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 28.0
+margin_right = -5.0
+margin_bottom = -5.0
+custom_styles/normal = SubResource( 8 )
+custom_colors/current_line_color = Color( 0.171875, 0.171875, 0.171875, 1 )
+
+[node name="NinePatchRect5" type="NinePatchRect" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 0.171875, 0.171875, 0.171875, 1 )
+margin_top = 124.0
+margin_right = 466.0
+margin_bottom = 244.0
+rect_min_size = Vector2( 0, 120 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer/NinePatchRect5"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 84.0
+margin_bottom = 20.0
+text = "Route of Admission:"
+
+[node name="TextEdit" type="TextEdit" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer/NinePatchRect5"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 28.0
+margin_right = -5.0
+margin_bottom = -5.0
+custom_styles/normal = SubResource( 8 )
+custom_colors/current_line_color = Color( 0.171875, 0.171875, 0.171875, 1 )
+
+[node name="NinePatchRect6" type="NinePatchRect" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 0.171875, 0.171875, 0.171875, 1 )
+margin_top = 248.0
+margin_right = 466.0
+margin_bottom = 368.0
+rect_min_size = Vector2( 0, 120 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer/NinePatchRect6"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 183.0
+margin_bottom = 20.0
+text = "Comorbidities:"
+
+[node name="TextEdit" type="TextEdit" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer/NinePatchRect6"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 28.0
+margin_right = -5.0
+margin_bottom = -5.0
+custom_styles/normal = SubResource( 8 )
+custom_colors/current_line_color = Color( 0.171875, 0.171875, 0.171875, 1 )
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 0.171875, 0.171875, 0.171875, 1 )
+margin_top = 372.0
+margin_right = 466.0
+margin_bottom = 492.0
+rect_min_size = Vector2( 0, 120 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer/NinePatchRect2"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 128.0
+margin_bottom = 20.0
+text = "Clinical Narrative:"
+
+[node name="TextEdit" type="TextEdit" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer/NinePatchRect2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 28.0
+margin_right = -5.0
+margin_bottom = -5.0
+custom_styles/normal = SubResource( 8 )
+custom_colors/current_line_color = Color( 0.171875, 0.171875, 0.171875, 1 )
+
+[node name="NinePatchRect3" type="NinePatchRect" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 0.171875, 0.171875, 0.171875, 1 )
+margin_top = 496.0
+margin_right = 466.0
+margin_bottom = 616.0
+rect_min_size = Vector2( 0, 120 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer/NinePatchRect3"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 128.0
+margin_bottom = 20.0
+text = "Medications:"
+
+[node name="TextEdit" type="TextEdit" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer/NinePatchRect3"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 28.0
+margin_right = -5.0
+margin_bottom = -5.0
+custom_styles/normal = SubResource( 8 )
+custom_colors/current_line_color = Color( 0.171875, 0.171875, 0.171875, 1 )
+
+[node name="NinePatchRect7" type="NinePatchRect" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 0.171875, 0.171875, 0.171875, 1 )
+margin_top = 620.0
+margin_right = 466.0
+margin_bottom = 740.0
+rect_min_size = Vector2( 0, 120 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer/NinePatchRect7"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 128.0
+margin_bottom = 20.0
+text = "Type of Discharge:"
+
+[node name="TextEdit" type="TextEdit" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer/NinePatchRect7"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 28.0
+margin_right = -5.0
+margin_bottom = -5.0
+custom_styles/normal = SubResource( 8 )
+custom_colors/current_line_color = Color( 0.171875, 0.171875, 0.171875, 1 )
+
+[node name="NinePatchRect4" type="NinePatchRect" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 0.171875, 0.171875, 0.171875, 1 )
+margin_top = 744.0
+margin_right = 466.0
+margin_bottom = 864.0
+rect_min_size = Vector2( 0, 120 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer/NinePatchRect4"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 128.0
+margin_bottom = 20.0
+text = "Future Management:"
+
+[node name="TextEdit" type="TextEdit" parent="DischargeScreen/DischargeSumBg/NinePatchRect/ScrollContainer/VBoxContainer/NinePatchRect4"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 28.0
+margin_right = -5.0
+margin_bottom = -5.0
+custom_styles/normal = SubResource( 8 )
+custom_colors/current_line_color = Color( 0.171875, 0.171875, 0.171875, 1 )
+
+[node name="Discharge" type="Button" parent="DischargeScreen/DischargeSumBg"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = -43.0
+margin_right = -20.0
+margin_bottom = -20.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+text = "Discharge Patient"
+
+[node name="compNotes" type="NinePatchRect" parent="DischargeScreen"]
+self_modulate = Color( 0.128906, 0.128906, 0.128906, 1 )
+margin_left = 25.0
+margin_top = 58.0
+margin_right = 528.0
+margin_bottom = 488.0
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+script = ExtResource( 15 )
+
+[node name="notes" type="TextEdit" parent="DischargeScreen/compNotes"]
+margin_left = 14.0
+margin_top = 36.0
+margin_right = 476.0
+margin_bottom = 276.0
+custom_styles/normal = SubResource( 3 )
+custom_colors/current_line_color = Color( 0.128906, 0.128906, 0.128906, 1 )
+
+[node name="diffsSearchList" type="Container" parent="DischargeScreen/compNotes"]
+margin_left = 14.0
+margin_top = 8.0
+margin_right = 476.0
+margin_bottom = 276.0
+
+[node name="ScrollCont" type="ScrollContainer" parent="DischargeScreen/compNotes/diffsSearchList"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 43.0
+margin_bottom = -30.0
+scroll_horizontal = 1
+scroll_vertical = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DischargeScreen/compNotes/diffsSearchList/ScrollCont"]
+margin_right = 462.0
+size_flags_horizontal = 3
+
+[node name="LineEdit" type="LineEdit" parent="DischargeScreen/compNotes/diffsSearchList"]
+anchor_right = 1.0
+margin_top = 6.0
+margin_bottom = 33.0
+placeholder_text = "Search..."
+
+[node name="Done" type="Button" parent="DischargeScreen/compNotes/diffsSearchList"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -23.0
+text = "Done"
+
+[node name="Label" type="Label" parent="DischargeScreen/compNotes"]
+margin_left = 15.0
+margin_top = 10.0
+margin_right = 57.0
+margin_bottom = 27.0
+text = "Notes"
+
+[node name="Label2" type="Label" parent="DischargeScreen/compNotes"]
+margin_left = 15.0
+margin_top = 284.0
+margin_right = 101.0
+margin_bottom = 301.0
+text = "Differentials"
+
+[node name="diffLabels" type="ScrollContainer" parent="DischargeScreen/compNotes"]
+margin_left = 16.0
+margin_top = 305.0
+margin_right = 477.0
+margin_bottom = 412.0
+scroll_horizontal = 1
+scroll_vertical = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="DischargeScreen/compNotes/diffLabels"]
+margin_right = 461.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DischargeScreen/compNotes/diffLabels/HBoxContainer"]
+margin_right = 228.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="DischargeScreen/compNotes/diffLabels/HBoxContainer"]
+margin_left = 232.0
+margin_right = 461.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+
+[node name="editDiffs" type="ScrollContainer" parent="DischargeScreen/compNotes"]
+margin_left = 16.0
+margin_top = 305.0
+margin_right = 477.0
+margin_bottom = 412.0
+scroll_horizontal = 1
+scroll_vertical = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="DischargeScreen/compNotes/editDiffs"]
+margin_right = 461.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DischargeScreen/compNotes/editDiffs/HBoxContainer"]
+margin_right = 228.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="DischargeScreen/compNotes/editDiffs/HBoxContainer"]
+margin_left = 232.0
+margin_right = 461.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+
+[node name="edit" type="Button" parent="DischargeScreen/compNotes"]
+margin_left = 107.0
+margin_top = 281.0
+margin_right = 153.0
+margin_bottom = 300.0
+custom_fonts/font = ExtResource( 16 )
+text = "Edit"
+
+[node name="AdmitScreen" type="Container" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+
+[node name="AdmitSumBg" type="NinePatchRect" parent="AdmitScreen"]
+self_modulate = Color( 0, 0.515686, 0.554688, 1 )
+anchor_bottom = 1.0
+margin_left = 552.0
+margin_top = 20.0
+margin_right = 1053.0
+margin_bottom = -25.0
+rect_min_size = Vector2( 0, 200 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="NinePatchRect" type="NinePatchRect" parent="AdmitScreen/AdmitSumBg"]
+self_modulate = Color( 0.09375, 0.09375, 0.09375, 1 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = 9.0
+margin_right = -10.0
+margin_bottom = -10.0
+rect_min_size = Vector2( 0, 240 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="NinePatchRect" type="NinePatchRect" parent="AdmitScreen/AdmitSumBg/NinePatchRect"]
+self_modulate = Color( 0, 0.515625, 0.554688, 1 )
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 142.0
+margin_bottom = 26.0
+texture = ExtResource( 10 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="AdmitScreen/AdmitSumBg/NinePatchRect/NinePatchRect"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -61.5
+margin_top = -11.5
+margin_right = 61.5
+margin_bottom = 11.5
+text = "Admission Notes"
+align = 1
+valign = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="AdmitScreen/AdmitSumBg/NinePatchRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = 75.0
+margin_right = -10.0
+margin_bottom = -42.0
+scroll_horizontal = 1
+scroll_vertical = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer"]
+margin_right = 461.0
+margin_bottom = 864.0
+size_flags_horizontal = 3
+
+[node name="Diagnoses" type="NinePatchRect" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 0.171875, 0.171875, 0.171875, 1 )
+margin_right = 449.0
+margin_bottom = 120.0
+rect_min_size = Vector2( 0, 120 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer/Diagnoses"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 183.0
+margin_bottom = 20.0
+text = "Diagnoses:"
+
+[node name="TextEdit" type="TextEdit" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer/Diagnoses"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 28.0
+margin_right = -5.0
+margin_bottom = -5.0
+custom_styles/normal = SubResource( 8 )
+custom_colors/current_line_color = Color( 0.171875, 0.171875, 0.171875, 1 )
+
+[node name="RouteOfAdmission" type="NinePatchRect" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 0.171875, 0.171875, 0.171875, 1 )
+margin_top = 124.0
+margin_right = 449.0
+margin_bottom = 244.0
+rect_min_size = Vector2( 0, 120 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer/RouteOfAdmission"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 84.0
+margin_bottom = 20.0
+text = "Route of Admission:"
+
+[node name="TextEdit" type="TextEdit" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer/RouteOfAdmission"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 28.0
+margin_right = -5.0
+margin_bottom = -5.0
+custom_styles/normal = SubResource( 8 )
+custom_colors/current_line_color = Color( 0.171875, 0.171875, 0.171875, 1 )
+
+[node name="Comorbidities" type="NinePatchRect" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 0.171875, 0.171875, 0.171875, 1 )
+margin_top = 248.0
+margin_right = 449.0
+margin_bottom = 368.0
+rect_min_size = Vector2( 0, 120 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer/Comorbidities"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 183.0
+margin_bottom = 20.0
+text = "Comorbidities:"
+
+[node name="TextEdit" type="TextEdit" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer/Comorbidities"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 28.0
+margin_right = -5.0
+margin_bottom = -5.0
+custom_styles/normal = SubResource( 8 )
+custom_colors/current_line_color = Color( 0.171875, 0.171875, 0.171875, 1 )
+
+[node name="Clinical Narrative" type="NinePatchRect" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 0.171875, 0.171875, 0.171875, 1 )
+margin_top = 372.0
+margin_right = 449.0
+margin_bottom = 492.0
+rect_min_size = Vector2( 0, 120 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer/Clinical Narrative"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 128.0
+margin_bottom = 20.0
+text = "Clinical Narrative:"
+
+[node name="TextEdit" type="TextEdit" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer/Clinical Narrative"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 28.0
+margin_right = -5.0
+margin_bottom = -5.0
+custom_styles/normal = SubResource( 8 )
+custom_colors/current_line_color = Color( 0.171875, 0.171875, 0.171875, 1 )
+
+[node name="Medications" type="NinePatchRect" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 0.171875, 0.171875, 0.171875, 1 )
+margin_top = 496.0
+margin_right = 449.0
+margin_bottom = 616.0
+rect_min_size = Vector2( 0, 120 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer/Medications"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 128.0
+margin_bottom = 20.0
+text = "Medications:"
+
+[node name="TextEdit" type="TextEdit" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer/Medications"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 28.0
+margin_right = -5.0
+margin_bottom = -5.0
+custom_styles/normal = SubResource( 8 )
+custom_colors/current_line_color = Color( 0.171875, 0.171875, 0.171875, 1 )
+
+[node name="TypeOfDischarge" type="NinePatchRect" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 0.171875, 0.171875, 0.171875, 1 )
+margin_top = 620.0
+margin_right = 449.0
+margin_bottom = 740.0
+rect_min_size = Vector2( 0, 120 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer/TypeOfDischarge"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 128.0
+margin_bottom = 20.0
+text = "Type of Discharge:"
+
+[node name="TextEdit" type="TextEdit" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer/TypeOfDischarge"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 28.0
+margin_right = -5.0
+margin_bottom = -5.0
+custom_styles/normal = SubResource( 8 )
+custom_colors/current_line_color = Color( 0.171875, 0.171875, 0.171875, 1 )
+
+[node name="SuggestedManagement" type="NinePatchRect" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer"]
+self_modulate = Color( 0.171875, 0.171875, 0.171875, 1 )
+margin_top = 744.0
+margin_right = 449.0
+margin_bottom = 864.0
+rect_min_size = Vector2( 0, 120 )
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Label" type="Label" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer/SuggestedManagement"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 128.0
+margin_bottom = 20.0
+text = "Suggested Management:"
+
+[node name="TextEdit" type="TextEdit" parent="AdmitScreen/AdmitSumBg/NinePatchRect/ScrollContainer/VBoxContainer/SuggestedManagement"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 28.0
+margin_right = -5.0
+margin_bottom = -5.0
+custom_styles/normal = SubResource( 8 )
+custom_colors/current_line_color = Color( 0.171875, 0.171875, 0.171875, 1 )
+
+[node name="Wards" type="OptionButton" parent="AdmitScreen/AdmitSumBg/NinePatchRect"]
+margin_left = 135.0
+margin_top = 39.0
+margin_right = 468.0
+margin_bottom = 62.0
+toggle_mode = false
+
+[node name="Label" type="Label" parent="AdmitScreen/AdmitSumBg/NinePatchRect"]
+margin_left = 11.0
+margin_top = 42.0
+margin_right = 117.0
+margin_bottom = 59.0
+text = "Admit to ward:"
+
+[node name="Admit" type="Button" parent="AdmitScreen/AdmitSumBg"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = -42.0
+margin_right = -20.0
+margin_bottom = -19.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+text = "Admit Patient"
+
+[node name="compNotes" type="NinePatchRect" parent="AdmitScreen"]
+self_modulate = Color( 0.128906, 0.128906, 0.128906, 1 )
+margin_left = 25.0
+margin_top = 58.0
+margin_right = 528.0
+margin_bottom = 488.0
+texture = ExtResource( 11 )
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+script = ExtResource( 15 )
+
+[node name="notes" type="TextEdit" parent="AdmitScreen/compNotes"]
+margin_left = 14.0
+margin_top = 36.0
+margin_right = 476.0
+margin_bottom = 276.0
+custom_styles/normal = SubResource( 3 )
+custom_colors/current_line_color = Color( 0.128906, 0.128906, 0.128906, 1 )
+
+[node name="diffsSearchList" type="Container" parent="AdmitScreen/compNotes"]
+margin_left = 14.0
+margin_top = 8.0
+margin_right = 476.0
+margin_bottom = 276.0
+
+[node name="ScrollCont" type="ScrollContainer" parent="AdmitScreen/compNotes/diffsSearchList"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 43.0
+margin_bottom = -30.0
+scroll_horizontal = 1
+scroll_vertical = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="AdmitScreen/compNotes/diffsSearchList/ScrollCont"]
+margin_right = 462.0
+size_flags_horizontal = 3
+
+[node name="LineEdit" type="LineEdit" parent="AdmitScreen/compNotes/diffsSearchList"]
+anchor_right = 1.0
+margin_top = 6.0
+margin_bottom = 33.0
+placeholder_text = "Search..."
+
+[node name="Done" type="Button" parent="AdmitScreen/compNotes/diffsSearchList"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -23.0
+text = "Done"
+
+[node name="Label" type="Label" parent="AdmitScreen/compNotes"]
+margin_left = 15.0
+margin_top = 10.0
+margin_right = 57.0
+margin_bottom = 27.0
+text = "Notes"
+
+[node name="Label2" type="Label" parent="AdmitScreen/compNotes"]
+margin_left = 15.0
+margin_top = 284.0
+margin_right = 101.0
+margin_bottom = 301.0
+text = "Differentials"
+
+[node name="diffLabels" type="ScrollContainer" parent="AdmitScreen/compNotes"]
+margin_left = 16.0
+margin_top = 305.0
+margin_right = 477.0
+margin_bottom = 412.0
+scroll_horizontal = 1
+scroll_vertical = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="AdmitScreen/compNotes/diffLabels"]
+margin_right = 461.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="AdmitScreen/compNotes/diffLabels/HBoxContainer"]
+margin_right = 228.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="AdmitScreen/compNotes/diffLabels/HBoxContainer"]
+margin_left = 232.0
+margin_right = 461.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+
+[node name="editDiffs" type="ScrollContainer" parent="AdmitScreen/compNotes"]
+margin_left = 16.0
+margin_top = 305.0
+margin_right = 477.0
+margin_bottom = 412.0
+scroll_horizontal = 1
+scroll_vertical = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="AdmitScreen/compNotes/editDiffs"]
+margin_right = 461.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="AdmitScreen/compNotes/editDiffs/HBoxContainer"]
+margin_right = 228.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="AdmitScreen/compNotes/editDiffs/HBoxContainer"]
+margin_left = 232.0
+margin_right = 461.0
+margin_bottom = 107.0
+size_flags_horizontal = 3
+
+[node name="edit" type="Button" parent="AdmitScreen/compNotes"]
+margin_left = 107.0
+margin_top = 281.0
+margin_right = 153.0
+margin_bottom = 300.0
+custom_fonts/font = ExtResource( 16 )
+text = "Edit"
+
+[node name="Back" type="Button" parent="."]
+margin_left = 16.0
+margin_top = 14.0
+margin_right = 79.0
+margin_bottom = 41.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+text = "Back"
+
+[node name="Cover" type="TextureRect" parent="."]
+visible = false
+self_modulate = Color( 0.0307159, 0.330022, 0.714844, 0.712706 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = 10.0
+margin_right = -10.0
+margin_bottom = -10.0
+mouse_filter = 0
+texture = ExtResource( 20 )
+expand = true
+[connection signal="text_changed" from="TestsScreen/SearchBg/LineEdit" to="." method="_on_LineEdit_text_changed"]
+[connection signal="text_changed" from="PrescribeScreen/SearchBg/LineEdit" to="." method="_on_LineEditPres_text_changed"]

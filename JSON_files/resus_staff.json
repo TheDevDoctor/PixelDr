@@ -1,0 +1,59 @@
+{
+    "Abilities": {
+        "Intubation": "THis is the description of how to intubate a patient",
+        "Restricted Drug Prescriptions": "THis is the description of how to Restricted Drug Prescriptions a patient",
+        "Taking Bloods": "",
+        "Examinations": ""
+    },
+    "Staff": {
+        "ANAESTHETIST": {
+            "description": "An anaethetist is one of the most powerful doctors in the hospital. They are highly trained in all aspects of emergency care, airway management, and restricted medications.",
+            "spawnTime": 10,
+            "color": "e1e1e1",
+            "graphic": "res://Graphics/Characters/old_greyHair_male.png",
+            "abilities": [
+                "Intubation",
+                "Restricted Drug Prescriptions"
+            ]
+        },
+        "NURSE": {
+            "description": "The nurse, very much the glue that holds the hospital together. These members are invaluable to effectively manage any acute setting.",
+            "spawnTime": 8,
+            "color": "7209d3",
+            "graphic": "res://Graphics/Characters/nurse_malel.png",
+            "abilities": [
+                "Taking Bloods"
+            ]
+        },
+        "MEDICAL REGISTRAR": {
+            "description": "The medical registrar is the the highest ranking general medical professional. Whatever your problem, the medical registrar can help you.",
+            "spawnTime": 30,
+            "graphic": "res://Graphics/Characters/reg_male.png",
+            "color": "f50000",
+            "abilities": [
+                "Examinations",
+                "Taking Bloods"
+            ]
+        },
+        "A&E CONSULTANT": {
+            "description": "The medical registrar is the the highest ranking general medical professional. Whatever your problem, the medical registrar can help you.",
+            "spawnTime": 30,
+            "graphic": "res://Graphics/Characters/old_greyHair_male_black_coat.png",
+            "color": "000000",
+            "abilities": [
+                "Examinations",
+                "Taking Bloods"
+            ]
+        },
+        "SURGICAL REGISTRAR": {
+            "description": "The medical registrar is the the highest ranking general medical professional. Whatever your problem, the medical registrar can help you.",
+            "spawnTime": 30,
+            "graphic": "res://Graphics/Characters/character_female_blonde.png",
+            "color": "008dff",
+            "abilities": [
+                "Examinations",
+                "Taking Bloods"
+            ]
+        }
+    }
+}

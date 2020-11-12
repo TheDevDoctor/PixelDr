@@ -1,0 +1,669 @@
+{
+    "id": "Grimble69-The Painful Chest",
+    "rating": 9,
+    "topic": "Cardiology",
+    "description": "Chest pain is one of the most common presentations to the emergency department. But do you know how to manage it. See if you do with Mr Smith.",
+    "creator": "grimble69",
+    "Explanation": "Myocardial infarction (MI), otherwise known as a heart attack, are very common occurrences in the emergency department and all junior doctors should know how to handle these situations. An MI is due to a blockage in one of the arteries that supply blood to the heart, leading to ischaemia of the myocardial tissue and consequently necrosis. This necrosis is not reversible and therefore it is important you act quickly to minimise damage to the patient's heart muscle.\n\nMr Smith comes in describing a pain in his chest which he describes as if 'somebody were sitting on his chest'. This crushing pain is a classical finding when a patient is suffering an MI and is often described as if some form weight is pressing on their chest. Other common findings include a pain that radiates down either arm or sometimes into the jaw. As with any pain it is important to follow SOCRATES to elicit all important information about the symptom. When you are concerned that a patient may be suffering from an MI it is important to quickly cover the patients risk factors as this can help in diagnosis in more unsure cases. If the correct questions were asked you would discover that the patient has hypertension, his father died of a hearct attack, and his mother of a stroke. Hypertension is a risk factor for MI, as is family history of ischaemic disease. Given the patients presentation and family history, it is highly likely that the patient may be suffering from an MI.\n\nIt is common that not much can be found on examination of the patient, except they may be distressed and it is likely that the patient will be tachycardic. Findings are often more indicative of a serious MI and could indicate cardiogenic shock.\n\nInvestigations must be done rapidly as the patient needs to receive treatment as soon as possible to ensure maximal heart muscle is saved. The two most important investigations to perform are cardiac biomarkers (Troponin and CK-MB) and an ECG. A rise in troponin is highly specific for myocardial damage, a rise in CK is also useful but is less specific as it may also be released from skeletal muscle. In this case there is a clear rise in troponin. On the ECG there is clearly ST-elevation in leads I - IV indicating that there's is likely a blockage lateral anterior descending artery. ST- elevated MI (STEMI) need urgent assessment for percutaneous coronary intervention and so you should bleep the catheterisation lab as soon as possible to inform them about the patient.\n\nMedications to be prescribed in an acute coronary event such as this depends on the ECG findings. For a STEMI, as this is, you need to give dual antiplatelet therapy with aspirin and clopidogrel. 300 mg of both aspirin and clopidogrel should be given as a loading dose, with 75 mg per day given on subsequent days. In addition to this adequate analgesia must be supplied with morphine. 2.5mg to 5 mg IV is a reasonable starting dose in a patient of this age. In older patients you may consider a lower starting dose. In addition to this, a kind hearted practitioner will give an anti emetic, the best choice is metoclopramide. Statins should be considered but should not be given in the acute setting as this will waste time getting the patient for percutaneous coronary intervention.",
+    "PatientDetails": {
+        "Sensitivities": "NKDA",
+        "Consultant": "Mr Smith",
+        "Surname": "Smith",
+        "DateOfBirth": "23/02/1948",
+        "Age": "55",
+        "HospitalNumber": "23984923",
+        "Forename": "James",
+        "Ward": "Emergency department",
+        "PresentingComplaint": "Chest Pain",
+        "BMI": "29",
+        "Weight": "86kg",
+        "Height": "1.8m"
+    },
+    "Vitals": {
+        "BP": {
+            "Systolic": "123",
+            "Diastolic": "77"
+        },
+        "HR": 89,
+        "RR": 16,
+        "Sats": 97,
+        "T": 37.2
+    },
+    "ScenarioDetails": {
+        "Priority": "1: Urgent",
+        "Sprite": 1,
+        "Difficulty": "Junior",
+        "Specialty": "Cardiology",
+        "Edited": {
+            "year": 2017,
+            "month": 10,
+            "day": 31,
+            "weekday": 2,
+            "dst": false,
+            "hour": 21,
+            "minute": 15,
+            "second": 7
+        }
+    },
+    "Answers": {
+        "Contact": [
+            "Cath Lab"
+        ],
+        "Procedures": [],
+        "Examinations": [
+            "Cardiovascular",
+            "Respiratory"
+        ],
+        "History": {
+            "Why are you not feeling very well?": "What appears to be the problem?",
+            "Where is the pain?": "Where is the pain?",
+            "When did the pain start?": "when did the pain start?",
+            "What is the pain like?": "what does the pain feel like?",
+            "Does the pain radiate anywhere?": "does the pain move anywhere?",
+            "Have you had any other symptoms?": "do you have any associated symptoms?",
+            "Does the pain come and go?": "Does the pain come and go?",
+            "How bad is the pain.": "How bad is the pain?",
+            "Do you have high blood pressure?": "Do you have high blood pressure?",
+            "Do you have any past medical conditions?": "Do you have any past medical conditions?",
+            "Do you have any family history of any medical conditions?": "Is there any family history?",
+            "Do you take any medications?": "Do you take any medication?",
+            "Do you smoke?": "Do you smoke?",
+            "How much alcohol do you drink?": "Do you drink much?",
+            "Do you have any concerns?": "Any concerns?"
+        },
+        "Investigations": [
+            "Full Blood Count (FBC)",
+            "Liver Function Tests (LFT)",
+            "Cardiac Troponins",
+            "Creatine Kinase (CK)",
+            "Chest X-ray",
+            "Electrocardiogram (ECG)"
+        ],
+        "Prescriptions": {
+            "Infusion": [],
+            "Oxygen": [],
+            "Regular": [
+                {
+                    "Clopidogrel": {
+                        "Doses": "75",
+                        "Routes": "PO",
+                        "Frequency": "BD",
+                        "Duration": "3 - 7",
+                        "Units": "mg",
+                        "DurUnits": "Days",
+                        "Tag": 1
+                    }
+                },
+                {
+                    "Aspirin": {
+                        "Doses": "75",
+                        "Routes": "PO",
+                        "Frequency": "OD",
+                        "Duration": "3 - 7",
+                        "Units": "mg",
+                        "DurUnits": "Days",
+                        "Tag": 1
+                    }
+                }
+            ],
+            "AsRequired": [
+                {
+                    "Oramorph": {
+                        "Doses": "5 - 10",
+                        "Routes": "PO",
+                        "Frequency": "4 Hourly",
+                        "Units": "mg",
+                        "Tag": 1
+                    }
+                },
+                {
+                    "Metoclopramide Hydrochloride": {
+                        "Doses": "5 - 10",
+                        "Routes": "PO",
+                        "Frequency": "TDS",
+                        "Units": "mg",
+                        "Tag": 1
+                    }
+                }
+            ],
+            "OnceOnly": [
+                {
+                    "Oramorph": {
+                        "Doses": "5 - 10",
+                        "Routes": "PO",
+                        "Units": "mg",
+                        "Tag": 1
+                    }
+                },
+                {
+                    "Metoclopramide Hydrochloride": {
+                        "Doses": "5 - 10",
+                        "Routes": "PO",
+                        "Units": "mg",
+                        "Tag": 1
+                    }
+                },
+                {
+                    "Clopidogrel": {
+                        "Doses": "5 - 10",
+                        "Routes": "PO",
+                        "Units": "mg",
+                        "Tag": 1
+                    }
+                },
+                {
+                    "Aspirin": {
+                        "Doses": "300",
+                        "Routes": "PO",
+                        "Units": "mg",
+                        "Tag": 1
+                    }
+                },
+                {
+                    "Glyceryl Trinitrate (GTN)": {
+                        "Doses": "0.4 - 0.8",
+                        "Routes": "SL",
+                        "Units": "mg",
+                        "Tag": 1
+                    }
+                }
+            ]
+        }
+    },
+    "History": {
+        "Have you had any other symptoms?": "I feel really sick right now, that started about an hour ago as well. But I reckon that is just due to the pain. ",
+        "How much alcohol do you drink?": "Not much. Perhaps a few beers on the weekend. But not very often at all. ",
+        "Do you take any medications?": "So I am taking amlodipine for the high blood pressure, I think that is 10mg once a day. For my knee I use a cream called diclofenac.That worked very well for a long time but recently it hasn't been managing it very well. ",
+        "Do you have any past medical conditions?": "So I have the high blood pressure. But i'm taking treatment for that and I've been on that for 5 years. Oh, yeah, I have arthritis in my left knee as well. ",
+        "What is you living situation?": "I live at home with my wife, both my children have grown up now and moved out. ",
+        "Do you have any family history of any medical conditions?": "My father died of a heart attack at 74 and my mother died of a stroke last year, She was 80 at the time. My brother and sister are both well though. They're younger than me but not by much. Two sons as well, both well.  ",
+        "What is the pain like?": "It feels like somebody is sitting on my chest. I've never felt anything like it before.",
+        "Do you have any concerns?": "Well, it's probably just indigestion. I get that a lot, but never anything this bad. ",
+        "Do you smoke?": "Yeah I've smoked for the last 20 years. ",
+        "Where is the pain?": "It's sort of in the centre of my chest. ",
+        "I&#39;m sorry to hear that.": "That's okay doc just please can you help me. ",
+        "How bad is the pain.": "Doctor it's awful, I don't want to say a 10, but at least a 9. ",
+        "Does the pain come and go?": "No, it's just been really bad for the last hour. ",
+        "Does the pain radiate anywhere?": "So I've developed a tightness in my jaw but I don't notice it much. The pain in my chest is far worse.",
+        "How much do you smoke?": "Hmm, usually about a pack of 20 a day. Sometimes less. Though, i'll admit, sometimes more. ",
+        "Does anything make the pain better?": "I haven't taken anything doctor the pain was so bad I came straight down. I only live a five minute walk away so just rushed out. I maybe should have called an ambulance but I hate to be a bother. ",
+        "When did the pain start?": "I'd say the pain started around an hour ago. I came down pretty quickly.  ",
+        "Why are you not feeling very well?": "Well, I've been feeling quite unwell the last few days. But this morning I developed really bad chest pain so I figured I should come down straight away. ",
+        "Hi": "Owww, Doc I'm in quite a bit of pain here please help.",
+        "Do you take any recreational drugs?": "Not for a very long time doctor and I never did anything hard. "
+    },
+    "Investigations": {
+        "LIST": {
+            "Serum Lipids": {
+                "Total Cholesterol": "6.4",
+                "Triglycerides": "198",
+                "LDL Cholesterol": "136"
+            },
+            "Random Blood Glucose (BM)": {
+                "BM": "12.3"
+            },
+            "Cardiac Troponins": {
+                "Troponin T": "102",
+                "Troponin I": "231"
+            },
+            "Creatine Kinase (CK)": {
+                "CK": "402",
+                "CK-MB": "46"
+            }
+        },
+        "IMAGING": {
+            "Electrocardiogram (ECG)": {
+                "Findings": "There is no enlargement of the mesenteric lymph nodes. The stomach is empty, with normal wall layering and thickness. There is normal layering and thickness throughout the bowels. The colon is visible medial to the spleen. It is gas filled with no mural abnormalities. Both kidneys and the liver appear to be absent abnormalities. The appendix is swollen with increased vascularity.",
+                "Impression": "The swelling of the appendix and increased vascularity indicates an acute appendicitis.",
+                "Image": "ST_elevation_MI.png"
+            }
+        }
+    },
+    "Examinations": {
+        "General": "On general inspection of the patient they appear to be mildly distressed. However, there breathing does not appear to be forced and they are not SOB."
+    },
+    "Story": {
+        "After Ix": {
+            "dialogue18": {
+                "content": [
+                    "Oh okay this is a lot to take in. I need to call my wife. Do you need anything else from me?",
+                    {
+                        "divert": "dialogue19",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue10": {
+                "content": [
+                    "I'll just write your discharge letter then you can go. I'll let you know when it's done. ",
+                    {
+                        "isEnd": true,
+                        "speaking": "Player"
+                    }
+                ]
+            },
+            "question3": {
+                "content": [
+                    "Oh really? I haven't had a cough or anything. What's going to happen now?",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "dialogue9",
+                        "Answer": false,
+                        "option": "Nothing, we don't give antibiotics for these things anymore due to the risk of resistance. "
+                    },
+                    {
+                        "linkPath": "dialogue7",
+                        "Answer": true,
+                        "option": "I'm going to do some more investigations to confirm the diagnosis and rule other things out. "
+                    },
+                    {
+                        "linkPath": "dialogue8",
+                        "Answer": false,
+                        "option": "I'm going to prescribe you some antibiotics and send you home."
+                    }
+                ]
+            },
+            "dialogue9": {
+                "content": [
+                    "Sounds reasonable. Can I go home now?",
+                    {
+                        "divert": "dialogue10",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue1": {
+                "content": [
+                    "A myocardul-in- what? I'm sorry I don't know what you mean doc?",
+                    {
+                        "divert": "dialogue2",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue19": {
+                "content": [
+                    "No I will go and sort everything for you now. I won't be long and the nurses will keep monitoring you.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Player"
+                    }
+                ]
+            },
+            "question4": {
+                "content": [
+                    "How odd? I didn't hurt myself. What's going to happen now then?",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "dialogue13",
+                        "Answer": false,
+                        "option": "You can go home. You will have to come back to the fracture clinic to review how you're recovering. "
+                    },
+                    {
+                        "linkPath": "dialogue14",
+                        "Answer": true,
+                        "option": "I need to do some further investigations to confirm the diagnosis."
+                    }
+                ]
+            },
+            "dialogue2": {
+                "content": [
+                    "Oh i'm sorry, a myocardial infarction is a blockage in one of the blood vessels that supplies your heart.",
+                    {
+                        "divert": "question2",
+                        "speaking": "Player"
+                    }
+                ]
+            },
+            "dialogue3": {
+                "content": [
+                    "Oh okay. Please can you chase things up, I'm feeling really sick. ",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue13": {
+                "content": [
+                    "Oh that's great news! Can I go home straight away?",
+                    {
+                        "divert": "dialogue10",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue4": {
+                "content": [
+                    "Oh really? I haven't had a cough or anything. What's going to happen now?",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "Start": "question1",
+            "dialogue14": {
+                "content": [
+                    "Okay, thanks. Please let me know when you do. ",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue5": {
+                "content": [
+                    "Oh that's great news. I was worried it was going to be something more sinister! Can I go home now?",
+                    {
+                        "divert": "dialogue10",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue15": {
+                "content": [
+                    "Oh okay this is a lot to take in. I need to call my wife. Do you need anything else from me?",
+                    {
+                        "divert": "dialogue19",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue6": {
+                "content": [
+                    "How odd? I didn't hurt myself. What's going to happen now then. ",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue16": {
+                "content": [
+                    "Oh okay this is a lot to take in. I need to call my wife. Do you need anything else from me?\n",
+                    {
+                        "divert": "dialogue19",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue7": {
+                "content": [
+                    "Ah okay, please let me know when you do. ",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "question1": {
+                "content": [
+                    "Hi Doctor, Do you know what is going on with me?",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "question3",
+                        "Answer": false,
+                        "option": "Yeah I believe you have a bad pneumonia."
+                    },
+                    {
+                        "linkPath": "dialogue1",
+                        "Answer": false,
+                        "option": "Yeah I believe you are having a myocardial infarction. "
+                    },
+                    {
+                        "linkPath": "question4",
+                        "Answer": false,
+                        "option": "Yeah it looks like you have a small rib fracture. "
+                    },
+                    {
+                        "linkPath": "dialogue3",
+                        "Answer": false,
+                        "option": "I'm sorry I don't, I need to order a few more investigations. "
+                    },
+                    {
+                        "linkPath": "dialogue5",
+                        "Answer": false,
+                        "option": "Yeah nothing to worry about sir, I think you just have some indigestion. I'll prescribe you some antacids and you can go home. "
+                    },
+                    {
+                        "linkPath": "question2",
+                        "Answer": true,
+                        "option": "Yes I do, I think you have a clot in one of the vessels to your heart."
+                    }
+                ]
+            },
+            "dialogue17": {
+                "content": [
+                    "Oh okay this is a lot to take in. I need to call my wife. Do you need anything else from me?",
+                    {
+                        "divert": "dialogue19",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue8": {
+                "content": [
+                    "Oh that's great news thanks. I was worried I'd have to stay in. When can I go home?",
+                    {
+                        "divert": "dialogue10",
+                        "speaking": ""
+                    }
+                ]
+            },
+            "question2": {
+                "content": [
+                    "Oh really? I didn't realise it was that serious. That's a heart attack isn't it. What's going to happen now?",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "dialogue18",
+                        "Answer": false,
+                        "option": "Nothing for now, We will monitor you and take another blood test in 6 hours. "
+                    },
+                    {
+                        "linkPath": "dialogue15",
+                        "Answer": true,
+                        "option": "I need to call the interventional radiologists to have a look at the vessels in your heart."
+                    },
+                    {
+                        "linkPath": "dialogue16",
+                        "Answer": false,
+                        "option": "I need to refer you to the cardiacthoracic surgeons for an operation. "
+                    },
+                    {
+                        "linkPath": "dialogue17",
+                        "Answer": false,
+                        "option": "I'm going to start you on some medications and we will monitor to see how you get on."
+                    }
+                ]
+            },
+            "dialogue0": {
+                "content": [
+                    "Oh no. That's a heart attack isn't it. That very scary, What's going to happen now?",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            }
+        },
+        "Before Ix": {
+            "dialogue1": {
+                "content": [
+                    "What do you mean I don’t look very I'll, I feel horrific!",
+                    {
+                        "divert": "question1",
+                        "speaking": "inputself1"
+                    }
+                ]
+            },
+            "inputself1": {
+                "content": [
+                    "Okay sir, what appears to be the problem?",
+                    {
+                        "divert": "question1",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue2": {
+                "content": [
+                    "What do you mean I don’t look very I'll, I feel horrific!",
+                    {
+                        "divert": "inputself1",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "question1": {
+                "content": [
+                    "I'm feeling terrible and my chest feels like somebody's sat on it.",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "dialogue4",
+                        "Answer": true,
+                        "option": "I'm sorry to hear that. I need to take a history from you if that's okay?"
+                    },
+                    {
+                        "linkPath": "dialogue4",
+                        "Answer": false,
+                        "option": "Oh that does not sound good, I best ask you something about that. That okay?"
+                    },
+                    {
+                        "linkPath": "dialogue5",
+                        "Answer": false,
+                        "option": "Sounds fine to be honest with you sir, I'll give you some antacids and i'll discharge you."
+                    },
+                    {
+                        "linkPath": "dialogue6",
+                        "Answer": false,
+                        "option": "I literally have no idea. Sorry."
+                    }
+                ]
+            },
+            "Start": "question0",
+            "question0": {
+                "content": [
+                    "Hi Doc, that was quick. Can you please help me?",
+                    {
+                        "speaking": "Patient"
+                    },
+                    {
+                        "linkPath": "dialogue1",
+                        "Answer": false,
+                        "option": "Hmmm, you don’t really seem very ill."
+                    },
+                    {
+                        "linkPath": "dialogue2",
+                        "Answer": false,
+                        "option": "You look horrific, I think I better get the consultant."
+                    },
+                    {
+                        "linkPath": "question1",
+                        "Answer": false,
+                        "option": "Absolutely, what appears to be the problem?"
+                    },
+                    {
+                        "linkPath": "dialogue0",
+                        "Answer": true,
+                        "option": "No problem, can you confirm your name and date of birth please?"
+                    }
+                ]
+            },
+            "dialogue0": {
+                "content": [
+                    "Hi my names is James Smith and I was born on the 23rd of February 1948.",
+                    {
+                        "divert": "dialogue100",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue100": {
+                "content": [
+                    "Okay James, what appears to be the problem?",
+                    {
+                        "divert": "question1",
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue4": {
+                "content": [
+                    "Yeah no problem I just want to feel better.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue5": {
+                "content": [
+                    "Oh okay Doctor, if you're sure.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "dialogue6": {
+                "content": [
+                    "You best get me someone who does then hadn't you!",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            }
+        },
+        "Repeated Text": {
+            "dialogue3": {
+                "content": [
+                    "Okay, thank you doctor.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "Start": "question0",
+            "dialogue4": {
+                "content": [
+                    "Oh sorry, I'm just concerned.",
+                    {
+                        "isEnd": true,
+                        "speaking": "Patient"
+                    }
+                ]
+            },
+            "question0": {
+                "content": [
+                    "Hi Doctor do you know what's wrong?",
+                    {
+                        "speaking": "Player"
+                    },
+                    {
+                        "linkPath": "dialogue3",
+                        "Answer": false,
+                        "option": "Just waiting on some test's James, I'll let you know as soon as they come back. "
+                    },
+                    {
+                        "linkPath": "dialogue4",
+                        "Answer": false,
+                        "option": "Be patient James this isn't private healthcare."
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,1514 @@
+{
+    "CurrentLoad": "My first save",
+    "Playlist": [],
+    "Saves": {
+        "My first save": {
+            "Player": {
+                "posx": -144,
+                "posy": 592
+            },
+            "CurrentWard": "Accident and Emergency",
+            "bedStories": {
+                "Accident and Emergency": {
+                    "BED1": [
+                        {
+                            "id": "Appendicitis",
+                            "Explanation": "",
+                            "PatientDetails": {
+                                "Sensitivities": "NKDA",
+                                "Consultant": "Dr Marshall",
+                                "Surname": "McGuinness",
+                                "DateOfBirth": "07/19/1997",
+                                "Age": "20",
+                                "HospitalNumber": "37648283",
+                                "Forename": "Jonathan",
+                                "Ward": "Emergency department",
+                                "PresentingComplaint": "Abdominal Pain",
+                                "BMI": "28.7",
+                                "Weight": "93kg",
+                                "Height": "1.8m"
+                            },
+                            "Vitals": {
+                                "BP": {
+                                    "Systolic": "132",
+                                    "Diastolic": "81"
+                                },
+                                "HR": 78,
+                                "RR": 18,
+                                "Sats": 97,
+                                "T": 38.4
+                            },
+                            "ScenarioDetails": {
+                                "Priority": "1: Urgent",
+                                "Sprite": 2,
+                                "Difficulty": "Junior",
+                                "Specialty": "Neurology",
+                                "Edited": {
+                                    "year": 2017,
+                                    "month": 10,
+                                    "day": 31,
+                                    "weekday": 2,
+                                    "dst": false,
+                                    "hour": 21,
+                                    "minute": 15,
+                                    "second": 7
+                                }
+                            },
+                            "Answers": {
+                                "Contact": [
+                                    "Surgical Reg"
+                                ],
+                                "Procedures": null,
+                                "Investigations": [
+                                    "Full Blood Count (FBC)",
+                                    "CRP",
+                                    "Abdominal ultrasound",
+                                    "Urea and Electrolytes",
+                                    "Liver Function Tests (LFT)"
+                                ],
+                                "History": {
+                                    "Do you have any allergies?": "Do you have any allergies?",
+                                    "Have you had any other symptoms?": "Have you had any other symptoms?",
+                                    "How much alcohol do you drink?": "How much alcohol do you drink?",
+                                    "Do you take any medications?": "Do you take any medications?",
+                                    "What is you living situation?": "What is you living situation?",
+                                    "What is the pain like?": "What is the pain like?",
+                                    "Do you smoke?": "Do you smoke?",
+                                    "Where is the pain?": "Where is the pain?",
+                                    "How bad is the pain.": "How bad is the pain.",
+                                    "Does the pain come and go?": "Does the pain come and go?",
+                                    "Does the pain radiate anywhere?": "Does the pain radiate anywhere?",
+                                    "Can you tell me more about that?": "Can you tell me more about that?",
+                                    "How much do you smoke?": "How much do you smoke?",
+                                    "Do you have asthma?": "Do you have asthma?",
+                                    "Does anything make the pain better?": "Does anything make the pain better?",
+                                    "When did the pain start?": "When did the pain start?",
+                                    "Why are you not feeling very well?": "Why are you not feeling very well?",
+                                    "Do you have any past medical conditions?": "Do you have any past medical conditions?",
+                                    "Do you have any concerns?": "Do you have any concerns?"
+                                },
+                                "Prescriptions": {
+                                    "Infusion": {},
+                                    "Regular": [
+                                        {
+                                            "Paracetamol": {
+                                                "Doses": {
+                                                    "mg": [
+                                                        "1000"
+                                                    ]
+                                                },
+                                                "Routes": [
+                                                    "PO"
+                                                ],
+                                                "Frequency": [
+                                                    "QDS"
+                                                ],
+                                                "Duration": {
+                                                    "Days": [
+                                                        "3",
+                                                        "7"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "AsRequired": [],
+                                    "OnceOnly": [
+                                        {
+                                            "Paracetamol": {
+                                                "Doses": {
+                                                    "mg": [
+                                                        "1000"
+                                                    ]
+                                                },
+                                                "Routes": [
+                                                    "PO"
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "Examinations": {
+                                "Abdominal": {
+                                    "Inspect": {
+                                        "Anterior": {},
+                                        "Posterior": {}
+                                    },
+                                    "Palpate": {
+                                        "Anterior": {
+                                            "Abdomen": "Light palpation - The patient is in substantial pain on the right side of the abdomen, specifically in the right lower quadrant. There is particular pain noted when on withdrawal of the hand.\n\nDeep palpation - No masses can be felt within the abdomen although the patient does not allow you to deeply palpate the right side of the abdomen.",
+                                            "Liver": "You are not able to palpate for the liver due to pain within the abdomen."
+                                        },
+                                        "Posterior": {}
+                                    },
+                                    "Percuss": {
+                                        "Anterior": {},
+                                        "Posterior": {}
+                                    },
+                                    "Auscultate": {
+                                        "Anterior": {},
+                                        "Posterior": {}
+                                    }
+                                }
+                            },
+                            "Investigations": {
+                                "LIST": {
+                                    "Full Blood Count": {
+                                        "WBC": "15.9"
+                                    },
+                                    "CRP": {
+                                        "CRP": "97"
+                                    }
+                                },
+                                "IMAGING": {
+                                    "Abdominal ultrasound": {
+                                        "Findings": "There is no enlargement of the mesenteric lymph nodes. The stomach is empty, with normal wall layering and thickness. There is normal layering and thickness throughout the bowels. The colon is visible medial to the spleen. It is gas filled with no mural abnormalities. Both kidneys and the liver appear to be absent abnormalities. The appendix is swollen with increased vascularity.",
+                                        "Impression": "The swelling of the appendix and increased vascularity indicates an acute appendicitis.",
+                                        "Image": "swollen_appendix_uss.png"
+                                    }
+                                }
+                            },
+                            "History": {
+                                "Do you have any allergies?": "Nope, no allergies. ",
+                                "Have you had any other symptoms?": "Well as I said I have felt a bit sick as well. Nothing else though I don't think.",
+                                "How much alcohol do you drink?": "Yeah, if I am honest quite a lot. I'd say around about hal a bottle of vodka on a weekend and maybe 3 or 4 pints of beer.",
+                                "Do you take any medications?": "Yeah I take a blue inhaler. I have asthma. I can't remember what is has in it though. I don't have any attacks anymore though. Apart from that, no nothing, I'm usually pretty healthy.",
+                                "What is you living situation?": "I live with my parents. I'm a student at pixel university. ",
+                                "What is the pain like?": "Erh, I would say like an ache, but it can be quite severe, particularly when I move.",
+                                "Do you smoke?": "Not anymore. I used to about 3 years ago. But I stopped.",
+                                "Where is the pain?": "The pain started around my belly button. But I'd say it's now on the right side lower down towards my hip.",
+                                "How bad is the pain.": "It's really bad! Feels like a 9/10. ",
+                                "Does the pain come and go?": "No, I wouldn't say the pain changes. It's been getting worse, but hasn't been changing. ",
+                                "Does the pain radiate anywhere?": "No, it did move from around my belly button. But I wouldn't suggest it's moving anywhere.",
+                                "Can you tell me more about that?": "Yeah well yesterday evening I began to feel a bit of pain in my stomach. I just thought it was indigestion though. I couldn't get much sleep last night though and I woke up this morning and it was really bad and I feel quite sick.",
+                                "How much do you smoke?": "About 10 a day for four years I would say.",
+                                "Do you have asthma?": "Yeah I do. It doesn't bother me much now though.",
+                                "Does anything make the pain better?": "No, nothing has made it better either. I tried to take some paracetamol, but it didn't scratch the surface. ",
+                                "When did the pain start?": "Last night, probably around 6 O'Clock in the evening. ",
+                                "Why are you not feeling very well?": "I have really bad pain in my stomach. I'm also feeling quite sick. Can you help me please?",
+                                "Hi": "Hi Doctor, I'm not feeling very well. ",
+                                "Do you have any past medical conditions?": "Just asthma, more as a child though, it doesn't really bother me anymore.",
+                                "Do you have any concerns?": "Well, I'm a little concerned that is appendicitis, but maybe I'm over-reacting. I thought I shoudl come and get checked anyway."
+                            },
+                            "Story": {
+                                "Before Ix": {
+                                    "dialogue1": {
+                                        "content": [
+                                            "Hi Doctor. My stomach is hurting really badly and I feel really hot!",
+                                            {
+                                                "divert": "question0",
+                                                "speaking": "Patient"
+                                            }
+                                        ]
+                                    },
+                                    "dialogue3": {
+                                        "content": [
+                                            "Oh very confident aren't you. Let's see if you can match up to your bravado.",
+                                            {
+                                                "divert": "dialogue5",
+                                                "speaking": "Dr Marshall"
+                                            }
+                                        ]
+                                    },
+                                    "Start": "dialogue0",
+                                    "dialogue4": {
+                                        "content": [
+                                            "You guys get worse every year. What do they teach you at medical school these days?",
+                                            {
+                                                "divert": "dialogue5",
+                                                "speaking": "Dr Marshall"
+                                            }
+                                        ]
+                                    },
+                                    "dialogue5": {
+                                        "content": [
+                                            "Please take a history from the patient and write it up in the notes.",
+                                            {
+                                                "isEnd": true,
+                                                "speaking": "Dr Marshall"
+                                            }
+                                        ]
+                                    },
+                                    "question0": {
+                                        "content": [
+                                            "Oh sorry to hear that. My junior is going to ask you a few more questions about that. Can you handle that Dr [playerSurname].",
+                                            {
+                                                "speaking": "Dr Marshall"
+                                            },
+                                            {
+                                                "linkPath": "dialogue3",
+                                                "Answer": false,
+                                                "option": "Yeah, sure thing."
+                                            },
+                                            {
+                                                "linkPath": "dialogue4",
+                                                "Answer": false,
+                                                "option": "Erh I'm sorry I don't really know what I'm doing."
+                                            }
+                                        ]
+                                    },
+                                    "dialogue0": {
+                                        "content": [
+                                            "Hi my name is Dr Marshall. This is my colleague, Dr [playerSurname], how can I help you?",
+                                            {
+                                                "divert": "dialogue1",
+                                                "speaking": "Dr Marshall"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "After Ix": {
+                                    "question4": {
+                                        "content": [
+                                            "Ah okay that all makes sense. Thanks for taking the time to explain that. What's going to happen now. ",
+                                            {
+                                                "speaking": "Patient"
+                                            },
+                                            {
+                                                "linkPath": "dialogue5",
+                                                "Answer": true,
+                                                "option": "I need to go speak with Dr Marshall now. But you are going to have to have the appendix surgically removed. "
+                                            },
+                                            {
+                                                "linkPath": "dialogue5",
+                                                "Answer": false,
+                                                "option": "I don't know if I am honest. Let me go speak with Dr Marshall"
+                                            }
+                                        ]
+                                    },
+                                    "dialogue12": {
+                                        "content": [
+                                            "Hmm, well, I can imagine Dr Marshall is right, so let's go with her initial diagnosis for now. ",
+                                            {
+                                                "divert": "question1",
+                                                "speaking": "Patient"
+                                            }
+                                        ]
+                                    },
+                                    "dialogue13": {
+                                        "content": [
+                                            "Wow, you're response fills me with confidence in you medical ability. ",
+                                            {
+                                                "divert": "question1",
+                                                "speaking": "Patient"
+                                            }
+                                        ]
+                                    },
+                                    "Start": "dialogue0",
+                                    "dialogue14": {
+                                        "content": [
+                                            "Hang on hold on just a second. I have some questions. ",
+                                            {
+                                                "divert": "question1",
+                                                "speaking": "Patient"
+                                            }
+                                        ]
+                                    },
+                                    "dialogue5": {
+                                        "content": [
+                                            "Okay, thank you Dr [playerSurname].",
+                                            {
+                                                "isEnd": true,
+                                                "speaking": "Patient"
+                                            }
+                                        ]
+                                    },
+                                    "question0": {
+                                        "content": [
+                                            "Not good doctor, I feel awful! Like i'm going to be sick. What's going on?",
+                                            {
+                                                "speaking": "Player"
+                                            },
+                                            {
+                                                "linkPath": "dialogue12",
+                                                "Answer": false,
+                                                "option": "Dr Marshall thinks that is is appendicitis, I however, am not so sure."
+                                            },
+                                            {
+                                                "linkPath": "dialogue13",
+                                                "Answer": false,
+                                                "option": "Erh, hmmm, well possibly appendicitis, maybe gastroenteritis. I don't know its my first day!"
+                                            },
+                                            {
+                                                "linkPath": "dialogue14",
+                                                "Answer": false,
+                                                "option": "It's appendicitis, quick hurry we need to get you to theatres. Now! Hurry! Quickly,.. but don't panic."
+                                            },
+                                            {
+                                                "linkPath": "question1",
+                                                "Answer": true,
+                                                "option": "It is likely that you have appendicitis."
+                                            }
+                                        ]
+                                    },
+                                    "question1": {
+                                        "content": [
+                                            "I've heard of appendicitis, but what is the appendix?",
+                                            {
+                                                "speaking": "Patient"
+                                            },
+                                            {
+                                                "linkPath": "question2",
+                                                "Answer": false,
+                                                "option": "It's a small outpouching of the pancreas. It's real name is the lentigual appendix. "
+                                            },
+                                            {
+                                                "linkPath": "question2",
+                                                "Answer": false,
+                                                "option": "It's a small outpouching of the small intestines. it's real name is the verminiform appendix. "
+                                            },
+                                            {
+                                                "linkPath": "question2",
+                                                "Answer": false,
+                                                "option": "It's a small outpouching of the stomach. It's real name is the lentigual appendix. "
+                                            },
+                                            {
+                                                "linkPath": "question2",
+                                                "Answer": true,
+                                                "option": "It's a small outpouching that comes off of your colon, it's real name is the verminiform appendix. "
+                                            }
+                                        ]
+                                    },
+                                    "dialogue8": {
+                                        "content": [
+                                            "",
+                                            {
+                                                "divert": "question4",
+                                                "speaking": ""
+                                            }
+                                        ]
+                                    },
+                                    "dialogue0": {
+                                        "content": [
+                                            "Hi Jonathan, How are you feeling?",
+                                            {
+                                                "divert": "question0",
+                                                "speaking": "Patient"
+                                            }
+                                        ]
+                                    },
+                                    "question2": {
+                                        "content": [
+                                            "Oh okay. So it's a small outpuching I understand that. But why then is it causing me this teribble pain. What is appendicitis? ",
+                                            {
+                                                "speaking": "Patient"
+                                            },
+                                            {
+                                                "linkPath": "question4",
+                                                "Answer": false,
+                                                "option": "Appendicitis is due to perforation of the appendix."
+                                            },
+                                            {
+                                                "linkPath": "question4",
+                                                "Answer": false,
+                                                "option": "Appendicits is due to a virus that causes the appendix to become inflamed. "
+                                            },
+                                            {
+                                                "linkPath": "question4",
+                                                "Answer": true,
+                                                "option": "Appendicitis is due to obstruction of this outpouching, so it swells and can cause pain. "
+                                            }
+                                        ]
+                                    }
+                                },
+                                "Repeated Text": {
+                                    "dialogue0": {
+                                        "content": [
+                                            "Hi Dr [playerSurname]. Have you managed to sort anything yet?",
+                                            {
+                                                "divert": "dialogue1",
+                                                "speaking": "Patient"
+                                            }
+                                        ]
+                                    },
+                                    "dialogue1": {
+                                        "content": [
+                                            "No not yet, I'll let you know something as soon as we do",
+                                            {
+                                                "isEnd": true,
+                                                "speaking": "Dr Marshall"
+                                            }
+                                        ]
+                                    },
+                                    "Start": "dialogue0"
+                                }
+                            }
+                        },
+                        0,
+                        0,
+                        0
+                    ],
+                    "BED2": null,
+                    "BED3": null,
+                    "BED4": null,
+                    "BED5": null,
+                    "BED6": null,
+                    "BED7": null,
+                    "BED8": null,
+                    "BED9": null,
+                    "BED10": null
+                }
+            },
+            "bedNotes": {
+                "Accident and Emergency": {
+                    "BED1": null,
+                    "BED2": null,
+                    "BED3": null,
+                    "BED4": null,
+                    "BED5": null,
+                    "BED6": null,
+                    "BED7": null,
+                    "BED8": null,
+                    "BED9": null,
+                    "BED10": null
+                }
+            },
+            "bedInvestigations": {
+                "BED1": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED2": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED3": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED4": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED5": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED6": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED7": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED8": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED9": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED10": {
+                    "Complete": [],
+                    "Pending": {}
+                }
+            },
+            "bedHistory": {
+                "Accident and Emergency": {
+                    "BED1": null,
+                    "BED2": null,
+                    "BED3": null,
+                    "BED4": null,
+                    "BED5": null,
+                    "BED6": null,
+                    "BED7": null,
+                    "BED8": null,
+                    "BED9": null,
+                    "BED10": null
+                }
+            },
+            "bedPrescriptions": {
+                "BED1": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED2": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED3": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED4": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED5": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED6": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED7": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED8": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED9": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED10": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                }
+            },
+            "bedDifferentials": {
+                "Accident and Emergency": {
+                    "BED1": [],
+                    "BED2": [],
+                    "BED3": [],
+                    "BED4": [],
+                    "BED5": [],
+                    "BED6": [],
+                    "BED7": [],
+                    "BED8": [],
+                    "BED9": [],
+                    "BED10": []
+                }
+            },
+            "bedContacts": {
+                "Accident and Emergency": {
+                    "BED1": null,
+                    "BED2": null,
+                    "BED3": null,
+                    "BED4": null,
+                    "BED5": null,
+                    "BED6": null,
+                    "BED7": null,
+                    "BED8": null,
+                    "BED9": null,
+                    "BED10": null
+                }
+            },
+            "bedProcedures": {
+                "Accident and Emergency": {
+                    "BED1": null,
+                    "BED2": null,
+                    "BED3": null,
+                    "BED4": null,
+                    "BED5": null,
+                    "BED6": null,
+                    "BED7": null,
+                    "BED8": null,
+                    "BED9": null,
+                    "BED10": null
+                }
+            },
+            "introDone": false,
+            "scenariosCompleted": 0,
+            "bedBleeps": {
+                "Accident and Emergency": {}
+            },
+            "calls": {},
+            "playerInfo": {
+                "Forename": "Sarah",
+                "Surname": "Button",
+                "Inventory": [
+                    "Catheter"
+                ]
+            }
+        },
+        "Save 2": {
+            "Player": {
+                "posx": -144,
+                "posy": 592
+            },
+            "CurrentWard": "Accident and Emergency",
+            "bedStories": {
+                "Accident and Emergency": {
+                    "BED1": [
+                        {
+                            "id": "Appendicitis",
+                            "Explanation": "",
+                            "PatientDetails": {
+                                "Sensitivities": "NKDA",
+                                "Consultant": "Dr Marshall",
+                                "Surname": "McGuinness",
+                                "DateOfBirth": "07/19/1997",
+                                "Age": "20",
+                                "HospitalNumber": "37648283",
+                                "Forename": "Jonathan",
+                                "Ward": "Emergency department",
+                                "PresentingComplaint": "Abdominal Pain",
+                                "BMI": "28.7",
+                                "Weight": "93kg",
+                                "Height": "1.8m"
+                            },
+                            "Vitals": {
+                                "BP": {
+                                    "Systolic": "132",
+                                    "Diastolic": "81"
+                                },
+                                "HR": 78,
+                                "RR": 18,
+                                "Sats": 97,
+                                "T": 38.4
+                            },
+                            "ScenarioDetails": {
+                                "Priority": "1: Urgent",
+                                "Sprite": 2,
+                                "Difficulty": "Junior",
+                                "Specialty": "Neurology",
+                                "Edited": {
+                                    "year": 2017,
+                                    "month": 10,
+                                    "day": 31,
+                                    "weekday": 2,
+                                    "dst": false,
+                                    "hour": 21,
+                                    "minute": 15,
+                                    "second": 7
+                                }
+                            },
+                            "Answers": {
+                                "Contact": [
+                                    "Surgical Reg"
+                                ],
+                                "Procedures": null,
+                                "Investigations": [
+                                    "Full Blood Count (FBC)",
+                                    "CRP",
+                                    "Abdominal ultrasound",
+                                    "Urea and Electrolytes",
+                                    "Liver Function Tests (LFT)"
+                                ],
+                                "History": {
+                                    "Do you have any allergies?": "Do you have any allergies?",
+                                    "Have you had any other symptoms?": "Have you had any other symptoms?",
+                                    "How much alcohol do you drink?": "How much alcohol do you drink?",
+                                    "Do you take any medications?": "Do you take any medications?",
+                                    "What is you living situation?": "What is you living situation?",
+                                    "What is the pain like?": "What is the pain like?",
+                                    "Do you smoke?": "Do you smoke?",
+                                    "Where is the pain?": "Where is the pain?",
+                                    "How bad is the pain.": "How bad is the pain.",
+                                    "Does the pain come and go?": "Does the pain come and go?",
+                                    "Does the pain radiate anywhere?": "Does the pain radiate anywhere?",
+                                    "Can you tell me more about that?": "Can you tell me more about that?",
+                                    "How much do you smoke?": "How much do you smoke?",
+                                    "Do you have asthma?": "Do you have asthma?",
+                                    "Does anything make the pain better?": "Does anything make the pain better?",
+                                    "When did the pain start?": "When did the pain start?",
+                                    "Why are you not feeling very well?": "Why are you not feeling very well?",
+                                    "Do you have any past medical conditions?": "Do you have any past medical conditions?",
+                                    "Do you have any concerns?": "Do you have any concerns?"
+                                },
+                                "Prescriptions": {
+                                    "Infusion": {},
+                                    "Regular": [
+                                        {
+                                            "Paracetamol": {
+                                                "Doses": {
+                                                    "mg": [
+                                                        "1000"
+                                                    ]
+                                                },
+                                                "Routes": [
+                                                    "PO"
+                                                ],
+                                                "Frequency": [
+                                                    "QDS"
+                                                ],
+                                                "Duration": {
+                                                    "Days": [
+                                                        "3",
+                                                        "7"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "AsRequired": [],
+                                    "OnceOnly": [
+                                        {
+                                            "Paracetamol": {
+                                                "Doses": {
+                                                    "mg": [
+                                                        "1000"
+                                                    ]
+                                                },
+                                                "Routes": [
+                                                    "PO"
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "Examinations": {
+                                "Abdominal": {
+                                    "Inspect": {
+                                        "Anterior": {},
+                                        "Posterior": {}
+                                    },
+                                    "Palpate": {
+                                        "Anterior": {
+                                            "Abdomen": "Light palpation - The patient is in substantial pain on the right side of the abdomen, specifically in the right lower quadrant. There is particular pain noted when on withdrawal of the hand.\n\nDeep palpation - No masses can be felt within the abdomen although the patient does not allow you to deeply palpate the right side of the abdomen.",
+                                            "Liver": "You are not able to palpate for the liver due to pain within the abdomen."
+                                        },
+                                        "Posterior": {}
+                                    },
+                                    "Percuss": {
+                                        "Anterior": {},
+                                        "Posterior": {}
+                                    },
+                                    "Auscultate": {
+                                        "Anterior": {},
+                                        "Posterior": {}
+                                    }
+                                }
+                            },
+                            "Investigations": {
+                                "LIST": {
+                                    "Full Blood Count": {
+                                        "WBC": "15.9"
+                                    },
+                                    "CRP": {
+                                        "CRP": "97"
+                                    }
+                                },
+                                "IMAGING": {
+                                    "Abdominal ultrasound": {
+                                        "Findings": "There is no enlargement of the mesenteric lymph nodes. The stomach is empty, with normal wall layering and thickness. There is normal layering and thickness throughout the bowels. The colon is visible medial to the spleen. It is gas filled with no mural abnormalities. Both kidneys and the liver appear to be absent abnormalities. The appendix is swollen with increased vascularity.",
+                                        "Impression": "The swelling of the appendix and increased vascularity indicates an acute appendicitis.",
+                                        "Image": "swollen_appendix_uss.png"
+                                    }
+                                }
+                            },
+                            "History": {
+                                "Do you have any allergies?": "Nope, no allergies. ",
+                                "Have you had any other symptoms?": "Well as I said I have felt a bit sick as well. Nothing else though I don't think.",
+                                "How much alcohol do you drink?": "Yeah, if I am honest quite a lot. I'd say around about hal a bottle of vodka on a weekend and maybe 3 or 4 pints of beer.",
+                                "Do you take any medications?": "Yeah I take a blue inhaler. I have asthma. I can't remember what is has in it though. I don't have any attacks anymore though. Apart from that, no nothing, I'm usually pretty healthy.",
+                                "What is you living situation?": "I live with my parents. I'm a student at pixel university. ",
+                                "What is the pain like?": "Erh, I would say like an ache, but it can be quite severe, particularly when I move.",
+                                "Do you smoke?": "Not anymore. I used to about 3 years ago. But I stopped.",
+                                "Where is the pain?": "The pain started around my belly button. But I'd say it's now on the right side lower down towards my hip.",
+                                "How bad is the pain.": "It's really bad! Feels like a 9/10. ",
+                                "Does the pain come and go?": "No, I wouldn't say the pain changes. It's been getting worse, but hasn't been changing. ",
+                                "Does the pain radiate anywhere?": "No, it did move from around my belly button. But I wouldn't suggest it's moving anywhere.",
+                                "Can you tell me more about that?": "Yeah well yesterday evening I began to feel a bit of pain in my stomach. I just thought it was indigestion though. I couldn't get much sleep last night though and I woke up this morning and it was really bad and I feel quite sick.",
+                                "How much do you smoke?": "About 10 a day for four years I would say.",
+                                "Do you have asthma?": "Yeah I do. It doesn't bother me much now though.",
+                                "Does anything make the pain better?": "No, nothing has made it better either. I tried to take some paracetamol, but it didn't scratch the surface. ",
+                                "When did the pain start?": "Last night, probably around 6 O'Clock in the evening. ",
+                                "Why are you not feeling very well?": "I have really bad pain in my stomach. I'm also feeling quite sick. Can you help me please?",
+                                "Hi": "Hi Doctor, I'm not feeling very well. ",
+                                "Do you have any past medical conditions?": "Just asthma, more as a child though, it doesn't really bother me anymore.",
+                                "Do you have any concerns?": "Well, I'm a little concerned that is appendicitis, but maybe I'm over-reacting. I thought I shoudl come and get checked anyway."
+                            },
+                            "Story": {
+                                "Before Ix": {
+                                    "dialogue1": {
+                                        "content": [
+                                            "Hi Doctor. My stomach is hurting really badly and I feel really hot!",
+                                            {
+                                                "divert": "question0",
+                                                "speaking": "Patient"
+                                            }
+                                        ]
+                                    },
+                                    "dialogue3": {
+                                        "content": [
+                                            "Oh very confident aren't you. Let's see if you can match up to your bravado.",
+                                            {
+                                                "divert": "dialogue5",
+                                                "speaking": "Dr Marshall"
+                                            }
+                                        ]
+                                    },
+                                    "Start": "dialogue0",
+                                    "dialogue4": {
+                                        "content": [
+                                            "You guys get worse every year. What do they teach you at medical school these days?",
+                                            {
+                                                "divert": "dialogue5",
+                                                "speaking": "Dr Marshall"
+                                            }
+                                        ]
+                                    },
+                                    "dialogue5": {
+                                        "content": [
+                                            "Please take a history from the patient and write it up in the notes.",
+                                            {
+                                                "isEnd": true,
+                                                "speaking": "Dr Marshall"
+                                            }
+                                        ]
+                                    },
+                                    "question0": {
+                                        "content": [
+                                            "Oh sorry to hear that. My junior is going to ask you a few more questions about that. Can you handle that Dr [playerSurname].",
+                                            {
+                                                "speaking": "Dr Marshall"
+                                            },
+                                            {
+                                                "linkPath": "dialogue3",
+                                                "Answer": false,
+                                                "option": "Yeah, sure thing."
+                                            },
+                                            {
+                                                "linkPath": "dialogue4",
+                                                "Answer": false,
+                                                "option": "Erh I'm sorry I don't really know what I'm doing."
+                                            }
+                                        ]
+                                    },
+                                    "dialogue0": {
+                                        "content": [
+                                            "Hi my name is Dr Marshall. This is my colleague, Dr [playerSurname], how can I help you?",
+                                            {
+                                                "divert": "dialogue1",
+                                                "speaking": "Dr Marshall"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "After Ix": {
+                                    "question4": {
+                                        "content": [
+                                            "Ah okay that all makes sense. Thanks for taking the time to explain that. What's going to happen now. ",
+                                            {
+                                                "speaking": "Patient"
+                                            },
+                                            {
+                                                "linkPath": "dialogue5",
+                                                "Answer": true,
+                                                "option": "I need to go speak with Dr Marshall now. But you are going to have to have the appendix surgically removed. "
+                                            },
+                                            {
+                                                "linkPath": "dialogue5",
+                                                "Answer": false,
+                                                "option": "I don't know if I am honest. Let me go speak with Dr Marshall"
+                                            }
+                                        ]
+                                    },
+                                    "dialogue12": {
+                                        "content": [
+                                            "Hmm, well, I can imagine Dr Marshall is right, so let's go with her initial diagnosis for now. ",
+                                            {
+                                                "divert": "question1",
+                                                "speaking": "Patient"
+                                            }
+                                        ]
+                                    },
+                                    "dialogue13": {
+                                        "content": [
+                                            "Wow, you're response fills me with confidence in you medical ability. ",
+                                            {
+                                                "divert": "question1",
+                                                "speaking": "Patient"
+                                            }
+                                        ]
+                                    },
+                                    "Start": "dialogue0",
+                                    "dialogue14": {
+                                        "content": [
+                                            "Hang on hold on just a second. I have some questions. ",
+                                            {
+                                                "divert": "question1",
+                                                "speaking": "Patient"
+                                            }
+                                        ]
+                                    },
+                                    "dialogue5": {
+                                        "content": [
+                                            "Okay, thank you Dr [playerSurname].",
+                                            {
+                                                "isEnd": true,
+                                                "speaking": "Patient"
+                                            }
+                                        ]
+                                    },
+                                    "question0": {
+                                        "content": [
+                                            "Not good doctor, I feel awful! Like i'm going to be sick. What's going on?",
+                                            {
+                                                "speaking": "Player"
+                                            },
+                                            {
+                                                "linkPath": "dialogue12",
+                                                "Answer": false,
+                                                "option": "Dr Marshall thinks that is is appendicitis, I however, am not so sure."
+                                            },
+                                            {
+                                                "linkPath": "dialogue13",
+                                                "Answer": false,
+                                                "option": "Erh, hmmm, well possibly appendicitis, maybe gastroenteritis. I don't know its my first day!"
+                                            },
+                                            {
+                                                "linkPath": "dialogue14",
+                                                "Answer": false,
+                                                "option": "It's appendicitis, quick hurry we need to get you to theatres. Now! Hurry! Quickly,.. but don't panic."
+                                            },
+                                            {
+                                                "linkPath": "question1",
+                                                "Answer": true,
+                                                "option": "It is likely that you have appendicitis."
+                                            }
+                                        ]
+                                    },
+                                    "question1": {
+                                        "content": [
+                                            "I've heard of appendicitis, but what is the appendix?",
+                                            {
+                                                "speaking": "Patient"
+                                            },
+                                            {
+                                                "linkPath": "question2",
+                                                "Answer": false,
+                                                "option": "It's a small outpouching of the pancreas. It's real name is the lentigual appendix. "
+                                            },
+                                            {
+                                                "linkPath": "question2",
+                                                "Answer": false,
+                                                "option": "It's a small outpouching of the small intestines. it's real name is the verminiform appendix. "
+                                            },
+                                            {
+                                                "linkPath": "question2",
+                                                "Answer": false,
+                                                "option": "It's a small outpouching of the stomach. It's real name is the lentigual appendix. "
+                                            },
+                                            {
+                                                "linkPath": "question2",
+                                                "Answer": true,
+                                                "option": "It's a small outpouching that comes off of your colon, it's real name is the verminiform appendix. "
+                                            }
+                                        ]
+                                    },
+                                    "dialogue8": {
+                                        "content": [
+                                            "",
+                                            {
+                                                "divert": "question4",
+                                                "speaking": ""
+                                            }
+                                        ]
+                                    },
+                                    "dialogue0": {
+                                        "content": [
+                                            "Hi Jonathan, How are you feeling?",
+                                            {
+                                                "divert": "question0",
+                                                "speaking": "Patient"
+                                            }
+                                        ]
+                                    },
+                                    "question2": {
+                                        "content": [
+                                            "Oh okay. So it's a small outpuching I understand that. But why then is it causing me this teribble pain. What is appendicitis? ",
+                                            {
+                                                "speaking": "Patient"
+                                            },
+                                            {
+                                                "linkPath": "question4",
+                                                "Answer": false,
+                                                "option": "Appendicitis is due to perforation of the appendix."
+                                            },
+                                            {
+                                                "linkPath": "question4",
+                                                "Answer": false,
+                                                "option": "Appendicits is due to a virus that causes the appendix to become inflamed. "
+                                            },
+                                            {
+                                                "linkPath": "question4",
+                                                "Answer": true,
+                                                "option": "Appendicitis is due to obstruction of this outpouching, so it swells and can cause pain. "
+                                            }
+                                        ]
+                                    }
+                                },
+                                "Repeated Text": {
+                                    "dialogue0": {
+                                        "content": [
+                                            "Hi Dr [playerSurname]. Have you managed to sort anything yet?",
+                                            {
+                                                "divert": "dialogue1",
+                                                "speaking": "Patient"
+                                            }
+                                        ]
+                                    },
+                                    "dialogue1": {
+                                        "content": [
+                                            "No not yet, I'll let you know something as soon as we do",
+                                            {
+                                                "isEnd": true,
+                                                "speaking": "Dr Marshall"
+                                            }
+                                        ]
+                                    },
+                                    "Start": "dialogue0"
+                                }
+                            }
+                        },
+                        0,
+                        0,
+                        0
+                    ],
+                    "BED2": null,
+                    "BED3": null,
+                    "BED4": null,
+                    "BED5": null,
+                    "BED6": null,
+                    "BED7": null,
+                    "BED8": null,
+                    "BED9": null,
+                    "BED10": null
+                }
+            },
+            "bedNotes": {
+                "Accident and Emergency": {
+                    "BED1": null,
+                    "BED2": null,
+                    "BED3": null,
+                    "BED4": null,
+                    "BED5": null,
+                    "BED6": null,
+                    "BED7": null,
+                    "BED8": null,
+                    "BED9": null,
+                    "BED10": null
+                }
+            },
+            "bedInvestigations": {
+                "BED1": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED2": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED3": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED4": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED5": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED6": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED7": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED8": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED9": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED10": {
+                    "Complete": [],
+                    "Pending": {}
+                }
+            },
+            "bedHistory": {
+                "Accident and Emergency": {
+                    "BED1": null,
+                    "BED2": null,
+                    "BED3": null,
+                    "BED4": null,
+                    "BED5": null,
+                    "BED6": null,
+                    "BED7": null,
+                    "BED8": null,
+                    "BED9": null,
+                    "BED10": null
+                }
+            },
+            "bedPrescriptions": {
+                "BED1": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED2": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED3": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED4": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED5": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED6": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED7": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED8": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED9": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED10": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                }
+            },
+            "bedDifferentials": {
+                "Accident and Emergency": {
+                    "BED1": [],
+                    "BED2": [],
+                    "BED3": [],
+                    "BED4": [],
+                    "BED5": [],
+                    "BED6": [],
+                    "BED7": [],
+                    "BED8": [],
+                    "BED9": [],
+                    "BED10": []
+                }
+            },
+            "bedContacts": {
+                "Accident and Emergency": {
+                    "BED1": null,
+                    "BED2": null,
+                    "BED3": null,
+                    "BED4": null,
+                    "BED5": null,
+                    "BED6": null,
+                    "BED7": null,
+                    "BED8": null,
+                    "BED9": null,
+                    "BED10": null
+                }
+            },
+            "bedProcedures": {
+                "Accident and Emergency": {
+                    "BED1": null,
+                    "BED2": null,
+                    "BED3": null,
+                    "BED4": null,
+                    "BED5": null,
+                    "BED6": null,
+                    "BED7": null,
+                    "BED8": null,
+                    "BED9": null,
+                    "BED10": null
+                }
+            },
+            "introDone": false,
+            "scenariosCompleted": 0,
+            "bedBleeps": {
+                "Accident and Emergency": {}
+            },
+            "calls": {},
+            "playerInfo": {
+                "Forename": "Sarah",
+                "Surname": "Button",
+                "Inventory": [
+                    "Catheter"
+                ]
+            }
+        },
+        "This is the new game. ": {
+            "Player": {
+                "posx": -176,
+                "posy": 592
+            },
+            "CurrentWard": "Accident and Emergency",
+            "bedStories": {
+                "Accident and Emergency": {
+                    "BED1": null,
+                    "BED2": null,
+                    "BED3": null,
+                    "BED4": null,
+                    "BED5": null,
+                    "BED6": null,
+                    "BED7": null,
+                    "BED8": null,
+                    "BED9": null,
+                    "BED10": null
+                }
+            },
+            "bedNotes": {
+                "Accident and Emergency": {
+                    "BED1": null,
+                    "BED2": null,
+                    "BED3": null,
+                    "BED4": null,
+                    "BED5": null,
+                    "BED6": null,
+                    "BED7": null,
+                    "BED8": null,
+                    "BED9": null,
+                    "BED10": null
+                }
+            },
+            "bedInvestigations": {
+                "BED1": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED2": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED3": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED4": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED5": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED6": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED7": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED8": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED9": {
+                    "Complete": [],
+                    "Pending": {}
+                },
+                "BED10": {
+                    "Complete": [],
+                    "Pending": {}
+                }
+            },
+            "bedHistory": {
+                "Accident and Emergency": {
+                    "BED1": null,
+                    "BED2": null,
+                    "BED3": null,
+                    "BED4": null,
+                    "BED5": null,
+                    "BED6": null,
+                    "BED7": null,
+                    "BED8": null,
+                    "BED9": null,
+                    "BED10": null
+                }
+            },
+            "bedPrescriptions": {
+                "BED1": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED2": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED3": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED4": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED5": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED6": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED7": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED8": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED9": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                },
+                "BED10": {
+                    "OnceOnly": {},
+                    "Regular": {},
+                    "AsRequired": {},
+                    "Infusion": {},
+                    "Oxygen": {}
+                }
+            },
+            "bedDifferentials": {
+                "Accident and Emergency": {
+                    "BED1": [],
+                    "BED2": [],
+                    "BED3": [],
+                    "BED4": [],
+                    "BED5": [],
+                    "BED6": [],
+                    "BED7": [],
+                    "BED8": [],
+                    "BED9": [],
+                    "BED10": []
+                }
+            },
+            "bedContacts": {
+                "Accident and Emergency": {
+                    "BED1": null,
+                    "BED2": null,
+                    "BED3": null,
+                    "BED4": null,
+                    "BED5": null,
+                    "BED6": null,
+                    "BED7": null,
+                    "BED8": null,
+                    "BED9": null,
+                    "BED10": null
+                }
+            },
+            "bedProcedures": {
+                "Accident and Emergency": {
+                    "BED1": null,
+                    "BED2": null,
+                    "BED3": null,
+                    "BED4": null,
+                    "BED5": null,
+                    "BED6": null,
+                    "BED7": null,
+                    "BED8": null,
+                    "BED9": null,
+                    "BED10": null
+                }
+            },
+            "introDone": false,
+            "scenariosCompleted": 0,
+            "bedBleeps": {
+                "Accident and Emergency": {}
+            },
+            "calls": {},
+            "playerInfo": {
+                "Forename": "",
+                "Surname": "",
+                "Inventory": []
+            }
+        }
+    }
+}

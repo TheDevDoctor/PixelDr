@@ -1,0 +1,3067 @@
+[gd_scene load_steps=48 format=2]
+
+[ext_resource path="res://Graphics/32x32baseMap.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=2]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=4]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=5]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=6]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=7]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=8]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=9]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=10]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=11]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=12]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=13]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=14]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=15]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=16]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=17]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=18]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=19]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=20]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=21]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=22]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=23]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=24]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=25]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=26]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=27]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=28]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=29]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=30]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=31]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=32]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=33]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=34]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=35]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=36]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=37]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=38]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=39]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=40]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=41]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=42]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=43]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=44]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=45]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=46]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16, 16 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="WallTL" type="Sprite" parent="."]
+
+position = Vector2( 16, 16 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 1
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="WallTSeperator" type="Sprite" parent="."]
+
+position = Vector2( 48, 16 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 2
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="WallT" type="Sprite" parent="."]
+
+position = Vector2( 80, 16 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 3
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="WallTR" type="Sprite" parent="."]
+
+position = Vector2( 112, 16 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 4
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="BlackSpace" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 144, 16 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 5
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="BlackSpace"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BlackSpace/StaticBody2D"]
+
+shape = SubResource( 1 )
+
+[node name="WallVSeperatorL" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 176, 16 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 6
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallVSeperatorL"]
+
+position = Vector2( -3.8147e-06, 4.76837e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallVSeperatorL/StaticBody2D"]
+
+shape = SubResource( 2 )
+
+[node name="WallVSeperatorR" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 208, 16 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 7
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallVSeperatorR"]
+
+position = Vector2( 7.62939e-06, 4.76837e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallVSeperatorR/StaticBody2D"]
+
+shape = SubResource( 3 )
+
+[node name="OuterWallTopR" type="Sprite" parent="."]
+
+position = Vector2( 240, 16 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 8
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="OuterWalllTopL" type="Sprite" parent="."]
+
+position = Vector2( 272, 16 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 10
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="OuterWallDoubleSeperator" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 304, 16 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 11
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="OuterWallDoubleSeperator"]
+
+position = Vector2( 7.62939e-06, 4.76837e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OuterWallDoubleSeperator/StaticBody2D"]
+
+shape = SubResource( 4 )
+
+[node name="DeslTL" type="Sprite" parent="."]
+
+position = Vector2( 336, 16 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 12
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DeslTL"]
+
+position = Vector2( -3.8147e-06, 4.76837e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DeslTL/StaticBody2D"]
+
+shape = SubResource( 5 )
+
+[node name="DeskTM" type="Sprite" parent="."]
+
+position = Vector2( 368, 16 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 13
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DeskTM"]
+
+position = Vector2( -1.52588e-05, 4.76837e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DeskTM/StaticBody2D"]
+
+shape = SubResource( 6 )
+
+[node name="DeskTopR" type="Sprite" parent="."]
+
+position = Vector2( 400, 16 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 14
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DeskTopR"]
+
+position = Vector2( 7.62939e-06, 4.76837e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DeskTopR/StaticBody2D"]
+
+shape = SubResource( 7 )
+
+[node name="DeskProximalCompTop" type="Sprite" parent="."]
+
+position = Vector2( 432, 16 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 15
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="WallM" type="Sprite" parent="."]
+
+position = Vector2( 464, 16 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 16
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallM"]
+
+position = Vector2( -1.52588e-05, 4.76837e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallM/StaticBody2D"]
+
+shape = SubResource( 8 )
+
+[node name="WallML" type="Sprite" parent="."]
+
+position = Vector2( 16, 48 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 17
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallML"]
+
+position = Vector2( 4.76837e-07, -9.53674e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallML/StaticBody2D"]
+
+shape = SubResource( 9 )
+
+[node name="WallBM" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 48, 48 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 18
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallBM"]
+
+position = Vector2( -9.53674e-07, -9.53674e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallBM/StaticBody2D"]
+
+shape = SubResource( 10 )
+
+[node name="WallB" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 80, 48 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 19
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallB"]
+
+position = Vector2( -3.8147e-06, -3.8147e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallB/StaticBody2D"]
+
+shape = SubResource( 11 )
+
+[node name="WallMR" type="Sprite" parent="."]
+
+position = Vector2( 112, 48 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 20
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallMR"]
+
+position = Vector2( 1.90735e-06, -9.53674e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallMR/StaticBody2D"]
+
+shape = SubResource( 12 )
+
+[node name="WallTDR" type="Sprite" parent="."]
+
+position = Vector2( 144, 48 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 21
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="WallTBR" type="Sprite" parent="."]
+
+position = Vector2( 176, 48 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 22
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallTBR"]
+
+position = Vector2( -3.8147e-06, -9.53674e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallTBR/StaticBody2D"]
+
+shape = SubResource( 13 )
+
+[node name="Wall" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 208, 48 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 23
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall"]
+
+position = Vector2( 7.62939e-06, -9.53674e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall/StaticBody2D"]
+
+shape = SubResource( 14 )
+
+[node name="Wall 2" type="Sprite" parent="."]
+
+position = Vector2( 240, 48 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 24
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall 2"]
+
+position = Vector2( -3.8147e-06, -9.53674e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall 2/StaticBody2D"]
+
+shape = SubResource( 15 )
+
+[node name="Wall 3" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 272, 48 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 26
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall 3"]
+
+position = Vector2( -3.8147e-06, -9.53674e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall 3/StaticBody2D"]
+
+shape = SubResource( 16 )
+
+[node name="Wall 4" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 304, 48 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 27
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall 4"]
+
+position = Vector2( 7.62939e-06, -9.53674e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall 4/StaticBody2D"]
+
+shape = SubResource( 17 )
+
+[node name="Desk" type="Sprite" parent="."]
+
+position = Vector2( 336, 48 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 28
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Desk"]
+
+position = Vector2( -3.8147e-06, -9.53674e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Desk/StaticBody2D"]
+
+shape = SubResource( 18 )
+
+[node name="Desk 2" type="Sprite" parent="."]
+
+position = Vector2( 368, 48 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 29
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="WallTL27" type="Sprite" parent="."]
+
+position = Vector2( 400, 48 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 30
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallTL27"]
+
+position = Vector2( 7.62939e-06, -9.53674e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallTL27/StaticBody2D"]
+
+shape = SubResource( 19 )
+
+[node name="DeskProximalCompBottom" type="Sprite" parent="."]
+
+position = Vector2( 432, 48 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 31
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DeskProximalCompBottom"]
+
+position = Vector2( 7.62939e-06, -9.53674e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DeskProximalCompBottom/StaticBody2D"]
+
+shape = SubResource( 20 )
+
+[node name="Wall 5" type="Sprite" parent="."]
+
+position = Vector2( 464, 48 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 32
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall 5"]
+
+position = Vector2( -1.52588e-05, -9.53674e-07 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall 5/StaticBody2D"]
+
+position = Vector2( 2.86102e-05, -4.76837e-07 )
+scale = Vector2( 0.914286, 0.914286 )
+shape = SubResource( 21 )
+
+[node name="Wall 6" type="Sprite" parent="."]
+
+position = Vector2( 16, 80 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 33
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall 6"]
+
+position = Vector2( 4.76837e-07, -3.8147e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall 6/StaticBody2D"]
+
+shape = SubResource( 22 )
+
+[node name="Wall 7" type="Sprite" parent="."]
+
+position = Vector2( 48, 80 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 34
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall 7"]
+
+position = Vector2( -9.53674e-07, -3.8147e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall 7/StaticBody2D"]
+
+shape = SubResource( 23 )
+
+[node name="Floor" type="Sprite" parent="."]
+
+position = Vector2( 80, 80 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 35
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="Wall 8" type="Sprite" parent="."]
+
+position = Vector2( 112, 80 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 36
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall 8"]
+
+position = Vector2( 1.90735e-06, -3.8147e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall 8/StaticBody2D"]
+
+shape = SubResource( 24 )
+
+[node name="Wall 9" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 144, 80 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 37
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall 9"]
+
+position = Vector2( 1.90735e-06, -3.8147e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall 9/StaticBody2D"]
+
+shape = SubResource( 25 )
+
+[node name="Wall 10" type="Sprite" parent="."]
+
+position = Vector2( 176, 80 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 38
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall 10"]
+
+position = Vector2( -3.8147e-06, -3.8147e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall 10/StaticBody2D"]
+
+shape = SubResource( 26 )
+
+[node name="OuterWall" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 208, 80 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 40
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="OuterWall"]
+
+position = Vector2( 7.62939e-06, -3.8147e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OuterWall/StaticBody2D"]
+
+shape = SubResource( 27 )
+
+[node name="OuterWall 2" type="Sprite" parent="."]
+
+position = Vector2( 240, 80 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 41
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="OuterWall 3" type="Sprite" parent="."]
+
+position = Vector2( 272, 80 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 42
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="OuterWall 3"]
+
+position = Vector2( -3.8147e-06, -3.8147e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OuterWall 3/StaticBody2D"]
+
+shape = SubResource( 28 )
+
+[node name="CompDistal" type="Sprite" parent="."]
+
+position = Vector2( 304, 80 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 47
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="CompDistal"]
+
+position = Vector2( 7.62939e-06, -3.8147e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CompDistal/StaticBody2D"]
+
+shape = SubResource( 29 )
+
+[node name="Desk 3" type="Sprite" parent="."]
+
+position = Vector2( 336, 80 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 44
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="Desk 4" type="Sprite" parent="."]
+
+position = Vector2( 368, 80 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 46
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="Wall 11" type="Sprite" parent="."]
+
+position = Vector2( 400, 80 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 48
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="Wall 12" type="Sprite" parent="."]
+
+position = Vector2( 432, 80 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 49
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall 12"]
+
+position = Vector2( 7.62939e-06, -3.8147e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall 12/StaticBody2D"]
+
+shape = SubResource( 30 )
+
+[node name="Wall 13" type="Sprite" parent="."]
+
+position = Vector2( 464, 80 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 50
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="Wall 14" type="Sprite" parent="."]
+
+position = Vector2( 16, 112 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 51
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall 14"]
+
+position = Vector2( 4.76837e-07, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall 14/StaticBody2D"]
+
+shape = SubResource( 31 )
+
+[node name="Wall 15" type="Sprite" parent="."]
+
+position = Vector2( 48, 112 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 52
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="Wall 16" type="Sprite" parent="."]
+
+position = Vector2( 80, 112 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 53
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="OuterWall 4" type="Sprite" parent="."]
+
+position = Vector2( 112, 112 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 56
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="OuterWall 4"]
+
+position = Vector2( 1.90735e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OuterWall 4/StaticBody2D"]
+
+shape = SubResource( 32 )
+
+[node name="OuterWall 5" type="Sprite" parent="."]
+
+position = Vector2( 144, 112 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 57
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="OuterWall 5"]
+
+position = Vector2( 1.90735e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OuterWall 5/StaticBody2D"]
+
+shape = SubResource( 33 )
+
+[node name="OuterWall 6" type="Sprite" parent="."]
+
+position = Vector2( 176, 112 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 58
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="OuterWall 6"]
+
+position = Vector2( -3.8147e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OuterWall 6/StaticBody2D"]
+
+shape = SubResource( 34 )
+
+[node name="Desk 5" type="Sprite" parent="."]
+
+position = Vector2( 208, 112 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 60
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Desk 5"]
+
+position = Vector2( 7.62939e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Desk 5/StaticBody2D"]
+
+shape = SubResource( 35 )
+
+[node name="Desk 5 2" type="Sprite" parent="."]
+
+position = Vector2( 240, 112 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 62
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Desk 5 2"]
+
+position = Vector2( -3.8147e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Desk 5 2/StaticBody2D"]
+
+shape = SubResource( 36 )
+
+[node name="Wall 19" type="Sprite" parent="."]
+
+position = Vector2( 272, 112 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 64
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall 19"]
+
+position = Vector2( -3.8147e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall 19/StaticBody2D"]
+
+shape = SubResource( 37 )
+
+[node name="Wall 17" type="Sprite" parent="."]
+
+position = Vector2( 304, 112 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 65
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall 17"]
+
+position = Vector2( 7.62939e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall 17/StaticBody2D"]
+
+shape = SubResource( 38 )
+
+[node name="Wall 18" type="Sprite" parent="."]
+
+position = Vector2( 336, 112 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 66
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D 2" type="StaticBody2D" parent="Wall 18"]
+
+position = Vector2( -3.8147e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall 18/StaticBody2D 2"]
+
+shape = SubResource( 39 )
+
+[node name="Wall 20" type="Sprite" parent="."]
+
+position = Vector2( 368, 112 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 69
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall 20"]
+
+position = Vector2( -1.52588e-05, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall 20/StaticBody2D"]
+
+shape = SubResource( 40 )
+
+[node name="Desk 6" type="Sprite" parent="."]
+
+position = Vector2( 400, 112 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 76
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Desk 6"]
+
+position = Vector2( 7.62939e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Desk 6/StaticBody2D"]
+
+shape = SubResource( 41 )
+
+[node name="Desk 7" type="Sprite" parent="."]
+
+position = Vector2( 432, 112 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 77
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="Desk 8" type="Sprite" parent="."]
+
+position = Vector2( 464, 112 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 78
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Desk 8"]
+
+position = Vector2( -1.52588e-05, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Desk 8/StaticBody2D"]
+
+shape = SubResource( 42 )
+
+[node name="Desk 9" type="Sprite" parent="."]
+
+position = Vector2( 16, 144 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 92
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Desk 9"]
+
+position = Vector2( 4.76837e-07, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Desk 9/StaticBody2D"]
+
+shape = SubResource( 43 )
+
+[node name="Desk 10" type="Sprite" parent="."]
+
+position = Vector2( 48, 144 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 93
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Desk 10"]
+
+position = Vector2( -9.53674e-07, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Desk 10/StaticBody2D"]
+
+shape = SubResource( 44 )
+
+[node name="Desk 11" type="Sprite" parent="."]
+
+position = Vector2( 80, 144 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 94
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Desk 11"]
+
+position = Vector2( -3.8147e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Desk 11/StaticBody2D"]
+
+shape = SubResource( 45 )
+
+[node name="floorSplit" type="Sprite" parent="."]
+
+position = Vector2( 112, 144 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="floorSplit 2" type="Sprite" parent="."]
+
+position = Vector2( 144, 144 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 39
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="floorSplit3" type="Sprite" parent="."]
+
+position = Vector2( 176, 144 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 72
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="floorSplit4" type="Sprite" parent="."]
+
+position = Vector2( 208, 144 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 73
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="Wall 21" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 208, 144 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 43
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall 21"]
+
+position = Vector2( 7.62939e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall 21/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="OuterWall 7" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 240, 144 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 45
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="OuterWall 7"]
+
+position = Vector2( 7.62939e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OuterWall 7/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="Concrete" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 272, 144 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 74
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Concrete"]
+
+position = Vector2( 7.62939e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Concrete/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="CupboardTopL" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 304, 144 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 80
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="CupboardTopL"]
+
+position = Vector2( 7.62939e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CupboardTopL/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="CupboardTop" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 336, 144 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 81
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="CupboardTop"]
+
+position = Vector2( 7.62939e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CupboardTop/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="CupboardTopR" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 368, 144 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 82
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="CupboardTopR"]
+
+position = Vector2( 7.62939e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CupboardTopR/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="CupboardBottomL" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 400, 144 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 96
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="CupboardBottomL"]
+
+position = Vector2( 7.62939e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CupboardBottomL/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="CupboardBottom" type="Sprite" parent="."]
+
+position = Vector2( 432, 144 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 97
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="CupboardBottom"]
+
+position = Vector2( 7.62939e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CupboardBottom/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="CupboardBottomR" type="Sprite" parent="."]
+
+position = Vector2( 464, 144 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 98
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="CupboardBottomR"]
+
+position = Vector2( 7.62939e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CupboardBottomR/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="VitalsBottom" type="Sprite" parent="."]
+
+position = Vector2( 16, 176 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 66
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="VitalsBottom"]
+
+position = Vector2( 7.62939e-06, 1.90735e-06 )
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="VitalsBottom/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="VitalsTop" type="Sprite" parent="."]
+
+position = Vector2( 48, 176 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 50
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="OuterWall 8" type="Sprite" parent="."]
+
+position = Vector2( 80, 176 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 59
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="OuterWall 8"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OuterWall 8/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="OuterWall9" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 112, 176 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 75
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="OuterWall9"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OuterWall9/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="screenUpper" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 176, 176 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 83
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="screenUpper"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="screenUpper/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="screenMiddle" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 208, 176 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 99
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="screenMiddle"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="screenMiddle/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="screenBottom" type="Sprite" parent="."]
+
+position = Vector2( 240, 176 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 115
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="screenBottom"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="screenBottom/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="Chairs1Top" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 272, 176 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 84
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Chairs1Top"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Chairs1Top/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="Chairs1Middle" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 336, 176 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 100
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Chairs1Middle"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Chairs1Middle/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="Chairs1Bottom" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 400, 176 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 116
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Chairs1Bottom"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Chairs1Bottom/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="Chairs2Top" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 304, 176 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 85
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Chairs2Top"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Chairs2Top/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="Chairs2Middle" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 368, 176 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 101
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Chairs2Middle"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Chairs2Middle/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="Chairs2Bottom" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 432, 176 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 117
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Chairs2Bottom"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Chairs2Bottom/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorTopL" type="Sprite" parent="."]
+
+position = Vector2( 176, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 102
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopL2" type="Sprite" parent="."]
+
+position = Vector2( 208, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 104
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopL3" type="Sprite" parent="."]
+
+position = Vector2( 240, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 106
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopL4" type="Sprite" parent="."]
+
+position = Vector2( 272, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 108
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopL5" type="Sprite" parent="."]
+
+position = Vector2( 304, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 110
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopR" type="Sprite" parent="."]
+
+position = Vector2( 16, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 103
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopR2" type="Sprite" parent="."]
+
+position = Vector2( 48, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 105
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopR3" type="Sprite" parent="."]
+
+position = Vector2( 80, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 107
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopR4" type="Sprite" parent="."]
+
+position = Vector2( 112, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 109
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopR5" type="Sprite" parent="."]
+
+position = Vector2( 144, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 111
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorBottomR" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 336, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 119
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DoorBottomR"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBottomR/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorBottomR2" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 368, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 121
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DoorBottomR2"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBottomR2/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorBottomR3" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 400, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 123
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DoorBottomR3"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBottomR3/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorBottomR4" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 432, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 125
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DoorBottomR4"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBottomR4/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorBottomR5" type="Sprite" parent="."]
+
+position = Vector2( 464, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 127
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorBottomL" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 496, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 118
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DoorBottomL"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBottomL/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorBottomL2" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 528, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 120
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DoorBottomL2"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBottomL2/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorBottomL3" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 560, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 122
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DoorBottomL3"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBottomL3/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorBottomL4" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 592, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 124
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DoorBottomL4"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBottomL4/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorBottomL5" type="Sprite" parent="."]
+
+position = Vector2( 624, 208 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 126
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="changeLevelTile" type="Sprite" parent="."]
+
+position = Vector2( 144, 176 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 63
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="DoorTopL6" type="Sprite" parent="."]
+
+position = Vector2( 176, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 134
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopL7" type="Sprite" parent="."]
+
+position = Vector2( 208, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 136
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopL8" type="Sprite" parent="."]
+
+position = Vector2( 240, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 138
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopL9" type="Sprite" parent="."]
+
+position = Vector2( 272, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 140
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopL10" type="Sprite" parent="."]
+
+position = Vector2( 304, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 142
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopR6" type="Sprite" parent="."]
+
+position = Vector2( 16, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 135
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopR7" type="Sprite" parent="."]
+
+position = Vector2( 48, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 137
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopR8" type="Sprite" parent="."]
+
+position = Vector2( 80, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 139
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopR9" type="Sprite" parent="."]
+
+position = Vector2( 112, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 141
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorTopR10" type="Sprite" parent="."]
+
+position = Vector2( 144, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 143
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorBottomR6" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 336, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 151
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DoorBottomR6"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBottomR6/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorBottomR7" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 368, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 153
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DoorBottomR7"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBottomR7/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorBottomR8" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 400, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 155
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DoorBottomR8"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBottomR8/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorBottomR9" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 432, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 157
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DoorBottomR9"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBottomR9/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorBottomR10" type="Sprite" parent="."]
+
+position = Vector2( 464, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 159
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="DoorBottomL10" type="Sprite" parent="."]
+
+position = Vector2( 496, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 150
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DoorBottomL10"]
+
+editor/display_folded = true
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBottomL10/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorBottomL8" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 528, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 152
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DoorBottomL8"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBottomL8/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorBottomL6" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 560, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 154
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DoorBottomL6"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBottomL6/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorBottomL7" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 592, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 156
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="DoorBottomL7"]
+
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBottomL7/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="DoorBottomL9" type="Sprite" parent="."]
+
+position = Vector2( 624, 240 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 158
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="SeperatorLTop" type="Sprite" parent="."]
+
+position = Vector2( 16, 272 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 54
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="SeperatorRTop" type="Sprite" parent="."]
+
+position = Vector2( 48, 272 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 55
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="SeperatorLBottom" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 80, 272 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 70
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="SeperatorLBottom"]
+
+editor/display_folded = true
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SeperatorLBottom/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="SeperatorRBottom" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 112, 272 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 71
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="SeperatorRBottom"]
+
+editor/display_folded = true
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SeperatorRBottom/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="RedCupboardTop1" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 144, 272 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 112
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="RedCupboardTop1"]
+
+editor/display_folded = true
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RedCupboardTop1/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="RedCupboardTop2" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 176, 272 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 113
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="RedCupboardTop2"]
+
+editor/display_folded = true
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RedCupboardTop2/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="TableTop" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 240, 272 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 114
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="TableTop"]
+
+editor/display_folded = true
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TableTop/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="cupboardLTop" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 304, 272 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 131
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="cupboardLTop"]
+
+editor/display_folded = true
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cupboardLTop/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="cupboardRTop" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 336, 272 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 132
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="cupboardRTop"]
+
+editor/display_folded = true
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cupboardRTop/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="cupboardRBottom" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 368, 272 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 147
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="cupboardRBottom"]
+
+editor/display_folded = true
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cupboardRBottom/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="cupboardLBottom" type="Sprite" parent="."]
+
+editor/display_folded = true
+position = Vector2( 400, 272 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 148
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="cupboardLBottom"]
+
+editor/display_folded = true
+scale = Vector2( 0.5, 0.5 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cupboardLBottom/StaticBody2D"]
+
+shape = SubResource( 46 )
+
+[node name="RedCupboardBottom" type="Sprite" parent="."]
+
+position = Vector2( 208, 272 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 128
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="TableBottom" type="Sprite" parent="."]
+
+position = Vector2( 272, 272 )
+texture = ExtResource( 1 )
+vframes = 11
+hframes = 16
+frame = 130
+region_rect = Rect2( 0, 0, 32, 32 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+
